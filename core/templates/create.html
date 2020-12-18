@@ -19,7 +19,13 @@
   </head>
   <body>
     <h1>COURT ID: ABCD1234</h1>
-
+    
+    <h2>OPTIONS</h2>
+    <form method="POST" action="{% url 'create_success' %}">
+        {% csrf_token %}
+        <input type="submit" value="Submit">
+    
+    </form>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->

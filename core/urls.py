@@ -17,8 +17,11 @@ from django.contrib import admin
 from django.urls import path, re_path
 
 from . import views
+import court.views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('create', views.create, name='create'),
+    path('create/', views.create, name='create'),
+    path('create_success/', views.create_success, name='create_success'),
+    path('court/', court.views.court, name='court')
 ]
