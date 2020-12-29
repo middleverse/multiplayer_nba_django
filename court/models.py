@@ -110,7 +110,7 @@ class Question(models.Model):
     each question has 4 choices,
     each question is based on a Team.
     '''
-    team = models.ForeignKey(Team, null=True, on_delete=models.SET_NULL) # TODO: Change null settings
+    team = models.ForeignKey(Team, null=True, on_delete=models.SET_NULL)
     question_statement = models.TextField(null=False)
     choice_a = models.CharField(max_length=75)
     choice_b = models.CharField(max_length=75)
@@ -118,3 +118,4 @@ class Question(models.Model):
     choice_d = models.CharField(max_length=75)
     answer = models.CharField(max_length=1)
 
+    # NOTE: added requried tags if needed

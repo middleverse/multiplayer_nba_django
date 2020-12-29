@@ -2,8 +2,8 @@
 
 ### Models
     - Teams (DONE)
-    - ***Questions (DOING)***
-        - ***Reading: Intro to DB Design (pocket)***
+    - Questions (DONE)
+        - Reading: Intro to DB Design (pocket) (DONE)
 
 ### Views & Templates
     - Home
