@@ -28,64 +28,66 @@ class Team(models.Model):
         ('OTHER',       'OTHER Division'),
     ]
 
-    TEAM_NAME_CHOICES = [
-        ('ATL',	'Atlanta Hawks'),
-        ('BKN',	'Brooklyn Nets'),
-        ('BOS',	'Boston Celtics'),
-        ('CHA',	'Charlotte Hornets'),
-        ('CHI',	'Chicago Bulls'),
-        ('CLE',	'Cleveland Cavaliers'),
-        ('DAL',	'Dallas Mavericks'),
-        ('DEN',	'Denver Nuggets'),
-        ('DET',	'Detroit Pistons'),
-        ('GSW',	'Golden State Warriors'),
-        ('HOU',	'Houston Rockets'),
-        ('IND',	'Indiana Pacers'),
-        ('LAC',	'Los Angeles Clippers'),
-        ('LAL',	'Los Angeles Lakers'),
-        ('MEM',	'Memphis Grizzlies'),
-        ('MIA',	'Miami Heat'),
-        ('MIL',	'Milwaukee Bucks'),
-        ('MIN',	'Minnesota Timberwolves'),
-        ('NOP',	'New Orleans Pelicans'),
-        ('NYK',	'New York Knicks'),
-        ('OKC',	'Oklahoma City Thunder'),
-        ('ORL',	'Orlando Magic'),
-        ('PHI',	'Philadelphia 76ers'),
-        ('PHX',	'Phoenix Suns'),
-        ('POR',	'Portland Trail Blazers'),
-        ('SAC',	'Sacramento Kings'),
-        ('SAS',	'San Antonio Spurs'),
-        ('TOR',	'Toronto Raptors'),
-        ('UTA',	'Utah Jazz'),
-        ('WAS',	'Washington Wizards'),
-        ('ZZZ',  'Other'),
-    ]
+    TEAM_NAME_CHOICES = {
+        'ATL':	'Atlanta Hawks',
+        'BKN':	'Brooklyn Nets',
+        'BOS':	'Boston Celtics',
+        'CHA':	'Charlotte Hornets',
+        'CHI':	'Chicago Bulls',
+        'CLE':	'Cleveland Cavaliers',
+        'DAL':	'Dallas Mavericks',
+        'DEN':	'Denver Nuggets',
+        'DET':	'Detroit Pistons',
+        'GSW':	'Golden State Warriors',
+        'HOU':	'Houston Rockets',
+        'IND':	'Indiana Pacers',
+        'LAC':	'Los Angeles Clippers',
+        'LAL':	'Los Angeles Lakers',
+        'MEM':	'Memphis Grizzlies',
+        'MIA':	'Miami Heat',
+        'MIL':	'Milwaukee Bucks',
+        'MIN':	'Minnesota Timberwolves',
+        'NOP':	'New Orleans Pelicans',
+        'NYK':	'New York Knicks',
+        'OKC':	'Oklahoma City Thunder',
+        'ORL':	'Orlando Magic',
+        'PHI':	'Philadelphia 76ers',
+        'PHX':	'Phoenix Suns',
+        'POR':	'Portland Trail Blazers',
+        'SAC':	'Sacramento Kings',
+        'SAS':	'San Antonio Spurs',
+        'TOR':	'Toronto Raptors',
+        'UTA':	'Utah Jazz',
+        'WAS':	'Washington Wizards',
+        'ZZZ':  'Other'
+    }
 
-    team_name = models.CharField(
-        max_length=3, 
-        null=False,
-        choices=TEAM_NAME_CHOICES,
-        default='ZZZ',
-    )
+    team_name = models.CharField(max_length=3, null=False, blank=False)
     
     division_name = models.CharField(
         max_length=10, 
         null=False, 
         choices=DIVISION_NAME_CHOICES,
-        default='ZZZ'
+        default='NNN'
     )
 
     @classmethod
-    def create(cls, team_name):
+    def create(self, team_name):
         '''
-        Use this to create object.
+        Use this method to create object.
         '''
-        team = cls(team_name=team_name)
-        team.reset_division()
+        try:
+            if self.TEAM_NAME_CHOICES[team_name] == None:
+                raise KeyError
+        except KeyError:
+            print(f'{team_name} is not a valid team name. Please try again.')
+            return
+
+        team = self(team_name=team_name)
+        team.set_division()
         return team
 
-    def reset_division(self):
+    def set_division(self):
         if self.team_name in self.ATLANTIC_DIV:
             self.division_name = 'ATLANTIC'
         elif self.team_name in self.CENTRAL_DIV:

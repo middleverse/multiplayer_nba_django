@@ -8,7 +8,8 @@ class TeamTestCase(TestCase):
     Testing for Team Model
     '''
     def setUp(self):
-        pass
+        Team.create('TOR')
+        Team.create('')
 
     def test_team_created(self):
         pass
