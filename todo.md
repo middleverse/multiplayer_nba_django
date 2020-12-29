@@ -1,21 +1,22 @@
 # TODO
 
 ### Models
-    - Teams (DOING)
-    - Questions (DOING)
+    - Teams (DONE)
+    - ***Questions (DOING)***
+        - ***Reading: Intro to DB Design (pocket)***
 
 ### Views & Templates
     - Home
         - FAQ Link
         - Create Game Link
-    - Create Lobby
+    - ***Create Lobby (DOING)***
         - Settings
         - Invite 
     - In Game
     - End Game Results
 
 ### Consumers
-    - Court Consumer
+    - Court Consumer (DOING)
 
 ### Testing
     - Teams (DOING)

@@ -104,12 +104,17 @@ class Team(models.Model):
             self.division_name = 'OTHER'
 
 
-# class Question(models.Model):
-#     team = models.ForeignKey(Team, null=False, on_delete=models.SET_NULL)
-#     question_statement = models.TextField(null=False)
-#     choice_a = models.CharField(max_length=75)
-#     choice_b = models.CharField(max_length=75)
-#     choice_c = models.CharField(max_length=75)
-#     choice_d = models.CharField(max_length=75)
-#     correct_choice = models.CharField(max_length=1)
+class Question(models.Model):
+    '''
+    Represents a question statement,
+    each question has 4 choices,
+    each question is based on a Team.
+    '''
+    team = models.ForeignKey(Team, null=True, on_delete=models.SET_NULL) # TODO: Change null settings
+    question_statement = models.TextField(null=False)
+    choice_a = models.CharField(max_length=75)
+    choice_b = models.CharField(max_length=75)
+    choice_c = models.CharField(max_length=75)
+    choice_d = models.CharField(max_length=75)
+    answer = models.CharField(max_length=1)
 
