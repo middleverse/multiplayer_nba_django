@@ -4,12 +4,75 @@
 
 This is court#{{court_id}}. This contains a lobby and a game.
 
+{{ court_id|json_script:"court-id" }}
 
 {% include "lobby.html" %}
 
 {% include "game.html" %}
-<script>
 
+<script>
+    // ================================
+    // KEEP AS MUCH JS HERE AS POSSIBLE
+    // ================================
+
+    /* 
+    WEBSOCKET CONNECT
+    -----------------
+    Start a connection
+    On message recieve functionality
+    */
+
+    const court_id = JSON.parse(document.getElementById('court-id').textContent)
+    const court_socket = new WebSocket(
+        'ws://' 
+        + window.location.host
+        + '/ws/court/'
+        + court_id
+        + '/'
+    );
+
+    court_socket.onerror = function(e) {
+        console.log(e)
+    }
+
+    court_socket.onmessage = function(e) {
+        const data = JSON.parse(e.data)
+        console.log(data)
+    }
+
+    /* 
+    START GAME
+    ----------
+    Toggle lobby template
+    Toggle game template
+    (Auto-toggle takes care of correct visbility)
+    */
+
+    document.getElementById('start-game').addEventListener('click', function(event) {
+        var game_container_el = document.getElementById('game-container')
+        var lobby_container_el = document.getElementById('lobby-container')
+        event.preventDefault();
+        console.log(game_container_el);
+        game_container_el.classList.toggle('invisible');
+        lobby_container_el.classList.toggle('invisible');
+    });
+
+    /* 
+    END GAME
+    --------
+    Hide game template
+    Show lobby template
+    */
+
+    document.getElementById('end-game').addEventListener('click', function(event) {
+        var lobby_container_el = document.getElementById('lobby-container')
+        var game_container_el = document.getElementById('game-container')
+        event.preventDefault();
+        console.log(lobby_container_el);
+        lobby_container_el.classList.toggle('invisible');
+        game_container_el.classList.toggle('invisible');
+    });
+    
 </script>
 
 {% endblock %}

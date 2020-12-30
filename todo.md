@@ -8,12 +8,14 @@
 ### Views & Templates
     - Home
         - FAQ Link
-        - Create Game Link
+        - Create Game Link (DONE)
     - ***Create Lobby (DOING)***
-        - Court ID
+        - Court ID (DONE)
         - Settings
         - Invite 
-    - In Game
+        - Start Game Button (DONE)
+    - In Game (DOING)
+        - Get DB Object (DOING)
     - End Game Results
 
 ### Consumers
