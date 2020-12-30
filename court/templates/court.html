@@ -1,1 +1,15 @@
-// court.html
+{% extends 'court_base.html' %}
+
+{% block court_content %}
+
+This is court#{{court_id}}. This contains a lobby and a game.
+
+
+{% include "lobby.html" %}
+
+{% include "game.html" %}
+<script>
+
+</script>
+
+{% endblock %}
