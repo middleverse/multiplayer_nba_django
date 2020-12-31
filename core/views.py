@@ -14,4 +14,18 @@ def create_success(request):
     '''
     data = request.POST
     court_id = data.get('court_id')
-    return redirect('/court/' + court_id + '/')
+    shot_clock = data.get('shot_clock') or '24'
+    divisions = data.get('divs') or 'ATLANTIC'
+    buzzer_mode = data.get('buzz') or 'off'
+    return redirect('/court/' 
+        + court_id 
+        + '?'
+        + 'shot_clock='
+        + shot_clock
+        + '&'
+        + 'divs='
+        + divisions
+        + '&'
+        + 'buzz='
+        + buzzer_mode
+    )

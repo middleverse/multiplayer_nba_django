@@ -34,6 +34,7 @@
     - register models with django admin to show tables (Team - DONE, Question - DOING)
     - populate db with teams 
     - populate db with questions
+    - end everyone's game if one person presses end-game.
 
 # SNIPPETS
 <!-- from court.models import Team -->

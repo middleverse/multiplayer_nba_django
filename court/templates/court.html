@@ -48,9 +48,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
     (Auto-toggle takes care of correct visbility)
     */
 
+    var lobby_container_el = document.getElementById('lobby-container')
+    var game_container_el = document.getElementById('game-container')
+
     document.getElementById('start-game').addEventListener('click', function(event) {
-        var game_container_el = document.getElementById('game-container')
-        var lobby_container_el = document.getElementById('lobby-container')
         event.preventDefault();
         console.log(game_container_el);
         game_container_el.classList.toggle('invisible');
@@ -65,13 +66,26 @@ This is court#{{court_id}}. This contains a lobby and a game.
     */
 
     document.getElementById('end-game').addEventListener('click', function(event) {
-        var lobby_container_el = document.getElementById('lobby-container')
-        var game_container_el = document.getElementById('game-container')
         event.preventDefault();
         console.log(lobby_container_el);
         lobby_container_el.classList.toggle('invisible');
         game_container_el.classList.toggle('invisible');
     });
+
+    /*
+    GET QUESTION SET
+    ----------------
+    Eventually (user a websocket to get the next 10 questions)
+    Current (get 1 question)
+    */
+
+    document.getElementById('get-questions').addEventListener('click', function(event) {
+        event.preventDefault();
+        court_socket.send(JSON.stringify({
+            'message_type': 'get_questions'
+        }));
+    });    
+
     
 </script>
 

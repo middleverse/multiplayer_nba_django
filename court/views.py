@@ -10,6 +10,3 @@ def lobby(request, court_id):
     return render(request, 'lobby.html', {
         'court_id': court_id
     })
-
-def game(request, court_id):
-    return render(request, 'game.html')

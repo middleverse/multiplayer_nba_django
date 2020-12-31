@@ -103,7 +103,6 @@ class Team(models.Model):
         elif self.team_name in self.OTHER_DIV:
             self.division_name = 'OTHER'
 
-
 class Question(models.Model):
     '''
     Represents a question statement,
@@ -117,5 +116,11 @@ class Question(models.Model):
     choice_c = models.CharField(max_length=75)
     choice_d = models.CharField(max_length=75)
     answer = models.CharField(max_length=1)
+
+    def get_serialized(self):
+        team_name = self.team.team_name
+        return dict(
+            team_name = self.team.team_name
+        )
 
     # NOTE: added requried tags if needed
