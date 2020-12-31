@@ -1,4 +1,4 @@
-import json
+import json, random
 from functools import reduce
 from itertools import chain
 from django.db.models.query import QuerySet
@@ -30,29 +30,47 @@ class QuestionManager():
         Returns a list of all question objects that are 
         included in currently loaded divisions.
 
-        Always call load_divisions() before calling this
+        IMPORTANT: Always call load_divisions() before calling this
         function.
         '''
         
-        # Create a list of id's of all teams 
-        # included in the specified divisions
+        # CREATE LIST
+        # Fetch team id's for use in query filteration
         query_team_id_values = []
         for div in self.divisions:
             teams = Team.objects.filter(division_name=div).all()
             for team in teams:
                 query_team_id_values.append(team.id)
+        # query DB for questions related to required team(s) 
+        question_set = list(Question.objects.filter(reduce(lambda x, y: x | y, [Q(team=team) for team in query_team_id_values])))
 
-        # query the DB for questions by providing
-        # above list of ids
-        question_set = Question.objects.filter(reduce(lambda x, y: x | y, [Q(team=t) for t in query_team_id_values]))
-        print('LAMBDA QS: ' + str(question_set.first().question_statement))                   
-        
+        # SHUFFLE LIST
+        random.shuffle(question_set)
+
         return self.serialize_question_set(question_set) 
         
-    def serialize_question_set(self, question_sets):
-        # for qs in question_sets:
-            # for each question in this qs
-        # print(question_sets)
-        # print(question_set[0][0].get_serialized()) 
+    def serialize_question_set(self, question_set):
+        '''
+        Returns a readable JSON format list of 
+        dicts containing question object data. 
         
-        return 1
+        Includes, team_name, question_statement,
+        choices (4), answer.
+
+        Assumes answer is already randomized.
+        '''
+        converted_question_set = []
+        for question in question_set:
+            question_map = {
+                'id': question.id,
+                'question': question.question_statement,
+                'c_a': question.choice_a,
+                'c_b': question.choice_b,
+                'c_c': question.choice_c,
+                'c_d': question.choice_d,
+                'answer': question.answer,
+                'team': question.team.team_name
+            }
+            converted_question_set.append(question_map)   
+            print(converted_question_set)     
+        return json.dumps(converted_question_set)

@@ -6,6 +6,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
 {{ court_id|json_script:"court-id" }}
 
+{% include "create_court.html" %}
+
 {% include "lobby.html" %}
 
 {% include "game.html" %}
@@ -37,7 +39,12 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     court_socket.onmessage = function(e) {
         const data = JSON.parse(e.data)
-        console.log(data)
+        if (data['message'] === 'court_message') {
+            console.log(data['text'])
+            // var question_object = JSON.parse(data['text'])
+            // console.log(question_object)
+        }
+
     }
 
     /* 
@@ -79,14 +86,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
     Current (get 1 question)
     */
 
+    // TODO: Link this functionality to the create button
     document.getElementById('get-questions').addEventListener('click', function(event) {
         event.preventDefault();
         court_socket.send(JSON.stringify({
-            'message_type': 'get_questions'
+            'message_type': 'create_game'
         }));
     });    
 
-    
+
 </script>
 
 {% endblock %}
