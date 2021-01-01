@@ -1,12 +1,9 @@
+from django.utils.crypto import get_random_string
 from django.shortcuts import render
 
-# Create your views here.
+# VIEWS
+
 def court(request, court_id):
-     return render(request, 'court.html', {
+    return render(request, 'court.html', {
         'court_id': court_id
     })   
-
-def lobby(request, court_id):
-    return render(request, 'lobby.html', {
-        'court_id': court_id
-    })

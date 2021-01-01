@@ -23,6 +23,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls, name='admin'),
     path('create/', views.create, name='create'),
-    path('create_success/', views.create_success, name='create_success'),
+    path('create_redirect/', views.create_redirect, name='create_redirect'),
     path('court/', include('court.urls')),
 ]
