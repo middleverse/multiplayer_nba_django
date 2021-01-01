@@ -82,15 +82,43 @@ This is court#{{court_id}}. This contains a lobby and a game.
     });
 
     /*
-    GET QUESTION SET
+    CREATE GAME
     ----------------
+    Also loads questions from db
     Eventually (user a websocket to get the next 10 questions)
     Current (get 1 question)
     */
 
-    // TODO: Link this functionality to the create button
-    document.getElementById('create_game').addEventListener('click', function(event) {
+    document.getElementById('game-config-form').addEventListener('submit', function(event) {
         event.preventDefault();
+        const form = event.target
+        const form_data = new FormData(form)
+        const url = form.getAttribute('action')
+        const method = form.getAttribute('method') 
+        const xhr = new XMLHttpRequest()
+        const responseType = 'json'
+        xhr.open(method, url) // make the request 
+        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
+        
+        xhr.onload = function() {
+           if (xhr.status === 201) {
+               const r = xhr.response
+               r_json = JSON.parse(r)
+               console.log(r_json['message'])
+           }     
+           else {
+               const r = xhr.response
+               console.log(r)
+           }
+        }
+
+        xhr.onerror = function() {
+                alert("An error has occurred.")
+        }
+        
+        xhr.send(form_data)
+        
         court_socket.send(JSON.stringify({
             'message_type': 'create_game'
         }));

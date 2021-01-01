@@ -1,11 +1,12 @@
 <div id='create-container' class='container'>
     <h1>CREATE</h1>
 
-    <form>
+    <form id="game-config-form" method="POST" action="/court/gameform/">
+        {% csrf_token %}
         {{ config_form.as_p }}
+        <button type="submit">Create Game</button>
     </form>
 
-    <a href='' id='create_game'>Create Game</a>
-
+    {% comment %} <a href='' id='create_game'>Create Game</a> {% endcomment %}
 
 </div>
