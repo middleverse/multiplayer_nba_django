@@ -9,17 +9,29 @@ def index(request):
 
 def create_redirect(request):
     '''
-    Redirects to Court Creation.
+    Redirects to Court 
     '''
     court_id = get_random_string(length=4)
-    return redirect('/court/' + court_id + '/')
+    role = 'captain'
+    return redirect('/court/' 
+        + court_id 
+        + '/'
+        + role
+        + '/'
+        )
 
 def join_redirect(request):
     '''
-    Redirects to Court Lobby
+    Redirects to Court 
     '''
+    role = 'player'
     form = CourtIdForm(request.POST)
     print('FORM DETAILS:', form)
     if(form.is_valid):
         court_id = form.cleaned_data['court_id']
-        return redirect('/court/' + court_id + '/')
+        return redirect('/court/' 
+            + court_id 
+            + '/' 
+            + role
+            + '/'
+            )

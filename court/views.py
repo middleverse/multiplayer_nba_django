@@ -3,7 +3,8 @@ from django.shortcuts import render
 
 # VIEWS
 
-def court(request, court_id):
+def court(request, court_id, role):
     return render(request, 'court.html', {
-        'court_id': court_id
+        'court_id': court_id,
+        'role': role,
     })   
