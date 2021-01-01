@@ -87,7 +87,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     */
 
     // TODO: Link this functionality to the create button
-    document.getElementById('get-questions').addEventListener('click', function(event) {
+    document.getElementById('create_game').addEventListener('click', function(event) {
         event.preventDefault();
         court_socket.send(JSON.stringify({
             'message_type': 'create_game'

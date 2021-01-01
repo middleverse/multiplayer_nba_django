@@ -6,6 +6,13 @@
     <a id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
     <a id="faq">FAQ</a>
 
+    <form action="{% url 'join_redirect' %}" method="POST" >
+      {% csrf_token %}
+      <label for="court_id">Enter Court Id:</label>
+      <input id="court_id" type="text" name="court_id">
+      <input type="submit" value="OK">
+    </form>
+
     <script>
         
     </script>

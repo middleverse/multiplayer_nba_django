@@ -23,5 +23,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('admin/', admin.site.urls, name='admin'),
     path('create_redirect/', views.create_redirect, name='create_redirect'),
+    path('join_redirect/', views.join_redirect, name='join_redirect'),
     path('court/', include('court.urls')),
 ]
