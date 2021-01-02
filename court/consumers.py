@@ -57,12 +57,14 @@ class CourtConsumer(AsyncWebsocketConsumer):
             self.captain = self.channel_name    
         elif message_type == 'create_game':
             self.captain = self.channel_name
-            print('CAPTAIN: ' + self.captain)
+            division = json_data['division']
             # load the questions from db
             # client goes to lobby
             # send all channels list of questions
-            # divs = json_data['divisions']
-            question_set = await sync_to_async(self.get_questions)(['ATLANTIC'])
+            divs = json_data['division']
+            print('data:' + text_data)
+            # question_set = {}
+            question_set = await sync_to_async(self.get_questions)(division)
             group_message = {
                 'type': 'create_game_message',
                 'message': {

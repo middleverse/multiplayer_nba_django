@@ -28,6 +28,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var shot_clock = 17
     var player_name = ''
     var player_icon = ''
+    var session_questions = []
 
     /* 
     WEBSOCKET CONNECT
@@ -60,6 +61,12 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // CREATED GAME (SUCCESS)
         else if (data['message'] === 'create_game_message') {
             console.log('GAME CREATED, Transision To LObby NExt.')
+            //console.log(data['text'])
+            question_set_data = data['text']['question_set']
+            question_set_parsed_data = JSON.parse(question_set_data)
+            //console.log(question_set_parsed_data)
+            session_questions = question_set_parsed_data
+            console.log(session_questions)
             // SHOW LOBBY
             // HIDE EVERYTHING ELSE
         }
@@ -68,6 +75,57 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }
 
     }
+
+    /*
+    CREATE GAME
+    ----------------
+    Also loads questions from db
+    Eventually (user a websocket to get the next 10 questions)
+    Current (get 1 question)
+    */
+
+    document.getElementById('game-config-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const form = event.target
+        const form_data = new FormData(form)
+        const division = form_data.getAll('division')
+        const shot_clock = form_data.get('shot_clock')
+        const url = form.getAttribute('action')
+        const method = form.getAttribute('method') 
+        const xhr = new XMLHttpRequest()
+        const responseType = 'json'
+        xhr.open(method, url) // make the request 
+        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
+        
+        xhr.onload = function() {
+            if (xhr.status === 201) {
+                const r = xhr.response
+                r_json = JSON.parse(r)
+                console.log('given divs:')
+                console.log(division)
+
+                court_socket.send(JSON.stringify({
+                    'message_type': 'create_game',
+                    'shot_clock': shot_clock,
+                    'division': division
+                }));
+            }     
+            else {
+                const r = xhr.response
+                console.log(r)
+            }
+        }
+
+        xhr.onerror = function() {
+                alert("An error has occurred.")
+        }
+        
+        xhr.send(form_data)
+        
+        
+    });    
+
 
     /* 
     SHOW LOBBY 
@@ -107,54 +165,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         game_container_el.classList.toggle('invisible');
     });
 
-    /*
-    CREATE GAME
-    ----------------
-    Also loads questions from db
-    Eventually (user a websocket to get the next 10 questions)
-    Current (get 1 question)
-    */
 
-    document.getElementById('game-config-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const form = event.target
-        const form_data = new FormData(form)
-        const division = form_data.get('division')
-        const shot_clock = form_data.get('shot_clock')
-        const url = form.getAttribute('action')
-        const method = form.getAttribute('method') 
-        const xhr = new XMLHttpRequest()
-        const responseType = 'json'
-        xhr.open(method, url) // make the request 
-        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
-        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
-        
-        xhr.onload = function() {
-            if (xhr.status === 201) {
-                const r = xhr.response
-                r_json = JSON.parse(r)
-                console.log(r_json['message'])
-
-                court_socket.send(JSON.stringify({
-                    'message_type': 'create_game',
-                    'shot_clock': shot_clock,
-                    'division': division
-                }));
-            }     
-            else {
-                const r = xhr.response
-                console.log(r)
-            }
-        }
-
-        xhr.onerror = function() {
-                alert("An error has occurred.")
-        }
-        
-        xhr.send(form_data)
-        
-        
-    });    
 
 
 </script>

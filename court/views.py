@@ -18,7 +18,7 @@ def gameform(request):
     print('REQUEST IN GAMEFORM:', request.POST)
     # TODO: validate form
     form_data = dict(request.POST)
-    # print('FORMDATA: ', form_data)
+    print('FORMDATA: ', form_data)
     form = GameConfigForm(form_data)
     # form.division = 
     # form.shot_clock = 
