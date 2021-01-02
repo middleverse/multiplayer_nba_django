@@ -24,11 +24,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
     -------
     */
 
-    var division = ''
-    var shot_clock = 17
-    var player_name = ''
-    var player_icon = ''
+    var session_division = ''
+    var session_shot_clock = 17
+    var session_player_name = ''
+    var session_player_icon = ''
     var session_questions = []
+
+    var create_container = document.getElementById('create-container')
+    var lobby_container_el = document.getElementById('lobby-container')
+    var game_container_el = document.getElementById('game-container')
 
     /* 
     WEBSOCKET CONNECT
@@ -53,22 +57,28 @@ This is court#{{court_id}}. This contains a lobby and a game.
     court_socket.onmessage = function(e) {
         const data = JSON.parse(e.data)
         // CREATED COURT (SUCCESS)
-        if (data['message'] === 'court_message') {
+        if (data['message'] === 'arrival_message') {
             console.log(data['text'])
-            // var question_object = JSON.parse(data['text'])
-            // console.log(question_object)
+            session_player_name = 'Player 1' 
+            player_list_row_element = document.getElementById('player-list')
+            var new_player_col_element = document.createElement('div')
+            new_player_col_element.appendChild(document.createTextNode(session_player_name))
+            player_list_row_element.appendChild(new_player_col_element)
         }
         // CREATED GAME (SUCCESS)
         else if (data['message'] === 'create_game_message') {
             console.log('GAME CREATED, Transision To LObby NExt.')
-            //console.log(data['text'])
+            session_division = data['text']['division']
+            session_shot_clock = data['text']['shot_clock']
             question_set_data = data['text']['question_set']
             question_set_parsed_data = JSON.parse(question_set_data)
-            //console.log(question_set_parsed_data)
             session_questions = question_set_parsed_data
-            console.log(session_questions)
+            console.log('questions:', session_questions)
+            console.log('divisions:', session_division)
+            console.log('shot_clock:', session_shot_clock)
             // SHOW LOBBY
             // HIDE EVERYTHING ELSE
+
         }
         else if (data['message'] === 'start_game_message') {
 
@@ -140,9 +150,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
     Toggle game template
     (Auto-toggle takes care of correct visbility)
     */
-
-    var lobby_container_el = document.getElementById('lobby-container')
-    var game_container_el = document.getElementById('game-container')
 
     document.getElementById('start-game').addEventListener('click', function(event) {
         event.preventDefault();

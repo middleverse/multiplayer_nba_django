@@ -27,7 +27,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
         # TODO : Player icon popup here
         await self.channel_layer.group_send(
             self.court_group_name, {
-                'type': 'court_message',
+                'type': 'arrival_message',
                 'message': 'Another player joined!',
             }
         )   
@@ -79,7 +79,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
             self.court_group_name, group_message
         )   
 
-    async def court_message(self, event):
+    async def arrival_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
             'text' : event['message'],
