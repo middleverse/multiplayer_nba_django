@@ -72,5 +72,5 @@ class QuestionManager():
                 'team': question.team.team_name
             }
             converted_question_set.append(question_map)   
-            print(converted_question_set)     
+            # print(converted_question_set)     
         return json.dumps(converted_question_set)

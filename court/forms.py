@@ -15,10 +15,12 @@ class GameConfigForm(forms.Form):
     shot_clock = forms.MultipleChoiceField(
         widget=forms.Select,
         choices=TIME_CHOICES,
-        initial=17
+        initial=17,
+        required=True,
     )
 
     division = forms.MultipleChoiceField(
         widget=forms.CheckboxSelectMultiple,
         choices=DIVISION_CHOICES,
+        required=True,
     )

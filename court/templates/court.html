@@ -19,6 +19,16 @@ This is court#{{court_id}}. This contains a lobby and a game.
     // KEEP AS MUCH JS HERE AS POSSIBLE
     // ================================
 
+    /*
+    GLOBALS
+    -------
+    */
+
+    var division = ''
+    var shot_clock = 17
+    var player_name = ''
+    var player_icon = ''
+
     /* 
     WEBSOCKET CONNECT
     -----------------
@@ -41,13 +51,29 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     court_socket.onmessage = function(e) {
         const data = JSON.parse(e.data)
+        // CREATED COURT (SUCCESS)
         if (data['message'] === 'court_message') {
             console.log(data['text'])
             // var question_object = JSON.parse(data['text'])
             // console.log(question_object)
         }
+        // CREATED GAME (SUCCESS)
+        else if (data['message'] === 'create_game_message') {
+            console.log('GAME CREATED, Transision To LObby NExt.')
+            // SHOW LOBBY
+            // HIDE EVERYTHING ELSE
+        }
+        else if (data['message'] === 'start_game_message') {
+
+        }
 
     }
+
+    /* 
+    SHOW LOBBY 
+    ----------
+    Show each player's icon, and config options
+    */
 
     /* 
     START GAME
@@ -93,6 +119,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
         event.preventDefault();
         const form = event.target
         const form_data = new FormData(form)
+        const division = form_data.get('division')
+        const shot_clock = form_data.get('shot_clock')
         const url = form.getAttribute('action')
         const method = form.getAttribute('method') 
         const xhr = new XMLHttpRequest()
@@ -102,15 +130,21 @@ This is court#{{court_id}}. This contains a lobby and a game.
         xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
         
         xhr.onload = function() {
-           if (xhr.status === 201) {
-               const r = xhr.response
-               r_json = JSON.parse(r)
-               console.log(r_json['message'])
-           }     
-           else {
-               const r = xhr.response
-               console.log(r)
-           }
+            if (xhr.status === 201) {
+                const r = xhr.response
+                r_json = JSON.parse(r)
+                console.log(r_json['message'])
+
+                court_socket.send(JSON.stringify({
+                    'message_type': 'create_game',
+                    'shot_clock': shot_clock,
+                    'division': division
+                }));
+            }     
+            else {
+                const r = xhr.response
+                console.log(r)
+            }
         }
 
         xhr.onerror = function() {
@@ -119,9 +153,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         
         xhr.send(form_data)
         
-        court_socket.send(JSON.stringify({
-            'message_type': 'create_game'
-        }));
+        
     });    
 
 
