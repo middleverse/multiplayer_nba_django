@@ -52,7 +52,9 @@ class CourtConsumer(AsyncWebsocketConsumer):
         # TODO: Segment all message types into respective "sends"
         # Assign Captain (sort of admin user)
         if message_type == 'create_court':
-            self.captain = self.channel_name    
+            self.captain = self.channel_name
+
+        # Captain has create the court 
         elif message_type == 'create_game': 
             # change state from create_game to       
             # load the questions from db
@@ -60,8 +62,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
             # send all channels list of questions
             division = json_data['division']
             shot_clock = json_data['shot_clock']
-            print('data:' + text_data)
-            # question_set = {}
+            question_set = {}
             question_set = await sync_to_async(self.get_questions)(division)
             group_message = {
                 'type': 'created_game_message',

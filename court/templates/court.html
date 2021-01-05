@@ -31,6 +31,9 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_player_name = ''
     var session_player_icon = ''
     var session_questions = []
+    var session_config_loaded = false
+    var session_player_list = []
+
 
     // Template Stuff
     const create_container = document.getElementById('create-container')
@@ -86,16 +89,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 console.log('GAME CREATED, Transision To LObby NExt.')
                 session_division = data['text']['division']
                 session_shot_clock = data['text']['shot_clock']
-                question_set_data = data['text']['question_set']
-                question_set_parsed_data = JSON.parse(question_set_data)
-                session_questions = question_set_parsed_data
-                console.log('questions:', session_questions)
-                console.log('divisions:', session_division)
-                console.log('shot_clock:', session_shot_clock)
-            }
-            else if (role === 'player') {
-
-            }            
+                session_questions = data['text']['question_set']
+                display_game_config_in_lobby()
+                session_config_loaded = true
+            }        
         }
         else if (data['message'] === 'captain_send_game_config_message') {
             if (role == 'captain') {
@@ -104,12 +101,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }
         else if (data['message'] === 'player_load_lobby_message') {
             if (role === 'player') {
-                console.log('Game Config Options Have Arrived')
-                data_parsed = data['text']
-                console.log(data_parsed)
-                session_division = data_parsed['division']
-                session_shot_clock = data_parsed['shot_clock']
-                display_game_config_in_lobby()
+                if (session_config_loaded === false) {
+                    data_parsed = data['text']
+                    session_division = data_parsed['division']
+                    session_shot_clock = data_parsed['shot_clock']
+                    session_questions = data_parsed['question_set']
+                    display_game_config_in_lobby()
+                    session_config_loaded = true
+                }
+                
             }
         }
         else if (data['message'] === 'start_game_message') {
@@ -181,7 +181,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
             'question_set': session_questions,
         }));
     }
-
 
     const display_game_config_in_lobby = function() {
         console.log('SSC: ', session_shot_clock)
