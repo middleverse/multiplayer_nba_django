@@ -36,7 +36,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_state = 'create' // create, lobby, game, results
     var session_question_counter = -1
     var round_question_counter = -1
-
+    var session_current_question = {}
 
     // Template Stuff
     const create_container_el = document.getElementById('create-container')
@@ -223,11 +223,13 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
 
     });
-
+    
+    // On question answer submit
     question_form_el.addEventListener('submit', function(event) {
         event.preventDefault();
+
         // Check for correct Answer
-        if (question_form_el.elements.namedItem('a').checked == true) {
+        if (question_form_el.elements.namedItem(session_current_question['answer']).checked == true) {
             console.log('You got this right!')
             question_form_fieldset_el.disabled = true;
             setTimeout(load_next_question, 3000);
@@ -237,10 +239,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
     });
 
     const load_question_details = function() {
-        question_form_el.elements.namedItem('a').labels[0].textContent = current_question['c_a']
-        question_form_el.elements.namedItem('b').labels[0].textContent = current_question['c_b']
-        question_form_el.elements.namedItem('c').labels[0].textContent = current_question['c_c']
-        question_form_el.elements.namedItem('d').labels[0].textContent = current_question['c_d'] 
+        question_form_el.elements.namedItem('a').labels[0].textContent = session_current_question['c_a']
+        question_form_el.elements.namedItem('b').labels[0].textContent = session_current_question['c_b']
+        question_form_el.elements.namedItem('c').labels[0].textContent = session_current_question['c_c']
+        question_form_el.elements.namedItem('d').labels[0].textContent = session_current_question['c_d'] 
     }
 
     const load_next_question = function() {
@@ -256,11 +258,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
             // show end results
         } else {
             question_form_fieldset_el.disabled = false;
-            current_question = session_questions[session_question_counter];
+            session_current_question = session_questions[session_question_counter];
             // update form
             console.log('FIRST ITEM IN Q: ', session_questions.length);
-            question_form_el.elements.namedItem('a').labels[0].textContent = current_question['c_a']
-            //question_form_el.elements.namedItem('a').innerHTML = current_question['c_a']
+            load_question_details()
         }
     }
 
