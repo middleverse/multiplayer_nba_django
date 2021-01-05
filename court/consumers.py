@@ -33,6 +33,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
     def get_questions(self, divisions):
         #  TODO: should ask question manager for questions
         q_manager = QuestionManager()
+        print('CONSUMER SEES: ', divisions)
         q_manager.load_divisions(divisions)
         question_set_json = q_manager.get_questions()
         # return q_manager.get_questions()

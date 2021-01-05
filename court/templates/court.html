@@ -33,14 +33,17 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_questions = []
     var session_config_loaded = false
     var session_player_list = []
+    var session_state = 'create' // create, lobby, game, results
+
 
 
     // Template Stuff
-    const create_container = document.getElementById('create-container')
+    const create_container_el = document.getElementById('create-container')
     const lobby_container_el = document.getElementById('lobby-container')
     const lobby_shot_clock_el = document.getElementById('config-shot-clock-display')
     const lobby_division_el = document.getElementById('config-division-display')
     const game_container_el = document.getElementById('game-container')
+    const question_form_el = document.getElementById('question-form')
 
 
     /* 
@@ -87,11 +90,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
         else if (data['message'] === 'created_game_message') {
             if (role === 'captain') {
                 console.log('GAME CREATED, Transision To LObby NExt.')
+                
                 session_division = data['text']['division']
                 session_shot_clock = data['text']['shot_clock']
                 session_questions = data['text']['question_set']
                 display_game_config_in_lobby()
                 session_config_loaded = true
+
+                create_container_el.classList.toggle('invisible');
+                lobby_container_el.classList.toggle('invisible');
             }        
         }
         else if (data['message'] === 'captain_send_game_config_message') {
@@ -202,7 +209,34 @@ This is court#{{court_id}}. This contains a lobby and a game.
         console.log(game_container_el);
         game_container_el.classList.toggle('invisible');
         lobby_container_el.classList.toggle('invisible');
+        
+        start_game()
+
     });
+
+    question_form_el.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Check for correct Answer
+        if (question_form_el.elements.namedItem('a').checked == true) {
+            console.log('You got this right!')
+            
+        } else {
+            console.log('You got this wrong!')
+        }
+    });
+
+    const run_next_question_set = function() {
+        // for now lets load a question
+        
+    }
+
+    const start_game = function() {
+        // TODO show a 3-2-1
+
+        run_next_question_set()
+        
+    }
 
     /* 
     END GAME
@@ -217,10 +251,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
         lobby_container_el.classList.toggle('invisible');
         game_container_el.classList.toggle('invisible');
     });
-
-
-
-
 </script>
 
 {% endblock %}
