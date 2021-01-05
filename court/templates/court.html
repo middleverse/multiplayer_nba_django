@@ -44,6 +44,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const lobby_division_el = document.getElementById('config-division-display')
     const game_container_el = document.getElementById('game-container')
     const question_form_el = document.getElementById('question-form')
+    const question_form_fieldset_el = question_form_el.elements.namedItem('question-form-fieldset')
 
 
     /* 
@@ -220,7 +221,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // Check for correct Answer
         if (question_form_el.elements.namedItem('a').checked == true) {
             console.log('You got this right!')
-            
+            question_form_fieldset_el.disabled = true;
+
         } else {
             console.log('You got this wrong!')
         }
