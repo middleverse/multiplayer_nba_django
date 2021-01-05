@@ -24,19 +24,25 @@ This is court#{{court_id}}. This contains a lobby and a game.
     -------
     */
 
+    // Session Stuff
+    var role = '{{role}}';
     var session_division = ''
     var session_shot_clock = 17
     var session_player_name = ''
     var session_player_icon = ''
     var session_questions = []
 
-    var create_container = document.getElementById('create-container')
-    var lobby_container_el = document.getElementById('lobby-container')
-    var game_container_el = document.getElementById('game-container')
+    // Template Stuff
+    const create_container = document.getElementById('create-container')
+    const lobby_container_el = document.getElementById('lobby-container')
+    const lobby_shot_clock_el = document.getElementById('config-shot-clock-display')
+    const lobby_division_el = document.getElementById('config-division-display')
+    const game_container_el = document.getElementById('game-container')
+
 
     /* 
-    WEBSOCKET CONNECT
-    -----------------
+    WEBSOCKET CONNECT & CREATE COURT
+    --------------------------------
     Start a connection
     On message recieve functionality
     */
@@ -56,39 +62,64 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     court_socket.onmessage = function(e) {
         const data = JSON.parse(e.data)
+        console.log('Websocket msg: ', data['message'])
+
         // CREATED COURT (SUCCESS)
         if (data['message'] === 'arrival_message') {
-            console.log(data['text'])
-            session_player_name = 'Player 1' 
-            player_list_row_element = document.getElementById('player-list')
-            var new_player_col_element = document.createElement('div')
-            new_player_col_element.appendChild(document.createTextNode(session_player_name))
-            player_list_row_element.appendChild(new_player_col_element)
+            if (role === 'captain') {
+                console.log('CAPTAIN HAS JOINED!')
+                session_player_name = 'Player #1'
+                player_list_row_element = document.getElementById('player-list')
+                var new_player_col_element = document.createElement('div')
+                new_player_col_element.appendChild(document.createTextNode(session_player_name))
+                player_list_row_element.appendChild(new_player_col_element)
+            }
+            else if (role === 'player') {
+                console.log('im just a player, here!')
+                ask_captain_for_game_config_options() // player in lobby
+            }
+            
         }
         // CREATED GAME (SUCCESS)
-        else if (data['message'] === 'create_game_message') {
-            console.log('GAME CREATED, Transision To LObby NExt.')
-            session_division = data['text']['division']
-            session_shot_clock = data['text']['shot_clock']
-            question_set_data = data['text']['question_set']
-            question_set_parsed_data = JSON.parse(question_set_data)
-            session_questions = question_set_parsed_data
-            console.log('questions:', session_questions)
-            console.log('divisions:', session_division)
-            console.log('shot_clock:', session_shot_clock)
-            // SHOW LOBBY
-            // HIDE EVERYTHING ELSE
+        else if (data['message'] === 'created_game_message') {
+            if (role === 'captain') {
+                console.log('GAME CREATED, Transision To LObby NExt.')
+                session_division = data['text']['division']
+                session_shot_clock = data['text']['shot_clock']
+                question_set_data = data['text']['question_set']
+                question_set_parsed_data = JSON.parse(question_set_data)
+                session_questions = question_set_parsed_data
+                console.log('questions:', session_questions)
+                console.log('divisions:', session_division)
+                console.log('shot_clock:', session_shot_clock)
+            }
+            else if (role === 'player') {
 
+            }            
+        }
+        else if (data['message'] === 'captain_send_game_config_message') {
+            if (role == 'captain') {
+                send_game_config_options()
+            }
+        }
+        else if (data['message'] === 'player_load_lobby_message') {
+            if (role === 'player') {
+                console.log('Game Config Options Have Arrived')
+                data_parsed = data['text']
+                console.log(data_parsed)
+                session_division = data_parsed['division']
+                session_shot_clock = data_parsed['shot_clock']
+                display_game_config_in_lobby()
+            }
         }
         else if (data['message'] === 'start_game_message') {
-
+            
         }
-
     }
 
     /*
-    CREATE GAME
-    ----------------
+    CREATE GAME & SHOW LOBBY
+    ------------------------
     Also loads questions from db
     Eventually (user a websocket to get the next 10 questions)
     Current (get 1 question)
@@ -116,7 +147,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 console.log(division)
 
                 court_socket.send(JSON.stringify({
-                    'message_type': 'create_game',
+                    'message_type': 'create_game', // analagous to create lobby
                     'shot_clock': shot_clock,
                     'division': division
                 }));
@@ -136,12 +167,28 @@ This is court#{{court_id}}. This contains a lobby and a game.
         
     });    
 
+    const ask_captain_for_game_config_options = function() {
+        court_socket.send(JSON.stringify({
+            'message_type': 'load_game_config',
+        }));
+    }
 
-    /* 
-    SHOW LOBBY 
-    ----------
-    Show each player's icon, and config options
-    */
+    const send_game_config_options = function() {
+        court_socket.send(JSON.stringify({
+            'message_type': 'sent_game_config',
+            'shot_clock': session_shot_clock,
+            'division': session_division,
+            'question_set': session_questions,
+        }));
+    }
+
+
+    const display_game_config_in_lobby = function() {
+        console.log('SSC: ', session_shot_clock)
+        
+        lobby_shot_clock_el.appendChild(document.createTextNode(session_shot_clock))
+        lobby_division_el.appendChild(document.createTextNode(session_division))
+    }
 
     /* 
     START GAME

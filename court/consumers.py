@@ -10,8 +10,6 @@ class CourtConsumer(AsyncWebsocketConsumer):
     '''
     Court Consumer
     '''        
-    # QUESTION_SET = Question.objects.all().first()
-
     async def connect(self):
         self.court_id = self.scope['url_route']['kwargs']['court_id'] # room name provided in scope by the router
         self.court_group_name = 'court_%s' % self.court_id
@@ -50,31 +48,46 @@ class CourtConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         json_data = json.loads(text_data)
         message_type = json_data['message_type']    
-        group_message = {}
+        group_message = {'type': 'message_unbound'}
         # TODO: Segment all message types into respective "sends"
         # Assign Captain (sort of admin user)
         if message_type == 'create_court':
             self.captain = self.channel_name    
-        elif message_type == 'create_game':
-            self.captain = self.channel_name
-            division = json_data['division']
+        elif message_type == 'create_game': 
+            # change state from create_game to       
             # load the questions from db
             # client goes to lobby
             # send all channels list of questions
-            divs = json_data['division']
+            division = json_data['division']
+            shot_clock = json_data['shot_clock']
             print('data:' + text_data)
             # question_set = {}
             question_set = await sync_to_async(self.get_questions)(division)
             group_message = {
-                'type': 'create_game_message',
+                'type': 'created_game_message',
                 'message': {
                     'question_set': question_set,
                     'shot_clock': json_data['shot_clock'],
-                    'division': json_data['division']
+                    'division': json_data['division'],
                 }
             }
-        # await asyncio.sleep(3)
-
+        elif message_type == 'load_game_config':
+            group_message = {
+                'type': 'captain_send_game_config_message',
+                'message': 'player requestion game config',
+            }
+        elif message_type == 'sent_game_config':
+            division = json_data['division']
+            shot_clock = json_data['shot_clock']
+            question_set = json_data['question_set']
+            group_message = {
+                'type': 'player_load_lobby_message',
+                'message': {
+                    'shot_clock': shot_clock,
+                    'division': division,
+                    'question_set': question_set,
+                }
+            }
         await self.channel_layer.group_send(
             self.court_group_name, group_message
         )   
@@ -85,8 +98,25 @@ class CourtConsumer(AsyncWebsocketConsumer):
             'text' : event['message'],
         }))
 
-    async def create_game_message(self, event):
+    async def created_game_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
             'text' : event['message'],
         }))
+
+    async def captain_send_game_config_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+        }))    
+    
+    async def player_load_lobby_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+        }))
+
+    async def message_unbound(self, event): 
+        print('Message Unbound')
+
+    
