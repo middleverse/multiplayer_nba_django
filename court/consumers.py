@@ -90,6 +90,11 @@ class CourtConsumer(AsyncWebsocketConsumer):
                     'question_set': question_set,
                 }
             }
+        elif message_type == 'start_game':
+            group_message = {
+                'type': 'start_game_message',
+                'message': 'start round'
+            }
         await self.channel_layer.group_send(
             self.court_group_name, group_message
         )   
@@ -117,6 +122,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
             'message': event['type'],
             'text' : event['message'],
         }))
+
+    async def start_game_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+    }))
 
     async def message_unbound(self, event): 
         print('Message Unbound')

@@ -34,7 +34,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_config_loaded = false
     var session_player_list = []
     var session_state = 'create' // create, lobby, game, results
-
+    var session_question_counter = -1
+    var round_question_counter = -1
 
 
     // Template Stuff
@@ -83,10 +84,12 @@ This is court#{{court_id}}. This contains a lobby and a game.
             }
             else if (role === 'player') {
                 console.log('im just a player, here!')
+                create_container_el.classList.toggle('invisible');
+                lobby_container_el.classList.toggle('invisible');
                 ask_captain_for_game_config_options() // player in lobby
             }
-            
         }
+
         // CREATED GAME (SUCCESS)
         else if (data['message'] === 'created_game_message') {
             if (role === 'captain') {
@@ -94,7 +97,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 
                 session_division = data['text']['division']
                 session_shot_clock = data['text']['shot_clock']
-                session_questions = data['text']['question_set']
+                session_questions = JSON.parse(data['text']['question_set'])
                 display_game_config_in_lobby()
                 session_config_loaded = true
 
@@ -113,7 +116,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
                     data_parsed = data['text']
                     session_division = data_parsed['division']
                     session_shot_clock = data_parsed['shot_clock']
-                    session_questions = data_parsed['question_set']
+                    session_questions = JSON.parse(data_parsed['question_set'])
                     display_game_config_in_lobby()
                     session_config_loaded = true
                 }
@@ -121,7 +124,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
             }
         }
         else if (data['message'] === 'start_game_message') {
-            
+            console.log(game_container_el);
+            game_container_el.classList.toggle('invisible');
+            lobby_container_el.classList.toggle('invisible');
+            start_game()
         }
     }
 
@@ -207,36 +213,67 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     document.getElementById('start-game').addEventListener('click', function(event) {
         event.preventDefault();
-        console.log(game_container_el);
-        game_container_el.classList.toggle('invisible');
-        lobby_container_el.classList.toggle('invisible');
         
-        start_game()
+        court_socket.send(JSON.stringify({
+            'message_type': 'start_game',
+            'shot_clock': session_shot_clock,
+            'division': session_division,
+            'question_set': session_questions,
+        }));
+
 
     });
 
     question_form_el.addEventListener('submit', function(event) {
         event.preventDefault();
-
         // Check for correct Answer
         if (question_form_el.elements.namedItem('a').checked == true) {
             console.log('You got this right!')
             question_form_fieldset_el.disabled = true;
-
+            setTimeout(load_next_question, 3000);
         } else {
             console.log('You got this wrong!')
         }
     });
 
+    const load_question_details = function() {
+        question_form_el.elements.namedItem('a').labels[0].textContent = current_question['c_a']
+        question_form_el.elements.namedItem('b').labels[0].textContent = current_question['c_b']
+        question_form_el.elements.namedItem('c').labels[0].textContent = current_question['c_c']
+        question_form_el.elements.namedItem('d').labels[0].textContent = current_question['c_d'] 
+    }
+
+    const load_next_question = function() {
+        session_question_counter += 1
+        round_question_counter += 1
+        // Round question limit reached
+        if (session_question_counter > session_questions.length - 1) {
+            console.log('QUESTION LIST EXHAUSTED')
+            return
+        }
+
+        if (round_question_counter > 9) {
+            // show end results
+        } else {
+            question_form_fieldset_el.disabled = false;
+            current_question = session_questions[session_question_counter];
+            // update form
+            console.log('FIRST ITEM IN Q: ', session_questions.length);
+            question_form_el.elements.namedItem('a').labels[0].textContent = current_question['c_a']
+            //question_form_el.elements.namedItem('a').innerHTML = current_question['c_a']
+        }
+    }
+
     const run_next_question_set = function() {
         // for now lets load a question
+        session_question_counter = 0
         
     }
 
     const start_game = function() {
         // TODO show a 3-2-1
-
-        run_next_question_set()
+        load_next_question()
+        // run_next_question_set()
         
     }
 
