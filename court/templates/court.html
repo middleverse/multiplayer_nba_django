@@ -27,7 +27,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     // Session Stuff
     var role = '{{role}}';
     var session_division = ''
-    var session_shot_clock = 17
+    var session_shot_clock = 10
     var session_player_name = ''
     var session_player_icon = ''
     var session_questions = []
@@ -36,7 +36,24 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_state = 'create' // create, lobby, game, results
     var session_question_counter = -1
     var round_question_counter = -1
+    var current_question_answer = 0 // 0 for incorrect, 1 for correct
     var session_current_question = {}
+    
+    var round_results_tracker = [0,0,0,0,0,0,0,0,0,0] // list of dicts
+    var round_player_answer_total = 0
+    /*
+        results tracker dict map examples
+        0 - incorrect answer
+        1 - correct answer
+        {
+            'id': 'question_id',
+            'player_1': '1',
+            'player_2': '1',
+            'player_3': '0',
+            'player_4': '1',
+        }
+    */
+
 
     // Template Stuff
     const create_container_el = document.getElementById('create-container')
@@ -77,6 +94,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             if (role === 'captain') {
                 console.log('CAPTAIN HAS JOINED!')
                 session_player_name = 'Player #1'
+                session_player_list.push(session_player_name)
                 player_list_row_element = document.getElementById('player-list')
                 var new_player_col_element = document.createElement('div')
                 new_player_col_element.appendChild(document.createTextNode(session_player_name))
@@ -96,8 +114,11 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 console.log('GAME CREATED, Transision To LObby NExt.')
                 
                 session_division = data['text']['division']
-                session_shot_clock = data['text']['shot_clock']
+                session_shot_clock = parseInt(data['text']['shot_clock'])
+                // the first time captain recieves question set from player
+                // we need to parse it (won't be doing it for player)
                 session_questions = JSON.parse(data['text']['question_set'])
+                console.log('CAPTAINS Qs: ', session_questions)
                 display_game_config_in_lobby()
                 session_config_loaded = true
 
@@ -115,8 +136,9 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 if (session_config_loaded === false) {
                     data_parsed = data['text']
                     session_division = data_parsed['division']
-                    session_shot_clock = data_parsed['shot_clock']
-                    session_questions = JSON.parse(data_parsed['question_set'])
+                    session_shot_clock = parseInt(data_parsed['shot_clock'])
+                    session_questions = data_parsed['question_set']
+                    console.log('PLAYERS Qs: ', session_questions)
                     display_game_config_in_lobby()
                     session_config_loaded = true
                 }
@@ -128,6 +150,21 @@ This is court#{{court_id}}. This contains a lobby and a game.
             game_container_el.classList.toggle('invisible');
             lobby_container_el.classList.toggle('invisible');
             start_game()
+        }
+        else if (data['message'] === 'player_answer_posted_message') {
+            if (role === 'captain') {
+                round_player_answer_total += 1
+                // if all player's have answered then move to next question
+                if (round_player_answer_total === session_player_list.length) {
+                    round_player_answer_total = 0
+                    console.log('everyone has answered.')
+                    // TODO move to next questions
+                    load_next_question()
+                }
+            }
+            // player just shows someone has posted an answer
+            console.log('a player posted an answer!!')
+            
         }
     }
 
@@ -220,22 +257,32 @@ This is court#{{court_id}}. This contains a lobby and a game.
             'division': session_division,
             'question_set': session_questions,
         }));
-
-
     });
     
-    // On question answer submit
+    // QUESTION FORM SUBMIT BY PLAYER
     question_form_el.addEventListener('submit', function(event) {
         event.preventDefault();
+
+        // Disable form
+        question_form_fieldset_el.disabled = true;
 
         // Check for correct Answer
         if (question_form_el.elements.namedItem(session_current_question['answer']).checked == true) {
             console.log('You got this right!')
-            question_form_fieldset_el.disabled = true;
-            setTimeout(load_next_question, 3000);
+            current_question_answer = 1
+            //setTimeout(load_next_question, 3000);
         } else {
+            current_question_answer = 0
             console.log('You got this wrong!')
         }
+
+        //round_results_tracker.push(current_question_answer)
+        round_results_tracker[round_question_counter] = current_question_answer
+
+        // Let everyone know!
+        court_socket.send(JSON.stringify({
+            'message_type': 'player_answer',
+        }));
     });
 
     const load_question_details = function() {
@@ -245,23 +292,64 @@ This is court#{{court_id}}. This contains a lobby and a game.
         question_form_el.elements.namedItem('d').labels[0].textContent = session_current_question['c_d'] 
     }
 
+    /*
+        results tracker dict map examples
+        0 - incorrect answer
+        1 - correct answer
+        {
+            'id': 'question_id',
+            'player_1': '1',
+            'player_2': '1',
+            'player_3': '0',
+            'player_4': '1',
+        }
+    */
+
     const load_next_question = function() {
+        // Reset Shot Clock
+        seconds = session_shot_clock + 1
+
+        // Update Question Counters
         session_question_counter += 1
         round_question_counter += 1
-        // Round question limit reached
+
+        // Current form needs to be reset before loading next question
+        question_form_el.reset()
+
+        // Check if all Questions Exhausted
         if (session_question_counter > session_questions.length - 1) {
             console.log('QUESTION LIST EXHAUSTED')
+            console.log('MY RESULTS WERE:', round_results_tracker)
             return
         }
 
+        // Check if round Question Limit Reached
         if (round_question_counter > 9) {
             // show end results
-        } else {
+        }
+        
+        // If Next Question Available  
+        else {
             question_form_fieldset_el.disabled = false;
             session_current_question = session_questions[session_question_counter];
             // update form
-            console.log('FIRST ITEM IN Q: ', session_questions.length);
             load_question_details()
+            update_shot_clock()
+        }
+    }
+
+    var seconds = session_shot_clock + 1 // needs to be +1 in order for correct timing
+
+    shot_clock_container_el = document.getElementById('shot-clock-container')
+    const update_shot_clock = function() {        
+        if (seconds --> 0) {
+            shot_clock_container_el.textContent = seconds
+            if (seconds === 0) {
+                question_form_fieldset_el.disabled = true;  
+                load_next_question()
+            } else {
+                setTimeout(update_shot_clock, 1000) 
+            }  
         }
     }
 
@@ -272,6 +360,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     }
 
     const start_game = function() {
+        console.log('QUESTION SET AT START: ', session_questions)
         // TODO show a 3-2-1
         load_next_question()
         // run_next_question_set()
