@@ -270,14 +270,17 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     document.getElementById('start-game').addEventListener('click', function(event) {
         event.preventDefault();
-        
+        tell_players_to_start_game()
+    });
+
+    const tell_players_to_start_game = function() {
         court_socket.send(JSON.stringify({
             'message_type': 'start_game',
             'shot_clock': session_shot_clock,
             'division': session_division,
             'question_set': session_questions,
         }));
-    });
+    }
     
     // QUESTION FORM SUBMIT BY PLAYER
     question_form_el.addEventListener('submit', function(event) {
@@ -334,7 +337,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
-        seconds = session_shot_clock + 1
+        seconds = 3 + 1
 
         // Update Question Counters
         session_question_counter += 1
@@ -344,16 +347,20 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // Current form needs to be reset before loading next question
         question_form_el.reset()
 
-        // Check if all Questions Exhausted
-        if (session_question_counter > session_questions.length - 1) {
-            console.log('QUESTION LIST EXHAUSTED')
-            console.log('MY RESULTS WERE:', round_results_tracker)
-            return
-        }
-
         // Check if round Question Limit Reached
         if (round_question_counter > 9) {
             // show end results
+            session_question_counter -= 1 // reel back session question counter
+            console.log('ROUND ENDED!')
+            // Show results
+            
+        }
+
+        // Check if all Questions Exhausted
+        else if (session_question_counter > session_questions.length - 1) {
+            console.log('QUESTION LIST EXHAUSTED')
+            console.log('MY RESULTS WERE:', round_results_tracker)
+            return
         }
         
         // If Next Question Available  
@@ -395,18 +402,24 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }));
     }
 
-    const run_next_question_set = function() {
+    const start_new_round = function() {
         // for now lets load a question
-        session_question_counter = 0
+        if (session_question_counter > session_questions.length - 1)
+        {
+            // Does this check really need to be here?
+            // Can this be taken care of in load questions?
+            // I think so!
+            // AKA TODO
+        }
+        round_question_counter = -1
+        load_next_question()
         
     }
 
     const start_game = function() {
         console.log('QUESTION SET AT START: ', session_questions)
         // TODO show a 3-2-1
-        load_next_question()
-        // run_next_question_set()
-        
+        start_new_round()
     }
 
     /* 
