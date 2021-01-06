@@ -103,6 +103,7 @@ class Team(models.Model):
         elif self.team_name in self.OTHER_DIV:
             self.division_name = 'OTHER'
 
+
 class Question(models.Model):
     '''
     Represents a question statement,
@@ -124,3 +125,49 @@ class Question(models.Model):
         )
 
     # NOTE: added requried tags if needed
+
+
+class Court(models.Model):
+    '''
+    Represents a Court.
+    Each court has a max of 4 players.
+    '''
+    court_id = models.CharField(primary_key=True, max_length=4)
+    capacity = 4
+    available_id = [0,1,2,3]
+    player_colors = ['blue', 'red', 'green', 'yellow']
+    current_size = models.PositiveIntegerField(default=0)
+    
+   
+    def add_player(self):
+        '''
+        Adds player if possible.
+
+        Returns -1 if court at capacity, otherwise
+        returns a positive integer player id
+        between 0 and 3.
+        '''
+        current_player_id = -1
+
+        if (self.current_size < 4):
+            self.current_size += 1
+            current_player_id = self.available_id.pop(0)
+
+        return current_player_id
+    
+
+    def remove_player(self, player_id):
+        '''
+        Removes a player if possible.
+
+        Returns the id of the player removed,
+        if none was remved, return -1.
+        '''
+        id_removed = -1
+
+        if self.current_size > 0:
+            self.current_size -= 1
+            self.available_id.append(player_id)
+            id_removed = player_id
+
+        return id_removed
