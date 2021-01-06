@@ -156,15 +156,16 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 round_player_answer_total += 1
                 // if all player's have answered then move to next question
                 if (round_player_answer_total === session_player_list.length) {
-                    round_player_answer_total = 0
                     console.log('everyone has answered.')
-                    // TODO move to next questions
-                    load_next_question()
+                    tell_players_to_load_next_question()
+                    
                 }
             }
             // player just shows someone has posted an answer
-            console.log('a player posted an answer!!')
-            
+            console.log('a player posted an answer!!')   
+        }
+        else if (data['message'] === 'load_next_question_message') {
+            load_next_question()
         }
     }
 
@@ -265,6 +266,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
         // Disable form
         question_form_fieldset_el.disabled = true;
+        
+        // Reset Shot Clock
+        // clearTimeout(sc_timeout_holder)
+        //seconds = session_shot_clock + 1
 
         // Check for correct Answer
         if (question_form_el.elements.namedItem(session_current_question['answer']).checked == true) {
@@ -278,6 +283,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
         //round_results_tracker.push(current_question_answer)
         round_results_tracker[round_question_counter] = current_question_answer
+        current_question_answer = 0
 
         // Let everyone know!
         court_socket.send(JSON.stringify({
@@ -308,12 +314,13 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const load_next_question = function() {
         
         // Reset Shot Clock
-        seconds = session_shot_clock + 1
         clearTimeout(sc_timeout_holder)
+        seconds = session_shot_clock + 1
 
         // Update Question Counters
         session_question_counter += 1
         round_question_counter += 1
+        round_player_answer_total = 0
 
         // Current form needs to be reset before loading next question
         question_form_el.reset()
@@ -349,11 +356,24 @@ This is court#{{court_id}}. This contains a lobby and a game.
             shot_clock_container_el.textContent = seconds
             if (seconds === 0) {
                 question_form_fieldset_el.disabled = true;  
-                load_next_question()
+                
+                // SC ended (next question must be loaded for "everyone")
+                // TODO Send a court_socket_message that SC ended
+                if (role === 'captain') {
+                    tell_players_to_load_next_question()
+                }
             } else {
                 sc_timeout_holder = setTimeout(update_shot_clock, 1000) 
             }  
         }
+    }
+
+    const tell_players_to_load_next_question = function() {
+        console.log('telling players!')
+        // Let everyone know!
+        court_socket.send(JSON.stringify({
+            'message_type': 'tell_player_load_next_question',
+        }));
     }
 
     const run_next_question_set = function() {
