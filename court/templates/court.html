@@ -65,6 +65,27 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const question_form_fieldset_el = question_form_el.elements.namedItem('question-form-fieldset')
 
 
+    const load_session_state_ui = function(_state) {
+        if (create_container_el.classList.contains('invisible') == false) create_container_el.classList.toggle('invisible');
+        if (lobby_container_el.classList.contains('invisible') == false) lobby_container_el.classList.toggle('invisible');
+        if (game_container_el.classList.contains('invisible') == false) game_container_el.classList.toggle('invisible');
+        //if (create_container_el.classList.contains('invisible')) create_container_el.classList.toggle('invisible');
+        
+        console.log('STATE: ', _state);
+        if (_state == 'create') {
+            create_container_el.classList.toggle('invisible')
+        } else if (_state == 'lobby') {
+            lobby_container_el.classList.toggle('invisible')
+        } else if (_state == 'game') {
+            game_container_el.classList.toggle('invisible');
+        } else if (_state == 'endgame') {
+            // TODO
+        } else {
+            console.log('incorrect state!')
+        }
+        session_state = _state
+    }
+
     /* 
     WEBSOCKET CONNECT & CREATE COURT
     --------------------------------
@@ -92,27 +113,29 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // CREATED COURT (SUCCESS)
         if (data['message'] === 'arrival_message') {
             if (role === 'captain') {
-                console.log('CAPTAIN HAS JOINED!')
+                if(session_config_loaded == 'false') {
+                    load_session_state_ui('create')
+                }
                 session_player_name = 'Player #1'
                 session_player_list.push(session_player_name)
                 player_list_row_element = document.getElementById('player-list')
                 var new_player_col_element = document.createElement('div')
                 new_player_col_element.appendChild(document.createTextNode(session_player_name))
-                player_list_row_element.appendChild(new_player_col_element)
+                player_list_row_element.appendChild(new_player_col_element)                
+                
             }
             else if (role === 'player') {
-                console.log('im just a player, here!')
-                create_container_el.classList.toggle('invisible');
-                lobby_container_el.classList.toggle('invisible');
-                ask_captain_for_game_config_options() // player in lobby
+                if(session_config_loaded == false) {
+                    load_session_state_ui('lobby')
+                    ask_captain_for_game_config_options() // player in lobby
+                }
             }
         }
 
         // CREATED GAME (SUCCESS)
         else if (data['message'] === 'created_game_message') {
             if (role === 'captain') {
-                console.log('GAME CREATED, Transision To LObby NExt.')
-                
+                load_session_state_ui('lobby')
                 session_division = data['text']['division']
                 session_shot_clock = parseInt(data['text']['shot_clock'])
                 // the first time captain recieves question set from player
@@ -121,9 +144,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 console.log('CAPTAINS Qs: ', session_questions)
                 display_game_config_in_lobby()
                 session_config_loaded = true
-
-                create_container_el.classList.toggle('invisible');
-                lobby_container_el.classList.toggle('invisible');
             }        
         }
         else if (data['message'] === 'captain_send_game_config_message') {
@@ -147,8 +167,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }
         else if (data['message'] === 'start_game_message') {
             console.log(game_container_el);
-            game_container_el.classList.toggle('invisible');
-            lobby_container_el.classList.toggle('invisible');
+            load_session_state_ui('game')
             start_game()
         }
         else if (data['message'] === 'player_answer_posted_message') {
