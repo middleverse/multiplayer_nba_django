@@ -4,6 +4,8 @@ from django.shortcuts import render
 from django.http import JsonResponse
 
 from .forms import GameConfigForm
+from .models import Court
+
 # VIEWS
 
 def court(request, court_id, role):
@@ -15,15 +17,9 @@ def court(request, court_id, role):
     })   
 
 def gameform(request):
-    print('REQUEST IN GAMEFORM:', request.POST)
     # TODO: validate form
     form_data = dict(request.POST)
-    print('FORMDATA: ', form_data)
     form = GameConfigForm(form_data)
-    # form.division = 
-    # form.shot_clock = 
-    # print(form.is_bound)
-    # print(form.val) 
     if form.is_valid():
         print('form valid')
         return JsonResponse({'message':'valid'}, status=201)
@@ -32,5 +28,13 @@ def gameform(request):
         return JsonResponse({'message':'invalid'}, status=400)
     return JsonResponse({'message':'working'}, status=201)
 
-def player_information(request):
-    pass
+def get_player_id(request):
+    data = request.POST
+    print(data)
+    court_id = data.get('obtain-form-court-id')
+    if Court.objects.filter(court_id=court_id).exists():
+        court = Court.objects.get(court_id=court_id)
+        generated_player_id = court.add_player()
+        return JsonResponse({'message': {'player_id': generated_player_id}}, status=201)
+    else:    
+        return JsonResponse({'message': 'fooker'}, status=400)

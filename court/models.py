@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 class Team(models.Model):
@@ -118,14 +119,11 @@ class Question(models.Model):
     choice_d = models.CharField(max_length=75)
     answer = models.CharField(max_length=1)
 
-    def get_serialized(self):
-        team_name = self.team.team_name
-        return dict(
-            team_name = self.team.team_name
-        )
+def default_available_id_list():
+    return [0,1,2,3]
 
-    # NOTE: added requried tags if needed
-
+def default_current_player_list():
+    return [-1]      
 
 class Court(models.Model):
     '''
@@ -134,11 +132,25 @@ class Court(models.Model):
     '''
     court_id = models.CharField(primary_key=True, max_length=4)
     capacity = 4
-    available_id = [0,1,2,3]
+    # available_id = [0,1,2,3]
+    available_id = ArrayField(models.IntegerField(), default=default_available_id_list)
+    # available_id = SetCharField(
+    #     base_field=models.IntegerField(),
+    #     size=4,
+    #     max_length=(4*2), # 4 Single digit numbers + commas
+    #     default=DEFAULT_AVAILABLE_IDS,
+    # )
+    
     player_colors = ['blue', 'red', 'green', 'yellow']
     current_size = models.PositiveIntegerField(default=0)
-    current_player_list = []
-   
+    current_player_list = ArrayField(models.IntegerField(), default=default_current_player_list)
+    # current_player_list = SetCharField(
+    #     base_field=models.IntegerField(),
+    #     size=4,
+    #     max_length=(4*2), # 4 Single digit numbers + commas
+    #     default=DEFAULT_CURRENT_PLAYER_LIST
+    # )  
+
     def add_player(self):
         '''
         Adds player if possible.
@@ -151,8 +163,8 @@ class Court(models.Model):
 
         if (self.current_size < 4):
             self.current_size += 1
-            current_player_id = self.available_id.pop(0)
-            self.current_player_list.append(current_player_id)
+            # current_player_id = self.available_id.pop(0)
+            # self.current_player_list.append(current_player_id)
 
         return current_player_id
     
@@ -168,11 +180,12 @@ class Court(models.Model):
 
         if self.current_size > 0 and player_id in self.current_player_list:
             self.current_size -= 1
-            self.current_player_list.remove(player_id)
-            self.available_id.append(player_id)
-            id_removed = player_id
+            # self.current_player_list.remove(player_id)
+            # self.available_id.append(player_id)
+            # id_removed = player_id
 
         return id_removed
 
     def get_current_player_list(self):
+        print(self.current_player_list)
         return self.current_player_list

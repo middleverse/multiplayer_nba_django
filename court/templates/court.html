@@ -14,6 +14,12 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
 {% include "game.html" %}
 
+<form id='obtain-player-id-form' action="{% url 'get_player_id' %}" method='POST' class='invisible'>
+    {% csrf_token %}
+    <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
+    <input type="submit" value='OK'>
+</form>
+
 <script>
     // ================================
     // KEEP AS MUCH JS HERE AS POSSIBLE
@@ -25,10 +31,11 @@ This is court#{{court_id}}. This contains a lobby and a game.
     */
 
     // Session Stuff
+    var session_court_id = '{{court_id}}'
     var role = '{{role}}';
     var session_division = ''
     var session_shot_clock = 10
-    var session_player_name = ''
+    var session_player_id = ''
     var session_player_icon = ''
     var session_questions = []
     var session_config_loaded = false
@@ -93,6 +100,41 @@ This is court#{{court_id}}. This contains a lobby and a game.
     On message recieve functionality
     */
 
+    const obtain_player_id = function() {
+        document.getElementById('obtain-player-id-form').requestSubmit();
+    }
+
+    document.getElementById('obtain-player-id-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const form = event.target
+        const form_data = new FormData(form)
+        const url = form.getAttribute('action')
+        const method = form.getAttribute('method') 
+        const xhr = new XMLHttpRequest()
+        const responseType = 'json'
+        xhr.open(method, url) // make the request 
+        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
+        
+        xhr.onload = function() {
+            if (xhr.status === 201) {
+                const r = xhr.response
+                //r_json = JSON.parse(r)
+                console.log(r)
+                // send a socket message here 
+            }     
+            else {
+                const r = xhr.response
+                console.log(r)
+            }
+        }
+        xhr.onerror = function() {
+                alert("An error has occurred.")
+        }
+        
+        xhr.send(form_data)
+    });  
+
     const court_id = JSON.parse(document.getElementById('court-id').textContent)
     const court_socket = new WebSocket(
         'ws://' 
@@ -113,21 +155,23 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // CREATED COURT (SUCCESS)
         if (data['message'] === 'arrival_message') {
             if (role === 'captain') {
+                obtain_player_id()
                 if(session_config_loaded == 'false') {
                     load_session_state_ui('create')
                 }
-                session_player_name = 'Player #1'
-                session_player_list.push(session_player_name)
+                session_player_id = 0
+                session_player_list.push(session_player_id)
                 player_list_row_element = document.getElementById('player-list')
                 var new_player_col_element = document.createElement('div')
-                new_player_col_element.appendChild(document.createTextNode(session_player_name))
+                new_player_col_element.appendChild(document.createTextNode(session_player_id))
                 player_list_row_element.appendChild(new_player_col_element)                
-                
             }
             else if (role === 'player') {
+                obtain_player_id()
                 if(session_config_loaded == false) {
-                    load_session_state_ui('lobby')
                     ask_captain_for_game_config_options() // player in lobby
+                    load_session_state_ui('lobby')
+                    
                 }
             }
         }
