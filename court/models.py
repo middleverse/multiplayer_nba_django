@@ -123,7 +123,7 @@ def default_available_id_list():
     return [0,1,2,3]
 
 def default_current_player_list():
-    return [-1]      
+    return []      
 
 class Court(models.Model):
     '''
@@ -163,8 +163,8 @@ class Court(models.Model):
 
         if (self.current_size < 4):
             self.current_size += 1
-            # current_player_id = self.available_id.pop(0)
-            # self.current_player_list.append(current_player_id)
+            current_player_id = self.available_id.pop(0)
+            self.current_player_list.append(current_player_id)
 
         return current_player_id
     
@@ -180,9 +180,9 @@ class Court(models.Model):
 
         if self.current_size > 0 and player_id in self.current_player_list:
             self.current_size -= 1
-            # self.current_player_list.remove(player_id)
-            # self.available_id.append(player_id)
-            # id_removed = player_id
+            self.current_player_list.remove(player_id)
+            self.available_id.append(player_id)
+            id_removed = player_id
 
         return id_removed
 
