@@ -347,13 +347,17 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // Current form needs to be reset before loading next question
         question_form_el.reset()
 
-        // Check if round Question Limit Reached
+        // Check if round has ended
         if (round_question_counter > 9) {
             // show end results
             session_question_counter -= 1 // reel back session question counter
             console.log('ROUND ENDED!')
             // Show results
-            
+            if (role === 'captain')
+            {
+
+            }
+            // calculate_and_send_round_results()
         }
 
         // Check if all Questions Exhausted

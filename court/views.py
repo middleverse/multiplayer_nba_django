@@ -23,7 +23,7 @@ def gameform(request):
     # form.division = 
     # form.shot_clock = 
     # print(form.is_bound)
-    # print(form.val)
+    # print(form.val) 
     if form.is_valid():
         print('form valid')
         return JsonResponse({'message':'valid'}, status=201)
@@ -31,3 +31,6 @@ def gameform(request):
         print(form.errors)
         return JsonResponse({'message':'invalid'}, status=400)
     return JsonResponse({'message':'working'}, status=201)
+
+def player_information(request):
+    pass
