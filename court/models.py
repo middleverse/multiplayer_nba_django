@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
+
+# TEAM MODEL
+# ----------
 class Team(models.Model):
     '''
     Represents an NBA Team,
@@ -104,7 +107,8 @@ class Team(models.Model):
         elif self.team_name in self.OTHER_DIV:
             self.division_name = 'OTHER'
 
-
+# QUESTION MODEL
+# --------------
 class Question(models.Model):
     '''
     Represents a question statement,
@@ -119,6 +123,10 @@ class Question(models.Model):
     choice_d = models.CharField(max_length=75)
     answer = models.CharField(max_length=1)
 
+
+
+# COURT MODEL
+# -----------
 def default_available_id_list():
     return [0,1,2,3]
 
@@ -132,24 +140,10 @@ class Court(models.Model):
     '''
     court_id = models.CharField(primary_key=True, max_length=4)
     capacity = 4
-    # available_id = [0,1,2,3]
     available_id = ArrayField(models.IntegerField(), default=default_available_id_list)
-    # available_id = SetCharField(
-    #     base_field=models.IntegerField(),
-    #     size=4,
-    #     max_length=(4*2), # 4 Single digit numbers + commas
-    #     default=DEFAULT_AVAILABLE_IDS,
-    # )
-    
     player_colors = ['blue', 'red', 'green', 'yellow']
     current_size = models.PositiveIntegerField(default=0)
     current_player_list = ArrayField(models.IntegerField(), default=default_current_player_list)
-    # current_player_list = SetCharField(
-    #     base_field=models.IntegerField(),
-    #     size=4,
-    #     max_length=(4*2), # 4 Single digit numbers + commas
-    #     default=DEFAULT_CURRENT_PLAYER_LIST
-    # )  
 
     def add_player(self):
         '''
@@ -167,7 +161,6 @@ class Court(models.Model):
             self.current_player_list.append(current_player_id)
 
         return current_player_id
-    
 
     def remove_player(self, player_id):
         '''
