@@ -175,6 +175,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
             'text' : event['message'],
     }))
 
+    async def player_disconnected_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+    }))
+
     async def message_unbound(self, event): 
         print('Message Unbound')
 

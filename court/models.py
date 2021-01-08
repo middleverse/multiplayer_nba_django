@@ -159,7 +159,6 @@ class Court(models.Model):
             self.current_size += 1
             current_player_id = self.available_id.pop(0)
             self.current_player_list.append(current_player_id)
-
         return current_player_id
 
     def remove_player(self, player_id):
@@ -176,7 +175,8 @@ class Court(models.Model):
             self.current_player_list.remove(player_id)
             self.available_id.append(player_id)
             id_removed = player_id
-
+        else:
+            print('Error, player id does not exit')
         return id_removed
 
     def get_current_player_list(self):
