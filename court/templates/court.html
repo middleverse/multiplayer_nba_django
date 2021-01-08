@@ -286,6 +286,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         else if (data['message'] === 'start_game_message') {
             console.log(game_container_el);
             load_session_state_ui('game')
+            
             start_game()
         }
         else if (data['message'] === 'player_answer_posted_message') {
@@ -319,6 +320,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             if (round_results_recieved_counter == session_player_list.length)
             {   
                 console.log('ALL RESULTS RECIEVED. Switching to results view.')
+                build_results_in_ui()
                 load_session_state_ui('results')
                 console.log(round_end_players_results_tracker)
             }
@@ -581,6 +583,56 @@ This is court#{{court_id}}. This contains a lobby and a game.
     Hide game template
     Show lobby template
     */
+
+    var round_question_set_size = 4
+
+    const build_results_in_ui = function() {
+        console.log("building results with: ", round_end_players_results_tracker)
+        var i;
+        // Build a box for each question
+        for (i=0; i < round_question_set_size; i++)
+        {
+            build_question_ui(i)
+        }
+        
+        // For each element in results player tracker
+        // add the question
+        // add the answers
+        // show incorrect and correct players
+    }
+
+    
+    const build_question_ui = function(q_counter) {
+        calculated_question_id = session_question_counter - round_question_set_size + 1 + q_counter
+        console.log('CALCD Q ID: ', calculated_question_id)
+        calculated_question = session_questions[calculated_question_id]
+        // Append question
+        q_text = document.createTextNode(calculated_question['question'])
+        q_h4 = document.createElement('h4')
+        q_h4.appendChild(q_text)
+        results_container_el.appendChild(q_h4)        
+        // append each answer
+        // c_a_p_text = document.createTextNode(calculated_question['c_a'])
+        // c_b_p_text = document.createTextNode(calculated_question['c_b'])
+        // c_c_p_text = document.createTextNode(calculated_question['c_c'])
+        // c_d_p_text = document.createTextNode(calculated_question['c_d'])
+        c_a_p = document.createElement('P')
+        c_b_p = document.createElement('P')
+        c_c_p = document.createElement('P')
+        c_d_p = document.createElement('P')
+        c_a_p.appendChild(document.createTextNode(calculated_question['c_a']))
+        c_b_p.appendChild(document.createTextNode(calculated_question['c_b']))
+        c_c_p.appendChild(document.createTextNode(calculated_question['c_c']))
+        c_d_p.appendChild(document.createTextNode(calculated_question['c_d']))
+        results_container_el.appendChild(c_a_p)
+        results_container_el.appendChild(c_b_p)
+        results_container_el.appendChild(c_c_p)       
+        results_container_el.appendChild(c_d_p)
+            // highlight correct answer
+        // append incorrect
+            // append all incorrect players
+            // append all correct players
+    }
 
     document.getElementById('end-game').addEventListener('click', function(event) {
         event.preventDefault();
