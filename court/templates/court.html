@@ -120,6 +120,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
     On message recieve functionality
     */
 
+    // TODO we'll have to separate this into removal and addition
+    const update_player_list_ui = function(new_player_id) {
+        console.log('UI PLAYER LIST ADDED ELEM IMAGINE!')
+        player_list_row_element = document.getElementById('player-list')
+        var new_player_col_element = document.createElement('div')
+        new_player_col_element.appendChild(document.createTextNode('Player#' + new_player_id))
+        player_list_row_element.appendChild(new_player_col_element)     
+    }
+
     const broadcast_my_player_id = function() {
         console.log('BROADCASTING ID: ', session_player_id)
         court_socket.send(JSON.stringify({
@@ -199,11 +208,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
                     load_session_state_ui('create')
                 }
                 // TODO: do something about this 
-                // all this keeps getting repeated everyone time someone arrives
-                player_list_row_element = document.getElementById('player-list')
-                var new_player_col_element = document.createElement('div')
-                new_player_col_element.appendChild(document.createTextNode(session_player_id))
-                player_list_row_element.appendChild(new_player_col_element)                
+                // all this keeps getting repeated everyone time someone arrives           
             }
             else if (role === 'player') {
                 if(session_config_loaded == false) {
@@ -217,6 +222,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // BROADCASTED PLAYER ID RECIEVED
         else if (data['message'] === 'player_id_broadcast_message') {
             session_player_list.push(data['text']['player_id'])
+            update_player_list_ui(data['text']['player_id'])
         }
 
         // CREATED GAME (SUCCESS)
