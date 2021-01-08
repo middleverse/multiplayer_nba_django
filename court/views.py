@@ -1,7 +1,8 @@
 import json
-from django.utils.crypto import get_random_string
 from django.shortcuts import render
 from django.http import JsonResponse
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 
 from .forms import GameConfigForm
 from .models import Court
@@ -44,16 +45,28 @@ def get_player_id(request):
 def leave_court(request):
     form_data = dict(request.POST)
     court_id = form_data.get('court_id')[0]
-    player_id = form_data.get('player_id')[0]
+    player_id = int(form_data.get('player_id')[0])
     player_role = form_data.get('player_role')[0]
     if Court.objects.filter(court_id=court_id).exists():
         print('HERE DELETE', type(player_id))
         court = Court.objects.get(court_id=court_id)
-        court.remove_player(int(player_id))
+        court.remove_player(player_id)
         court.save()
     else:
         print('Court Id not found')
+    broadcast_player_exit(court_id, player_id, player_role)
     return JsonResponse({'message': 'player left'}, status=202)
 
-def remove_player_helper(court_id):
-    pass
+def broadcast_player_exit(court_id, player_id, player_role):
+    court_group_name = 'court_%s' % court_id
+    layer = get_channel_layer()
+    async_to_sync(layer.group_send)(
+        court_group_name,
+        {
+        'type': 'player_exit_broadcast_message',
+        'message': {
+            'player_id': player_id,
+            'player_role': player_role,
+            }
+        }
+    ), 
