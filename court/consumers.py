@@ -31,6 +31,15 @@ class CourtConsumer(AsyncWebsocketConsumer):
         )   
 
     async def disconnect(self, close_code):
+        group_message = {
+            'type': 'player_disconnected_message',
+            'message': self.channel_name,
+        }
+        
+        await self.channel_layer.group_send(
+            self.court_group_name, group_message
+        )   
+
         await self.channel_layer.group_discard(
             self.court_group_name,
             self.channel_name,    

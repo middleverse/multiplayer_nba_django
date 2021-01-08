@@ -35,6 +35,21 @@ def get_player_id(request):
     if Court.objects.filter(court_id=court_id).exists():
         court = Court.objects.get(court_id=court_id)
         generated_player_id = court.add_player()
+        court.save()
+        print('ID GP: ', generated_player_id, court_id)
         return JsonResponse({'message': {'player_id': generated_player_id}}, status=201)
     else:    
         return JsonResponse({'message': 'fooker'}, status=400)
+
+def leave_court(request):
+    form_data = dict(request.POST)
+    court_id = form_data.get('court_id')[0]
+    player_id = form_data.get('player_id')[0]
+    player_role = form_data.get('player_role')[0]
+    if Court.objects.filter(court_id=court_id).exists():
+        court = Court.objects.get(court_id=court_id)
+        court.remove_player(player_id)
+        court.save()
+    else:
+        print('Court Id not found')
+    return JsonResponse({'message': 'player left'}, status=202)

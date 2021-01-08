@@ -4,6 +4,8 @@
 
 This is court#{{court_id}}. This contains a lobby and a game.
 
+<button onclick="leave_game()">QUIT</button>
+
 <h3>{{ role }}</h3>
 
 {{ court_id|json_script:"court-id" }}
@@ -93,6 +95,24 @@ This is court#{{court_id}}. This contains a lobby and a game.
         session_state = _state
     }
 
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    const csrftoken = getCookie('csrftoken');
+
     /* 
     WEBSOCKET CONNECT & CREATE COURT
     --------------------------------
@@ -131,9 +151,48 @@ This is court#{{court_id}}. This contains a lobby and a game.
         xhr.onerror = function() {
                 alert("An error has occurred.")
         }
-        
         xhr.send(form_data)
     });  
+
+    window.onunload = function leave_game(e) {
+        session_exit_form_data = new FormData()
+        session_exit_form_data.append("csrfmiddlewaretoken", csrftoken)
+        session_exit_form_data.append('court_id', session_court_id)
+        session_exit_form_data.append('player_id', session_player_id)
+        session_exit_form_data.append("player_role", role)
+        navigator.sendBeacon('/court/leave_court/', session_exit_form_data)
+    }
+
+    const remove_me_from_player_list = function() {
+        data = JSON.stringify({ 
+            'court_id': session_court_id,
+            'player_id': session_player_id,
+        });
+        const url = '/court/leave_court/'
+        const method = 'POST' 
+        const xhr = new XMLHttpRequest()
+        const responseType = 'json'
+        xhr.open(method, url) // make the request 
+        xhr.setRequestHeader("Content-Type", "application/json")
+        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
+        xhr.setRequestHeader('X-CSRFToken', csrftoken)
+
+        xhr.onload = function() {
+            if (xhr.status === 202) {
+                const r = xhr.response
+                //r_json = JSON.parse(r)
+                console.log(r)
+                // send a socket message here 
+            }     
+            else {
+                const r = xhr.response
+                console.log(r)
+            }
+        }
+        
+        xhr.send(data)        
+    }
 
     const court_id = JSON.parse(document.getElementById('court-id').textContent)
     const court_socket = new WebSocket(
@@ -146,6 +205,9 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     court_socket.onerror = function(e) {
         console.log(e)
+    }
+
+    court_socket.onclose = function(e) {
     }
 
     court_socket.onmessage = function(e) {
