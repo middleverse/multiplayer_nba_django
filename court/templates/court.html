@@ -577,6 +577,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
         round_question_counter = -1
         round_results_recieved_counter = 0
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
+        round_end_players_results_tracker = []
+
         load_session_state_ui('game')
         load_next_question()
         
@@ -612,8 +614,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         for (i=0; i < round_question_set_size; i++)
         {
             build_question_ui(i)
-        }
-        
+        }        
         // For each element in results player tracker
         // add the question
         // add the answers
