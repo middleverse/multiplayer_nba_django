@@ -96,6 +96,16 @@ class CourtConsumer(AsyncWebsocketConsumer):
                 }
             }
 
+        # PLAYER ID BROADCAST - sent by any
+        elif message_type == 'player_id_broadcast':
+            player_id = json_data['player_id']
+            group_message = {
+                'type': 'player_id_broadcast_message',
+                'message': {
+                    'player_id': player_id
+                }
+            }
+    
         # START GAME - sent by captain
         elif message_type == 'start_game':
             group_message = {
@@ -152,6 +162,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
         }))    
     
     async def player_load_lobby_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+        }))
+
+    async def player_id_broadcast_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
             'text' : event['message'],

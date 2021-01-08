@@ -120,6 +120,14 @@ This is court#{{court_id}}. This contains a lobby and a game.
     On message recieve functionality
     */
 
+    const broadcast_my_player_id = function() {
+        console.log('BROADCASTING ID: ', session_player_id)
+        court_socket.send(JSON.stringify({
+            'message_type': 'player_id_broadcast',
+            'player_id': session_player_id,
+        }));
+    }
+
     const obtain_player_id = function() {
         document.getElementById('obtain-player-id-form').requestSubmit();
     }
@@ -140,18 +148,13 @@ This is court#{{court_id}}. This contains a lobby and a game.
             if (xhr.status === 201) {
                 const r = xhr.response
                 r_json = JSON.parse(r)
-                console.log(r_json)
                 session_player_id = r_json.message.player_id
-                console.log('SET ID: ', session_player_id)
-                // NOTE: Player id list is updated in broadcasted message for all
+                broadcast_my_player_id()
             }     
             else {
                 const r = xhr.response
                 console.log(r)
             }
-        }
-        xhr.onerror = function() {
-                alert("An error has occurred.")
         }
         xhr.send(form_data)
     });  
@@ -164,39 +167,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
         session_exit_form_data.append("player_role", role)
         navigator.sendBeacon('/court/leave_court/', session_exit_form_data)
     }
-
-/*
-    const remove_me_from_player_list = function() {
-        data = JSON.stringify({ 
-            'court_id': session_court_id,
-            'player_id': session_player_id,
-        });
-        const url = '/court/leave_court/'
-        const method = 'POST' 
-        const xhr = new XMLHttpRequest()
-        const responseType = 'json'
-        xhr.open(method, url) // make the request 
-        xhr.setRequestHeader("Content-Type", "application/json")
-        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
-        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
-        xhr.setRequestHeader('X-CSRFToken', csrftoken)
-
-        xhr.onload = function() {
-            if (xhr.status === 202) {
-                const r = xhr.response
-                //r_json = JSON.parse(r)
-                console.log(r)
-                // send a socket message here 
-            }     
-            else {
-                const r = xhr.response
-                console.log(r)
-            }
-        }
-        
-        xhr.send(data)        
-    }
- */   
 
     const court_id = JSON.parse(document.getElementById('court-id').textContent)
     const court_socket = new WebSocket(
@@ -228,8 +198,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 if(session_config_loaded == 'false') {
                     load_session_state_ui('create')
                 }
-                session_player_id = 0
-                session_player_list.push(session_player_id)
+                // TODO: do something about this 
+                // all this keeps getting repeated everyone time someone arrives
                 player_list_row_element = document.getElementById('player-list')
                 var new_player_col_element = document.createElement('div')
                 new_player_col_element.appendChild(document.createTextNode(session_player_id))
@@ -242,6 +212,11 @@ This is court#{{court_id}}. This contains a lobby and a game.
                     
                 }
             }
+        }
+        
+        // BROADCASTED PLAYER ID RECIEVED
+        else if (data['message'] === 'player_id_broadcast_message') {
+            session_player_list.push(data['text']['player_id'])
         }
 
         // CREATED GAME (SUCCESS)
