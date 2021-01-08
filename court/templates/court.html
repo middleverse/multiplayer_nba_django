@@ -285,8 +285,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }
         else if (data['message'] === 'start_game_message') {
             console.log(game_container_el);
-            load_session_state_ui('game')
-            
+            //load_session_state_ui('game') // call moved inside start_new_round()
             start_game()
         }
         else if (data['message'] === 'player_answer_posted_message') {
@@ -324,6 +323,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 load_session_state_ui('results')
                 console.log(round_end_players_results_tracker)
             }
+        }
+
+        else if (data['message'] === 'start_new_round_message') {
+            start_new_round()
         }
 
         else if (data['message'] === 'player_exit_broadcast_message') {
@@ -555,6 +558,13 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }));
     }
 
+    const tell_players_to_start_new_round = function() {
+        console.log('telling players to start new round')
+        court_socket.send(JSON.stringify({
+            'message_type': 'tell_player_start_new_round'
+        }))
+    }
+
     const start_new_round = function() {
         // for now lets load a question
         if (session_question_counter > session_questions.length - 1)
@@ -567,6 +577,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         round_question_counter = -1
         round_results_recieved_counter = 0
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
+        load_session_state_ui('game')
         load_next_question()
         
     }
@@ -585,8 +596,16 @@ This is court#{{court_id}}. This contains a lobby and a game.
     */
 
     var round_question_set_size = 4
+    var results_questions_wrapper_el = document.getElementById('results-questions-outer-container')
+    var results_questions_container_el = document.getElementById('results-questions-inner-container')
 
     const build_results_in_ui = function() {
+        // refresh UI
+        results_questions_container_el.remove()
+        results_questions_container_el = document.createElement('div')
+        results_questions_container_el.setAttribute('id', 'results-questions-inner-container')
+        results_questions_wrapper_el.appendChild(results_questions_container_el)
+
         console.log("building results with: ", round_end_players_results_tracker)
         var i;
         // Build a box for each question
@@ -610,7 +629,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         q_text = document.createTextNode(calculated_question['question'])
         q_h4 = document.createElement('h4')
         q_h4.appendChild(q_text)
-        results_container_el.appendChild(q_h4)        
+        results_questions_container_el.appendChild(q_h4)        
         // append each answer
         // c_a_p_text = document.createTextNode(calculated_question['c_a'])
         // c_b_p_text = document.createTextNode(calculated_question['c_b'])
@@ -624,10 +643,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
         c_b_p.appendChild(document.createTextNode(calculated_question['c_b']))
         c_c_p.appendChild(document.createTextNode(calculated_question['c_c']))
         c_d_p.appendChild(document.createTextNode(calculated_question['c_d']))
-        results_container_el.appendChild(c_a_p)
-        results_container_el.appendChild(c_b_p)
-        results_container_el.appendChild(c_c_p)       
-        results_container_el.appendChild(c_d_p)
+        results_questions_container_el.appendChild(c_a_p)
+        results_questions_container_el.appendChild(c_b_p)
+        results_questions_container_el.appendChild(c_c_p)       
+        results_questions_container_el.appendChild(c_d_p)
             // highlight correct answer
         // append player status
         incorrect_answer_p = document.createElement('P')
@@ -641,8 +660,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
             if (p_q_result == 1) { correct_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
             else { incorrect_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
         }   
-        results_container_el.appendChild(correct_answer_p)
-        results_container_el.appendChild(incorrect_answer_p)
+        results_questions_container_el.appendChild(correct_answer_p)
+        results_questions_container_el.appendChild(incorrect_answer_p)
     }
 
     document.getElementById('end-game').addEventListener('click', function(event) {

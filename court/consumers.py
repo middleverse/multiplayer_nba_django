@@ -112,7 +112,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
         elif message_type == 'start_game':
             group_message = {
                 'type': 'start_game_message',
-                'message': 'start round'
+                'message': 'start game'
             }
         
         # PLAYER ANSWER - sent by any
@@ -138,6 +138,13 @@ class CourtConsumer(AsyncWebsocketConsumer):
                     'player_id': player_id,
                     'round_results': round_results,
                 }
+            }
+
+        # START NEW ROUND - sent by captain   
+        elif message_type == 'tell_player_start_new_round':
+            group_message = {
+                'type': 'start_new_round_message',
+                'message': 'start new round!'
             }
 
         await self.channel_layer.group_send(
@@ -211,6 +218,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
             'text' : event['message'],
     }))
 
+    async def start_new_round_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+    }))
+
     async def player_disconnected_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
@@ -222,6 +235,8 @@ class CourtConsumer(AsyncWebsocketConsumer):
             'message': event['type'],
             'text' : event['message'],
     }))
+
+
 
     async def message_unbound(self, event): 
         print('Message Unbound')
