@@ -87,12 +87,14 @@ class CourtConsumer(AsyncWebsocketConsumer):
             division = json_data['division']
             shot_clock = json_data['shot_clock']
             question_set = json_data['question_set']
+            player_list = json_data['player_list']
             group_message = {
                 'type': 'player_load_lobby_message',
                 'message': {
                     'shot_clock': shot_clock,
                     'division': division,
                     'question_set': question_set,
+                    'player_list': player_list,
                 }
             }
 

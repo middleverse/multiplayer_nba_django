@@ -49,7 +49,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var session_current_question = {}
     
     var round_results_tracker = [0,0,0,0,0,0,0,0,0,0] // list of dicts
-    var round_player_answer_total = 0
+    var question_player_answer_total = 0 // # of players that have answered current q
+    var round_results_recieved_counter = 0 // # of players who sent round results 
     /*
         results tracker dict map examples
         0 - incorrect answer
@@ -119,6 +120,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
     Start a connection
     On message recieve functionality
     */
+
+    // Called only by player on arrival, when cap sends initial player list
+    const load_initial_player_list  = function(player_id_list) {
+        console.log('Loading initial player list')
+        // TODO: May need to be changed in order to make sure we're not s
+        // adding a player that's already in there
+        session_player_list = player_id_list
+        player_id_list.forEach(p_id => update_player_list_ui(p_id))
+    }
 
     // TODO we'll have to separate this into removal and addition
     const update_player_list_ui = function(new_player_id) {
@@ -214,15 +224,18 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 if(session_config_loaded == false) {
                     ask_captain_for_game_config_options() // player in lobby
                     load_session_state_ui('lobby')
-                    
                 }
             }
         }
         
         // BROADCASTED PLAYER ID RECIEVED
         else if (data['message'] === 'player_id_broadcast_message') {
-            session_player_list.push(data['text']['player_id'])
-            update_player_list_ui(data['text']['player_id'])
+            player_id = data['text']['player_id']
+            if (session_player_list.indexOf(player_id) == -1)
+            {
+                session_player_list.push(data['text']['player_id'])
+                update_player_list_ui(data['text']['player_id'])
+            }
         }
 
         // CREATED GAME (SUCCESS)
@@ -239,11 +252,15 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 session_config_loaded = true
             }        
         }
+
+        // ONLY NEEDED BY CAPTAIN to send config info
         else if (data['message'] === 'captain_send_game_config_message') {
             if (role == 'captain') {
                 send_game_config_options()
             }
         }
+
+        // PLAYER LOAD LOBBY - recieved when captain sends config info
         else if (data['message'] === 'player_load_lobby_message') {
             if (role === 'player') {
                 if (session_config_loaded === false) {
@@ -251,8 +268,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
                     session_division = data_parsed['division']
                     session_shot_clock = parseInt(data_parsed['shot_clock'])
                     session_questions = data_parsed['question_set']
+                    session_player_list = data_parsed['player_list']
                     console.log('PLAYERS Qs: ', session_questions)
                     display_game_config_in_lobby()
+                    load_initial_player_list(session_player_list)
                     session_config_loaded = true
                 }
                 
@@ -265,9 +284,9 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }
         else if (data['message'] === 'player_answer_posted_message') {
             if (role === 'captain') {
-                round_player_answer_total += 1
+                question_player_answer_total += 1
                 // if all player's have answered then move to next question
-                if (round_player_answer_total === session_player_list.length) {
+                if (question_player_answer_total === session_player_list.length) {
                     console.log('everyone has answered.')
                     tell_players_to_load_next_question()
                     
@@ -283,6 +302,13 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // A PLAYER'S ROUND RESULTS RECIEVED
         else if (data['message'] === 'player_round_results_broadcast_message') {
             console.log(data['text'])
+            round_results_recieved_counter += 1
+            console.log('SPL: ', session_player_list)
+            console.log('RRRC: ', round_results_recieved_counter)
+            if (round_results_recieved_counter == session_player_list.length)
+            {
+                console.log('ALL RESULTS RECIEVED. Switching to results view.')
+            }
         }
 
         else if (data['message'] === 'player_exit_broadcast_message') {
@@ -361,6 +387,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             'shot_clock': session_shot_clock,
             'division': session_division,
             'question_set': session_questions,
+            'player_list': session_player_list,
         }));
     }
 
@@ -449,7 +476,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // Update Question Counters
         session_question_counter += 1
         round_question_counter += 1
-        round_player_answer_total = 0
+        question_player_answer_total = 0
 
         // Current form needs to be reset before loading next question
         question_form_el.reset()
@@ -523,6 +550,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             // AKA TODO
         }
         round_question_counter = -1
+        round_results_recieved_counter = 0
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
         load_next_question()
         
