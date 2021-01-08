@@ -16,6 +16,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
 {% include "game.html" %}
 
+{% include "results.html" %}
+
 <form id='obtain-player-id-form' action="{% url 'get_player_id' %}" method='POST' class='invisible'>
     {% csrf_token %}
     <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
@@ -51,6 +53,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     var round_results_tracker = [0,0,0,0,0,0,0,0,0,0] // list of dicts
     var question_player_answer_total = 0 // # of players that have answered current q
     var round_results_recieved_counter = 0 // # of players who sent round results 
+    var round_end_players_results_tracker = []
     /*
         results tracker dict map examples
         0 - incorrect answer
@@ -73,12 +76,14 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const game_container_el = document.getElementById('game-container')
     const question_form_el = document.getElementById('question-form')
     const question_form_fieldset_el = question_form_el.elements.namedItem('question-form-fieldset')
-
+    const results_container_el = document.getElementById('results-container')
 
     const load_session_state_ui = function(_state) {
         if (create_container_el.classList.contains('invisible') == false) create_container_el.classList.toggle('invisible');
         if (lobby_container_el.classList.contains('invisible') == false) lobby_container_el.classList.toggle('invisible');
         if (game_container_el.classList.contains('invisible') == false) game_container_el.classList.toggle('invisible');
+        if (results_container_el.classList.contains('invisible') == false) results_container_el.classList.toggle('invisible');
+        
         //if (create_container_el.classList.contains('invisible')) create_container_el.classList.toggle('invisible');
         
         console.log('STATE: ', _state);
@@ -88,7 +93,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
             lobby_container_el.classList.toggle('invisible')
         } else if (_state == 'game') {
             game_container_el.classList.toggle('invisible');
-        } else if (_state == 'endgame') {
+        } else if (_state == 'results') {
+            results_container_el.classList.toggle('invisible');
             // TODO
         } else {
             console.log('incorrect state!')
@@ -305,9 +311,16 @@ This is court#{{court_id}}. This contains a lobby and a game.
             round_results_recieved_counter += 1
             console.log('SPL: ', session_player_list)
             console.log('RRRC: ', round_results_recieved_counter)
+            round_end_players_results_tracker.push({
+                'player_id': data['text']['player_id'],
+                'round_results': data['text']['round_results']
+            });
+            
             if (round_results_recieved_counter == session_player_list.length)
-            {
+            {   
                 console.log('ALL RESULTS RECIEVED. Switching to results view.')
+                load_session_state_ui('results')
+                console.log(round_end_players_results_tracker)
             }
         }
 
