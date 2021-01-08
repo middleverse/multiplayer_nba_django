@@ -629,9 +629,20 @@ This is court#{{court_id}}. This contains a lobby and a game.
         results_container_el.appendChild(c_c_p)       
         results_container_el.appendChild(c_d_p)
             // highlight correct answer
-        // append incorrect
-            // append all incorrect players
-            // append all correct players
+        // append player status
+        incorrect_answer_p = document.createElement('P')
+        correct_answer_p = document.createElement('P')
+        incorrect_answer_p.appendChild(document.createTextNode('Incorrect: '))
+        correct_answer_p.appendChild(document.createTextNode('Correct: '))
+        for(i=0; i < round_end_players_results_tracker.length; i++) {
+            player_results_map = round_end_players_results_tracker[i]
+            p_id = player_results_map['player_id']
+            p_q_result = player_results_map['round_results'][q_counter]
+            if (p_q_result == 1) { correct_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
+            else { incorrect_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
+        }   
+        results_container_el.appendChild(correct_answer_p)
+        results_container_el.appendChild(incorrect_answer_p)
     }
 
     document.getElementById('end-game').addEventListener('click', function(event) {
