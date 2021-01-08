@@ -113,7 +113,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
                 'message': 'start round'
             }
         
-        # PLAYER ANSWERS (END OF ROUND) - sent by any
+        # PLAYER ANSWER - sent by any
         elif message_type == 'player_answer':
             group_message = {
                 'type': 'player_answer_posted_message',
@@ -124,6 +124,18 @@ class CourtConsumer(AsyncWebsocketConsumer):
             group_message = {
                 'type': 'load_next_question_message',
                 'message': 'load q'
+            }
+
+        # PLAYER ROUND RESULTS - sent by any
+        elif message_type == 'player_round_results_broadcast':
+            player_id = json_data['player_id']
+            round_results = json_data['round_results']
+            group_message = {
+                'type': 'player_round_results_broadcast_message',
+                'message': {
+                    'player_id': player_id,
+                    'round_results': round_results,
+                }
             }
 
         await self.channel_layer.group_send(
@@ -186,6 +198,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
     }))
 
     async def load_next_question_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+    }))
+
+    async def player_round_results_broadcast_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
             'text' : event['message'],

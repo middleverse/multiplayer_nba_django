@@ -279,6 +279,12 @@ This is court#{{court_id}}. This contains a lobby and a game.
         else if (data['message'] === 'load_next_question_message') {
             load_next_question()
         }
+        
+        // A PLAYER'S ROUND RESULTS RECIEVED
+        else if (data['message'] === 'player_round_results_broadcast_message') {
+            console.log(data['text'])
+        }
+
         else if (data['message'] === 'player_exit_broadcast_message') {
             exited_player_id = data['text']['player_id']
             exited_player_role = data['text']['player_role']
@@ -418,25 +424,21 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }));
     });
 
+
+    const broadcast_my_round_results = function() {
+        court_socket.send(JSON.stringify({
+            'message_type': 'player_round_results_broadcast',
+            'player_id': session_player_id,
+            'round_results': round_results_tracker
+        }));
+    }
+
     const load_question_details = function() {
         question_form_el.elements.namedItem('a').labels[0].textContent = session_current_question['c_a']
         question_form_el.elements.namedItem('b').labels[0].textContent = session_current_question['c_b']
         question_form_el.elements.namedItem('c').labels[0].textContent = session_current_question['c_c']
         question_form_el.elements.namedItem('d').labels[0].textContent = session_current_question['c_d'] 
     }
-
-    /*
-        results tracker dict map examples
-        0 - incorrect answer
-        1 - correct answer
-        {
-            'id': 'question_id',
-            'player_1': '1',
-            'player_2': '1',
-            'player_3': '0',
-            'player_4': '1',
-        }
-    */
 
     const load_next_question = function() {
         
@@ -453,7 +455,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
         question_form_el.reset()
 
         // Check if round has ended
-        if (round_question_counter > 9) {
+        if (round_question_counter > 3) {
             // show end results
             session_question_counter -= 1 // reel back session question counter
             console.log('ROUND ENDED!')
@@ -462,6 +464,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             {
 
             }
+            broadcast_my_round_results()
             // calculate_and_send_round_results()
         }
 
@@ -493,7 +496,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 question_form_fieldset_el.disabled = true;  
                 
                 // SC ended (next question must be loaded for "everyone")
-                // TODO Send a court_socket_message that SC ended
                 if (role === 'captain') {
                     tell_players_to_load_next_question()
                 }
@@ -521,6 +523,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             // AKA TODO
         }
         round_question_counter = -1
+        round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
         load_next_question()
         
     }
