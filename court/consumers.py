@@ -76,7 +76,7 @@ class CourtConsumer(AsyncWebsocketConsumer):
             }
 
         # LOAD CONFIG - sent by player
-        elif message_type == 'load_game_config':
+        elif message_type == 'ask_for_game_config':
             group_message = {
                 'type': 'captain_send_game_config_message',
                 'message': 'player requestion game config',
@@ -145,6 +145,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
             group_message = {
                 'type': 'start_new_round_message',
                 'message': 'start new round!'
+            }
+
+        elif message_type == 'game_ended':
+            group_message = {
+                'type': 'game_ended_message',
+                'message': 'captain says game ended!'
             }
 
         await self.channel_layer.group_send(
@@ -219,6 +225,12 @@ class CourtConsumer(AsyncWebsocketConsumer):
     }))
 
     async def start_new_round_message(self, event):
+        await self.send(text_data=json.dumps({
+            'message': event['type'],
+            'text' : event['message'],
+    }))
+
+    async def game_ended_message(self, event):
         await self.send(text_data=json.dumps({
             'message': event['type'],
             'text' : event['message'],

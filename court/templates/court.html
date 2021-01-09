@@ -4,8 +4,6 @@
 
 This is court#{{court_id}}. This contains a lobby and a game.
 
-<button onclick="leave_game()">QUIT</button>
-
 <h3>{{ role }}</h3>
 
 {{ court_id|json_script:"court-id" }}
@@ -257,6 +255,9 @@ This is court#{{court_id}}. This contains a lobby and a game.
                 display_game_config_in_lobby()
                 session_config_loaded = true
             }        
+            else if (role === 'player') {
+                ask_captain_for_game_config_options()
+            }
         }
 
         // ONLY NEEDED BY CAPTAIN to send config info
@@ -328,6 +329,17 @@ This is court#{{court_id}}. This contains a lobby and a game.
         else if (data['message'] === 'start_new_round_message') {
             start_new_round()
         }
+        
+        else if (data['message'] === 'game_ended_message') {
+            session_config_loaded = false
+            if (role === 'player') {
+                // go to lobbby
+                load_session_state_ui('lobby')
+            } else {
+                // go to create_game
+                load_session_state_ui('create')
+            }
+        }
 
         else if (data['message'] === 'player_exit_broadcast_message') {
             exited_player_id = data['text']['player_id']
@@ -395,7 +407,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     const ask_captain_for_game_config_options = function() {
         court_socket.send(JSON.stringify({
-            'message_type': 'load_game_config',
+            'message_type': 'ask_for_game_config',
         }));
     }
 
@@ -578,7 +590,6 @@ This is court#{{court_id}}. This contains a lobby and a game.
         round_results_recieved_counter = 0
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
         round_end_players_results_tracker = []
-
         load_session_state_ui('game')
         load_next_question()
         
@@ -591,7 +602,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     }
 
     /* 
-    END GAME
+    RESULTS & END GAME
     --------
     Hide game template
     Show lobby template
@@ -663,6 +674,18 @@ This is court#{{court_id}}. This contains a lobby and a game.
         }   
         results_questions_container_el.appendChild(correct_answer_p)
         results_questions_container_el.appendChild(incorrect_answer_p)
+    }
+
+    const captain_end_game = function() {
+        if (role === 'captain') { 
+            // let everyone else know to go to lobby
+            court_socket.send(JSON.stringify({
+                'message_type': 'game_ended' 
+            }));
+
+            // go to create_game mode for captain
+
+        }
     }
 
     document.getElementById('end-game').addEventListener('click', function(event) {
