@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
 
+{% block navbar %}
+  {% include 'index_navbar.html' %}
+{% endblock navbar %}
+
 {% block content %}
   <body>
+  <div class='container'>
     <h1>Welcome To Run And Gun</h1>
     <a id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
     <a id="faq">FAQ</a>
@@ -14,47 +19,47 @@
     </form>
 
     <div id='redirect-error-msg'></div>
+  </div>
+<script>
 
-    <script>
+const show_join_error_message = function(e) {
+  alert(e)
+  document.getElementById('redirect-error-msg').innerContent = e
+}
 
-    const show_join_error_message = function(e) {
-      alert(e)
-      document.getElementById('redirect-error-msg').innerContent = e
+document.getElementById('join-game-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const form = event.target
+    const form_data = new FormData(form)
+    const court_id = form_data.get('court_id')
+    const url = form.getAttribute('action')
+    const method = form.getAttribute('method') 
+    const xhr = new XMLHttpRequest()
+    const responseType = 'json'
+    xhr.open(method, url) // make the request 
+    xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
+    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
+    
+    xhr.onload = function() {
+        if (xhr.status === 201) {
+            r = xhr.response
+            r_json = JSON.parse(r)
+            window.location.href = '/court/'
+                                  + r_json['message']['court_id']
+                                  + '/'
+                                  + r_json['message']['role']
+                                  + '/'
+        }     
+        else {
+            err_json = JSON.parse(xhr.response)
+            show_join_error_message(err_json['message'])
+        }
     }
-
-    document.getElementById('join-game-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const form = event.target
-        const form_data = new FormData(form)
-        const court_id = form_data.get('court_id')
-        const url = form.getAttribute('action')
-        const method = form.getAttribute('method') 
-        const xhr = new XMLHttpRequest()
-        const responseType = 'json'
-        xhr.open(method, url) // make the request 
-        xhr.setRequestHeader('HTTP_X_REQUESTED_WITH', 'XMLHttpRequest') // convetion to call setRequestHeader is after open and before send
-        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest')
-        
-        xhr.onload = function() {
-            if (xhr.status === 201) {
-                r = xhr.response
-                r_json = JSON.parse(r)
-                window.location.href = '/court/'
-                                      + r_json['message']['court_id']
-                                      + '/'
-                                      + r_json['message']['role']
-                                      + '/'
-            }     
-            else {
-                err_json = JSON.parse(xhr.response)
-                show_join_error_message(err_json['message'])
-            }
-        }
-        xhr.onerror = function() {
-                alert("An error has occurred.")
-        }
-        xhr.send(form_data)
-    });            
-    </script>
+    xhr.onerror = function() {
+            alert("An error has occurred.")
+    }
+    xhr.send(form_data)
+});            
+</script>
 
 {% endblock content %}
