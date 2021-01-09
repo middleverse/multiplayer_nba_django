@@ -5,26 +5,69 @@
 {% endblock navbar %}
 
 {% block content %}
-  <div class='container h-100'>
-    <div class='row h-100 align-items-center justify-content-center'>
-      <div class='col-auto'>
-        <h1>Welcome To Run And Gun</h1>
-        <a id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
-        <a id="faq">FAQ</a>
+  <div class='container h-100 bg-secondary'>
+    <div class='row align-items-center h-100'>
 
-        <form id='join-game-form' action="{% url 'join_redirect' %}" method="POST" >
-          {% csrf_token %}
-          <label for="court_id">Enter Court Id:</label>
-          <input id="court_id" type="text" name="court_id">
-          <input type="submit" value="OK">
-        </form>
+        <!-- LOGO XS -->
+        <div class='col d-sm-none d-block text-center mb-5'>
+          <h1>RUN</h1>
+          <h1>AND</h1>
+          <h1>GUN</h1>
+        </div>
 
-        <div id='redirect-error-msg'></div>
-      </div>
+        <!-- LOGO SM+ -->
+        <div class='col-xs-4 col-sm-4 d-none d-sm-block text-center'>
+          <h1>RUN</h1>
+          <h1>AND</h1>
+          <h1>GUN</h1>
+        </div>
+
+        <!-- GAME JOIN OPTIONS -->
+        <div class='col-xs-4 col-sm-6 bg-warning p-5'>
+          <div class='row m-3'>
+            <!-- CREATE -->
+            <div class='col-6 align-self-center'>
+              <a class='btn btn-primary btn-lg' role='button' id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
+            </div>
+
+            <!-- JOIN -->
+            <div class='col-6'>
+              <button class='btn btn-primary btn-lg' type='button' data-toggle="collapse" href='#join-game-form-wrapper' aria-expanded="false" aria-controls="join-game-form-wrapper">
+                Join Game
+              </button>
+
+              <!-- FORM -->
+              <div id='join-game-form-wrapper' class='collapse'>
+                <form id='join-game-form' action="{% url 'join_redirect' %}" method="POST" >
+                  {% csrf_token %}
+                
+                  <div class='input-group mt-3'>
+                    <input class='form-control' id="court_id" type="text" placeholder="Enter Court Id..." name="court_id" aria-label="Enter Court Id..." aria-describedby="join-game-button">
+                    <div class='input-group-append'>
+                      <input class='btn btn-success btn-sm' id='join-game-button' type="submit" value="GO">
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- DESCRIPTION TEXT -->
+          <div class='row m-3'>
+            <div class='col mt-3'><p class='h6 font-weight-bold'>Create your own game to invite your friends, or join a game with a game id.</p></div>
+          </div>
+          
+
+          <div class='row'>
+            <a id="faq"></a>
+          </div>
+            <div id='redirect-error-msg'></div>
+        </div>
     </div>
   </div>
-<script>
 
+<script>
 const show_join_error_message = function(e) {
   alert(e)
   document.getElementById('redirect-error-msg').innerContent = e
