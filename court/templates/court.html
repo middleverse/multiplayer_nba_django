@@ -133,16 +133,25 @@ This is court#{{court_id}}. This contains a lobby and a game.
         // TODO: May need to be changed in order to make sure we're not s
         // adding a player that's already in there
         session_player_list = player_id_list
-        player_id_list.forEach(p_id => update_player_list_ui(p_id))
+        player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
     }
 
     // TODO we'll have to separate this into removal and addition
-    const update_player_list_ui = function(new_player_id) {
-        console.log('UI PLAYER LIST ADDED ELEM IMAGINE!')
+    const update_player_list_ui = function(player_id, mode) {
+        console.log(typeof(player_id), 'player-' + player_id)
         player_list_row_element = document.getElementById('player-list')
-        var new_player_col_element = document.createElement('div')
-        new_player_col_element.appendChild(document.createTextNode('Player#' + new_player_id))
-        player_list_row_element.appendChild(new_player_col_element)     
+        if (mode == 'add') {
+            console.log('UI PLAYER LIST ADDED ELEM IMAGINE!')
+            var new_player_col_element = document.createElement('div')
+            new_player_col_element.setAttribute('class', 'player-' + player_id)
+            new_player_col_element.appendChild(document.createTextNode('Player#' + player_id))
+            player_list_row_element.appendChild(new_player_col_element)     
+        } else if (mode == 'remove') {
+            console.log('removed playing from ui')
+            player_list_row_element.removeChild(player_list_row_element.getElementsByClassName('player-' + player_id)[0])
+        } else {
+            console.log('PLIST update mode not recognized.')
+        }
     }
 
     const broadcast_my_player_id = function() {
@@ -240,7 +249,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
             if (session_player_list.indexOf(player_id) == -1)
             {
                 session_player_list.push(data['text']['player_id'])
-                update_player_list_ui(data['text']['player_id'])
+                update_player_list_ui(data['text']['player_id'], 'add')
             }
         }
 
@@ -348,9 +357,11 @@ This is court#{{court_id}}. This contains a lobby and a game.
             const index = session_player_list.indexOf(exited_player_id)
             if (index > -1) {
                 session_player_list.splice(index, 1)
+                // reload player_list_ui
+                update_player_list_ui(exited_player_id, 'remove')
                 console.log('PLAYER LIST NOW: ', session_player_list)
             } else {
-                console.log(typeof(exited_player_id))
+                console.log('Player left, but index not found!')
             }
         }
     }
