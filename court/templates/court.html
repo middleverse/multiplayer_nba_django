@@ -16,7 +16,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
 {% include "results.html" %}
 
-<form id='obtain-player-id-form' action="{% url 'get_player_id' %}" method='POST' class='invisible'>
+<form id='obtain-player-id-form' action="{% url 'get_player_id' %}" method='POST' class='d-none'>
     {% csrf_token %}
     <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
     <input type="submit" value='OK'>
@@ -78,22 +78,20 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const results_container_el = document.getElementById('results-container')
 
     const load_session_state_ui = function(_state) {
-        if (create_container_el.classList.contains('invisible') == false) create_container_el.classList.toggle('invisible');
-        if (lobby_container_el.classList.contains('invisible') == false) lobby_container_el.classList.toggle('invisible');
-        if (game_container_el.classList.contains('invisible') == false) game_container_el.classList.toggle('invisible');
-        if (results_container_el.classList.contains('invisible') == false) results_container_el.classList.toggle('invisible');
-        
-        //if (create_container_el.classList.contains('invisible')) create_container_el.classList.toggle('invisible');
+        if (create_container_el.classList.contains('d-none') == false) create_container_el.classList.toggle('d-none');
+        if (lobby_container_el.classList.contains('d-none') == false) lobby_container_el.classList.toggle('d-none');
+        if (game_container_el.classList.contains('d-none') == false) game_container_el.classList.toggle('d-none');
+        if (results_container_el.classList.contains('d-none') == false) results_container_el.classList.toggle('d-none');
         
         console.log('STATE: ', _state);
         if (_state == 'create') {
-            create_container_el.classList.toggle('invisible')
+            create_container_el.classList.toggle('d-none')
         } else if (_state == 'lobby') {
-            lobby_container_el.classList.toggle('invisible')
+            lobby_container_el.classList.toggle('d-none')
         } else if (_state == 'game') {
-            game_container_el.classList.toggle('invisible');
+            game_container_el.classList.toggle('d-none');
         } else if (_state == 'results') {
-            results_container_el.classList.toggle('invisible');
+            results_container_el.classList.toggle('d-none');
             // TODO
         } else {
             console.log('incorrect state!')
@@ -506,7 +504,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
     const no_more_next_round_ui = function() {
         // TODO: add a message about Q LIST EXHAUSTED
         console.log('invisibling button')
-        document.getElementById('start-next-round').classList.add('invisible')
+        document.getElementById('start-next-round').classList.add('d-none')
     }
 
     const load_question_details = function() {
@@ -612,8 +610,8 @@ This is court#{{court_id}}. This contains a lobby and a game.
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
         round_end_players_results_tracker = []
         // TODO: can this be modularized?
-        if (document.getElementById('start-next-round').classList.contains('invisible')){
-            document.getElementById('start-next-round').classList.toggle('invisible')
+        if (document.getElementById('start-next-round').classList.contains('d-none')){
+            document.getElementById('start-next-round').classList.toggle('d-none')
         }
         load_session_state_ui('game')
         load_next_question()
