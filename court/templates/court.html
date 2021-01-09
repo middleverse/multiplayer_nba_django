@@ -128,6 +128,7 @@ This is court#{{court_id}}. This contains a lobby and a game.
 
     // Called only by player on arrival, when cap sends initial player list
     const load_initial_player_list  = function(player_id_list) {
+        document.getElementById('player-list').innerHTML = ''
         console.log('Loading initial player list')
         // TODO: May need to be changed in order to make sure we're not s
         // adding a player that's already in there
@@ -421,8 +422,10 @@ This is court#{{court_id}}. This contains a lobby and a game.
     }
 
     const display_game_config_in_lobby = function() {
-        console.log('SSC: ', session_shot_clock)
-        
+        // Clear previous config
+        lobby_shot_clock_el.innerHTML = ''
+        lobby_division_el.innerHTML = ''
+        // Add new config 
         lobby_shot_clock_el.appendChild(document.createTextNode(session_shot_clock))
         lobby_division_el.appendChild(document.createTextNode(session_division))
     }
