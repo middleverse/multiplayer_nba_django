@@ -5,20 +5,23 @@
 {% endblock navbar %}
 
 {% block content %}
-  <body>
-  <div class='container'>
-    <h1>Welcome To Run And Gun</h1>
-    <a id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
-    <a id="faq">FAQ</a>
+  <div class='container h-100'>
+    <div class='row h-100 align-items-center justify-content-center'>
+      <div class='col-auto'>
+        <h1>Welcome To Run And Gun</h1>
+        <a id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
+        <a id="faq">FAQ</a>
 
-    <form id='join-game-form' action="{% url 'join_redirect' %}" method="POST" >
-      {% csrf_token %}
-      <label for="court_id">Enter Court Id:</label>
-      <input id="court_id" type="text" name="court_id">
-      <input type="submit" value="OK">
-    </form>
+        <form id='join-game-form' action="{% url 'join_redirect' %}" method="POST" >
+          {% csrf_token %}
+          <label for="court_id">Enter Court Id:</label>
+          <input id="court_id" type="text" name="court_id">
+          <input type="submit" value="OK">
+        </form>
 
-    <div id='redirect-error-msg'></div>
+        <div id='redirect-error-msg'></div>
+      </div>
+    </div>
   </div>
 <script>
 
