@@ -700,25 +700,23 @@ This is court#{{court_id}}. This contains a lobby and a game.
         results_questions_container_el.appendChild(correct_answer_p)
         results_questions_container_el.appendChild(incorrect_answer_p)
     }
-
+    
+    // Called from 'results.html' template
     const captain_end_game = function() {
         if (role === 'captain') { 
             // let everyone else know to go to lobby
             court_socket.send(JSON.stringify({
                 'message_type': 'game_ended' 
             }));
-
-            // go to create_game mode for captain
-
         }
     }
 
-    document.getElementById('end-game').addEventListener('click', function(event) {
-        event.preventDefault();
-        console.log(lobby_container_el);
-        lobby_container_el.classList.toggle('invisible');
-        game_container_el.classList.toggle('invisible');
-    });
+    //document.getElementById('end-game').addEventListener('click', function(event) {
+    //    event.preventDefault();
+    //    console.log('HERE IN END GAME CLICK');
+    //    lobby_container_el.classList.toggle('invisible');
+    //    game_container_el.classList.toggle('invisible');
+    //});
 </script>
 
 {% endblock %}
