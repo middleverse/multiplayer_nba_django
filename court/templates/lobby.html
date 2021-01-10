@@ -29,7 +29,7 @@
                 <div id='config-options-display' class='col'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-3'>
-                            <p class='h2 mb-3'>Divisions</p>
+                            <p class='h2 mb-3'>Selected Divisions</p>
                             <div id='config-division-display' class='text-center'>
                                  <!-- List of divisions show up here with JS -->
                             </div>
@@ -56,7 +56,17 @@
             </div>
             <div class='row justify-content-center'>
                 <div class='col-auto'>
-                    <a role='button' class='btn btn-lg btn-warning' href='' id='start-game'>Start Game</a>
+                    {% if role == 'captain' %}
+                        <div class="spinner-grow spinner-grow-sm text-dark" role="status"></div>
+                        <a role='button' class='btn btn-lg btn-warning' href='' id='start-game'>Start Game</a>
+                        <div class="spinner-grow spinner-grow-sm text-dark" role="status"></div>
+                    {% else %}
+                        <div class="spinner-grow spinner-grow-sm text-dark" role="status">
+                        </div>
+                        <p class='badge badge-pill badge-warning p-2'>Waiting for CAPTAIN to Start Game</p>
+                        <div class="spinner-grow spinner-grow-sm text-dark" role="status">
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
