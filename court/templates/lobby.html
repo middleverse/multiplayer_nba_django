@@ -1,20 +1,59 @@
-<div id='lobby-container' class='text-center d-none'>
-    <h1>Lobby</h1>
+<div id='lobby-container' class='h-100'>
+    <div class='row align-items-center justify-content-center h-100'>
+        <div class='col'>
+            <div class='row'>
+                <div class='col-12'>
+                    <p class='display-4'>Lobby</p>
+                    This is court#{{court_id}}.
+                 </div>
+            </div>       
+            <div class='row mb-5 p-5 bg-success'>
+                <div class='col'>
+                    <div class='row justify-content-center'>
+                        <div class='col-auto mb-2'>
+                            <p class='h2'>Players In Lobby</p>
 
-    <h3>Players:</h3>
-    <div id="player-list" class='row justify-content-center'>
-    </div>
+                        </div>
+                    </div>
+                    <div class='row justify-content-center'>
+                        <div class='col-auto'>
+                            <div id='player-list'>
+                            <!-- List of players show up here with JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row bg-primary p-5 mb-5'>
+                <div id='config-options-display' class='col'>
+                    <div class='row justify-content-center'>
+                        <div class='col-auto'>
+                            <p class='h2'>Selected Divisions</p>
+                            <div id='config-division-display'>
+                                 <!-- List of divisions show up here with JS -->
+                            </div>
+                        </div>
+                    </div>   
+                    
+                    <div class='row justify-content-center'>
+                        <div class='col-auto'>
+                            <p class='h2'>Shot Clock</p>
+                            <div id='config-shot-clock-display'>
+                                <!-- Shot clock no. show up here with JS -->
+                            </div>
+                        </div>
+                    </div>                
+                </div>            
+            </div>
+            <div class='row justify-content-center'>
+                <div class='col-auto'>
+                    <a role='button' class='btn btn-lg btn-warning' href='' id='start-game'>Start Game</a>
+                </div>
+            </div>
 
-    <h3>Config Options</h3>
-    <div id='config-option-display'>
-        <h4>Division(s)</h4>
-        <div id='config-division-display'>
-            
         </div>
-        <h4>Shot Clock</h4>
-        <div id='config-shot-clock-display'></div>
+        
+        
     </div>
-
-    <a href='' id='start-game'>Start Game</a>
 </div>
 

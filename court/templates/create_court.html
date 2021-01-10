@@ -4,7 +4,6 @@
             <div class='row'>
                 <div class='col-12'>
                     <p class='display-4'>Game Settings</p>
-                    This is court#{{court_id}}.
                  </div>
             </div>
             <div class='row'>
@@ -30,13 +29,13 @@
                                 <div class="card-header">Config Help</div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary">SHOT CLOCK</h5>
-                                    <p class="card-text text-justify">
+                                    <p class="card-text text-justify pb-1">
                                         The time you'll be allotted to answer each question. 10 seconds is a challenge!
                                     </p>
                                     <h5 class="card-title text-primary">DIVISION SELECTION</h5>
                                     <p class="card-text text-justify">
-                                        You're in charge of selecting game configuration options, starting and ending games. 
-                                        If you leave, the party ends for all other players.
+                                        The game will be based on questions from <a role='button' class='badge badge-primary' data-toggle="modal" data-target="#division-team-modal">selected divisions</a>.
+                                        Divisions and all other options can be changed any time.
                                     </p>
                                 </div>
                             </div>
@@ -52,9 +51,7 @@
                         <!-- SHOT CLOCK -->
                         <div class='row justify-content-center'>
                             <div class='col-auto mb-2'>
-                                <div class='col-auto mb-2'>
-                                    <p class='h2'>Shot Clock</p>
-                                </div>
+                                <p class='h2'>Shot Clock</p>
                             </div>
                         </div>
                         <div class='row justify-content-center'>
@@ -67,19 +64,30 @@
                         </div>
                         
                         <!-- DIVISIONS -->
-                        <div class='row justify-content-center'>
+                        <div class='row justify-content-center align-items-center'>
                             <div class='col-auto mb-2'>
-                                <p class='h2'>Division</p>
+                                <p class='h2'>
+                                    Division
+                                </p>
                             </div>
                         </div>
+
                         <div class='row justify-content-center'>
-                            <div class='col-auto mb-5'>
+                            <div class='col-auto mb-2'>
                                 {{ config_form.division }}
+                            </div>
+                        </div>
+                        <div class='row justify-content-center align-items-center'>
+                            <div class='col-auto mb-4'>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-sm btn-dark" data-toggle="modal" data-target="#division-team-modal">
+                                List Teams <span class="badge badge-primary">?</span>
+                                </button>
                             </div>
                         </div>
                         <div class='row justify-content-center'>
                             <div class='col-auto'>
-                                <button class='btn btn-light btn-lg' type="submit">Create Game</button>
+                                <button class='btn btn-warning btn-lg' type="submit">Create Game</button>
                             </div>
                         </div>
                         
@@ -94,17 +102,11 @@
             </div>
         </div>
     </div>
-    
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#division-team-modal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
 
 </div>
 
 
+<!-- Modal -->
 <div class="modal fade text-primary" id="division-team-modal" tabindex="1" aria-labelledby="division-team-modal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
