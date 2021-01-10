@@ -1,10 +1,73 @@
-<div id='create-container' class='container'>
-    <h1>CREATE</h1>
+<div id='create-container' class='h-100'>
+    <div class='row align-items-center justify-content-center h-100'>
+        <div class='col'>
+            <div class='row'>
+                <div class='col-12'>
+                    <p class='display-4'>Game Settings</p>
+                    This is court#{{court_id}}.
+                 </div>
+            </div>
+            <div class='row'>
+                <!-- INFO CARD (RIGHT COL) -->
+                <div class='col-md-6  order-md-1 order-2 text-secondary border p-5'>
+                    <div class='row justify-content-md-center justify-content-center'>
+                        <div class='col-auto mb-5'>
+                            <div class="card bg-light" style="max-width: 20rem;">
+                                <div class="card-header">Your Role</div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">CAPTAIN</h5>
+                                    <p class="card-text text-justify">You're in charge of selecting game configuration options, starting and ending games. If you leave, the party ends for all other players.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row justify-content-md-center justify-content-center'>
+                        <div class='col-auto'>
+                            <button class='btn btn-primary btn-lg' type="submit">Create Game</button>
+                        </div>
+                    </div>
+                </div>
 
-    <form id="game-config-form" method="POST" action="/court/gameform/">
-        {% csrf_token %}
-        {{ config_form.as_p }}
-        <button type="submit">Create Game</button>
-    </form>
-    
+                <!-- CONFIG OPTIONS (LEFT COL) -->
+                <div class='col-md-6 order-md-2 order-1 border p-5'>
+                    <form id="game-config-form" method="POST" action="/court/gameform/">
+                        {% csrf_token %}
+                        <!-- SHOT CLOCK -->
+                        <div class='row justify-content-center'>
+                            <div class='col-auto mb-2'>
+                                <p class='h2'>Shot Clock</p>
+                            </div>
+                            
+                        </div>
+                        <div class='row justify-content-center'>
+                            <div class='col-sm-4 mb-4'>
+                                <div class='form-group'>
+                                    {{ config_form.shot_clock }}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DIVISIONS -->
+                        <div class='row justify-content-center'>
+                            <div class='col-auto mb-2'>
+                                <p class='h2'>Division(s)</p>
+                            </div>
+                        </div>
+                        <div class='row justify-content-center'>
+                            <div class='col-auto'>
+                                {{ config_form.division }}
+                            </div>
+                        </div>
+                        
+                        {% comment %} {{ config_form.as_p }} {% endcomment %}
+                        {% comment %} {{ form.errors }} {% endcomment %}
+                        
+                    </form>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
 </div>

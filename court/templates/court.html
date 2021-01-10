@@ -5,21 +5,19 @@
 {% endblock navbar %}
 
 {% block court_content %}
+    <div class='container h-100'>
 
-    This is court#{{court_id}}. This contains a lobby and a game.
 
-    <h3>{{ role }}</h3>
+        {{ court_id|json_script:"court-id" }}
 
-    {{ court_id|json_script:"court-id" }}
+        {% include "create_court.html" %}
 
-    {% include "create_court.html" %}
+        {% include "lobby.html" %}
 
-    {% include "lobby.html" %}
+        {% include "game.html" %}
 
-    {% include "game.html" %}
-
-    {% include "results.html" %}
-
+        {% include "results.html" %}
+    </div>
     <form id='obtain-player-id-form' action="{% url 'get_player_id' %}" method='POST' class='d-none'>
         {% csrf_token %}
         <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
