@@ -5,7 +5,7 @@
 {% endblock navbar %}
 
 {% block court_content %}
-    <div class='container h-100 pt-5'>
+    <div class='container h-100 mt-md-0 mt-5'>
 
 
         {{ court_id|json_script:"court-id" }}
@@ -136,21 +136,23 @@
         player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
     }
 
+
+    
+    const player_icon_list = ['player-icon-one', 'player-icon-two', 'player-icon-three', 'player-icon-four']
+
     // TODO we'll have to separate this into removal and addition
     const update_player_list_ui = function(player_id, mode) {
-        console.log(typeof(player_id), 'player-' + player_id)
         player_list_row_element = document.getElementById('player-list')
         if (mode == 'add') {
-            console.log('UI PLAYER LIST ADDED ELEM IMAGINE!')
-            var new_player_col_element = document.createElement('div')
-            new_player_col_element.setAttribute('class', 'player-' + player_id)
-            new_player_col_element.appendChild(document.createTextNode('Player#' + player_id))
-            player_list_row_element.appendChild(new_player_col_element)     
+            var new_player_icon_el = document.createElement('img')
+            new_player_icon_el.classList.add('player-icon-lobby', player_icon_list[player_id])
+            player_list_row_element.appendChild(new_player_icon_el)     
+
         } else if (mode == 'remove') {
-            console.log('removed playing from ui')
-            player_list_row_element.removeChild(player_list_row_element.getElementsByClassName('player-' + player_id)[0])
+            player_list_row_element = document.getElementById('player-list')
+            player_list_row_element.removeChild(player_list_row_element.getElementsByClassName(player_icon_list[player_id])[0])
         } else {
-            console.log('PLIST update mode not recognized.')
+            console.log('PLAYER LIST update mode not recognized.')
         }
     }
 
@@ -460,10 +462,12 @@
     (Auto-toggle takes care of correct visbility)
     */
 
-    document.getElementById('start-game').addEventListener('click', function(event) {
-        event.preventDefault();
-        tell_players_to_start_game()
-    });
+    if ("{{role}}" == 'captain'){
+        document.getElementById('start-game').addEventListener('click', function(event) {
+            event.preventDefault();
+            tell_players_to_start_game()
+        });
+    }    
 
     const tell_players_to_start_game = function() {
         court_socket.send(JSON.stringify({
