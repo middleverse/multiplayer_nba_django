@@ -9,53 +9,77 @@
             </div>
             <div class='row'>
                 <!-- INFO CARD (RIGHT COL) -->
-                <div class='col-md-6  order-md-1 order-2 text-secondary border p-5'>
-                    <div class='row justify-content-md-center justify-content-center'>
+                <div class='col-md-6  order-md-1 order-2 text-secondary p-5 bg-warning'>
+                    <div class='row justify-content-center'>
                         <div class='col-auto mb-5'>
-                            <div class="card bg-light" style="max-width: 20rem;">
+                            <div class="card bg-light" style="max-width: 25rem;">
                                 <div class="card-header">Your Role</div>
                                 <div class="card-body">
                                     <h5 class="card-title text-primary">CAPTAIN</h5>
-                                    <p class="card-text text-justify">You're in charge of selecting game configuration options, starting and ending games. If you leave, the party ends for all other players.</p>
+                                    <p class="card-text text-justify">
+                                        You're in charge of selecting game configuration options, starting and ending games. 
+                                        If you leave, the party ends for all other players.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class='row justify-content-md-center justify-content-center'>
+                    <div class='row justify-content-center'>
                         <div class='col-auto'>
-                            <button class='btn btn-primary btn-lg' type="submit">Create Game</button>
+                            <div class="card bg-light" style="max-width: 25rem;">
+                                <div class="card-header">Config Help</div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">SHOT CLOCK</h5>
+                                    <p class="card-text text-justify">
+                                        The time you'll be allotted to answer each question. 10 seconds is a challenge!
+                                    </p>
+                                    <h5 class="card-title text-primary">DIVISION SELECTION</h5>
+                                    <p class="card-text text-justify">
+                                        You're in charge of selecting game configuration options, starting and ending games. 
+                                        If you leave, the party ends for all other players.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
 
                 <!-- CONFIG OPTIONS (LEFT COL) -->
-                <div class='col-md-6 order-md-2 order-1 border p-5'>
+                <div class='col-md-6 order-md-2 order-1 p-5 bg-primary'>
                     <form id="game-config-form" method="POST" action="/court/gameform/">
                         {% csrf_token %}
                         <!-- SHOT CLOCK -->
                         <div class='row justify-content-center'>
                             <div class='col-auto mb-2'>
-                                <p class='h2'>Shot Clock</p>
-                            </div>
-                            
-                        </div>
-                        <div class='row justify-content-center'>
-                            <div class='col-sm-4 mb-4'>
-                                <div class='form-group'>
-                                    {{ config_form.shot_clock }}
+                                <div class='col-auto mb-2'>
+                                    <p class='h2'>Shot Clock</p>
                                 </div>
                             </div>
                         </div>
-
+                        <div class='row justify-content-center'>
+                            <div class='col-sm-4'>
+                                <div class='form-group'>
+                                    {{ config_form.shot_clock }}
+                                </div>
+                                <hr class="my-5 bg-warning">
+                            </div>
+                        </div>
+                        
                         <!-- DIVISIONS -->
                         <div class='row justify-content-center'>
                             <div class='col-auto mb-2'>
-                                <p class='h2'>Division(s)</p>
+                                <p class='h2'>Division</p>
+                            </div>
+                        </div>
+                        <div class='row justify-content-center'>
+                            <div class='col-auto mb-5'>
+                                {{ config_form.division }}
                             </div>
                         </div>
                         <div class='row justify-content-center'>
                             <div class='col-auto'>
-                                {{ config_form.division }}
+                                <button class='btn btn-light btn-lg' type="submit">Create Game</button>
                             </div>
                         </div>
                         
@@ -70,4 +94,42 @@
             </div>
         </div>
     </div>
+    
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#division-team-modal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+
 </div>
+
+
+<div class="modal fade text-primary" id="division-team-modal" tabindex="1" aria-labelledby="division-team-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="modal-title h4 text-success">Teams Per Division</p>
+            </div>
+            <div class="modal-body">
+                <p class="h5"> ATLANTIC </p>
+                <p class='text-dark'>Brooklyn Nets, Philadelphia 76ers, Boston Celtics, Toronto Raptors, New York Knicks</p>
+                <p class="h5"> CENTRAL </p>
+                <p class='text-dark'>Indiana Pacers, Cleaveland Cavaliers, Milwaukee Bucks, Detroit Pistons, Chicago Bulls </p>
+                <p class="h5"> SOUTHEAST </p>
+                <p class='text-dark'>Orlando Magic, Atlanta Hawks, Miami Heat, Washington Wizards, Charlotte Hornets</p>
+                <p class="h5"> NORTHWEST </p>
+                <p class='text-dark'>Utah Jazz, Minnesota Timberwolves, Oklahoma City Thunder, Portland Trail Blazers, Denver Nuggets</p>
+                <p class="h5"> PACIFIC </p>
+                <p class='text-dark'>Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns, Sacramento Kings, Golden State Warriors</p>
+                <p class="h5"> SOUTHWEST </p>
+                <p class='text-dark'>San Antonio Spurs, New Orleans Pelicans, Houston Rockets, Memphis Grizzlies, Dallas Mavericks</p>
+                <p class="h5"> OTHER </p>
+                <p class='text-dark'>Non-Team specific questions, one of the most fun categories!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>    
