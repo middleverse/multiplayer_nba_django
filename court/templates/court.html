@@ -332,6 +332,7 @@
             {   
                 console.log('ALL RESULTS RECIEVED. Switching to results view.')
                 build_results_in_ui()
+                manipulate_logo('stop')
                 load_session_state_ui('results')
                 console.log(round_end_players_results_tracker)
             }
@@ -630,9 +631,19 @@
         if (document.getElementById('start-next-round').classList.contains('d-none')){
             document.getElementById('start-next-round').classList.toggle('d-none')
         }
+        manipulate_logo('start')
         load_session_state_ui('game')
         load_next_question()
         
+    }
+
+    const manipulate_logo = function(mode){
+        nav_logo_el = document.getElementById('court-navbar-logo')
+        if (mode === 'start' && nav_logo_el.classList.contains('logo-rotate') == false) {
+            nav_logo_el.classList.toggle('logo-rotate')
+        } else if (mode === 'stop' && nav_logo_el.classList.contains('logo-rotate') == true) {
+            nav_logo_el.classList.toggle('logo-rotate')
+        }
     }
 
     const start_game = function() {

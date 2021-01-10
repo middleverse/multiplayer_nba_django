@@ -56,9 +56,6 @@ img.player-dunk-animate {
     100% { transform: translateY(-50px); }
 }
 
-
-  
-  
 .circle-ripple{
 position: absolute;
 border-radius: 50%;
@@ -131,8 +128,6 @@ left: 40%;
 top: -200px;
 }
 
-
-
 .shade1{
 opacity: 0.2;
 background-color: blue;
@@ -155,15 +150,28 @@ opacity: 0.9;
 }
 
 @keyframes ripple{
-0%{
-    transform: scale(0.8);
+    0%{
+        transform: scale(0.8);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    100%{
+        transform: scale(0.8);
+    }
 }
 
-50%{
-    transform: scale(1.2);
-}
+.logo-rotate {
+    animation: logo-rotation 2s infinite linear;
+  }
 
-100%{
-    transform: scale(0.8);
-}
+@keyframes logo-rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
 }
