@@ -5,6 +5,7 @@
 {% endblock navbar %}
 
 {% block content %}
+{% load static %}
 
   <div class='container ripple-background h-100'>
     <div class='d-none d-lg-block'>
@@ -18,37 +19,34 @@
     <div class="circle-ripple medium shade4"></div>
     <div class="circle-ripple small shade5"></div>
 
-
+    
     <div class='row align-items-center justify-content-center align-items-lg-end justify-content-lg-end p-5 h-100'>
-
         <!-- LOGO XS -->
-        <div class='col-md-6 col-12'>
-          <div class='row justify-content-lg-end justify-content-center h-100 mr-2 m-5'>
-            <div class='col d-sm-none d-block text-center mb-5'>
-              <h1>RUN</h1>
-              <h1>AND</h1>
-              <h1>GUN</h1>
+        <div class='col-lg-6 d-md-none d-block col-auto mt-5'>
+          <div class='row h-100'>
+            <div class='col  text-center mb-5'>
+              <img src="{% static 'images/logo_blue_dark.png' %}" alt='RUN AND GUN LOGO'  width='300' height='300'>
             </div>
 
-            <!-- LOGO SM+ -->
-            <div class='col-xs-4 col-sm-4 d-none d-sm-block text-center'>
-              <h1>RUN</h1>
-              <h1>AND</h1>
-              <h1>GUN</h1>
-            </div>
+            
           </div>
         </div>
 
+        <!-- LOGO SM+ -->
+        <div class='col-auto d-none d-md-block text-center'>
+          <img src="{% static 'images/logo_blue_dark.png' %}" alt='RUN AND GUN LOGO' width='500' height='500'>
+        </div>
+        
         <!-- GAME JOIN OPTIONS -->
         <div class='col-md-6 bg-dark pt-3 pb-3 rounded'>
           <div class='row justify-content-center m-3'>
             <!-- CREATE -->
-            <div class='col-6'>
+            <div class='col-6 col-lg-auto align-self-end'>
               <a class='btn btn-success font-weight-bold btn-lg' role='button' id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
             </div>
 
             <!-- JOIN -->
-            <div class='col-6'>
+            <div class='col-6 col-lg-auto align-self-start'>
               <button class='btn btn-primary font-weight-bold btn-lg' type='button' data-toggle="collapse" href='#join-game-form-wrapper' aria-expanded="false" aria-controls="join-game-form-wrapper">
                 Join Game
               </button>
