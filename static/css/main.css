@@ -13,6 +13,28 @@ ul {
 body{
     background-color: #F6F6F6;
 }
+
+.lobby-player-icon {
+    position:absolute;
+    width: 275px;
+    right: 50px;
+    top: 50px;
+}
+
+img.player-dunk-animate {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+
   
   
 .circle-ripple{
