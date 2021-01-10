@@ -4,7 +4,7 @@
         <div class='col'>
             <div class='row'>
                 <div class='col-12'>
-                    <p class='display-4'>Lobby</p>
+                    <p class='display-4 text-dark'>Lobby</p>
                     This is court#{{court_id}}.
                  </div>
             </div>       
@@ -28,7 +28,7 @@
             <div class='row bg-primary p-5 mb-5'>
                 <div id='config-options-display' class='col'>
                     <div class='row justify-content-center'>
-                        <div class='col-auto mb-3'>
+                        <div class='col-auto mb-3 text-center'>
                             <p class='h2 mb-3'>Selected Divisions</p>
                             <div id='config-division-display' class='text-center'>
                                  <!-- List of divisions show up here with JS -->
@@ -47,9 +47,13 @@
                     <div class='row justify-content-center'>
                         <div class='col-auto'>
                             <p class='h2 mb-3'>Shot Clock</p>
-                            <div id='config-shot-clock-display' class='text-center'>
-                                <!-- Shot clock no. show up here with JS -->
+                            <div class='row'>
+                                <div class='col-auto badge badge-light mx-auto pt-2 pl-3 pr-3'>
+                                    <p class='h4' id='config-shot-clock-display'></p>
+                                </div>
+                                
                             </div>
+                                <!-- Shot clock no. show up here with JS -->
                         </div>
                     </div>                
                 </div>            

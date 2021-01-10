@@ -432,13 +432,24 @@
         }));
     }
 
+    const load_lobby_division_ui = function() {
+        var i;
+        for(i=0; i < session_division.length; i++) {
+            // create a badge
+            division_badge_el = document.createElement('p')
+            division_badge_el.classList.add('badge', 'badge-light', 'p-2', 'm-1')
+            division_badge_el.textContent = session_division[i]
+            lobby_division_el.appendChild(division_badge_el)
+        }
+    }
+
     const display_game_config_in_lobby = function() {
         // Clear previous config
         lobby_shot_clock_el.innerHTML = ''
         lobby_division_el.innerHTML = ''
         // Add new config 
         lobby_shot_clock_el.appendChild(document.createTextNode(session_shot_clock))
-        lobby_division_el.appendChild(document.createTextNode(session_division))
+        load_lobby_division_ui()
     }
 
     /* 
