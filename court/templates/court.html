@@ -126,8 +126,12 @@
     On message recieve functionality
     */
 
+    const player_icon_list = ['player-icon-one', 'player-icon-two', 'player-icon-three', 'player-icon-four']
+
     // Called only by player on arrival, when cap sends initial player list
     const load_initial_player_list  = function(player_id_list) {
+        // load yourself
+        update_role_ui()
         document.getElementById('player-list').innerHTML = ''
         console.log('Loading initial player list')
         // TODO: May need to be changed in order to make sure we're not s
@@ -136,21 +140,28 @@
         player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
     }
 
-
-    
-    const player_icon_list = ['player-icon-one', 'player-icon-two', 'player-icon-three', 'player-icon-four']
+    const update_role_ui = function() {
+        var my_role_el = document.getElementById('lobby-my-role')
+        my_role_el.innerHTML = ''
+        session_player_icon = player_icon_list[session_player_id]
+        var my_player_icon_el = document.createElement('img')
+        console.log(session_player_icon)
+        my_player_icon_el.classList.add('player-icon-lobby', session_player_icon)
+        my_role_el.appendChild(my_player_icon_el)
+    }
 
     // TODO we'll have to separate this into removal and addition
     const update_player_list_ui = function(player_id, mode) {
+        current_player_icon = player_icon_list[player_id]
         player_list_row_element = document.getElementById('player-list')
         if (mode == 'add') {
             var new_player_icon_el = document.createElement('img')
-            new_player_icon_el.classList.add('player-icon-lobby', player_icon_list[player_id])
+            new_player_icon_el.classList.add('player-icon-lobby', current_player_icon)
             player_list_row_element.appendChild(new_player_icon_el)     
 
         } else if (mode == 'remove') {
             player_list_row_element = document.getElementById('player-list')
-            player_list_row_element.removeChild(player_list_row_element.getElementsByClassName(player_icon_list[player_id])[0])
+            player_list_row_element.removeChild(player_list_row_element.getElementsByClassName(current_player_icon)[0])
         } else {
             console.log('PLAYER LIST update mode not recognized.')
         }
@@ -251,6 +262,7 @@
             if (session_player_list.indexOf(player_id) == -1)
             {
                 session_player_list.push(data['text']['player_id'])
+                update_role_ui()
                 update_player_list_ui(data['text']['player_id'], 'add')
             }
         }

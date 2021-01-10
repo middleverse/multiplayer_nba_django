@@ -11,7 +11,7 @@
                 <div class='col-12 col-md-6 pb-md-auto pb-3'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-2'>
-                            <div class="spinner-grow spinner-grow-sm text-light" style='position:relative; bottom:6px;' role="status"></div>
+                            <div class="spinner-grow spinner-grow-sm text-light mr-1" style='position:relative; bottom:6px;' role="status"></div>
                             <p class='h2' style='display: inline-block;'>Players In Lobby</p>
                         </div>
                     </div>
@@ -27,12 +27,13 @@
                 <div class='col-12 col-md-6'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-1 text-center'>
-                            <p class='h2'>Your Role</p>
+                            <p class='h2'>Your Role/Color</p>
                             {% if role == 'captain' %}
-                                <p class='badge badge-danger p-2 m-1'>CAPTAIN</p>
+                                <p class='badge badge-danger p-2 m-1'>CAPTAIN</p> /
                             {% else %}
-                                <p class='badge badge-light p-2 m-1'>PLAYER</p>
+                                <p class='badge badge-light p-2 m-1'>PLAYER</p> /
                             {% endif %}
+                            <p id='lobby-my-role' style='display: inline-block;'></p>
                         </div>
                     </div>
                 </div>
@@ -73,13 +74,12 @@
             <div class='row justify-content-center'>
                 <div class='col-auto'>
                     {% if role == 'captain' %}
-                        <div class="spinner-grow spinner-grow-sm text-dark" role="status"></div>
+                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status"></div>
                         <a role='button' class='btn btn-lg btn-warning' href='' id='start-game'>Start Game</a>
                     {% else %}
-                        <div class="spinner-grow spinner-grow-sm text-dark" role="status">
+                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status">
                         </div>
                         <p class='badge badge-pill badge-warning p-2'>Waiting for CAPTAIN to Start Game</p>
-                        <div class="spinner-grow spinner-grow-sm text-dark" role="status">
                         </div>
                     {% endif %}
                 </div>
