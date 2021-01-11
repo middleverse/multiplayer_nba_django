@@ -107,46 +107,28 @@ left: -500px;
 bottom: 175px;
 }
 
-.small-opp{
-width: 200px;
-height: 200px;
-left: 50%;
-top: -50px;
-}
-
-.medium-opp{
-width: 400px;
-height: 400px;
-left: 45%;
-top: -100px;
-}
-
-.large-opp{
-width: 600px;
-height: 600px;
-left: 40%;
-top: -200px;
-}
-
 .shade1{
-opacity: 0.2;
-background-color: blue;
+    opacity: 0.2;
+    background-color: #db3eb173;
 }
 .shade2{
-opacity: 0.5;
-background-color: lightblue;
+    opacity: 0.5;
+    background-color: #db3eb17a;
 }
 
 .shade3{
-opacity: 0.7;
+    opacity: 0.7;
+    background-color: #db3eb16b;
 }
 
 .shade4{
-opacity: 0.8;
+    background-color: #db3eb173;
+    opacity: 0.8;
 }
 
 .shade5{
-opacity: 0.9;
+    background-color: #db3eb1;
+    opacity: 0.9;
 }
 
 @keyframes ripple{
@@ -202,4 +184,29 @@ p.incorrect-q-highlight {
     padding-right: 1rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+}
+
+#game-join-options {
+    border-style: solid;
+    border-width: 14px;
+    border-color: #0b1317;
+    background-color: #41b6e6;
+}
+
+#join-game-button {
+    background-color: #0b1317;
+    border-color: #0b1317;
+}
+
+#create-game {
+    background-color: #db3eb1;
+    border-color: #db3eb1;
+}
+
+.bg-primary-my {
+    background-color: #db3eb1;
+}
+
+.bg-secondary-my {
+    background-color: #41b6e6;
 }

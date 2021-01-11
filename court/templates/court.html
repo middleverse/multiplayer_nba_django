@@ -24,7 +24,7 @@
         <input type="submit" value='OK'>
     </form>
 
-    <audio id='home-audio' autoplay loop>
+    <audio id='home-audio' loop>
         {% load static %}
         <source src="{% static 'sound/lobby_primary_loop.mp3' %}" type='audio/mpeg'>
     </audio>
@@ -751,16 +751,34 @@
 
             // highlight correct answer
         // append player status
-        incorrect_answer_p = document.createElement('P')
         correct_answer_p = document.createElement('P')
-        incorrect_answer_p.appendChild(document.createTextNode('Incorrect: '))
-        correct_answer_p.appendChild(document.createTextNode('Correct: '))
+        correct_badge = document.createElement('span')
+        correct_badge.textContent = 'Correct:'
+        correct_badge.classList.add('badge', 'badge-danger', 'p-2', 'mt-3')
+        correct_answer_p.appendChild(correct_badge)
+        
+        incorrect_answer_p = document.createElement('P')
+        incorrect_badge = document.createElement('span')
+        incorrect_badge.textContent = 'Incorrect:'
+        incorrect_badge.classList.add('badge', 'badge-dark', 'p-2', 'mb-4')
+        incorrect_answer_p.appendChild(incorrect_badge)
+
+
+        // TODO: These two lines may be uncessary
+        incorrect_answer_p.appendChild(document.createTextNode(' '))
+        correct_answer_p.appendChild(document.createTextNode(' '))
+        
         for(i=0; i < round_end_players_results_tracker.length; i++) {
+            current_player_icon = player_icon_list[i]
+            current_player_icon_el = document.createElement('img')
+            current_player_icon_el.classList.add('player-icon-lobby', current_player_icon)
+
+
             player_results_map = round_end_players_results_tracker[i]
             p_id = player_results_map['player_id']
             p_q_result = player_results_map['round_results'][q_counter]
-            if (p_q_result == 1) { correct_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
-            else { incorrect_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
+            if (p_q_result == 1) { correct_answer_p.appendChild(current_player_icon_el) }
+            else { incorrect_answer_p.appendChild(current_player_icon_el) }
         }   
         new_result_col_el.appendChild(correct_answer_p)
         new_result_col_el.appendChild(incorrect_answer_p)
@@ -788,7 +806,7 @@
     window.addEventListener("DOMContentLoaded", event => {
         const audio = document.querySelector("#home-audio");
         audio.volume = 0.5;
-        //audio.play();
+        // audio.play();
     });  
 </script>
 
