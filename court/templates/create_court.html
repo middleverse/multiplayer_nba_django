@@ -44,13 +44,13 @@
                 </div>
 
                 <!-- CONFIG OPTIONS (LEFT COL) -->
-                <div class='col-md-6 ml-3 order-md-2 order-1 p-5 bg-dark-my border-secondary-my'>
+                <div class='col-md-6 ml-3 order-md-2 order-1 p-5 bg-dark-my border-primary-my' style="bottom: 30px;">
                     <form id="game-config-form" method="POST" action="/court/gameform/">
                         {% csrf_token %}
                         <!-- SHOT CLOCK -->
                         <div class='row justify-content-center'>
                             <div class='col-auto mb-2'>
-                                <p class='h2'>Shot Clock</p>
+                                <p class='h2 font-weight-bold'>Shot Clock</p>
                             </div>
                         </div>
                         <div class='row justify-content-center'>
@@ -58,21 +58,21 @@
                                 <div class='form-group'>
                                     {{ config_form.shot_clock }}
                                 </div>
-                                <hr class="my-4 bg-secondary-my">
+                                <hr class="my-5 bg-secondary-my">
                             </div>
                         </div>
                         
                         <!-- DIVISIONS -->
                         <div class='row justify-content-center align-items-center'>
                             <div class='col-auto mb-2'>
-                                <p class='h2'>
+                                <p class='h2 font-weight-bold'>
                                     Division
                                 </p>
                             </div>
                         </div>
 
                         <div class='row justify-content-center'>
-                            <div class='col-auto mb-2'>
+                            <div class='col-auto mb-4 pt-4 px-5 bg-dark-my border-secondary-my'>
                                 {{ config_form.division }}
                             </div>
                         </div>

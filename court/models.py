@@ -23,13 +23,13 @@ class Team(models.Model):
     OTHER_DIV       = ['ZZZ']
 
     DIVISION_NAME_CHOICES = [
-        ('ATLANTIC',    'ATLANTIC Division'),
-        ('CENTRAL',     'CENTRAL Division'),
-        ('SOUTHEAST',   'SOUTHEAST Division'),
-        ('NORTHWEST',   'NORTHWEST Division'),
-        ('PACIFIC',     'PACIFIC Division'),
-        ('SOUTHWEST',   'SOUTHWEST Division'),
-        ('OTHER',       'OTHER Division'),
+        ('ATLANTIC',    'ATLANTIC'),
+        ('CENTRAL',     'CENTRAL'),
+        ('SOUTHEAST',   'SOUTHEAST'),
+        ('NORTHWEST',   'NORTHWEST'),
+        ('PACIFIC',     'PACIFIC'),
+        ('SOUTHWEST',   'SOUTHWEST'),
+        ('OTHER',       'OTHER'),
     ]
 
     TEAM_NAME_CHOICES = {
