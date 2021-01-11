@@ -184,6 +184,16 @@
         document.getElementById('obtain-player-id-form').requestSubmit();
     }
 
+    const add_answer_posted_ui = function() {
+        var anonymous_player_icon_el = document.createElement('img')
+        anonymous_player_icon_el.classList.add('player-icon-lobby', 'player-icon-one')
+        document.getElementById('posted-answer-icons').appendChild(anonymous_player_icon_el)
+    }
+
+    const remove_answer_posted_ui = function() {
+        document.getElementById('posted-answer-icons').innerHTML = ''
+    }
+
     document.getElementById('obtain-player-id-form').addEventListener('submit', function(event) {
         event.preventDefault();
         const form = event.target
@@ -328,10 +338,11 @@
                 }
             }
             // player just shows someone has posted an answer
-            console.log('a player posted an answer!!')   
+            console.log('a player posted an answer!!')
+            add_answer_posted_ui()   
         }
         else if (data['message'] === 'load_next_question_message') {
-            load_next_question()
+            setTimeout(load_next_question, 2000)
         }
         
         // A PLAYER'S ROUND RESULTS RECIEVED
@@ -557,7 +568,9 @@
     }
 
     const load_next_question = function() {
-        return;
+        
+        
+        //return;
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
         seconds = 3 + 1
@@ -566,8 +579,10 @@
         session_question_counter += 1
         round_question_counter += 1
         question_player_answer_total = 0
+        remove_answer_posted_ui()
 
         // Current form needs to be reset before loading next question
+        //sleep(2000)
         question_form_el.reset()
 
         // Check if all Questions Exhausted
@@ -669,7 +684,7 @@
         // TODO show a 3-2-1
         // reset session question counter
         session_question_counter = -1
-        start_new_round()
+        setTimeout(start_new_round, 1000)
     }
 
     /* 

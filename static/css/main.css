@@ -166,7 +166,11 @@ bottom: 175px;
     right: 50px;
     top: 50px;
     text-align: center;
-    border: 20px solid black;
+    border: 6px solid black;
+}
+
+#shot-clock-container {
+    top: 10px;
 }
 
 p.correct-q-highlight {
