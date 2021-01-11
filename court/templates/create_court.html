@@ -1,20 +1,20 @@
-<div id='create-container' class='h-100'>
+<div id='create-container' class='h-100 mt-md-auto mt-5'>
     <div class='row align-items-center justify-content-center h-100'>
         <div class='col'>
-            <div class='row'>
-                <div class='col-12'>
-                    <p class='display-4 text-primary'>Game Settings</p>
+            <div class='row justify-content-md-start justify-content-center'>
+                <div class='col-auto col-md-6'>
+                    <p class='display-4 text-dark'><span class='badge text-light bg-primary-my'>GAME OPTIONS</span></p>
                  </div>
             </div>
             <div class='row'>
                 <!-- INFO CARD (RIGHT COL) -->
-                <div class='col-md-6  order-md-1 order-2 text-secondary p-5 bg-warning'>
+                <div class='col-md-5 mr-1 order-md-1 order-2 text-light p-5'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-5'>
-                            <div class="card bg-light" style="max-width: 25rem;">
-                                <div class="card-header">Your Role</div>
+                            <div class="card bg-dark-my" style="max-width: 25rem;">
+                                <div class="card-header bg-dark">Your Role</div>
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">CAPTAIN</h5>
+                                    <h5 class="card-title text-danger-my font-weight-bold">CAPTAIN</h5>
                                     <p class="card-text text-justify">
                                         You're in charge of selecting game configuration options, starting and ending games. 
                                         If you leave, the party ends for all other players.
@@ -25,14 +25,14 @@
                     </div>
                     <div class='row justify-content-center'>
                         <div class='col-auto'>
-                            <div class="card bg-light" style="max-width: 25rem;">
-                                <div class="card-header">Config Help</div>
+                            <div class="card bg-dark-my" style="max-width: 25rem;">
+                                <div class="card-header bg-dark">Config Help</div>
                                 <div class="card-body">
-                                    <h5 class="card-title text-primary">SHOT CLOCK</h5>
+                                    <h5 class="card-title font-weight-bold text-secondary-my">SHOT CLOCK</h5>
                                     <p class="card-text text-justify pb-1">
                                         The time you'll be allotted to answer each question. 10 seconds is a challenge!
                                     </p>
-                                    <h5 class="card-title text-primary">DIVISION SELECTION</h5>
+                                    <h5 class="card-title font-weight-bold text-secondary-my">DIVISION SELECTION</h5>
                                     <p class="card-text text-justify">
                                         The game will be based on questions from <a role='button' class='badge badge-primary' data-toggle="modal" data-target="#division-team-modal">selected divisions</a>.
                                         Divisions and all other options can be changed any time.
@@ -44,7 +44,7 @@
                 </div>
 
                 <!-- CONFIG OPTIONS (LEFT COL) -->
-                <div class='col-md-6 order-md-2 order-1 p-5 bg-primary'>
+                <div class='col-md-6 ml-3 order-md-2 order-1 p-5 bg-dark-my border-secondary-my'>
                     <form id="game-config-form" method="POST" action="/court/gameform/">
                         {% csrf_token %}
                         <!-- SHOT CLOCK -->
@@ -58,7 +58,7 @@
                                 <div class='form-group'>
                                     {{ config_form.shot_clock }}
                                 </div>
-                                <hr class="my-5 bg-warning">
+                                <hr class="my-4 bg-secondary-my">
                             </div>
                         </div>
                         
@@ -84,9 +84,9 @@
                                 </button>
                             </div>
                         </div>
-                        <div class='row justify-content-center'>
+                        <div class='row justify-content-center mt-2'>
                             <div class='col-auto'>
-                                <button class='btn btn-warning btn-lg' type="submit">Create Game</button>
+                                <button class='btn bg-primary-my btn-lg text-light font-weight-bold' type="submit">Create Game</button>
                             </div>
                         </div>
                         
