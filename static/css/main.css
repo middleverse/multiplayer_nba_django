@@ -175,3 +175,15 @@ opacity: 0.9;
       transform: rotate(359deg);
     }
 }
+
+
+#shot-clock-ui-wrapper {
+    position:absolute;
+    width: 185px;
+    height: 157px;
+    background-color: rgb(255, 80, 80);
+    right: 50px;
+    top: 50px;
+    text-align: center;
+    border: 20px solid black;
+}
