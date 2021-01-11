@@ -708,24 +708,47 @@
         calculated_question_id = session_question_counter - round_question_set_size + 1 + q_counter
         console.log('CALCD Q ID: ', calculated_question_id)
         calculated_question = session_questions[calculated_question_id]
+        answer = 'c_' + calculated_question['answer']
         // Append question
         q_text = document.createTextNode(calculated_question['question'])
-        q_h4 = document.createElement('h4')
+        q_h4 = document.createElement('P')
+        q_h4.classList.add('h6', 'text-center', 'p-3', 'mt-5', 'mb-4', 'bg-dark', 'text-light')
         q_h4.appendChild(q_text)
-        results_questions_container_el.appendChild(q_h4)        
+
         // append each answer
         c_a_p = document.createElement('P')
+        if (answer == 'c_a') { c_a_p.classList.add('correct-q-highlight')}
+        else {c_a_p.classList.add('incorrect-q-highlight') }
         c_b_p = document.createElement('P')
+        if (answer == 'c_b') { c_b_p.classList.add('correct-q-highlight')}
+        else {c_b_p.classList.add('incorrect-q-highlight') }
         c_c_p = document.createElement('P')
+        if (answer == 'c_c') { c_c_p.classList.add('correct-q-highlight')}
+        else {c_c_p.classList.add('incorrect-q-highlight') }
         c_d_p = document.createElement('P')
+        if (answer == 'c_d') { c_d_p.classList.add('correct-q-highlight')}
+        else { c_d_p.classList.add('incorrect-q-highlight')}
+       
         c_a_p.appendChild(document.createTextNode(calculated_question['c_a']))
         c_b_p.appendChild(document.createTextNode(calculated_question['c_b']))
         c_c_p.appendChild(document.createTextNode(calculated_question['c_c']))
         c_d_p.appendChild(document.createTextNode(calculated_question['c_d']))
-        results_questions_container_el.appendChild(c_a_p)
-        results_questions_container_el.appendChild(c_b_p)
-        results_questions_container_el.appendChild(c_c_p)       
-        results_questions_container_el.appendChild(c_d_p)
+
+        new_result_row_el = document.createElement("div")
+        new_result_row_el.classList.add('row', 'my-2', 'p-2')
+        new_result_col_el = document.createElement("div")
+        new_result_col_el.classList.add('col', 'bg-primary', 'px-5')
+
+        results_questions_container_el.appendChild(new_result_row_el)
+        new_result_row_el.appendChild(new_result_col_el)
+
+        
+        new_result_col_el.appendChild(q_h4)        
+        new_result_col_el.appendChild(c_a_p)
+        new_result_col_el.appendChild(c_b_p)
+        new_result_col_el.appendChild(c_c_p)       
+        new_result_col_el.appendChild(c_d_p)
+
             // highlight correct answer
         // append player status
         incorrect_answer_p = document.createElement('P')
@@ -739,8 +762,10 @@
             if (p_q_result == 1) { correct_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
             else { incorrect_answer_p.appendChild(document.createTextNode(p_id + ', ')) }
         }   
-        results_questions_container_el.appendChild(correct_answer_p)
-        results_questions_container_el.appendChild(incorrect_answer_p)
+        new_result_col_el.appendChild(correct_answer_p)
+        new_result_col_el.appendChild(incorrect_answer_p)
+
+        
     }
     
     // Called from 'results.html' template

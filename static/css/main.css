@@ -187,3 +187,19 @@ opacity: 0.9;
     text-align: center;
     border: 20px solid black;
 }
+
+p.correct-q-highlight {
+    background-color: red;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+p.incorrect-q-highlight {
+    background-color: cornflowerblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
