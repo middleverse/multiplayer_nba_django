@@ -709,6 +709,7 @@
         results_questions_container_el.setAttribute('id', 'results-questions-inner-container')
         results_questions_wrapper_el.appendChild(results_questions_container_el)
 
+        build_scoreboard_ui()
         console.log("building results with: ", round_end_players_results_tracker)
         var i;
         // Build a box for each question
@@ -720,6 +721,47 @@
         // add the question
         // add the answers
         // show incorrect and correct players
+    }
+
+    const build_scoreboard_ui = function() {
+        scoreboard_el = document.getElementById('scoreboard')
+        scoreboard_el.innerHTML = ''
+        var i;
+        for (i=0; i < session_player_list.length; i++) {
+            // create col
+            sb_col = document.createElement('div')
+            sb_col.classList.add('col-auto', 'bg-dark-my', 'pl-4', 'pb-3', 'pt-1', 'mx-2' 'player-score-box' , 'rounded')
+
+            inner_container_row = document.createElement('div')
+            inner_container_row.classList.add('row')
+            inner_container_col = document.createElement('div')
+            inner_container_col.classList.add('col')
+            player_results_map = round_end_players_results_tracker[i]['round_results']
+            player_id = round_end_players_results_tracker[i]['player_id']
+            
+            // create img element
+            // add class to img element
+            icon_el = document.createElement('img')
+            current_player_icon = player_icon_list[player_id]
+            icon_el.classList.add('player-icon-scoreboard', current_player_icon)
+            
+            // calc player score
+            // make a span el with player score
+            var player_score = 0;
+            var j;
+            console.log('PRM: ', player_results_map)
+            for (j=0; j < player_results_map.length; j++) { player_score += player_results_map[j] }
+            player_score_el = document.createElement('div')
+            player_score_el.classList.add('col', 'player-text-scoreboard', 'display-4', 'text-light')
+            console.log
+            player_score_el.textContent = player_score
+
+            // append icon and score to col
+            sb_col.appendChild(icon_el)
+            sb_col.appendChild(player_score_el)
+
+            scoreboard_el.appendChild(sb_col)
+        }
     }
 
     
@@ -772,13 +814,13 @@
         // append player status
         correct_answer_p = document.createElement('P')
         correct_badge = document.createElement('span')
-        correct_badge.textContent = 'Correct:'
+        correct_badge.textContent = 'Correct'
         correct_badge.classList.add('badge', 'badge-results-correct', 'p-2', 'mt-3')
         correct_answer_p.appendChild(correct_badge)
         
         incorrect_answer_p = document.createElement('P')
         incorrect_badge = document.createElement('span')
-        incorrect_badge.textContent = 'Incorrect:'
+        incorrect_badge.textContent = 'Incorrect'
         incorrect_badge.classList.add('badge', 'badge-dark', 'p-2', 'mb-4')
         incorrect_answer_p.appendChild(incorrect_badge)
 
@@ -788,14 +830,13 @@
         correct_answer_p.appendChild(document.createTextNode(' '))
         
         for(i=0; i < round_end_players_results_tracker.length; i++) {
-            current_player_icon = player_icon_list[i]
-            current_player_icon_el = document.createElement('img')
-            current_player_icon_el.classList.add('player-icon-lobby', current_player_icon)
-
-
             player_results_map = round_end_players_results_tracker[i]
             p_id = player_results_map['player_id']
             p_q_result = player_results_map['round_results'][q_counter]
+            current_player_icon = player_icon_list[p_id]
+            current_player_icon_el = document.createElement('img')
+            current_player_icon_el.classList.add('player-icon-lobby', current_player_icon)
+
             if (p_q_result == 1) { correct_answer_p.appendChild(current_player_icon_el) }
             else { incorrect_answer_p.appendChild(current_player_icon_el) }
         }   

@@ -9,7 +9,7 @@ html, body {
 }
 
 .body-court {
-	background: linear-gradient(-45deg, #e44481, #ff87b5, #f8f9fa, white, #4de4c0, #35b6e6);
+	background: linear-gradient(-45deg, #ff3683, #f8f9fa, white, #a9f1e0, #35b6e6);
 	background-size: 1000% 1000%;
 	animation: bg-gradient 10s ease infinite;
 }
@@ -64,6 +64,22 @@ body{
     display: inline-block;
     width: 40px;
     height: 40px;
+}
+
+.player-icon-scoreboard {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+}
+
+.player-text-scoreboard {
+    bottom: -12px;
+    display: inline;
+}
+
+.player-score-box {
+    bottom: -12px;
+    display: inline;
 }
 
 img.player-dunk-animate {
@@ -215,7 +231,7 @@ p.incorrect-q-highlight {
 
 #game-join-options {
     border-style: solid;
-    border-width: 14px;
+    border-width: 10px;
     border-color: #3a3a3a;
 }
 
@@ -231,19 +247,19 @@ p.incorrect-q-highlight {
 
 .border-dark-my {
     border-style: solid;
-    border-width: 14px;
+    border-width: 10px;
     border-color: #0b1317;   
 }
 
 .border-primary-my {
     border-style: solid;
-    border-width: 14px;
+    border-width: 10px;
     border-color: #db3eb1;
 }
 
 .border-secondary-my {
     border-style: solid;
-    border-width: 14px;
+    border-width: 10px;
     border-color: #41b6e6;
 }
 
