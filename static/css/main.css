@@ -16,9 +16,8 @@ body{
 
 .lobby-player-icon {
     position:absolute;
-    width: 275px;
-    right: 50px;
-    top: 50px;
+    right: 2%;
+    bottom: 27%;
 }
 
 .player-icon-one {

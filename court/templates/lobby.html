@@ -1,22 +1,25 @@
-<div id='lobby-container' class='h-100 d-none'>
+<div id='lobby-container' class='h-100 mt-md-auto mt-5 d-none'>
     {% load static %}
     <div class='row align-items-center justify-content-center h-100'>
         <div class='col'>
             <div class='row'>
-                <div class='col-12'>
-                    <p class='display-4 text-dark'>LOBBY <span class='badge badge-dark'>ID: {{court_id}}</span></p>
+                <div class='col-auto align-self-start'>
+                    <p class='display-4'><span class='badge text-light bg-secondary-my'>LOBBY</span></p>
+                 </div>
+                 <div class='col-auto ml-auto display-4'>
+                    <p class='badge badge-dark'>ID: {{court_id}}</p>
                  </div>
             </div>       
-            <div class='row align-items-center mb-3 p-5 bg-dark'>
+            <div class='row align-items-center mb-3 p-5 bg-dark-my border-secondary-my'>
                 <div class='col-12 col-md-6 pb-md-auto pb-3'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-2'>
                             <div class="spinner-grow spinner-grow-sm text-light mr-1" style='position:relative; bottom:6px;' role="status"></div>
-                            <p class='h2' style='display: inline-block;'>Players In Lobby</p>
+                            <p class='h2 font-weight-bold' style='display: inline-block;'>Players In Lobby</p>
                         </div>
                     </div>
                     <div class='row justify-content-center'>
-                        <div class='col-auto mb-2'>
+                        <div class='col-auto mb-2 mt-md-1'>
                             <div id='player-list'>
                             <!-- List of players show up here with JS -->
 
@@ -26,8 +29,8 @@
                 </div>
                 <div class='col-12 col-md-6'>
                     <div class='row justify-content-center'>
-                        <div class='col-auto mb-1 text-center'>
-                            <p class='h2 mb-4'>Your Role/Color</p>
+                        <div class='col-auto mt-2 mt-md-1 text-center'>
+                            <p class='h2 mb-4 font-weight-bold'>Your Role/Color</p>
                             {% if role == 'captain' %}
                                 <p class='badge badge-danger p-2 m-1'>CAPTAIN</p> /
                             {% else %}
@@ -38,11 +41,11 @@
                     </div>
                 </div>
             </div>
-            <div class='row bg-primary p-5 mb-5'>
+            <div class='row bg-secondary-my p-5 mb-5'>
                 <div id='config-options-display' class='col'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-3 text-center'>
-                            <p class='h2 mb-3'>Selected Divisions</p>
+                            <p class='h2 mb-3 font-weight-bold'>Selected Divisions</p>
                             <div id='config-division-display' class='text-center'>
                                  <!-- List of divisions show up here with JS -->
                             </div>
@@ -58,8 +61,8 @@
                     </div>
                     
                     <div class='row justify-content-center'>
-                        <div class='col-auto'>
-                            <p class='h2 mb-3'>Shot Clock</p>
+                        <div class='col-auto mt-2'>
+                            <p class='h2 mb-3 font-weight-bold'>Shot Clock</p>
                             <div class='row'>
                                 <div class='col-auto badge badge-light mx-auto pt-2 pl-3 pr-3'>
                                     <p class='h4' id='config-shot-clock-display'></p>
@@ -75,17 +78,17 @@
                 <div class='col-auto mb-3'>
                     {% if role == 'captain' %}
                         <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status"></div>
-                        <a role='button' class='btn btn-lg btn-warning' href='' id='start-game'>Start Game</a>
+                        <a role='button' class='btn btn-lg bg-primary-my text-light font-weight-bold' href='' id='start-game'>Start Game</a>
                     {% else %}
                         <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status">
                         </div>
-                        <p class='badge badge-pill badge-warning p-2'>Waiting for CAPTAIN to Start Game</p>
+                        <p class='badge badge-pill bg-primary-my p-2 text-light font-weight-bold'>Waiting for CAPTAIN to Start Game</p>
                         
                     {% endif %}
                 </div>
             </div>
         </div>
     </div>
-    <img class='d-none d-md-block lobby-player-icon player-dunk-animate' src="{% static 'images/player_blue_dark.png' %}" alt='RUN AND GUN LOGO'>
+    <img class='d-none d-lg-block lobby-player-icon player-dunk-animate' src="{% static 'images/player_pink_light.png' %}" alt='RUN AND GUN LOGO'>
 </div>
 
