@@ -8,9 +8,18 @@
             <!-- Title -->
             <div class='row justify-content-center'>
                 <div class='col-auto'>
-                    <p class='display-4 text-dark'>FINAL SCORES</p>
+                    <p class='display-4'><span class='badge text-light bg-dark-my'>FINAL SCORE</span></p>
                 </div>                
             </div>
+
+            <!-- Scoreboard -->
+            <div id='scoreboard' class='row justify-content-center'>
+                <div class='col-auto'>
+                    
+                </div>
+                                
+            </div>
+            
             <!-- Content -->
             <div class='row bg-danger-my border-dark-my p-5 mb-3'>
                 <div class='col col-md-8 mx-auto'>
@@ -22,10 +31,10 @@
                 </div>                                        
             <!-- Buttons -->
             </div>
-            <div class='row my-4'>
+            <div class='row my-5'>
                 <div class='col-auto mx-auto'>
                     {% if role == 'captain' %}
-                        <button id='end-game' class='btn btn-lg btn-light font-weight-bold text-dark' onclick='captain_end_game()'>End Game</button>
+                        <button id='end-game' class='btn btn-lg btn-light font-weight-bold text-dark mr-3' onclick='captain_end_game()'>End Game</button>
                         <button class='d-none btn btn-lg bg-danger-my font-weight-bold text-light' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
                     {% elif role == 'player' %}
                         <span id='end-game-wait' class='badge badge-warning badge-lg'>Waiting For Captain To Start Round or End Game</span>

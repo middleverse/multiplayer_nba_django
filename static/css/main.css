@@ -2,6 +2,30 @@ html, body {
     height: 100%;
 }
 
+.body-home {
+	background: linear-gradient(-45deg, #48c5ffe3, #f8f9fa, #ff39ff85);
+	background-size: 1000% 1000%;
+	animation: bg-gradient 10s ease infinite;
+}
+
+.body-court {
+	background: linear-gradient(-45deg, #e44481, #ff87b5, #f8f9fa, white, #4de4c0, #35b6e6);
+	background-size: 1000% 1000%;
+	animation: bg-gradient 10s ease infinite;
+}
+
+@keyframes bg-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 li {
     list-style-type: none;
 }
@@ -192,8 +216,7 @@ p.incorrect-q-highlight {
 #game-join-options {
     border-style: solid;
     border-width: 14px;
-    border-color: #0b1317;
-    background-color: #41b6e6;
+    border-color: #3a3a3a;
 }
 
 #join-game-button {
