@@ -5,7 +5,7 @@
 {% endblock navbar %}
 
 {% block court_content %}
-    <div class='container h-100 mt-md-0 mt-5'>
+    <div class='container h-100 mt-md-0 pt-5'>
 
 
         {{ court_id|json_script:"court-id" }}
@@ -538,6 +538,7 @@
     }
 
     const load_question_details = function() {
+        document.getElementById('question-display').textContent = session_current_question['question']
         question_form_el.elements.namedItem('a').labels[0].textContent = session_current_question['c_a']
         question_form_el.elements.namedItem('b').labels[0].textContent = session_current_question['c_b']
         question_form_el.elements.namedItem('c').labels[0].textContent = session_current_question['c_c']
@@ -551,7 +552,7 @@
     }
 
     const load_next_question = function() {
-        
+        return;
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
         seconds = 3 + 1
@@ -708,10 +709,6 @@
         q_h4.appendChild(q_text)
         results_questions_container_el.appendChild(q_h4)        
         // append each answer
-        // c_a_p_text = document.createTextNode(calculated_question['c_a'])
-        // c_b_p_text = document.createTextNode(calculated_question['c_b'])
-        // c_c_p_text = document.createTextNode(calculated_question['c_c'])
-        // c_d_p_text = document.createTextNode(calculated_question['c_d'])
         c_a_p = document.createElement('P')
         c_b_p = document.createElement('P')
         c_c_p = document.createElement('P')

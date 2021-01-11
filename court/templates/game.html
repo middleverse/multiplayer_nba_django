@@ -1,20 +1,62 @@
-<div id='game-container' class='d-none'>
-    <h1>Game</h1>
-    <span id="shot-clock-container"></span>
-    <form id='question-form'>
-        <fieldset id='question-form-fieldset'>
-            <input type='radio' id='a' name='answer' value='a'>
-            <label for='a'>BLAH</label></br>
-            <input type='radio' id='b' name='answer' value='b'>
-            <label for='b'>b</label></br>
-            <input type='radio' id='c' name='answer' value='c'>
-            <label for='c'>c</label></br>
-            <input type='radio' id='d' name='answer' value='d'>
-            <label for='d'>d</label></br>
-            <input type='submit' id='question-form-submit' value='Send Answer Choice'>
-        </fieldset>
-    </form>
-
-    <div id='question-display'></div>
-
+<div id='game-container' class='h-100 d-none'>
+    {% load static %}
+    <div class='row align-items-center justify-content-center h-100'>
+        <div class='col'>
+            <div class='row'>
+                <div class='col-12'>
+                    <p class='display-4 text-dark'>GAME</p>
+                    {% comment %} <span class='badge badge-dark'>ID: {{court_id}}</span> {% endcomment %}
+                </div>
+            </div>    
+            <div class='row mb-3 p-5 justify-content-center bg-primary'>
+                <div class='col-md-8 mx-auto'>
+                    <form id='question-form'>
+                        <fieldset id='question-form-fieldset'>
+                            <div class="h6 mb-5 p-2 pb-4 pt-4 mt-2 text-center bg-warning" id='question-display' name='question-display'>Q: 
+                            Who is the greatest basketball player to ever live, other than Michael Jordan?
+                            </div>
+                            <div class='input-group mb-3 border border-dark bg-dark'>
+                                <div class='input-group-prepend'>
+                                    <div class='input-group-text bg-dark border border-dark'>
+                                        <input type='radio' id='a' name='answer' value='a'>
+                                    </div>
+                                </div>
+                                <label class='form-check-label p-2' for='a'>Kobe Bryant</label></br>
+                            </div>
+                            <div class='input-group mb-3 border border-dark bg-dark'>
+                                <div class='input-group-prepend'>
+                                    <div class='input-group-text bg-dark border border-dark'>
+                                        <input type='radio' id='b' name='answer' value='b'>
+                                    </div>
+                                </div>
+                                <label class='form-check-label p-2' for='b'>Lebron JamesP</label></br>
+                            </div>
+                            <div class='input-group mb-3 border border-dark bg-dark'>
+                                <div class='input-group-prepend'>
+                                    <div class='input-group-text bg-dark border border-dark'>
+                                        <input type='radio' id='c' name='answer' value='c'>
+                                    </div>
+                                </div>
+                                <label class='form-check-label p-2' for='c'>TEMP</label></br>
+                            </div>
+                            <div class='input-group mb-3 border border-dark bg-dark'>
+                                <div class='input-group-prepend'>
+                                    <div class='input-group-text bg-dark border border-dark'>
+                                        <input type='radio' id='d' name='answer' value='d'>
+                                    </div>
+                                </div>
+                                <label class='form-check-label p-2' for='d'>TEMP</label></br>
+                            </div>
+                            <div class='row justify-content-md-center justify-content-end'>
+                                <div class='col-auto mt-4'>
+                                    <input class='btn btn-lg btn-danger' type='submit' id='question-form-submit' value='Shoot'>
+                                </div>
+                            </div
+                        </fieldset>
+                    </form>
+                    <span id="shot-clock-container"></span>
+                </div>
+            </div>
+        </div>
+    </div>    
 </div>
