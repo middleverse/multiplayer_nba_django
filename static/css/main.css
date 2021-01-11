@@ -174,17 +174,17 @@ bottom: 175px;
 }
 
 p.correct-q-highlight {
-    background-color: #ED145A;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    background-color: #a5204b;
+    padding-left: 1.5rem;
+    padding-right: 1.rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
 
 p.incorrect-q-highlight {
-    background-color: cornflowerblue;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    background-color: #3b5965;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
@@ -260,4 +260,8 @@ input[type="radio"] {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
     transform: scale(1.5);
+}
+
+.badge-results-correct {
+    background-color: #a5204b;
 }

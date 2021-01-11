@@ -12,7 +12,7 @@
                 </div>                
             </div>
             <!-- Content -->
-            <div class='row bg-dark p-5 mb-3'>
+            <div class='row bg-danger-my border-dark-my p-5 mb-3'>
                 <div class='col col-md-8 mx-auto'>
                     <div id='results-questions-outer-container'>
                         <div id='results-questions-inner-container' class='text-dark'>
@@ -22,10 +22,14 @@
                 </div>                                        
             <!-- Buttons -->
             </div>
-            <div class='row'>
-                <div class='col'>
-                    <button id='end-game' onclick='captain_end_game()'>End Game</button>
-                    <button class='d-none' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
+            <div class='row my-4'>
+                <div class='col-auto mx-auto'>
+                    {% if role == 'captain' %}
+                        <button id='end-game' class='btn btn-lg btn-light font-weight-bold text-dark' onclick='captain_end_game()'>End Game</button>
+                        <button class='d-none btn btn-lg bg-danger-my font-weight-bold text-light' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
+                    {% elif role == 'player' %}
+                        <span id='end-game-wait' class='badge badge-warning badge-lg'>Waiting For Captain To Start Round or End Game</span>
+                    {% endif %}
                 </div>
             </div>
         </div>

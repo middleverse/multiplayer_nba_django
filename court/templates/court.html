@@ -60,6 +60,7 @@
     var question_player_answer_total = 0 // # of players that have answered current q
     var round_results_recieved_counter = 0 // # of players who sent round results 
     var round_end_players_results_tracker = []
+    var question_timeout;
     /*
         results tracker dict map examples
         0 - incorrect answer
@@ -342,7 +343,7 @@
             add_answer_posted_ui()   
         }
         else if (data['message'] === 'load_next_question_message') {
-            setTimeout(load_next_question, 2000)
+            question_timeout = setTimeout(load_next_question, 2000)
         }
         
         // A PLAYER'S ROUND RESULTS RECIEVED
@@ -573,6 +574,7 @@
         //return;
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
+        clearTimeout(question_timeout)
         seconds = 3 + 1
 
         // Update Question Counters
@@ -661,8 +663,10 @@
         round_results_tracker = [0,0,0,0,0,0,0,0,0,0]
         round_end_players_results_tracker = []
         // TODO: can this be modularized?
-        if (document.getElementById('start-next-round').classList.contains('d-none')){
-            document.getElementById('start-next-round').classList.toggle('d-none')
+        if (role === 'captain') {
+            if (document.getElementById('start-next-round').classList.contains('d-none')){
+                document.getElementById('start-next-round').classList.toggle('d-none')
+            }
         }
         manipulate_logo('start')
         load_session_state_ui('game')
@@ -752,7 +756,7 @@
         new_result_row_el = document.createElement("div")
         new_result_row_el.classList.add('row', 'my-2', 'p-2')
         new_result_col_el = document.createElement("div")
-        new_result_col_el.classList.add('col', 'bg-primary', 'px-5')
+        new_result_col_el.classList.add('col', 'bg-dark-my', 'border-dark-my', 'font-weight-bold', 'px-5')
 
         results_questions_container_el.appendChild(new_result_row_el)
         new_result_row_el.appendChild(new_result_col_el)
@@ -769,7 +773,7 @@
         correct_answer_p = document.createElement('P')
         correct_badge = document.createElement('span')
         correct_badge.textContent = 'Correct:'
-        correct_badge.classList.add('badge', 'badge-danger', 'p-2', 'mt-3')
+        correct_badge.classList.add('badge', 'badge-results-correct', 'p-2', 'mt-3')
         correct_answer_p.appendChild(correct_badge)
         
         incorrect_answer_p = document.createElement('P')
