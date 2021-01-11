@@ -1,11 +1,33 @@
 <div id='results-container' class='d-none h-100'>
-    {% load static %}
-    <h1 class='text-primary'>RESULTS</h1>
-    <div id='results-questions-outer-container'>
-        <div id='results-questions-inner-container' class='text-dark'>
 
+
+    {% load static %}
+    <div class='row align-items-center justify-content-center h-100'>
+        <div class='col'>
+                
+            <!-- Title -->
+            <div class='row'>
+                <div class='col'>
+                    <p class='display-4 text-dark'>FINAL SCORES</p>
+                </div>                
+            </div>
+            <!-- Content -->
+            <div class='row bg-dark p-5 mb-3'>
+                <div class='col col-md-8 mx-auto'>
+                    <div id='results-questions-outer-container'>
+                        <div id='results-questions-inner-container' class='text-dark'>
+
+                        </div>
+                    </div>
+                </div>                                        
+            <!-- Buttons -->
+            </div>
+            <div class='row'>
+                <div class='col'>
+                    <button id='end-game' onclick='captain_end_game()'>End Game</button>
+                    <button class='d-none' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
+                </div>
+            </div>
         </div>
-    </div>
-    <button id='end-game' onclick='captain_end_game()'>End Game</button>
-    <button class='d-none' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
+    </div>    
 </div>
