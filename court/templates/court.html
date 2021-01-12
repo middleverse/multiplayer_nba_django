@@ -23,10 +23,22 @@
         <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
         <input type="submit" value='OK'>
     </form>
-
-    <audio id='home-audio' loop>
-        {% load static %}
+        
+    {% load static %}
+    <audio id='create-audio' loop preload='auto'>
         <source src="{% static 'sound/lobby_primary_loop.mp3' %}" type='audio/mpeg'>
+    </audio>
+
+    <audio id='lobby-audio' loop preload='auto'>
+        <source src="{% static 'sound/lobby_primary_loop.mp3' %}" type='audio/mpeg'>
+    </audio>
+    
+    <audio id='game-audio' loop>
+        <source src="{% static 'sound/result_loop.mp3' %}" type='audio/mpeg'>
+    </audio>
+
+    <audio id='result-audio' loop>
+        <source src="{% static 'sound/game_loop.mp3' %}" type='audio/mpeg'>
     </audio>
 
 <script>
@@ -75,7 +87,7 @@
     */
 
 
-    // Template Stuff
+    // TEMPLATE/CONTAINERS
     const create_container_el = document.getElementById('create-container')
     const lobby_container_el = document.getElementById('lobby-container')
     const lobby_shot_clock_el = document.getElementById('config-shot-clock-display')
@@ -85,22 +97,46 @@
     const question_form_fieldset_el = question_form_el.elements.namedItem('question-form-fieldset')
     const results_container_el = document.getElementById('results-container')
 
+    // AUDIO CONTAINERS
+    const create_audio_el = document.getElementById('create-audio')
+    const lobby_audio_el = document.getElementById('lobby-audio')
+    const game_audio_el = document.getElementById('game-audio')
+    const result_audio_el = document.getElementById('result-audio')
+    var session_audio_just_loaded = true
+
     const load_session_state_ui = function(_state) {
         if (create_container_el.classList.contains('d-none') == false) create_container_el.classList.toggle('d-none');
         if (lobby_container_el.classList.contains('d-none') == false) lobby_container_el.classList.toggle('d-none');
         if (game_container_el.classList.contains('d-none') == false) game_container_el.classList.toggle('d-none');
         if (results_container_el.classList.contains('d-none') == false) results_container_el.classList.toggle('d-none');
         
+        if (session_audio_just_loaded) {
+            session_audio_just_loaded = false;
+        } else {
+            lobby_audio_el.pause()
+            create_audio_el.pause()
+            game_audio_el.pause()
+            result_audio_el.pause()
+        }
         console.log('STATE: ', _state);
         if (_state == 'create') {
             create_container_el.classList.toggle('d-none')
+            create_audio_el.play()
+            
         } else if (_state == 'lobby') {
             lobby_container_el.classList.toggle('d-none')
+            lobby_audio_el.play()
+
+
         } else if (_state == 'game') {
             game_container_el.classList.toggle('d-none');
+            game_audio_el.play()
+
+
         } else if (_state == 'results') {
             results_container_el.classList.toggle('d-none');
-            // TODO
+            result_audio_el.play()
+
         } else {
             console.log('incorrect state!')
         }
@@ -871,9 +907,9 @@
     //});
 
     window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("#home-audio");
-        audio.volume = 0.5;
-        // audio.play();
+        const audio = document.querySelector("#lobby-audio");
+        audio.play()
+        session_audio_just_loaded = true;
     });  
 </script>
 
