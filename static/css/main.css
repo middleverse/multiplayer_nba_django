@@ -269,6 +269,12 @@ p.incorrect-q-highlight {
     border-color: #41b6e6;
 }
 
+.border-light-my {
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
 .bg-primary-my {
     background-color: #db3eb1;
 }
@@ -309,4 +315,11 @@ input[type="radio"] {
 
 .badge-results-correct {
     background-color: #a5204b;
+}
+
+.about-team-icon {
+    height:200px;
+    position: relative;
+    left: -30px;
+    bottom: 26px;
 }
