@@ -23,23 +23,6 @@
         <input type='text' id='obtain-form-court-id' name='obtain-form-court-id' value={{court_id}}>
         <input type="submit" value='OK'>
     </form>
-        
-    {% load static %}
-    <audio id='create-audio' loop preload='auto'>
-        <source src="{% static 'sound/lobby_primary_loop.mp3' %}" type='audio/mpeg'>
-    </audio>
-
-    <audio id='lobby-audio' loop preload='auto'>
-        <source src="{% static 'sound/lobby_primary_loop.mp3' %}" type='audio/mpeg'>
-    </audio>
-    
-    <audio id='game-audio' loop>
-        <source src="{% static 'sound/result_loop.mp3' %}" type='audio/mpeg'>
-    </audio>
-
-    <audio id='result-audio' loop>
-        <source src="{% static 'sound/game_loop.mp3' %}" type='audio/mpeg'>
-    </audio>
 
 <script>
     // ================================
@@ -110,18 +93,18 @@
         if (game_container_el.classList.contains('d-none') == false) game_container_el.classList.toggle('d-none');
         if (results_container_el.classList.contains('d-none') == false) results_container_el.classList.toggle('d-none');
         
-        if (session_audio_just_loaded) {
-            session_audio_just_loaded = false;
-        } else {
+        if (session_audio_just_loaded == false) {
             lobby_audio_el.pause()
             create_audio_el.pause()
             game_audio_el.pause()
             result_audio_el.pause()
+        } else {
+            session_audio_just_loaded = false
         }
         console.log('STATE: ', _state);
         if (_state == 'create') {
             create_container_el.classList.toggle('d-none')
-            create_audio_el.play()
+            lobby_audio_el.play() // same audio as lobby, let it play
             
         } else if (_state == 'lobby') {
             lobby_container_el.classList.toggle('d-none')
@@ -131,7 +114,6 @@
         } else if (_state == 'game') {
             game_container_el.classList.toggle('d-none');
             game_audio_el.play()
-
 
         } else if (_state == 'results') {
             results_container_el.classList.toggle('d-none');
