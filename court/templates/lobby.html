@@ -15,7 +15,7 @@
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-2'>
                             <div class="spinner-grow spinner-grow-sm text-light mr-1" style='position:relative; bottom:6px;' role="status"></div>
-                            <p class='h2 font-weight-bold' style='display: inline-block;'>Players In Lobby</p>
+                            <p class='h2 font-weight-bold' style='display: inline-block;'>PLAYERS HERE</p>
                         </div>
                     </div>
                     <div class='row justify-content-center'>
@@ -30,11 +30,11 @@
                 <div class='col-12 col-md-6'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mt-2 mt-md-1 text-center'>
-                            <p class='h2 mb-4 font-weight-bold'>Your Role/Color</p>
+                            <p class='h2 mb-4 font-weight-bold'>YOUR ROLE</p>
                             {% if role == 'captain' %}
-                                <p class='badge bg-danger-my p-2 m-1'>CAPTAIN</p> /
+                                <p class='badge bg-danger-my p-2 m-1'>CAPTAIN</p> -
                             {% else %}
-                                <p class='badge badge-light p-2 m-1'>PLAYER</p> /
+                                <p class='badge badge-light p-2 m-1'>PLAYER</p> -
                             {% endif %}
                             <p id='lobby-my-role' style='display: inline-block;'></p>
                         </div>
@@ -45,7 +45,7 @@
                 <div id='config-options-display' class='col'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-3 text-center'>
-                            <p class='h2 mb-3 font-weight-bold'>Selected Divisions</p>
+                            <p class='h2 mb-3 font-weight-bold'>DIVISION</p>
                             <div id='config-division-display' class='text-center'>
                                  <!-- List of divisions show up here with JS -->
                             </div>
@@ -55,14 +55,14 @@
                         <div class='col-auto mb-4'>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-sm btn-dark" data-toggle="modal" data-target="#division-team-modal">
-                            List Teams <span class="badge badge-primary">?</span>
+                            List of Teams <span class="badge badge-primary">?</span>
                             </button>
                         </div>
                     </div>
                     
                     <div class='row justify-content-center'>
                         <div class='col-auto mt-2'>
-                            <p class='h2 mb-3 font-weight-bold'>Shot Clock</p>
+                            <p class='h2 mb-3 font-weight-bold'>SHOT CLOCK</p>
                             <div class='row'>
                                 <div class='col-auto badge badge-light mx-auto pt-2 pl-3 pr-3'>
                                     <p class='h4' id='config-shot-clock-display'></p>

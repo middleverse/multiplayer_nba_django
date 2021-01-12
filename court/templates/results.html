@@ -14,7 +14,7 @@
 
             <!-- Scoreboard -->
             <div id='scoreboard' class='row mb-5 mt-2 align-items-center justify-content-center'>
-            
+
             </div>
             
             <!-- Content -->
@@ -33,9 +33,17 @@
                     {% if role == 'captain' %}
                         <button id='end-game' class='btn btn-lg btn-light font-weight-bold text-dark mr-3' onclick='captain_end_game()'>End Game</button>
                         <button class='d-none btn btn-lg bg-danger-my font-weight-bold text-light' id='start-next-round' onclick='tell_players_to_start_new_round()'>Start Next Round</button>
+                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status"></div>
                     {% elif role == 'player' %}
-                        <span id='end-game-wait' class='badge badge-warning badge-lg'>Waiting For Captain To Start Round or End Game</span>
+                        <span id='end-game-wait' class='h3 badge badge-warning'>Waiting For Captain To Start Round or End Game</span>
+                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status"></div>
                     {% endif %}
+                </div>
+                <div class='col col-auto ml-auto justify-content-end'>
+                    <p class='h3'>
+                        <span class='badge text-light bg-dark-my p-2'>You:</span>
+                        <span id='posted-answer-icons'><img id='result-you-icon'></span>
+                    </p>
                 </div>
             </div>
         </div>

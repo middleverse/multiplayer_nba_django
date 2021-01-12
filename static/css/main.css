@@ -66,6 +66,12 @@ body{
     height: 40px;
 }
 
+.player-icon-game {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
 .player-icon-scoreboard {
     display: inline-block;
     width: 75px;
@@ -206,7 +212,7 @@ bottom: 175px;
     right: 50px;
     top: 50px;
     text-align: center;
-    border: 6px solid black;
+    border: 6px solid #0b1317f5;
 }
 
 #shot-clock-container {
@@ -232,12 +238,12 @@ p.incorrect-q-highlight {
 #game-join-options {
     border-style: solid;
     border-width: 10px;
-    border-color: #3a3a3a;
+    border-color: #0b1317f5;
 }
 
 #join-game-button {
-    background-color: #0b1317;
-    border-color: #0b1317;
+    background-color: #0b1317f5;
+    border-color: #0b1317f5;
 }
 
 #create-game {
@@ -248,7 +254,7 @@ p.incorrect-q-highlight {
 .border-dark-my {
     border-style: solid;
     border-width: 10px;
-    border-color: #0b1317;   
+    border-color: #0b1317f5;   
 }
 
 .border-primary-my {
@@ -272,7 +278,7 @@ p.incorrect-q-highlight {
 }
 
 .bg-dark-my {
-    background-color: #0b1317;
+    background-color: #0b1317f5;
 }
 
 .bg-danger-my {
@@ -288,7 +294,7 @@ p.incorrect-q-highlight {
 }
 
 .text-dark-my {
-    color: #0b1317!important;
+    color: #0b1317f5!important;
 }
 
 .text-danger-my {

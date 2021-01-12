@@ -154,6 +154,13 @@
         console.log(session_player_icon)
         my_player_icon_el.classList.add('player-icon-lobby', session_player_icon)
         my_role_el.appendChild(my_player_icon_el)
+
+        // update in game menu as well
+        game_you_icon_el = document.getElementById('game-you-icon')
+        result_you_icon_el = document.getElementById('result-you-icon')
+        game_you_icon_el.classList.add('player-icon-game', session_player_icon)
+        result_you_icon_el.classList.add('player-icon-game', session_player_icon)
+    
     }
 
     // TODO we'll have to separate this into removal and addition
@@ -565,12 +572,12 @@
     const q_list_exhausted = function() {
             session_question_list_exhausted = true
             console.log('QUESTION LIST EXHAUSTED, ROUND ENDED!')
-            no_more_next_round_ui()
+            if (role === 'captain') {
+                no_more_next_round_ui()
+            }
     }
 
     const load_next_question = function() {
-        
-        
         //return;
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
@@ -730,7 +737,7 @@
         for (i=0; i < session_player_list.length; i++) {
             // create col
             sb_col = document.createElement('div')
-            sb_col.classList.add('col-auto', 'bg-dark-my', 'pl-4', 'pb-3', 'pt-1', 'mx-2' 'player-score-box' , 'rounded')
+            sb_col.classList.add('col-auto', 'bg-dark-my', 'pl-4', 'pb-3', 'pt-1', 'mx-2', 'player-score-box' , 'rounded')
 
             inner_container_row = document.createElement('div')
             inner_container_row.classList.add('row')
