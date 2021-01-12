@@ -323,3 +323,9 @@ input[type="radio"] {
     left: -30px;
     bottom: 26px;
 }
+
+.home-trivia-text-lg {
+    position: absolute;
+    right: 10px;
+    top:100px;
+}

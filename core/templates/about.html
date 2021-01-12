@@ -5,6 +5,98 @@
 {% endblock navbar %}
 
 {% block content %}
-    <h4>ABOUT</h4>
+<div class='container h-100'>
+        <div class='row align-items-start justify-content-center py-5 px-md-5 px-2 h-100'>
+            <div class='col p-4'>
+                <!-- ABOUT -->
+                <div class='row mt-5'>
+                    <div class='col-12 display-4 text-center'>
+                        <p class='badge bg-dark-my text-light'>ABOUT</p>
+                    </div>
+                </div>
+                <!-- DESC -->
+                <div class='row border-light-my p-5 my-5'>
+                    <div class='col-md-10 mx-auto'>
+                        <p class=''><b>This app was built out of the love of the game.</b> </br></br>
+                        We're a team of passionate basketball fans that wanted to create a
+                        fun, educational and competitive experience around the NBA's past and present.
+                        </br></br>
+                        We've got a database of over 1500 questions that'll test you on the major NBA
+                        events and players. Invite friends to your court, start the shot clock and game on!</p>
+                    </div>
+                </div>
+
+                <!-- TEAM -->
+                {% load static %}
+                 <div class='row text-start text-center bg-secondary-my text-dark border-dark-my px-3 px-md-0 py-5 my-5'>
+                    <div class='col-md-8 mx-auto'>
+                        <div class='display-3 my-3 mb-3 font-weight-bold text-light-my'>TEAM</div>
+                        <div class='row my-5 py-3 bg-light-my'>
+                            <div class='col'>
+                                <img class='about-team-icon' src="{% static 'images/arshi.png' %}">
+                            </div>
+                            <div class='col text-left'>
+                                <h2 class='font-weight-bold text-dark-my'>Creator</h2>
+                                <h5 class='font-weight-bold text-light'>Arshi Bhasin</h5>
+                                </br>
+                                <h6>Occupation: Software Developer</h6>
+                                <h6>Favourite Player: Kobe Bryant</h6>
+                            </div>
+                        </div>
+                        <div class='row my-5 py-3 bg-secondary-my'> 
+                            <div class='col'>
+                                <img class='about-team-icon' src="{% static 'images/gavin.png' %}">
+                            </div>
+                            <div class='col text-left'>
+                                <h2 class='font-weight-bold text-dark-my'>Head Researcher</h2>
+                                <h5 class='font-weight-bold text-light'>Gavin Martins</h5>
+                                </br>
+                                <h6>Occupation: Dentist</h6>
+                                <h6>Favourite Player: Damian Lillard</h6>
+                            </div>
+                        </div>
+                        
+                        <div class='row my-5 py-3 bg-secondary-my'>
+                            <div class='col'>
+                                <img class='about-team-icon' src="{% static 'images/arsalan.png' %}">
+                            </div>
+                            <div class='col text-left'>
+                                <h2 class='font-weight-bold text-dark-my'>Head Researcher</h2>
+                                <h5 class='font-weight-bold text-light'>Arsalan Alim</h5>
+                                </br>
+                                <h6>Occupation: Photographer</h6>
+                                <h6>Favourite Player: Kevin Durant/Lebron James (Can't decide)</h6>
+                            </div>
+                        </div>
+                        <div class='row my-5 py-3 bg-secondary-my'>
+                            <div class='col'>
+                                <img class='about-team-icon' src="{% static 'images/chris.png' %}">
+                            </div>
+                            <div class='col text-left'>
+                                <h2 class='font-weight-bold text-dark-my'>Sound Magician</h2>
+                                <h5 class='font-weight-bold text-light'>Chris Martins</h5>
+                                </br>
+                                <h6>Occupation: Musician</h6>
+                                <h6>Favourite Player: Allen Iverson</h6>
+                            </div>
+                        </div>
+                        <div class='row my-5 py-3 bg-secondary-my'>
+                            <div class='col'>
+                                <img class='about-team-icon' src="{% static 'images/archit.png' %}">
+                            </div>
+                            <div class='col text-left'>
+                                <h2 class='font-weight-bold text-dark-my'>Advisor Sensei</h2>
+                                <h5 class='font-weight-bold text-light'>Archit Jain</h5>
+                                </br>
+                                <h6>Occupation: Software Developer</h6>
+                                <h6>Favourite Player: Steph Curry</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</div>
 
 {% endblock content %}
