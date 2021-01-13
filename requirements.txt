@@ -30,4 +30,3 @@ sqlparse==0.4.1
 Twisted==20.3.0
 txaio==20.4.1
 zope.interface==5.2.0
-redis==6.0.10
