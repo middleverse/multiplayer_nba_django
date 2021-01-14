@@ -1,0 +1,315 @@
+Q: Where were the Memphis Grizzlies originally located?
+a: Vancouver
+b: Nashville
+c: Little Rock
+d: Louisville
+Team: MEM
+========EOQ========
+Q: In which season did the Vancouver Grizzlies join the league?
+a: 1995-96
+b: 1996-97
+c: 1992-93
+d: 1991-92
+Team: MEM
+========EOQ========
+Q: What were the Grizzlies originally going to be called?
+a: Mounties
+b: Maple Leafs
+c: Beavers
+d: Lobsters
+Team: MEM
+========EOQ========
+Q: In which season did the franchise move from Vancouver to Memphis?
+a: 2000-01
+b: 1999-00
+c: 2002-03
+d: 1998-99
+Team: MEM
+========EOQ========
+Q: Which coach led the Grizzlies to their first winning season?
+a: Hubie Brown
+b: Lionel Hollins
+c: Mike Fratello
+d: Sidney Lowe
+Team: MEM
+========EOQ========
+Q: This Grizzlies coach won the NBA Coach of the Year award during this season.
+a: 2003-04
+b: 2002-03
+c: 2006-07
+d: 2008-09
+Team: MEM
+========EOQ========
+Q: In which season did Memphis make the playoffs for the first time in franchise history?
+a: 2003-04
+b: 2002-03
+c: 2006-07
+d: 2008-09
+Team: MEM
+========EOQ========
+Q: Who was the first Grizzly to win NBA Rookie of the Year?
+a: Pau Gasol
+b: Shane Battier
+c: Rudy Gay
+d: Mike Conley Jr.
+Team: MEM
+========EOQ========
+Q: This Grizzlies player became the first foreign player to win the NBA Rookie of the Year.
+a: Pau Gasol
+b: Shane Battier
+c: Rudy Gay
+d: Mike Conley Jr.
+Team: MEM
+========EOQ========
+Q: This Grizzlies player was the only one to play all 82 games during the 2001-02 season.
+a: Pau Gasol
+b: Shane Battier
+c: Rudy Gay
+d: Mike Conley Jr.
+Team: MEM
+========EOQ========
+Q: Which player did the Grizzlies trade for his younger brother?
+a: Pau Gasol
+b: Jontay Porter
+c: Justin Holiday
+d: Andrew Harrison
+Team: MEM
+========EOQ========
+Q: In 2008 which two teams were involved in the trade which involved both Marc & Pau Gasol?
+a: Grizzlies & Lakers
+b: Grizzlies & Clippers
+c: Lakers & Spurs
+d: Lakers & Chicago
+Team: MEM
+========EOQ========
+Q: Which Grizzly has the most three-pointers in a single game?
+a: Mike Miller
+b: Mike Conley
+c: Sam Mack
+d: Juan Carlos Navarro
+Team: MEM
+========EOQ========
+Q: Who was the first Grizzly with three triple-doubles in a season?
+a: Delon Wright
+b: Marc Gasol
+c: Blue Edwards
+d: Ja Morant
+Team: MEM
+========EOQ========
+Q: What is the name of the Memphis Grizzlies' mascot?
+a: Grizz
+b: Paw Paw
+c: Ben
+d: Kody
+Team: MEM
+========EOQ========
+Q: Which Memphis Grizzly was nicknamed "Wendigo"?
+a: Marc Gasol
+b: Roy Rogers
+c: Shareef Abdur-Rahim
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: Which Grizzly won the NBA Sportsmanship Award three times?
+a: Mike Conley Jr.
+b: Marc Gasol
+c: Tony Allen
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: Who was the first Grizzly to win the Sixth Man of the Year Award?
+a: Mike Miller
+b: Byron Scott
+c: Zach Randolph
+d: Lance Stephenson
+Team: MEM
+========EOQ========
+Q: Which Grizzlies coach has the highest winning percentage?
+a: Dave Joerger
+b: Hubie Brown
+c: Lionel Hollins
+d: Make Fratello
+Team: MEM
+========EOQ========
+Q: How many games did Allen Iverson play for the Grizzlies?
+a: 3
+b: 6
+c: 43
+d: 44
+Team: MEM
+========EOQ========
+Q: The Memphis Grizzlies' Eddie Jones wore jersey #6 in honor of which NBA legend?
+a: Julius Erving
+b: Bill Russell
+c: Patrick Ewing
+d: Don Barksdale
+Team: MEM
+========EOQ========
+Q: Who was the first Memphis player with at least 1800 points in a season?
+a: Shareef Abdur-Rahim
+b: Pau Gasol
+c: Zach Randolph
+d: Rudy Gay
+Team: MEM
+========EOQ========
+Q: How long was the Grizzlies' longest losing streak?
+a: 23
+b: 28
+c: 15
+d: 17
+Team: MEM 
+========EOQ========
+Q: How many games did O.J. Mayo start for the Grizzlies in his last season with the team?
+a: 0
+b: 3
+c: 66
+d: 42
+Team: MEM
+========EOQ========
+Q: Who was the first Memphis Grizzly with at least 150 steals in a season?
+a: Mike Conley Jr.
+b: James Posey
+c: Mike Bibby
+d: Tony Allen
+Team: MEM
+========EOQ========
+Q: In 2017-18, who was the only player on the Grizzlies roster who averaged more than 20 points per game?
+a: Marshon Brooks
+b: Marc Gasol
+c: Mike Conley
+d: Tyreke Evans
+Team: MEM
+========EOQ========
+Q: Which Grizzly was traded during the 2018-19 season and went on to win the championship that season.
+a: Marc Gasol
+b: Serge Ibaka
+c: Kawhi Leonard
+d: Danny Green
+Team: MEM
+========EOQ========
+Q: Who led the Memphis Grizzlies with 93 blocked shots during the 2004-05 regular season? 
+a: Pau Gasol
+b: Dwight Howard
+c: Tim Duncan
+d: Marc Gasol
+Team: MEM
+========EOQ========
+Q: How many points did Grizzlies forward/guard Mike Miller score as a season high in the 2005-06 NBA season? 
+a: 41
+b: 39
+c: 40
+d: 45
+Team: MEM
+========EOQ========
+Q: During the 2008-09 season Hamed Haddadi became the first Iranian player to play in the NBA for this team.
+a: Grizzlies
+b: Clippers
+c: Bucks
+d: Raptors
+Team: MEM
+========EOQ========
+Q: This team drafted Ja Morant 2nd overall during the 2019 NBA draft
+a: Grizzlies
+b: Pistons
+c: Hawks
+d: Thunder
+Team: MEM
+========EOQ========
+Q: Kevin Love was drafted by the Timberwolves and traded to this team immediately.
+a: Grizzlies
+b: Cavaliers
+c: Pistons
+d: Bucks
+Team: MEM
+========EOQ========
+Q: This former Grizzlies player was a 3X All-Star during his tenure with the Grizzlies.
+a: Marc Gasol
+b: Pau Gasol
+c: Zach Randolph
+d: Kevin Love
+Team: MEM
+========EOQ========
+Q: This coach is the longest tenured coach in Grizzlies franchise history.
+a: Lionel Hollins
+b: Hubie Brown
+c: Mike Fratello
+d: Brian Hill
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most Games Played.
+a: Mike Conley
+b: Marc Gasol
+c: Zach Randolph
+d: Rudy Gay
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most Minutes Played.
+a: Marc Gasol
+b: Mike Conley
+c: Rudy Gay
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most Field Goals.
+a: Marc Gasol
+b: Mike Conley
+c: Rudy Gay
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most 2-Pt Field Goals.
+a: Marc Gasol
+b: Mike Conley
+c: Rudy Gay
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most 3-Pt Field Goals.
+a: Mike Conley
+b: Marc Gasol
+c: Zach Randolph
+d: Rudy Gay
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most Free Throws.
+a: Marc Gasol
+b: Mike Conley
+c: Pau Gasol
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: This Grizzlies player holds the franchise record for the most Total Rebounds.
+a: Marc Gasol
+b: Rudy Gay
+c: Pau Gasol
+d: Zach Randolph
+Team: MEM
+========EOQ========
+Q: This Grizzlies player is the only one to be named to the All-NBA First Team.
+a: Marc Gasol
+b: Pau Gasol
+c: Zach Randolph
+d: Mike Conley
+Team: MEM
+========EOQ========
+Q: This Grizzlies player is the only one to be named the NBA Defensive Player of the Year.
+a: Marc Gasol
+b: Pau Gasol
+c: Zach Randolph
+d: Mike Conley
+Team: MEM
+========EOQ========
+Q: This Grizzlies player was awarded the NBA Rookie of the Year during the 2019-20 season.
+a: Ja Morant
+b: Kyle Anderson
+c: Dillon Brooks
+d: Desmond Bane
+Team: MEM
+========EOQ========
+Q: Vince Carter played for this team from 2014 to 2017
+a: Grizzlies
+b: Mavericks
+c: Nets
+d: Hawks
+Team: MEM
+========EOQ========

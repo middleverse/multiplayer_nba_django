@@ -1,0 +1,399 @@
+Q: What year were the Cleveland Cavaliers founded?
+a: 1970-71
+b: 1969-70
+c: 1974-75
+d: 1976-77
+Team: CLE
+========EOQ========
+Q: How old was the oldest player ever drafted by the Cleveland Cavaliers?
+a: 27
+b: 25
+c: 26
+d: 22
+Team: CLE
+========EOQ========
+Q: What was the first jersey number retired by the Cavaliers?
+a: 42
+b: 24
+c: 34
+d: 22
+Team: CLE
+========EOQ========
+Q: This Cavalier was nicknamed "Nate the Great".
+a: Nate Thurmond
+b: Nate Robinson
+c: Nate Williams
+d: McMillan
+Team: CLE
+========EOQ========
+Q: Who was the first Cavalier to win NBA Rookie of the Year?
+a: LeBron James
+b: Kyrie Irving
+c: Mark Price
+d: Brad Daugherty
+Team: CLE
+========EOQ========
+Q: Is Cleveland the worst place in the world to live?
+a: Yes
+b: Yes
+c: Yes
+d: Yes
+Team: CLE
+========EOQ========
+Q: Which Cleveland Cavaliers coach has the highest winning percentage?
+a: David Blatt
+b: Tyronn Lue
+c: Lenny Wilkens
+d: Mike Brown
+Team: CLE
+========EOQ========
+Q: How many consecutive NBA Finals did LeBron James lead the Cavs to after returning to the team in 2014?
+a: 4
+b: 5
+c: 6
+d: 3
+Team: CLE
+========EOQ========
+Q: This Cavalier was nicknamed "The King".
+a: LeBron James
+b: Kyrie Irving
+c: Kevin Love
+d: J.R. Smith
+Team: CLE
+========EOQ========
+Q: In which year did the Cavaliers win their first championship?
+a: 2016
+b: 2015
+c: 2017
+d: 2013
+Team: CLE
+========EOQ========
+Q: Who was the first player in NBA history to lead all players in a playoff series in points, rebounds, assists, steals and blocks?
+a: LeBron James
+b: Kyrie Irving
+c: Mark Price
+d: Brad Daugherty
+Team: CLE
+========EOQ========
+Q: Who was the first Cleveland Cavalier with 200 steals in a season?
+a: Ron Harper
+b: LeBron James
+c: Brevin Knight
+d: Foots Walker
+Team: CLE
+========EOQ========
+Q: Which Cavalier has the highest single-season free throw percentage in team history?
+a: Mark Price
+b: Terrell Brandon
+c: Kyrie Irving
+d: Mo Williams
+Team: CLE
+========EOQ========
+Q: Which player was nicknamed the "Prince of Midair"?
+a: World B. Free
+b: LeBron James
+c: Mark Price
+d: Campy Russell
+Team: CLE
+========EOQ========
+Q: The Cavs tied the NBA record for least turnovers in a game with this many turnovers.
+a: 2
+b: 0
+c: 1
+d: 4
+Team: CLE
+========EOQ========
+Q: Who is the shortest player in Cavaliers history?
+a: Earl Boykins
+b: Isaiah Thomas
+c: Water Tavares
+d: Kay Felder
+Team: CLE
+========EOQ========
+Q: This Cavalier is the second-shortest player in NBA history.
+a: Earl Boykins
+b: Isaiah Thomas
+c: Water Tavares
+d: Kay Felder
+Team: CLE
+========EOQ========
+Q: Who was the first Cavalier with 200 3-pointers in a season?
+a: J.R. Smith
+b: Kyrie Irving
+c: Mo Williams
+d: LeBron James
+Team: CLE
+========EOQ========
+Q: Between 2010 and 2014 how many times did Cleveland win the top pick in the NBA draft lottery?
+a: 3
+b: 2
+c: 1
+d: 4
+Team: CLE
+========EOQ========
+Q: What is the Cavs' longest losing streak?
+a: 26
+b: 20
+c: 25
+d: 22
+Team: CLE
+========EOQ========
+Q: What was LeBron James' pre-game ritual for the first few years of his career?
+a: Chalk Toss
+b: Tunnnel Shot
+c: Net Grab
+d: Headbutt
+Team: ZZZ
+========EOQ========
+Q: What season did LeBron James average a triple-double in the NBA Finals?
+a: 2017
+b: 2016
+c: 2015
+d: 2018
+Team: ZZZ
+========EOQ========
+Q: Who holds the Cavalier franchise single-season record for assists?
+a: Andre Miller
+b: LeBron james
+c: John Bagley
+d: Mark Price
+Team: CLE
+========EOQ========
+Q: Who has the highest 3-point field goal percentage in Cavalier franchise history?
+a: Steve Kerr
+b: Kyle Korver
+c: Daniel Gibson
+d: Mark Price
+Team: CLE
+========EOQ========
+Q: Who was the first Cavalier with 300 offensive rebounds in a season?
+a: Tristan Thompson
+b: Michael Cage
+c: Jim Brewer
+d: Zydrunas Ilgauskas
+Team: CLE
+========EOQ========
+Q: Which NBA team sometimes goes by the moniker "The Wine and Gold"
+a: Cavaliers
+b: Lakers
+c: Warriors
+d: Heat
+Team: CLE
+========EOQ========
+Q: This franchise is the only team in history to come back from a 3-1 deficit in the NBA finals.
+a: Cavaliers
+b: Warriors
+c: Thunder
+d: Spurs
+Team: CLE
+========EOQ========
+Q: Every year from 2015 to 2018 the Cavaliers made it to the NBA finals, how many times did they win?
+a: 1
+b: 2
+c: 3
+d: 4
+Team: CLE
+========EOQ========
+Q: LeBron James spent 11 years with the Cavaliers, how many times did he lead them to the playoffs during his tenure?
+a: 9
+b: 8
+c: 10
+d: 11
+Team: CLE
+========EOQ========
+Q: Which beloved Cavaliers fan favorite saw his jersey get retired in the middle of the 2014 season?
+a: Zydrunas Ilgauskas
+b: Jim Brewer
+c: Michael Cage
+d: Daniel Gibson
+Team: CLE
+========EOQ========
+Q: Which Cavalier hit the 3-Point shot known as "The Shot".
+a: Kyrie Irving
+b: LeBron James
+c: J.R. Smith
+d: Kevin Love
+Team: CLE
+========EOQ========
+Q: Which rookie in 2002 was drafted by the Cavs in the second round?
+a: Carlos Boozer
+b: Dajuan Wagner
+c: Brendan Haywood
+d: DeSagana Diop
+Team: CLE
+========EOQ========
+Q: This Canadian player was selected 1st overall by the Cavaliers in the 2013 NBA Draft.
+a: Anthony Bennett
+b: Kyrie Irving
+c: Andrew Wiggins
+d: Steve Nash
+Team: CLE
+========EOQ========
+Q: "The Decision" was a horrible moments for Cavalier fans as this was when LeBron James announced he would be "taking his talents" to this NBA franchise.
+a: Heat
+b: Lakers
+c: Cavaliers
+d: Warriors
+Team: CLE
+========EOQ========
+Q: What shortened moniker do the Cleveland Cavaliers often take on?
+a: Cavs
+b: Liers
+c: LeBrons' Team
+d: LeBron & Squad
+Team: CLE
+========EOQ========
+Q: This player was drafted 1st overall by the Cavaliers during the 2014 NBA draft.
+a: Andrew Wiggins
+b: Kyrie Irving
+c: Anthony Bennett
+d: Dion Waiters
+Team: CLE
+========EOQ========
+Q: This player was drafted 1st overall by the Cavaliers during the 2011 NBA draft.
+a: Kyrie Irving
+b: Andrew Wiggins
+c: Anthony Bennett
+d: Dion Waiters
+Team: CLE
+========EOQ========
+Q: This player was drafted 1st overall by the Cavaliers during the 2003 NBA draft.
+a: LeBron James
+b: Andrew Wiggins
+c: Anthony Bennett
+d: Kyrie Irving
+Team: CLE
+========EOQ========
+Q: This player wore the number 22 for the Cavaliers.
+a: Larry Nance
+b: LeBron James
+c: Andrew Wiggins
+d: Kyrie Irving
+Team: CLE
+========EOQ========
+Q: This player wore the number 11 for the Cavaliers.
+a: Zydrunas Ilgauskas
+b: LeBron James
+c: Larry Nance
+d: Kyrie Irving
+Team: CLE
+========EOQ========
+Q: Who was the coach for the Cavaliers during their championship run during the 2015-16 season?
+a: Tyronn Lue
+b: Mike Brown
+c: John Beilein
+d: Larry Drew
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Blocks.
+a: Zydrunas Ilgauskas
+b: Hot Rod Williams
+c: Larry Nance
+d: LeBron James
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Steals.
+a: LeBron James
+b: Foots Walker
+c: Larry Nance
+d: Mark Price
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Assists.
+a: LeBron James
+b: Mark Price
+c: Larry Nance
+d: Terrell Brandon
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Total Rebounds.
+a: LeBron James
+b: Tristan Thompson
+c: Larry Nance
+d: Zydrunas Ilgauskas
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Free Throws.
+a: LeBron James
+b: Brad Daugherty
+c: Hot Rod Williams
+d: Zydrunas Ilgauskas
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most 3-Pt Field Goals.
+a: LeBron James
+b: Mark Price
+c: Kevin Love
+d: Kyrie Irving
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Games Played.
+a: LeBron James
+b: Bingo Smith
+c: Danny Ferry
+d: Zydrunas Ilgauskas
+Team: CLE
+========EOQ========
+Q: This Cavaliers player is the franchise leader for most Field Goals.
+a: LeBron James
+b: Austin Carr
+c: Bingo Smith
+d: Zydrunas Ilgauskas
+Team: CLE
+========EOQ========
+Q: This Cavaliers player was awarded the NBA Finals MVP trophy during the 2016 finals.
+a: LeBron James
+b: Kyrie Irving
+c: Kevin Love
+d: J.R. Smith
+Team: CLE
+========EOQ========
+Q: This Cavs player was awarded the MVP trophy for 2 years in a row.
+a: LeBron James
+b: Kyrie Irving
+c: Kevin Love
+d: J.R. Smith
+Team: CLE
+========EOQ========
+Q: This Cavs player was awarded Rookie of the Year during the 2011-12 NBA season.
+a: Kyrie Irving
+b: LeBron James
+c: Kevin Love
+d: Andrew Wiggins
+Team: CLE
+========EOQ========
+Q: This Cavs player was awarded Rookie of the Year during the 2003-04 NBA season.
+a: LeBron James
+b: Kyrie Irving
+c: Kevin Love
+d: Andrew Wiggins
+Team: CLE
+========EOQ========
+Q: What is the name of one of the Cleveland Cavalier mascots?
+a: Moon Dog
+b: Champ
+c: Hooper
+d: Boomer
+Team: CLE
+========EOQ========
+Q: What is the name of one of the Cleveland Cavalier mascots?
+a: Sir CC
+b: Champ
+c: Hooper
+d: Boomer
+Team: CLE
+========EOQ========
+Q: What is the name of a former mascot for the Cleveland Cavaliers?
+a: Whammer
+b: Champ
+c: Hooper
+d: Boomer
+Team: CLE
+========EOQ========
+Q: What is the name of a former mascot for the Cleveland Cavaliers?
+a: The Wizard
+b: Turbo
+c: Hooper
+d: Hugo
+Team: CLE
+========EOQ========

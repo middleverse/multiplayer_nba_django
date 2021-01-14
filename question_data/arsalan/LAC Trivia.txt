@@ -1,0 +1,308 @@
+Q: What were the Los Angeles Clippers originally called?
+a: Braves
+b: Bullets
+c: Bombers
+d: Bandicoots
+Team: LAC
+========EOQ========
+Q: Along with the Portland Trailblazers & Cleveland Cavaliers this new franchise began play in the 1970-71 season.
+a: Clippers
+b: Nuggets
+c: Raptors
+d: Heat
+Team: LAC
+========EOQ========
+Q: How many first round draft picks did the Clippers trade to the Oklahoma City Thunder for Paul George?
+a: 5
+b: 4
+c: 3
+d: 2
+Team: LAC
+========EOQ========
+Q: Which Clipper led the league in scoring for three consecutive seasons?
+a: Bob McAdoo
+b: Blake Griffin
+c: World B. Free
+d: Chris Paul
+Team: LAC
+========EOQ========
+Q: Which player has the most rebounds in Clipper history?
+a: DeAndre Jordan
+b: Blake Griffin
+c: Bob McAdoo
+d: Elton Brand
+Team: LAC
+========EOQ========
+Q: Who was the first Clipper to win Sixth Man of the Year?
+a: Jamal Crawford
+b: Montrezl Harrell
+c: Danny Manning
+d: Lou Williams
+Team: LAC
+========EOQ========
+Q: How many minutes did Moses Malone play for the Clippers before they traded him away?
+a: 6
+b: 6666
+c: 666
+d: 66
+Team: LAC
+========EOQ========
+Q: Who is the only NBA player to retire with more career blocked shots than points scored?
+a: Manute Bol
+b: Ralph Sampson
+c: Wilt Chamberlain
+d: Adonal Foyle
+Team: LAC
+========EOQ========
+Q: After two years in the ABA, Moses Malone made his NBA debut with this team.
+a: Clippers (Braves)
+b: Rockets
+c: Jazz (Stars)
+d: 76ers
+Team: LAC
+========EOQ========
+Q: Who is the Clippers' career leader in assists?
+a: Chris Paul
+b: Gary Grant
+c: Randy Smith
+d: Norm Nixon
+Team: LAC
+========EOQ========
+Q: Who was the first Clipper with more than 200 steals in a season?
+a: Randy Smith
+b: Chris Paul
+c: Ron Harper
+d: Tom Chambers
+Team: LAC
+========EOQ========
+Q: Which player did the Clippers draft directly out of high school?
+a: Darius Miles
+b: Danny Manning
+c: Blake Griffin
+d: DeAndre Jordan
+Team: LAC
+========EOQ========
+Q: Which Clipper missed his rookie season after breaking his kneecap?
+a: Blake Griffin
+b: Danny Manning
+c: Benoit Benjamin
+d: Ernie Digregorio
+Team: LAC
+========EOQ========
+Q: This player was selected as the first overall pick by the Los Angeles Clippers in the 2009 NBA draft.
+a: Blake Griffin
+b: Chris Paul
+c: Eric Gordon
+d: DeAndre Jordan
+Team: LAC
+========EOQ========
+Q: What is the first duo in Clippers history to each score 40 points in a single game?
+a: Paul George & Kawhi Leonard
+b: Blake Griffin & Eric Gordon
+c: Bob McAdoo & Randy Smith
+d: Dominique Wilkins & Danny Manning
+Team: LAC
+========EOQ========
+Q: Which two players have made the most All-Star appearances for the Clippers?
+a: Blake Griffin & Chris Paul
+b: Paul George & Kawhi Leonard
+c: Bob McAdoo & Blake Griffin
+d: Bob McAdoo & Bob Kauffman
+Team: LAC
+========EOQ========
+Q: Which Clipper has the best single-season free throw percentage in team history?
+a: Ernie Digregorio
+b: J.J. Redick
+c: Danilo Gallinari
+d: Jamal Crawford
+Team: LAC
+========EOQ========
+Q: Former Clipper Head Coach Elgin Baylor was a star for which NBA team? 
+a: Lakers
+b: Raptors
+c: Grizzlies
+d: Bobcats
+Team: LAC
+========EOQ========
+Q:  Which Los Angeles Clipper won 2005's Most Improved Player Award? 
+a: Bobby Simmons
+b: Lamar Odom
+c: Malik Sealy
+d: Corey Maggette
+Team: LAC
+========EOQ========
+Q: During the 2019-20 playoffs this team became just the third franchise to blow a 3-1 lead twice.
+a: Clippers
+b: Suns
+c: 76ers
+d: Thunder
+Team: LAC
+========EOQ========
+Q: During the 2019-20 playoffs the Nuggets became the first team to come back from a 3-1 deficit twice in the same postseason after defeating this team.
+a: Clippers
+b: Jazz
+c: Rockets
+d: Mavericks
+Team: LAC
+========EOQ========
+Q: This coach for the Clippers has blown a 3-1 playoff series lead 3 times.
+a: Doc Rivers
+b: Tyronn Lue
+c: Vinny Del Negro
+d: Kim Hughes
+Team: LAC
+========EOQ========
+Q: What is the name of the mascot for the Los Angeles Clippers?
+a: Chuck the Condor
+b: Crunch the Wolf
+c: The Coyote
+d: Slamson the Lion
+Team: LAC
+========EOQ========
+Q: This team as well as the Grizzlies, Timberwolves, & Pelicans have never made it to the Western Conference Finals.
+a: Clippers
+b: Nuggets
+c: Suns
+d: Kings
+Team: LAC
+========EOQ========
+Q: This team set the record for the largest halftime deficit in an NBA game during the shot-clock era when they found themselves trailing by 50.
+a: Clippers
+b: Mavericks
+c: Kings
+d: Cavaliers
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for games played.
+a: DeAndre Jordan
+b: Randy Smith
+c: Blake Griffin
+d: Chris Paul
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for minutes played.
+a: Randy Smith
+b: DeAndre Jordan
+c: Blake Griffin
+d: Elton brand
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for field goals.
+a: Randy Smith
+b: Blake Griffin
+c: Bob McAdoo
+d: Elton Brand
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for total rebounds.
+a: DeAndre Jordan
+b: Elton Brand
+c: Blake Griffin
+d: Bob McAdoo
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for assists.
+a: Chris Paul
+b: Randy Smith
+c: Gary Grant
+d: Norm Nixon
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for steals.
+a: Randy Smith
+b: Chris Paul
+c: Gary Grant
+d: Ron Harper
+Team: LAC
+========EOQ========
+Q: This Clippers player is the all time franchise leader for blocks.
+a: DeAndre Jordan
+b: Elton Brand
+c: Benoit Benjamin
+d: Chris Kaman
+Team: LAC
+========EOQ========
+Q: In 1978 the Buffalo Braves moved to this city and renamed the franchise to the Clippers.
+a: San Diego
+b: Los Angeles
+c: San Francisco
+d: Portland
+Team: LAC
+========EOQ========
+Q: In which year this the Clippers franchise move from San Diego to Los Angeles.
+a: 1984
+b: 1980
+c: 1985
+d: 1986
+Team: LAC
+========EOQ========
+Q: Doc Rivers & this coach both spent 7 years with the Clippers franchise.
+a: Mike Dunleavy
+b: Bill Fitch
+c: Jack Ramsay
+d: Tyronn Lue
+Team: LAC
+========EOQ========
+Q: This coach led the Clippers to the playoffs 6 years out of the 7 he spent with the team.
+a: Doc Rivers
+b: Mike Dunleavy
+c: Jack Ramsey
+d: Larry Brown
+Team: LAC
+========EOQ========
+Q: This franchise has the second worst record (based on W-L%) in the NBA.
+a: Clippers
+b: Timberwolves
+c: Grizzlies
+d: Hornets
+Team: LAC
+========EOQ========
+Q: This Clippers player won Rookie of The Year, even though he was in his second year in the league.
+a: Blake Griffin
+b: Chris Paul
+c: DeAndre Jordan
+d: Bob McAdoo
+Team: LAC
+========EOQ========
+Q: This Clippers player won the NBA Most Valuable Player in the 1974-75 season.
+a: Bob McAdoo
+b: Dave Cowens
+c: Elvin Hayes
+d: Rick Barry
+Team: LAC
+========EOQ========
+Q: On January 10, 2018 Lou Williams dropped 50 against what team?
+a: Warriors
+b: Lakers
+c: Knicks
+d: Rockets
+Team: LAC
+========EOQ========
+Q: This is the longest tenured player on the Clippers roster.
+a: DeAndre Jordan
+b: Randy Smith
+c: Blake Griffin
+d: Chris Kaman
+Team: LAC
+========EOQ========
+Q: This Clippers player is nicknamed "The Claw"
+a: Kawhi Leonard
+b: Paul George
+c: DeAndre Jordan
+d: Blake Griffin
+Team: LAC
+========EOQ========
+Q: This Clippers player is nicknamed "CP3"
+a: Chris Paul
+b: Paul George
+c: DeAndre Jordan
+d: Blake Griffin
+Team: LAC
+========EOQ========
+Q: This Clippers player is nicknamed "PG-13"
+a: Paul George
+b: Chris Paul
+c: DeAndre Jordan
+d: Blake Griffin
+Team: LAC
+========EOQ========

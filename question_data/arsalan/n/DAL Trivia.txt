@@ -1,0 +1,420 @@
+Q: What are the Dallas Mavericks named after?
+a: TV Show
+b: Short Story
+c: Broadway Musical
+d: Novel
+Team: DAL
+========EOQ========
+Q: Who was the first Dallas Maverick to have his jersey number retired?
+a: Brad Davis
+b: Derek Harper
+c: Rolando Blackman
+d: Mark Aguirre
+Team: DAL
+========EOQ========
+Q: What is the Mavericks' largest margin of victory?
+a: 53
+b: 33
+c: 51
+d: 47
+Team: DAL 
+========EOQ========
+Q: Which Maverick is the youngest player in NBA history to record three triple-doubles?
+a: Luka Dončić
+b: Dirk Nowitzki
+c: Jason Kidd
+d: Mark Aguirre
+Team: DAL
+========EOQ========
+Q: There are only 5 triple doubles recorded by a teenager in NBA history, 4 of these are held by this Mavericks player.
+a: Luka Dončić
+b: Dirk Nowitzki
+c: Jason Kidd
+d: Mark Aguirre
+Team: DAL
+========EOQ========
+Q: Who was the first Dallas Maverick to win league MVP?
+a: Dirk Nowitzki
+b: Luka Dončić
+c: Jason Kidd
+d: Mark Aguirre
+Team: DAL
+========EOQ========
+Q: Which Mavericks player holds the franchise single-season record for assists?
+a: Jason Kidd
+b: Brad Davis
+c: Steve Nash
+d: Derek Harper
+Team: DAL
+========EOQ========
+Q: Which Maverick holds the NBA record for most consecutive free throws made in an NBA playoff game?
+a: Dirk Nowitzki
+b: Jamal Mashburn
+c: Rolando Blackman
+d: Mark Aguirre
+Team: DAL
+========EOQ========
+Q: What is the longest winning streak in Mavericks history?
+a: 17
+b: 19
+c: 15
+d: 21
+Team: DAL 
+========EOQ========
+Q: Who was the Dallas Mavericks' first head coach?
+a: Dick Motta
+b: John Macleod
+c: Richie Adubato
+d: Don Nelson
+Team: DAL
+========EOQ========
+Q: Who did the Mavericks defeat to win their first NBA championship?
+a: Heat
+b: Pistons
+c: Cavaliers
+d: Magic
+Team: DAL
+========EOQ========
+Q: Who was the Dallas Mavericks' very first draft pick?
+a: Kiki Vandeweghe
+b: Mark Aguirre
+c: Roosevelt Bouie
+d: Rolando Blackman
+Team: DAL
+========EOQ========
+Q: Which Mavericks player holds the franchise single-season record for steals?
+a: Derek Harper
+b: Jason Kidd
+c: Fat Lever
+d: Monta Ellis
+Team: DAL
+========EOQ========
+Q: Who was the first Maverick to win the Sixth Man of the Year Award?
+a: Roy Tarpley
+b: Jay Vincent
+c: Jason Terry
+d: Antawn Jamison
+Team: DAL
+========EOQ========
+Q: Which Mavericks player led the league in triple doubles during his rookie season?
+a: Jason Kidd
+b: Derek Harper
+c: Jamal Mashburn
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: By the end of the 1996-97 season, who was the only player on the Mavericks who remained from the opening-day roster?
+a: Samaki Walker
+b: Michael Finley
+c: Cherokee Parks
+d: Jason Kidd
+Team: DAL
+========EOQ========
+Q: Who was the first Maverick to score more than 2000 points in a season?
+a: Mark Aguirre
+b: Dirk Nowitzki
+c: Derek Harper
+d: Rolando Blackman
+Team: DAL
+========EOQ========
+Q: Which Maverick holds the NBA record for most offensive rebounds in a game without a defensive rebound?
+a: Popeye Jones
+b: Dirk Nowitzki
+c: Roy Tarpley
+d: James Donaldson
+Team: DAL
+========EOQ========
+Q: Who bought the Dallas Mavericks in 2000?
+a: Mark Cuban
+b: Daymond John
+c: Kevin O'Leary
+d: Robert Harjavec
+Team: DAL
+========EOQ========
+Q: Which Mavericks head coach had the highest winning percentage?
+a: Avery Johnson
+b: John Macleod
+c: Rick Carlisle
+d: Don Nelson
+Team: DAL
+========EOQ========
+Q: How many draft picks did the Mavericks have in the 2005 NBA draft?
+a: 0
+b: 2
+c: 1
+d: 4
+Team: DAL
+========EOQ========
+Q: Who was the Mavs' first NBA All-Star?
+a: Mark Aguirre
+b: Jay Vincent
+c: Brad Davis
+d: Rolando Blackman
+Team: DAL
+========EOQ========
+Q: Which Maverick was the first Chinese player to play in the NBA?
+a: Wang Zhizhi
+b: Yao Ming
+c: Jianlian Yi
+d: Bateer Mengke
+Team: DAL
+========EOQ========
+Q: Who did the Mavericks defeat in their very first game?
+a: Spurs
+b: Supersonics
+c: Kings
+d: Nuggets
+Team: DAL
+========EOQ========
+Q: Who was the tallest Dallas Maverick ever?
+a: Shawn Bradley
+b: Boban Marjanovic
+c: Kristaps Porzingis
+d: Pavel Podkolzin
+Team: DAL
+========EOQ========
+Q: The Mavs' set the record for the largest halftime lead in NBA history with this many points.
+a: 50
+b: 51
+c: 49
+d: 52
+Team: DAL
+========EOQ========
+Q: Which team did the Mavs' play against when they set the NBA record for largest halftime lead at 50 points.
+a: Clippers
+b: Lakers
+c: Nuggets
+d: Kings
+Team: DAL
+========EOQ========
+Q: When did the Dallas Mavericks enjoy their first winning season?
+a: 1983-84
+b: 1982-83
+c: 1988-89
+d: 1990-91
+Team: DAL
+========EOQ========
+Q: How many games with the Mavs' win during the 1992-93 season?
+a: 11
+b: 10
+c: 9
+d: 7
+Team: DAL
+========EOQ========
+Q: Prior to the 2000-01 season how many years in a row had the Mavs' missed the playoffs?
+a: 10
+b: 9
+c: 11
+d: 8
+Team: DAL
+========EOQ========
+Q: What is the nickname given to a jersey design by the Mavs' which was worn for only 1 game before being retired.
+a: trash bag
+b: black knight
+c: black plague
+d: dark knight
+Team: DAL
+========EOQ========
+Q: Who wore the number 12 for the Mavs'?
+a: Derek Harper
+b: Brad Davis
+c: Luka Dončić
+d: Rolando Blackman
+Team: DAL
+========EOQ========
+Q: This players jersey number 15 was retired by the Dallas Mavericks.
+a: Brad Davis
+b: Rolando Blackman
+c: Derek Harper
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: Who wore the number 22 for the Mavs'?
+a: Rolando Blackman
+b: Brad Davis
+c: Derek Harper
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: This player was drafted 5th overall by the Mavs' and then traded to the Hawks during the 2018 NBA draft.
+a: Trae Young
+b: Luka Dončić
+c: Tyler Dorsey
+d: John Collins
+Team: DAL
+========EOQ========
+Q: This player was picked up by the Dallas Mavericks as the 2nd pick of the 1994 NBA Draft.
+a: Jason Kidd
+b: Tony Dumas
+c: Grant Hill
+d: Glenn Robinson
+Team: DAL
+========EOQ========
+Q: This coach has been with the Dallas Mavericks the longest at 13 years.
+a: Rick Carlisle
+b: Dick Motta
+c: Don Nelson
+d: Richie Adubato
+Team: DAL
+========EOQ========
+Q: Under which coach did the Mavs' win their championship?
+a: Rick Carlisle
+b: Dick Motta
+c: Don Nelson
+d: Richie Adubato
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for both Games & Minutes Played.
+a: Dirk Nowitzki
+b: Rolando Blackman
+c: Brad Davis
+d: Derek Harper
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most Field Goals.
+a: Dirk Nowitzki
+b: Rolando Blackman
+c: Brad Davis
+d: Derek Harper
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most 3-Pt Field Goals.
+a: Dirk Nowitzki
+b: Jason Terry
+c: Jason Kidd
+d: Steve Nash
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most Total Rebounds.
+a: Dirk Nowitzki
+b: James Donaldson
+c: Sam Perkins
+d: Shawn Bradley
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most Assists.
+a: Derek Harper
+b: Brad Davis
+c: Jason Kidd
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most Steals.
+a: Derek Harper
+b: Dirk Nowitzki
+c: Jason Kidd
+d: Steve Nash
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for most Triple-Doubles.
+a: Luka Dončić
+b: Jason Kidd
+c: Michael Finley
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: This Dallas Mavericks player holds the franchise record for best Free Throw Percentage.
+a: Steve Nash
+b: Darren Collison
+c: Michael Finley
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: Which seed did the Mavs enter the playoffs at during their championship run?
+a: 5
+b: 4
+c: 1
+d: 2
+Team: DAL
+========EOQ========
+Q: Who is number 41 for the Mavs?
+a: Dirk Nowitzki
+b: Derek Harper
+c: Brad Davis
+d: Rolando Blackman
+Team: DAL
+========EOQ========
+Q: Who is number 13 for the Mavs?
+a: Steve Nash
+b: Dirk Nowitzki
+c: Jason Kidd
+d: Jason Terry
+Team: DAL
+========EOQ========
+Q: Who is number 5 for the Mavs?
+a: Jason Kidd
+b: Dirk Nowitzki
+c: Steve Nash
+d: Jason Terry
+Team: DAL
+========EOQ========
+Q: Which Maverick is from Germany?
+a: Dirk Nowitzki
+b: Jason Kidd
+c: Steve Nash
+d: Brad Davis
+Team: DAL
+========EOQ========
+Q: Which Mavericks' star was injured during game 3 of the 2003 Western Conference Finals?
+a: Dirk Nowitzki
+b: Jason Kidd
+c: Steve Nash
+d: Brad Davis
+Team: DAL
+========EOQ========
+Q: What is the name of one of the mascots for the Dallas Mavericks?
+a: Champ
+b: Hooper
+c: Hugo
+d: Boomer
+Team: DAL
+========EOQ========
+Q: The Mavericks are one of how many teams from the state of Texas?
+a: 3
+b: 4
+c: 2
+d: 1
+Team: DAL
+========EOQ========
+Q: Which Mavericks player is from South Africa?
+a: Steve Nash
+b: Dirk Nowitzki
+c: Jason Kidd
+d: Jason Terry
+Team: DAL
+========EOQ========
+Q: Which undersized point guard was waved by the Mavericks before the start of the 2001-02 regular season?
+a: Muggsy Bogues
+b: Earl Boykins
+c: Mel Hirsch
+d: Greg Grant
+Team: DAL
+========EOQ========
+Q: This is the only Maverick player to ever win the MVP & FMVP award.
+a: Dirk Nowitzki
+b: Steve Nash
+c: Jason Kidd
+d: Jason Terry
+Team: DAL
+========EOQ========
+Q: This Mavericks player won Sixth Man of the Year during the 2008-09 season.
+a: Jason Terry
+b: Erick Dampier
+c: Gerald Green
+d: Devean George
+Team: DAL
+========EOQ========
+Q: This Mavericks player won Rookie of the Year during the 1994-95 season.
+a: Jason Kidd
+b: Steve Nash
+c: Jason Terry
+d: Dirk Nowitzki
+Team: DAL
+========EOQ========
+Q: This Mavericks player won Rookie of the Year during the 2018-19 season.
+a: Luka Dončić
+b: Kristaps Porziņģis
+c: Boban Marjanović
+d: Dirk Nowitzki
+Team: DAL 
+========EOQ========

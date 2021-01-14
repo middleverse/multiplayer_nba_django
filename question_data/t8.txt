@@ -1,0 +1,336 @@
+Q: What year were the Phoenix Suns founded?
+a: 1968-69
+b: 1988-89
+c: 1978-79
+d: 1958-59
+Team: PHX
+========EOQ========
+Q: The Suns were the first major professional sports franchise for this state
+a: Arizona
+b: Virginia
+c: Texas
+d: Maryland
+Team: PHX
+========EOQ========
+Q: This team along with the Bucks joined the NBA at the start of the 1968-69 season.
+a: Suns
+b: Supersonics
+c: Rockets
+d: Mavericks
+Team: PHX
+========EOQ========
+Q: What year did the Suns first reach the NBA Finals?
+a: 1975-76
+b: 1985-86
+c: 1965-66
+d: 1995-96
+Team: PHX
+========EOQ========
+Q: Who was the first Phoenix Suns player inducted into the Hall of Fame?
+a: Connie Hawkins
+b: Charles Barkley
+c: Gus Johnson
+d: Gail Goodrich
+Team: PHX
+========EOQ========
+Q: This Suns player was nicknamed "The Hawk".
+a: Connie Hawkins
+b: Charles Barkley
+c: Gus Johnson
+d: Gail Goodrich
+Team: PHX
+========EOQ========
+Q: Which Phoenix Suns coach has the highest winning percentage?
+a: Paul Westphal
+b: Danny Ainge
+c: Mike D'Antoni
+d: Cotton Fitzsimmons
+Team: PHX
+========EOQ========
+Q: What is the most points ever scored by the Phoenix Suns in a game?
+a: 173
+b: 163
+c: 158
+d: 168
+Team: PHX
+========EOQ========
+Q: Which Suns player holds the franchise single-season record for steals?
+a: Ron Lee
+b: Don Buse
+c: Paul Westphal
+d: Shawn Marion
+Team: PHX
+========EOQ========
+Q: This Suns point guard was nicknamed "Kamikaze Kid"
+a: Ron Lee
+b: Steve Nash
+c: Kevin Johnson
+d: Chris Paul
+Team: PHX
+========EOQ========
+Q: Which Suns player was nicknamed "The Round Mound of Rebound"?
+a: Charles Barkley
+b: Larry Nance
+c: Shawn Marion
+d: Curtis Perry
+Team: PHX
+========EOQ========
+Q: Which Suns player scored the most points in a single game?
+a: Devin Booker
+b: Tom Chambers
+c: Amar'e Stoudemire
+d: Charles Barkley
+Team: PHX
+========EOQ========
+Q: Who Suns player is the oldest to score 50+ points in a game?
+a: Jamal Crawford
+b: Charles Barkley
+c: Steve Nash
+d: Grant Hill
+Team: PHX
+========EOQ========
+Q: Which Suns player has the highest single-season free throw percentage in team history?
+a: Steve Nash
+b: Kyle Macy
+c: Devin Booker
+d: Eddie Johnson
+Team: PHX
+========EOQ========
+Q: Who was the first Phoenix Suns player to win the Sixth Man of the Year Award?
+a: Eddie Johnson
+b: Rodney Rogers
+c: LeAndro Barbosa
+d: Danny Manning
+Team: PHX
+========EOQ========
+Q: Who was the first Phoenix Suns player with more than 900 assists in a season?
+a: Kevin Johnson
+b: Steve Nash
+c: Alvan Adams
+d: Jason Kidd
+Team: PHX
+========EOQ========
+Q: Who holds the franchise single-season record for blocks?
+a: Larry Nance
+b: Amar'e Stoudemire
+c: Mark West
+d: Andrew Lang
+Team: PHX
+========EOQ========
+Q: Which Suns player holds the NBA record for most turnovers in a game?
+a: Jason Kidd
+b: Stephon Marbury
+c: Ricky Rubio
+d: Steve Nash
+Team: PHX
+========EOQ========
+Q: Who has the highest single-season 3-point field goal percentage in Suns franchise history?
+a: Craig Hodges
+b: Jim Jackson
+c: Steve Nash
+d: Joe Johnson
+Team: PHX
+========EOQ========
+Q: Who was the first Phoenix Suns player to win the NBA Rookie of the Year Award?
+a: Alvan Adams
+b: Walter Davis
+c: Amar'e Stoudemire
+d: Don Buse
+Team: PHX
+========EOQ========
+Q: Which player was nicknamed "The Matrix"?
+a: Shawn Marions
+b: Devin Booker
+c: Steve Nash
+d: Amar'e Stoudemire
+Team: PHX
+========EOQ========
+Q: Who was the first Suns player with 7 triple-doubles in a season?
+a: Jason Kidd
+b: Charles Barkley
+c: Alvan Adams
+d: Kevin Johnson
+Team: PHX
+========EOQ========
+Q: Who holds the Suns franchise single-season record for offensive rebounds?
+a: Curtis Perry
+b: Shawn Marion
+c: A.C. Green
+d: Amar'e Stoudemire
+Team: PHX
+========EOQ========
+Q: This Suns player was suspended for his entire first season by the NBA for failing a drug test.
+a: Richard Dumas
+b: Steve Nash
+c: Jason Kidd
+d: Amar'e Stoudemire
+Team: PHX
+========EOQ========
+Q: Suns player Leandro Barbosa comes from which nation?
+a: Brazil
+b: Colombia
+c: Peru
+d: Mexico
+Team: PHX
+========EOQ========
+Q: The Suns lost to this team 4-2 in the 1992-93 NBA Finals.
+a: Bulls
+b: Lakers
+c: Knicks
+d: SuperSonics
+Team: PHX
+========EOQ========
+Q: This player wore the number 34 for the Suns.
+a: Charles Barkley
+b: Steve Nash
+c: Kevin Johnson
+d: Connie Hawkins
+Team: PHX
+========EOQ========
+Q: This player wore the number 42 for the Suns.
+a: Connie Hawkins
+b: Steve Nash
+c: Charles Barkley
+d: Kevin Johnson
+Team: PHX
+========EOQ========
+Q: This player wore the number 13 for the Suns.
+a: Steve Nash
+b: Charles Barkley
+c: Connie Hawkins
+d: Kevin Johnson
+Team: PHX
+========EOQ========
+Q: This coach is the longest tenured coach for the Suns at 14 years.
+a: John MacLeod
+b: Cotton Fitzsimmons
+c: Mike D'Antoni
+d: Alvin Gentry
+Team: PHX
+========EOQ========
+Q: This coach designed the Suns offense known as "7 seconds or less".
+a: Mike D'Antoni
+b: Alvin Gentry
+c: Cotton Fitzsimmons
+d: John MacLeod
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for games played.
+a: Alvan Adams
+b: Steve Nash
+c: Shawn Marion
+d: Walter Davis
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for field goals.
+a: Walter Davis
+b: Alvan Adams
+c: Shawn Marion
+d: Kevin Johnson
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for 3-Pt Field Goals.
+a: Steve Nash
+b: Leandro Barbosa
+c: Shawn Marion
+d: Dan Majerle
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for Defensive Rebounds.
+a: Shawn Marion
+b: Alvan Adams
+c: Amar'e Stoudemire
+d: Larry Nance
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for Total Rebounds.
+a: Alvan Adams
+b: Shawn Marion
+c: Amar'e Stoudemire
+d: Larry Nance
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for Assists.
+a: Steve Nash
+b: Kevin Johnson
+c: Alvan Adams
+d: Jason Kidd
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for Triple-Doubles.
+a: Jason Kidd
+b: Alvan Adams
+c: Kevin Johnson
+d: Charles Barkley
+Team: PHX
+========EOQ========
+Q: Who was the shortest player to lead the Suns in rebounding?
+a: Jason Kidd
+b: Charles Barkley
+c: Steve Nash
+d: Amar'e Stoudemire
+Team: PHX
+========EOQ========
+Q: This Suns player is the all time franchise leader for Blocks.
+a: Larry Nance
+b: Mark West
+c: Shawn Marion
+d: Alvan Adams
+Team: PHX
+========EOQ========
+Q: In game 3 of the 1993 NBA Finals the Suns & Bulls both teams played how many OTs?
+a: 3
+b: 2
+c: 1
+d: 4
+Team: PHX 
+========EOQ========
+Q: Which Suns player won the Most Improved Player award during the 1988-89 season?
+a: Kevin Johnson
+b: Steve Kerr
+c: Tom Chambers
+d: Mark Davis
+Team: PHX
+========EOQ========
+Q: Which Suns player won the Most Improved Player award during the 2005-06 season?
+a: Boris Diaw
+b: Steve Nash
+c: Amar'e Stoudemire
+d: Shawn Marion
+Team: PHX
+========EOQ========
+Q: This is the only Suns player to win the MVP award twice.
+a: Steve Nash
+b: Charles Barkley
+c: Amar'e Stoudemire
+d: Jason Kidd
+Team: PHX
+========EOQ========
+Q: This Suns player won the MVP award in the 1992-93 season.
+a: Charles Barkley
+b: Kevin Johnson
+c: Danny Ainge
+d: Mark West
+Team: PHX
+========EOQ========
+Q: This Suns player won the MIP award during the 2013-14 season.
+a: Goran Dragić
+b: Leandro Barbosa
+c: Eric Bledsoe
+d: P.J. Tucker
+Team: PHX
+========EOQ========
+Q: This Suns player won the Rookie of the Year award during the 2002-03 season.
+a: Amar'e Stoudemire 
+b: Shawn Marion
+c: Joe Johnson
+d: Alton Ford
+Team: PHX
+========EOQ========
+Q: This Phoenix Suns coach won his first Coach of the Year award during the 2005 season.
+a: Mike D'Antoni
+b: Frank Johnson
+c: Terry Porter
+d: Alvin Gentry
+Team: PHX
+========EOQ========

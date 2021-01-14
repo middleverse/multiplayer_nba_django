@@ -1,0 +1,210 @@
+Q: What number did the Pelicans retire at halftime of its very first game?
+a: 7
+b: 3
+c: 1
+d: 33
+Team: NOP
+========EOQ========
+Q: This player never played for the Pelicans, however the team still retired his number.
+a: Pete Maravich 
+b: David West
+c: J.R. Smith
+d: Chris Paul
+Team: NOP
+========EOQ========
+Q: Which Pelican was the first teenager in NBA history to score 20+ points in 10 consecutive games?
+a: Zion Williamson
+b: Chris Paul
+c: David West
+d: Anthony Davis
+Team: NOP
+========EOQ========
+Q: Which coach led New Orleans to their first winning season?
+a: Paul Silas
+b: Jeff Bower
+c: Tim Floyd
+d: Byron Scott
+Team: NOP
+========EOQ========
+Q: Where did the Pelicans temporarily relocate after Hurricane Katrina?
+a: Oklahoma City
+b: Houston
+c: Shreveport
+d: Baton Rouge
+Team: NOP
+========EOQ========
+Q: What year did the team become the Pelicans?
+a: 2013
+b: 2017
+c: 2015
+d: 2012
+Team: NOP
+========EOQ========
+Q: Who was the Pelicans' first NBA Rookie of the Year?
+a: Chris Paul
+b: Zion Williamson
+c: Anthony Davis
+d: David West
+Team: NOP
+========EOQ========
+Q: Who was the first Pelican with 200 blocks in a season?
+a: Anthony Davis
+b: Tyson Chandler
+c: Emeka Okafor
+d: Robin Lopez
+Team: NOP
+========EOQ========
+Q: In 2018, which Pelican became the first NBA player since Kareem Abdul-Jabbar in 1972 to notch 40-plus points, 20-plus rebounds and 10-plus assists in a game?
+a: DeMarcus Cousins
+b: Jrue Holiday
+c: Zion Williamson
+d: Anthony Davis
+Team: NOP
+========EOQ========
+Q: Who was the first Pelican to score more than 2,000 points in a season?
+a: Anthony Davis
+b: Chris Paul
+c: DeMarcus Cousins
+d: Zion Williamson
+Team: NOP
+========EOQ========
+Q: What is the least points ever scored by New Orleans in a half?
+a: 16
+b: 18
+c: 22
+d: 10
+Team: NOP
+========EOQ========
+Q: Who holds the franchise single-season records for steals and assists?
+a: Chris Paul
+b: Rajon Rondo
+c: Jrue Holiday
+d: Greivis Vasquez
+Team: NOP
+========EOQ========
+Q: What is the name of the Pelicans' mascot?
+a: Pierre
+b: Pablo
+c: Paolo
+d: Pepe
+Team: NOP
+========EOQ========
+Q: Who has the highest single-season field goal percentage in Pelican franchise history?
+a: Tyson Chandler
+b: Anthony Davis
+c: Robin Lopez
+d: Emeka Okafor
+Team: NOP
+========EOQ========
+Q: Which Pelican has the highest single-season free throw percentage?
+a: Brian Roberts
+b: Chris Paul
+c: J.J. Redick
+d: Peja Stojakovic
+Team: NOP
+========EOQ========
+Q: Who holds the Pelicans' franchise record for minutes played in a season?
+a: Jamal Mashburn
+b: Jrue Holiday
+c: David West
+d: Chris Paul
+Team: NOP
+========EOQ========
+Q: In addition to Pierre T. Pelican, what seasonal mascot shows up at Pelicans games during Mardi Gras?
+a: King Cake Baby
+b: Gary the Gator
+c: Chewbacchus
+d: Carnival Cat
+Team: NOP
+========EOQ========
+Q: Which New Orleans player had the most personal fouls in a season?
+a: Jamaal Magloire
+b: P.J. Brown
+c: Tyson Chandler
+d: Julius Randle
+Team: NOP
+========EOQ========
+Q: Who was named NBA Coach of the Year following the 2007-08 season?
+a: Byron Scott
+b: Jeff Bower
+c: Tim Floyd
+d: Monty Williams
+Team: NOP
+========EOQ========
+Q: Who was the first player in franchise history with more than 200 three-pointers in a season?
+a: Peja Stojakovic
+b: Ryan Anderson
+c: Baron Davis
+d: J.J. Redick
+Team: NOP
+========EOQ========
+Q: Which player did the New Orleans Pelicans select 1st overall in the 2019 NBA draft?
+a: Zion Williamson
+b: Anthony Davis
+c: Buddy Hield
+d: Chris Paul
+Team: NOP
+========EOQ========
+Q: Which player did the New Orleans Pelicans select 1st overall in the 2012 NBA draft?
+a: Anthony Davis
+b: Zion Williamson
+c: Buddy Hield
+d: Chris Paul
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Games Played.
+a: David West
+b: Anthony Davis
+c: Chris Paul
+d: Jrue Holiday
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Field Goals.
+a: Anthony Davis
+b: David West
+c: Jrue Holiday
+d: Chris Paul
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most 3-Pt Field Goals.
+a: Jrue Holiday
+b: Peja Stojaković
+c: Chris Paul
+d: Eric Gordon
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Free Throws.
+a: Anthony Davis
+b: David West
+c: Chris Paul
+d: Eric Gordon
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Total Rebounds.
+a: Anthony Davis
+b: David West
+c: P.J. Brown
+d: Tyson Chandler
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Assists.
+a: Chris Paul
+b: Jrue Holiday
+c: Tyreke Evans
+d: David West
+Team: NOP
+========EOQ========
+Q: This Pelicans player is the franchise leader for most Steals.
+a: Chris Paul
+b: Jrue Holiday
+c: Anthony Davis
+d: David West
+Team: NOP
+========EOQ========
+Q: Which teams mascot was named as the "Creepiest Mascot in Sports"?
+a: Pelicans
+b: Raptors
+c: Heat
+d: Bucks
+Team: NOP
+========EOQ========

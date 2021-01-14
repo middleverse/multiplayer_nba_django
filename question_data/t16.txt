@@ -1,0 +1,700 @@
+Q: Who is the Minnesota Timberwolves' franchise leader in  points-per-game?
+a: Karl-Anthony Towns
+b: Wally Szczerbiak
+c: Latrell Spreewell
+d: Andrew Wiggins
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in career rebounds?
+a: Kevin Garnett
+b: Rasho Nesterovic
+c: Kevin Love
+d: Al Jefferson
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in  rebounds-per-game?
+a: Kevin Love
+b: Kevin Garnett
+c: Hakeem Olajuwan
+d: Larry Johnson
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in  career assists?
+a: Kevin Garnett
+b: Ricky Rubio
+c: Stephon Marbury
+d: John Stockton
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in assist-per-game?
+a: Ricky Rubio
+b: Stephon Marbury
+c: Kevin Garnett
+d: Randy Foye
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in career steals?
+a: Kevin Garnett
+b: Ricky Rubio
+c: Johnny Flynn
+d: Corey Brewer
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in steals-per-game?
+a: Ricky Rubio
+b: Corey Brewer
+c: Kevin Love
+d: Sam Cassell
+Team: MIN
+========EOQ========
+Q: Which player set the Minnesota Timberwolves' franchise record for points in a game?
+a: Karl-Anthony Towns
+b: Mo Williams
+c: Andrew Wiggins
+d: Kevin Garnett
+Team: MIN
+========EOQ========
+Q: Who did the Minnesota Timberwolves trade Kevin Garnett to in 2007?
+a: Boston Celtics
+b: Los Angeles Clippers
+c: Brooklyn Nets
+d: Washington Wizards
+Team: MIN
+========EOQ========
+Q: Which team did the Minnesota Timberwolves acquire Andrew Wiggins from?
+a: Cleveland Cavaliers
+b: Toronto Raptors
+c: Brooklyn Nets
+d: Phoenix Suns
+Team: MIN
+========EOQ========
+Q: Which team did the Minnesota Timberwolves acquire D'Angelo Russell from?
+a: Golden State Warriors
+b: Brooklyn Nets
+c: Los Angeles Lakers
+d: Phoenix Suns
+Team: MIN
+========EOQ========
+Q: What is the furthest the Minnesota Timberwolves had made it into the NBA Playoffs?
+a: Western Conference Finals
+b: Champions
+c: NBA Finals
+d: Conference Semi-finals
+Team: MIN
+========EOQ========
+Q: How long is the Minnesota Timberwolves' franchise record winning streak?
+a: 11
+b: 5
+c: 25
+d: 23
+Team: MIN
+========EOQ========
+Q: What is the original name of the Charlotte Hornets franchise?
+a: Bobcats
+b: Sting
+c: Pelicans
+d: Storm
+Team: CHA
+========EOQ========
+Q: When current Charlotte Hornets franchise play its first NBA game?
+a: 2004-2005
+b: 1985-1986
+c: 2014-2015
+d: 1941-1942
+Team: CHA
+========EOQ========
+Q: In 2002, this founder of a TV channel became the first African American majority owner of an NBA franchise when his group was awarded a franchise in New Orleans:
+a: Robert L. Johnson
+b: Michael Jordan
+c: Mark Cuban
+d: Earl Gilbert Graves
+Team: CHA
+========EOQ========
+Q: Who is the only African American majority owner of an NBA franchise?
+a: Michael Jordan, Charlotte Hornets
+b: Shaquille O'Neal, Sacramento Kings
+c: Jay Z, Brooklyn Nets
+d: Grant Hill, Atlanta Hawks
+Team: CHA
+========EOQ========
+Q: The Charlotte Bobcats franchise only had one NBA all-star before becoming the Charlotte Hornets. What is the name of this player?
+a: Gerald Wallace
+b: Kemba Walker
+c: Larry Johnson
+d: Alonzo Mourning
+Team: CHA
+========EOQ========
+Q: In which year did the Charlotte Bobcats officially change their name to the Hornets?
+a: 2014
+b: 2004
+c: 1988
+d: 1956
+Team: CHA
+========EOQ========
+Q: Which of the Ball brothers was drafted by the Charlotte Hornets in 2020?
+a: LaMelo
+b: Lonzo
+c: LiAngelo
+d: Lavar
+Team: CHA
+========EOQ========
+Q: How many NBA championships has the current Charlotte Hornets franchise won?
+a: 0
+b: 1
+c: 2
+d: 3
+Team: CHA
+========EOQ========
+Q: What is the furthest the Charlotte Hornets have advanced in the NBA playoffs?
+a: Eastern conference quarter-finals
+b: Eastern conference semi-finals
+c: Eastern conference finals
+d: NBA finals
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in games played?
+a: Kemba Walker
+b: Emeka Okafor
+c: LaMelo Ball
+d: Malik Monk
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in career points?
+a: Kemba Walker
+b: Dell Curry
+c: Adam Morrison
+d: Sean May
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in points per game?
+a: Kemba Walker/Stephen Jackson
+b: Larry Johnson
+c: Kemba Walker
+d: Stephen Jackson
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in career rebounds?
+a: Emeka Okafor
+b: Cody Zeller
+c: Mason Plumlee
+d: Bismack Biyombo
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in rebounds-per-game?
+a: Emeka Okafor
+b: Bismack Biyombo
+c: Alonzo Mourning
+d: Baron Davis
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in career assists?
+a: Kemba Walker
+b: Kyrie Irving
+c: Rafer Alston
+d: Sean Felton
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in assist-per-game?
+a: Brevin Knight
+b: LaMelo Ball
+c: Devonte' Graham
+d: Terry Rozier
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in career blocks?
+a: Emeka Okafor
+b: Anthony Davis
+c: Bismack Biyombo
+d: Marvin Williams
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in blocks-per-game?
+a: Emeka Okafor
+b: Cody Zeller
+c: Miles Plumlee
+d: Aron Baynes
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in career steals?
+a: Gerald Wallace
+b: Brevin Knight
+c: Gary Payton
+d: Terry Rozier
+Team: CHA
+========EOQ========
+Q: Who is the Charlotte Hornets' franchise leader in steals-per-game?
+a: Brevin Knight
+b: Bismack Biyombo
+c: Cory Joseph
+d: Malcolm Brogdon
+Team: CHA
+========EOQ========
+Q: Which team holds the record for the fewest wins in a season? (note: This record was set in a shortened season)
+a: Charlotte Bobcats
+b: Philadelphia 76ers
+c: Clevelan Cavaliers
+d: New York Knicks
+Team: CHA
+========EOQ========
+Q: The Charlotte Bobcats hold the NBA record for fewest wins in a season. How many wins did they have in this record-setting season? (Note: This record was set in a shortened season)
+a: 6
+b: 10
+c: 20
+d: 3
+Team: CHA
+========EOQ========
+Q: Which of the following players was drafted by the Charlotte Hornets?
+a: Kemba Walker
+b: Terry Rozier
+c: Anthony Davis
+d: Shawn Kemp
+Team: CHA
+========EOQ========
+Q: Which of the following players was drafted by the Charlotte Hornets?
+a: LaMelo Ball
+b: RJ Barret
+c: Ja Morant
+d: Trae Young
+Team: CHA
+========EOQ========
+Q: At which position was Emeka Okafor drafted by the Charlotte Bobcats?
+a: 2nd overall
+b: 1st overall
+c: 58th overall
+d: 59th overall
+Team: CHA
+========EOQ========
+Q: Which of these former Charlotte Bobcats/Hornets players is a former rookie of the year winner?
+a: Emeka Okafor
+b: Kemba Walker
+c: Raymond Felton
+d: Adam Morrison
+Team: CHA
+========EOQ========
+Q: Which division do the Charlotte Hornets play in?
+a: Southeast division
+b: Pacific division
+c: Atlantic division
+d: Northwest division
+Team: CHA
+========EOQ========
+Q: What is the name of the Charlotte Hornets Mascot?
+a: Hugo the Hornet
+b: Charlotte the Hornet
+c: Sting
+d: Barry the Bee
+Team: CHA
+========EOQ========
+Q: What is the Charlotte Hornets franchise record for wins in a season?
+a: 48
+b: 36
+c: 73
+d: 69
+Team: CHA
+========EOQ========
+Q: Who holds the Charlotte Hornets' franchise record for points in a game?
+a: Kemba Walker, 60 points
+b: Kemba Walker, 45 points
+c: Emeka Okafor, 50 points
+d: Gerald Wallace, 70 points
+Team: CHA
+========EOQ========
+Q: When did the Orlando Magic play their first NBA game?
+a: 1989-1990
+b: 2000-2001
+c: 1954-1955
+d: 2014-2015
+Team: ORL
+========EOQ========
+Q: Who did the Orlando Magic pick 1st overall in the 1992 NBA draft?
+a: Shaquille O'Neal
+b: Dwight Howard
+c: Lebron James
+d: Patrick Ewing
+Team: ORL
+========EOQ========
+Q: Which team drafted Dwight Howard with the 1st overall pick in the 2004 NBA draft?
+a: Orlando Magic
+b: Los Angeles Lakers
+c: Houston Rockets
+d: Atlanta Hawks
+Team: ORL
+========EOQ========
+Q: What is the furthest the Orlando Magic have made it into the playoffs?
+a: NBA Finals
+b: NBA Champions
+c: Eastern Conference Quarter-Finals
+d: Eastern Conference Finals
+Team: ORL
+========EOQ========
+Q: How many NBA Championships have the Orlando Magic won?
+a: 0
+b: 1
+c: 2
+d: 3
+Team: ORL
+========EOQ========
+Q: The Orlando Magic have had many notable players since the creation of the team. Which of the following players is not among them?
+a: Dirk Nowitzki
+b: Dwight Howard
+c: Tracy McGrady
+d: Penny Hardaway
+Team: ORL
+========EOQ========
+Q: The Orlando Magic have had many notable players since the creation of the team. Which of the following players is not among them?
+a: Karl Malone
+b: Shaquille O'Neal
+c: Grant Hill
+d: Vince Carter
+Team: ORL
+========EOQ========
+Q: Which team did the Orlando Magic play in the 1994-1995 NBA Finals?
+a: Houston Rockets
+b: Toronto Raptors
+c: Memphis Grizzlies
+d: Golden State Warriors
+Team: ORL
+========EOQ========
+Q: Which of the following players was drafted by the Orlando Magic?
+a: Chris Webber
+b: Steve Nash
+c: Jason Kidd
+d: Larry Johnson
+Team: ORL
+========EOQ========
+Q: Doc Rivers was named named Coach of the Year as a rookie head coach in 2000. Which team was he coaching at the time?
+a: Orlando Magic
+b: Boston Celtics
+c: Los Angeles Clippers
+d: Philadelphia 76ers
+Team: ORL
+========EOQ========
+Q: Which team did the Orlando Magic play in the 2008-2009 NBA Finals?
+a: Los Angeles Lakers
+b: Cleveland Cavaliers
+c: Memphis Grizzlies
+d: San Antonio Spurs 
+Team: ORL
+========EOQ========
+Q: Which of the following players has won an NBA dunk contest as a member of the Orlando Magic?
+a: Dwight Howard
+b: Aaron Gordon
+c: Vince Carter
+d: Victor Oladipo
+Team: ORL
+========EOQ========
+Q: What was the nickname of former Orlando Magic guard Anfernee Hardaway?
+a: Penny
+b: Mr. Crossover
+c: Flash
+d: The Truth
+Team: ORL
+========EOQ========
+Q: How many players have won NBA MVP awards as member of the Orlando Magic?
+a: 0
+b: 1
+c: 2
+d: 3
+Team: ORL 
+========EOQ========
+Q: Which NBA award did Tracy McGrady win as a member of the Orlando Magic in the 2000-20001 season?
+a: Most Improved Player
+b: Most Valuable Player
+c: Defensive Player of the Year
+d: Sixth Man of the Year
+Team: ORL
+========EOQ========
+Q: Dwight Howard has won 3 of these awards as a member of the Orlando Magic from 2009-2011:
+a: Defensive Player of the Year
+b: Most Valuable Player
+c: Sixth Man of the Year
+d: Sportsmanship Award
+Team: ORL
+========EOQ========
+Q: This 4-time NBA champion won the 1993 Rookie of the Year award as a member of the Orlando Magic:
+a: Shaquille O'Neal
+b: Dwight Howard
+c: Penny Hardaway
+d: Tracy McGrady
+Team: ORL
+========EOQ========
+Q: How many NBA MVP awards has Shaquille O'Neal won?
+a: 1
+b: 3
+c: 5
+d: 0
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in games played?
+a: Nick Anderson
+b: Grant Hill
+c: Tracy McGrady
+d: Dominique Wilkins
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in career points?
+a: Dwight Howard
+b: Tracy McGrady
+c: Dennis Scott
+d: Evan Fournier
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in points-per-game?
+a: Tracy McGrady
+b: Penny Hardaway
+c: Vince Carter
+d: Shaquille O'Neal
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in career rebounds?
+a: Dwight Howard
+b: Hakeem Olajuwan
+c: Patrick Ewing
+d: Nick Anderson
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in rebounds-per-game?
+a: Dwight Howard
+b: Shaquille O'Neal
+c: Dominique Wilkins
+d: Nikola Vucevic
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in career assists?
+a: Jameer Nelson
+b: Nick Anderson
+c: Rafer Alston
+d: Penny Hardaway
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in assists-per-game?
+a: Scott Skiles
+b: Tracy McGrady
+c: Steve Francis
+d: Elfrid Payton
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in career blocks?
+a: Dwight Howard
+b: Johnathan Isaac
+c: Bo Outlaw
+d: Shaquille O'Neal
+Team: ORL
+========EOQ========
+Q: Who is the Orlando Magic franchise leader in blocks-per-game?
+a: Shaquille O'Neal
+b: Aaron Gordon
+c: Mohamed Bamba
+d: Bismack Biyombo
+Team: ORL
+========EOQ========
+Q: What is the name of the Orlando Magic mascot?
+a: Stuff the Magic Dragon
+b: Puff the Magic Dragon
+c: Merlin the Magician
+d: Morty the Magician
+Team: ORL
+========EOQ========
+Q: Which player holds the Orlando Magic franchise record for points in a game?
+a: Tracy McGrady
+b: Shaquille O'Neal
+c: Grant Hill
+d: Dwight Howard
+Team: ORL
+========EOQ========
+Q: What is the Orlando Magic franchise record for wins in a season?
+a: 60
+b: 50
+c: 73
+d: 69
+Team: ORL
+========EOQ========
+Q: Which of the following former Orlando Magic players is a member of the Hall of Fame?
+a: Patrick Ewing
+b: Steve Nash
+c: Penny Hardaway
+d: Dennis Scott
+Team: ORL
+========EOQ========
+Q: Which of these Hall of Famers has played for the Orlando Magic?
+a: Dominique Wilkins
+b: Tim Duncan
+c: Kevin Garnett
+d: Charles Barkley
+Team: ORL
+========EOQ========
+Q: Which of the following coaches has not coached the Orlando Magic?
+a: Billy Donovan
+b: Doc Rivers
+c: Frank Vogel
+d: Stan Van Gundy
+Team: ORL
+========EOQ========
+Q: Which former Orlando Magic player holds the NBA record for assists in a game?
+a: Scott Skiles
+b: Steve Nash
+c: Rajon Rondo
+d: Penny Hardaway
+Team: ORL
+========EOQ========
+Q: Which Orlando Magic became the first rookie to be voted an All-Star game starter since Michael Jordan did it it 1985
+a: Shaquille O'Neal
+b: Dwight Howard
+c: Penny Hardaway
+d: Vince Carter
+Team: ORL
+========EOQ========
+Q: Who did the Orlando Magic acquire via a draft day trade with the Warriors in 1993?
+a: Anfernee Hardaway
+b: Chris Webber
+c: Shaquille O'Neal
+d: Tracy McGrady
+Team: ORL
+========EOQ========
+Q: Which of the following players was not drafted by the Orlando Magic?
+a: Brendan Haywood
+b: JJ Redick
+c: Victor Oladipo
+d: Dwight Howard
+Team: ORL
+========EOQ========
+Q: Which two teams played in the first NBA/BAA game in history?
+a: New York Knicks and Toronto Huskies
+b: New York Knicks and Boston Celtics
+c: Boston Celtics and Minneapolis Lakers
+d: Toronto Huskies and Minneapolis Lakers
+Team: NYK
+========EOQ========
+Q: Where does the term Knicks come from?
+a: A name applied to the Dutch settler of what would later become the city of New York
+b: A gentlement's club in New York founded in 1871 called the Knickerbocker Club
+c: A book series written by Austrian writer Thomas Brezina called the Knickerbocker gang
+d: The USS Knickerbocker; A US Navy tug, minesweeper and dispatch ship stationed off the coast of New York
+Team: NYK
+========EOQ========
+Q: What is the name of the arena in which the New York Knicks play their home games?
+a: Madison Square Garden
+b: TD Banknorth Garden
+c: Staples Centre
+d: Staples Arena
+Team: NYK
+========EOQ========
+Q: This player was drafted by the New York Knicks in 1947 BAA draft broke the colour barrier in BAA/NBA:
+a: Wataru Misaka
+b: Chuck Cooper
+c: Willie O'Ree
+d: Moses Walker
+Team: NYK
+========EOQ========
+Q: How many NBA Championships have New York Knicks won in their history?
+a: 2
+b: 0
+c: 7
+d: 5
+Team: NYK
+========EOQ========
+Q: In which of following pair of years did the New York Knick win NBA championships? 
+a: 1969-1970, 1972-1973
+b: 1989-1999, 2001-2002
+c: 2006-2007, 2010-2011
+d: 2015-2016, 2016-2017
+Team: NYK
+========EOQ========
+Q: In the 1969-1970 NBA finals New York Knicks the injured Captain Willis Reed limped into Game 7 to rally the Knicks to a victory. How many points did he score game 7?
+a: 2
+b: 15
+c: 25
+d: 45
+Team: NYK
+========EOQ========
+Q: Who did the New York Knicks pick 1st overall in the 1985 NBA draft after winning a controversial draft lottery?
+a: Patrick Ewing
+b: David Robinson
+c: Shaquille O'Neal
+d: Shawn Kemp
+Team: NYK
+========EOQ========
+Q: Which of the following NBA coaches was drafted by the New York Knicks?
+a: Phil Jackson
+b: Luke Walton
+c: Doc Rivers
+d: Jason Kidd
+Team: NYK
+========EOQ========
+Q: Which team did the New York Knicks lose to in the 1993-1994 NBA Finals?
+a: Houston Rockets
+b: Chicago Bulls
+c: Los Angeles Lakers
+d: Vancouver Grizzlies
+Team: NYK
+========EOQ========
+Q: Which team did the New York Knicks lose to in the 1998-1999 NBA Finals?
+a: San Antonio
+b: Houston Rockets
+c: Golden State Warriors
+d: Phoenix Suns
+Team: NYK
+========EOQ========
+Q: Which team did the New York Knicks beat in the 1972-1973 NBA Finals?
+a: Los Angeles Lakers
+b: Dallas Mavericks
+c: Minneapolis Lakers
+d: Portland Trailblazers
+Team: NYK
+========EOQ========
+Q: Which team did the New York Knicks beat in the 1969-1970 NBA Finals?
+a: Los Angeles Lakers
+b: San Francisco Warriors
+c: Philadelphia Warriors
+d: Golden State Warriors
+Team: NYK
+========EOQ========
+Q: Which of the following players was not drafted by the New York Knicks?
+a: Nate Robinson
+b: RJ Barrett
+c: Kristaps Prozingis
+d: Iman Shumpert
+Team: NYK
+========EOQ========
+Q: Which of the following players was drafted by the New York Knicks?
+a: Patrick Ewing
+b: John Starks
+c: Allan Houston
+d: J.R. Smith
+Team: NYK
+========EOQ========
+Q: Which of the following players has never played for the New York Knicks?
+a: Charles Barkley
+b: Tracy McGrady
+c: Kristaps Porzingis
+d: Charles Oakley
+Team: NYK
+========EOQ========
+Q: Which of the following players has never played for the New York Knicks?
+a: Shaquille O'Neal
+b: Willis Reed
+c: Patrick Ewing
+d: Walt Frazier
+Team: NYK
+========EOQ========
+Q: Which of the following players has never played for the New York Knicks?
+a: Victor Oladipo
+b: Rod Strickland
+c: Raymond Felton
+d: Frank Nitlikina
+Team: NYK
+========EOQ========
+Q: From which team did the New York Knicks acquire Carmelo Anthony in a trade during the 2010-2011 season?
+a: Denver Nuggets
+b: Oklahoma City Thunder
+c: Portland Trailblazers
+d: Memphis Grizzlies
+Team: NYK
+========EOQ========
+Q: How did Amare Stoudamire break his hand following the Knicks Game 2 loss to the Heat in the 2011-2012 Eastern Conference Quarter-Finals?
+a: Slapped a fire extinguisher
+b: Altercation with a Miami Heat fan
+c: Altercation with a teammate
+d: Motorcycle accident
+Team: NYK
+========EOQ========

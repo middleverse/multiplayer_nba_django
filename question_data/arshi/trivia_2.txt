@@ -1,0 +1,700 @@
+Q: Which Portland Trail Blazer's coach has the highest winning percentage?
+a: Rick Adelman
+b: Mike Dunleavy
+c: Mike Schuler
+d: P.J. Carlesimo
+Team: POR
+========EOQ========
+Q: Who has NBA's record for most steals in one season (301)?
+a: Alvin Robertson
+b: Allen Iverson
+c: Michael Jordan
+d: Rick Barry
+Team: ZZZ
+========EOQ========
+Q: Who was the Trail Blazer's play-by-play announcer for almost three decades?
+a: Bill Schonely
+b: Ann Schatz
+c: Mike Barrett
+d: Kevin Calabro
+Team: POR
+========EOQ========
+Q: How many first quarter assists did Steve Blake score in 2009 again the LA Clippers, setting a NBA record for most assists in one quarter?
+a: 14
+b: 6
+c: 11
+d: 22
+Team: POR
+========EOQ========
+Q: Which of the following player's never made the "Dream Team" in 1992? 
+a: Isiah Thomas
+b: Magic Johnson
+c: Patrick Ewing
+d: Clyde Drexler
+Team: ZZZ
+========EOQ========
+Q: What's the current name of the Trailblazer's stadium?
+a: Moda Center
+b: Rose Garden
+c: AT&T Center
+d: Toyota Center
+Team: POR
+========EOQ========
+Q: Around the inception of the team, the Trailblazers management held a content to self the team's name. How many entries did it receive?
+a: 10,000
+b: 1
+c: 100
+d: 10
+Team: POR 
+========EOQ========
+Q: Which Portland Trailblazer holds the record for two 60+ point games in a single regular season?
+a: Damian Lillard
+b: Clyde Drexler
+c: Scottie Pippen
+d: Bill Walton
+Team: POR
+========EOQ========
+Q: Which NBA player is the only one to score back to back 50 point games as a Portland Trailbalzer? 
+a: Damian Lillard
+b: Bill Walton
+c: Zach Collins
+d: Brandon Roy
+Team: POR
+========EOQ========
+Q: Three of the following personalities coached and played for an NBA team at the exact same time. Which one didn't?
+a: Larry Bird
+b: Bill Russell
+c: Lenny Wilkens
+d: Bob Cousy
+Team: ZZZ
+========EOQ========
+Q: Which of the following players played for the Portland Trailblazers at some point in his career?
+a: Scottie Pippen
+b: Dennis Rodman
+c: Kevin Garnett
+d: Rajon Rondo
+Team: POR
+========EOQ========
+Q: Three of the following personalities played in the NBA as players before taking on the head coach position for an NBA team. Which one didn't?
+a: Erik Spoelstra
+b: Phil Jackson
+c: Magic Johnson
+d: Scott Brooks
+Team: ZZZ
+========EOQ========
+Q: Which NBA Coach played basketball as a starter for the Air Force Academy in the 60s?
+a: Gregg Popovich
+b: Dwayne Casey
+c: Pat Riley
+d: Stan Van Gundy
+Team: ZZZ
+========EOQ========
+Q: Who is the only person to win Finals MVP as a Portland Trail Blazer?
+a: Bill Walton
+b: Damian Lillard
+c: LaMarcus Aldridge
+d: Carmelo Anthony
+Team: POR
+========EOQ========
+Q: What's the greatest post-season achievement for the Portland Trail Blazers?
+a: NBA Champions
+b: Conference Champions
+c: Conference Semi-finals Winners
+d: Conference Quarter-finals Winners
+Team: POR
+========EOQ========
+Q: What does the pinwheel logo on the portland trailblazers represent?
+a: Two five-on-five basketball teams facing off
+b: A cyclone
+c: 10 winds signifying the windy weather in the city
+d: A whirlpool
+Team: POR
+========EOQ========
+Q: Who is the Trail Blazer's current coach?
+a: Terry Stots
+b: Maurice Cheeks
+c: Ryan Saunders
+d: Stephen Silas
+Team: POR
+========EOQ========
+Q: Which player has the record for most consecutive NBA All-Defensive first team selections?
+a: Gary Payton
+b: Lebron James
+c: Dennis Rodman
+d: Kevin Garnett
+Team: ZZZ
+========EOQ========
+Q: How many consecutive years did Gary Payton make the NBA All-Defensive first team?
+a: 9
+b: 6
+c: 4
+d: 13
+Team: ZZZ
+========EOQ========
+Q: Three of the following players share the record for most NBA All-Defensive first team selections (9 times each). Who doesn't?
+a: Tim Duncan
+b: Kobe Bryant
+c: Michael Jordan
+d: Kevin Garnett
+Team: ZZZ
+========EOQ========
+Q: Three of the following players share the achievement of making NBA All-Defensive first team selection of 8 times each. One of them only has 6. Who?
+a: Lebron James
+b: Scottie Pippen
+c: Bobby Jones
+d: Tim Duncan
+Team: ZZZ
+========EOQ========
+Q: Which player has the most All-Defensive team selections in total, including first team and second team?
+a: Tim Duncan
+b: Dennis Rodman
+c: Marc Gasol
+d: Dwight Howard
+Team: ZZZ
+========EOQ========
+Q: Which of the following beastly defenders never won a NBA Defensive Player of the Year award?
+a: Bill Russell
+b: Michael Jordan
+c: Ben Wallace
+d: Ron Artest/Metta World Peace
+Team: ZZZ 
+========EOQ========
+Q: Which players has the most consecutive NBA Defensive Player of the Year awards?
+a: Dwight Howard
+b: Giannis Antetokounmpo
+c: Anthony Davis
+d: Marc Gasol
+Team: ZZZ
+========EOQ========
+Q: Which of the following players won Defensive Player of the Year Award as a Chicago Bull?
+a: Joakim Noah
+b: Dennis Rodman
+c: Scottie Pippen
+d: Horace Grant
+Team: CHI
+========EOQ========
+Q: Who once played for both the Indiana Pacers and the San Antonio Spurs in the same game?
+a: Bob Netolicky
+b: Kawhi Leonard
+c: Manu Ginobli
+d: Stephen Jackson
+Team: IND
+========EOQ========
+Q: Which Pacer was known as the "Knick Killer"?
+a: Reggie Miller
+b: Paul George
+c: Chris Mullin
+d: George McGinnis
+Team: IND
+========EOQ========
+Q: Which Pacers coach has the highest winning percentage?
+a: Larry Bird
+b: Larry Brown
+c: Frank Vogel
+d: Bobby Leonard
+Team: IND 
+========EOQ========
+Q: Who was the first player in NBA history to lift his scoring average at least five points per game in three consecutive seasons?
+a: Danny Granger
+b: Victor Oladipo
+c: Steph Curry
+d: Fred Vanvleet
+Team: IND
+========EOQ========
+Q: Which team engaged in a famous brawl with the Pacers that has become known as the "Malice in the Palace"?
+a: Detroit Pistons
+b: New York Knicks
+c: Milwaukee Bucks
+d: Chicago Bulls
+Team: IND
+========EOQ========
+Q: Against which team did the Pacers double their opponent's score?
+a: Portland Trailblazers
+b: Oklahoma City Thunder
+c: New York Knicks
+d: Sacremento Kings
+Team: IND
+========EOQ========
+Q: Which Pacer holds hte franchise single-season record for steals?
+a: Don Buse
+b: Paul George
+c: Victor Oladipo
+d: Danny Granger
+Team: IND
+========EOQ========
+Q: Which Pacers player had 68 consecutive games with a three-pointer?
+a: Reggie Miller
+b: Danny Granger
+c: Jalen Rose
+d: Chris Mullin
+Team: IND
+========EOQ========
+Q: Which Pacers player has the highest single-season free throw percentage?
+a: Chris Mullin
+b: Reggie Miller
+c: Ron Artest
+d: Jalen Rose
+Team: IND
+========EOQ========
+Q: Who was hte first Pacer with more than 200 blocks in a season?
+a: Jermaine O'Neal
+b: Roy Hibbert
+c: Shaquille O'Neal
+d: Herb Williams
+Team: IND
+========EOQ========
+Q: Which Pacer holds the franchise single-season record for assists?
+a: Mark Jackson
+b: Jeff Teague
+c: Reggie Miller
+d: Geroge Hill
+Team: IND
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========
+Q: 
+a: 
+b: 
+c: 
+d: 
+Team: 
+========EOQ========

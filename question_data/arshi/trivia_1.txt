@@ -1,0 +1,700 @@
+Q: What were the Denver Nuggets originally called? 
+a: Denver Larks
+b: Denver Mammoths
+c: Denver Rockets
+d: Denver Outlaws
+Team: DEN
+========EOQ========
+Q: What is the most points (both teams combined) ever scored in a Nuggets game?
+a: 370
+b: 330
+c: 310
+d: 350
+Team: DEN
+========EOQ========
+Q: How many steals did basketball player Fat Lever have in one quarter (setting the NBA record)?
+a: 8
+b: 6
+c: 10
+d: 4
+Team: DEN
+========EOQ========
+Q: Who was the first Nugget with more than 300 blocked shots in a season?
+a: Dikembe Mutombo
+b: Marcus Camby
+c: Wayne Cooper
+d: Julius Keye
+Team: DEN
+========EOQ========
+Q: How many times did the Nuggets quality for the playoffs during the 1980's?
+a: 9
+b: 10
+c: 11
+d: 7
+Team: DEN
+========EOQ========
+Q: Which team missed 22 consecutive 3's against the Portland Trail Blazers in December 2012 without a single make?
+a: Denver Nuggets
+b: Los Angeles Lakers
+c: Toronto Raptors
+d: Miami Heat
+Team: DEN
+========EOQ========
+Q: Which player won MVP, Rookie of the Year and All-Star Game MVP during his rookie season?  
+a: Spencer Haywood (DEN)
+b: Magic Johnson (LAL)
+c: Larry Bird (CEL)
+d: Patrick Ewing (NYK)
+Team: DEN
+========EOQ========
+Q: How many players were ejected during the infamous 2006 Knicks-Nuggets Brawl?
+a: 10
+b: 5
+c: 7
+d: 8
+Team: DEN
+========EOQ========
+Q: During the 1981-82 season, the Nuggets Scored at least ___ points in every game:
+a: 100
+b: 110
+c: 80
+d: 90
+Team: DEN
+========EOQ========
+Q: What is the best single-season free throw percentage in Denver Nugget's history (set by Mahmoud Abdul-Rauf)?
+a: .956
+b: .981
+c: .922
+d: .893
+Team: DEN
+========EOQ========
+Q: What is the name of the Denver Nuggets' mascot?
+a: Rocky The Mountain Lion
+b: Clutch The Honey Bear
+c: Booster The Cheetah
+d: Duncan The Donut
+Team: DEN
+========EOQ========
+Q: Who is the Nuggets' all-time leading scorer?
+a: Alex English
+b: Carmelo Anthony
+c: David Thompson
+d: J.R. Smith
+Team: DEN
+========EOQ========
+Q: Who hold's the record for most minutes played, most assists and most points scored for the Denver Nuggets?
+a: Alex English
+b: Dikembe Mutombo
+c: Chauncey Billups
+d: Nikola Jokic
+Team: DEN
+========EOQ========
+Q: Who got drafted first in 1984 NBA draft (Michael Jordan got drafted on this day)?
+a: Akeem Olajuwon
+b: Sam Bowie
+c: Charles Barkley
+d: Patrick Ewing
+Team: DEN
+========EOQ========
+Q: What division are the Denver Nuggets a part of?
+a: Northwest
+b: Southeast
+c: Southwest
+d: Atlantic
+Team: DEN
+========EOQ========
+Q: Which player has the most NBA Defensive Player of the Year Award wins?
+a: Dikembe Motombo & Ben Wallace (Tied, 4 times)
+b: Dikembe Motombo (5 times)
+c: Ben Wallace (3 times)
+d: Dennis Rodman & Ben Wallace (Tied, 4 times)
+Team: DEN
+========EOQ========
+Q: How many blocked shots did Dikembe Mutombo earn during his NBA career?
+a: 3289
+b: 2993
+c: 4844
+d: 5192
+Team: DEN
+========EOQ========
+Q: What team did Allen Iverson play for right after his time at Philidelphia Sixers?
+a: Denver Nuggets
+b: Memphis Grizzlies
+c: Toronto Raptors
+d: Detroit Pistons
+Team: DEN
+========EOQ========
+Q: Who was the first D-Leage player every signed by an NBA Team?
+a: Chris "The Birdman" Andersen 
+b: Jeremy Lin 
+c: J.J. Barea 
+d: Rafar Alston 
+Team: DEN 
+========EOQ========
+Q: Which sport did Denver Nuggets player Nene play before he picked up a basketball?
+a: Soccer
+b: Volleyball
+c: Cricket
+d: Brazilian Jiu-Jitsu
+Team: DEN
+========EOQ========
+Q: Who coached Allen Iverson during his time at Denver?
+a: George Karl
+b: Larry Brown
+c: John Thompson
+d: Tim Donaghy
+Team: DEN 
+========EOQ========
+Q: Who did the Denver Nuggets lose to in a triple-overtime record-high scoring NBA game in 1983?
+a: Detroit Pistons
+b: Los Angeles Lakers
+c: Philidephia Sixers
+d: Charlotte Bobcats
+Team: DEN
+========EOQ========
+Q: What were Denver Nuggets colors in 2007-08? 
+a: Blue and Yellow
+b: Gold and Blue
+c: Black and Yellow
+d: Red and Blue
+Team: DEN
+========EOQ========
+Q: What is the current name of the Denver Nuggets stadium?
+a: Ball Arena
+b: Pepsi Center
+c: McDonald's Arena
+d: The Miner's Center
+Team: DEN
+========EOQ========
+Q: In which season did the Miami HEAT make the playoffs for the first time?
+a: 91'-92'
+b: 03'-04'
+c: 76'-77'
+d: 95'-96'
+Team: MIA
+========EOQ========
+Q: Which HEAT player hit the game-winning shot against the New Orleans Hornets in Game 1 of the 2004 First Round?
+a: Dwayne Wade
+b: Ray Allen
+c: Shaquille O'Neal
+d: Pat Riley
+Team: MIA
+========EOQ========
+Q: Who was the HEAT's second-leading scorer behind Dwayne Wade in the 2006 NBA Finals?
+a: Antoine Walker
+b: Shaquille O'Neal
+c: Gary Payton
+d: Jason Williams
+Team: MIA
+========EOQ========
+Q: How many consecutive years did the HEAT make the NBA Finals after hte 2009-2010 season?
+a: 4
+b: 3
+c: 2
+d: 5
+Team: MIA 
+========EOQ========
+Q: How many 3-pointers did Mike Miller make in the series-clinching Game 5 of the 2012 NBA Finals?
+a: 7
+b: 0
+c: 12
+d: 5
+Team: MIA
+========EOQ========
+Q: Who grabbed the key offensive rebound to set up Ray ALlen's clutch 3-points against the Spurs in Game 6 of the 2013 NBA Finals?
+a: Chris Bosh
+b: Dwayne Wade
+c: Lebron James
+d: The Birdman
+Team: MIA 
+========EOQ========
+Q: Which NBA player is also knows as "The Birdman"?
+a: Chris Andersen
+b: Michael Keaton
+c: J.R. Smith
+d: Steven Adams
+Team: ZZZ
+========EOQ========
+Q: What team did the HEAT face in back-to-back years in the NBA Finals?
+a: San Antonio Spurs
+b: Dallas Mavericks
+c: Golden State Warriors
+d: Oklahoma City Thunder
+Team: MIA
+========EOQ========
+Q: Which player holds the HEAT playoff record for total 3-pointers made?
+a: Lebron James
+b: Mario Chalmers
+c: Ray Allem
+d: Dwayne Wade
+Team: MIA
+========EOQ========
+Q: Which player holds the HEAT playoff record for total blocks?
+a: Alonzo Mourning
+b: Chris Bosh
+c: Shaquille O'Neal
+d: Dwayne Wade
+Team: MIA
+========EOQ========
+Q: How many championships have the HEAT won?
+a: 3
+b: 4
+c: 5
+d: 2
+Team: MIA 
+========EOQ========
+Q: What is Miami Heat's worst regular season record?
+a: 15-67
+b: 9-73
+c: 42-40
+d: 31-51
+Team: MIA
+========EOQ========
+Q: How many consecutive decades has Pat Riley appeared in the Finals?
+a: 6
+b: 1
+c: 2
+d: 4
+Team: MIA 
+========EOQ========
+Q: Which two teams missed the playoffs the season before facing each other in the NBA Finals (setting an NBA record)?
+a: HEAT & LAKERS (2020)
+b: PISTONS & LAKERS (2004)
+c: MAVERICKS & HEAT (2011)
+d: RAPTORS & WARRIORS (2019)
+Team: MIA
+========EOQ========
+Q: Which player is the HEAT's all time leader in scoring?
+a: Dwayne Wade
+b: Alonzo Mourning
+c: Sherman Douglas
+d: Tim Hardaway
+Team: MIA
+========EOQ========
+Q: Which player is the HEAT's all time leader in scoring?
+a: Lebron James
+b: Dwayne Wade
+c: Tim Hardaway
+d: Udonis Haslem
+Team: MIA
+========EOQ========
+Q: Which team took Lebron and the HEAT to a game 7 in the 2013 Eastern Conference Finals?
+a: Indiana Pacers
+b: Brooklyn Nets
+c: Toronto Raptors
+d: Boston Celtics
+Team: MIA
+========EOQ========
+Q: How many 3 pointers did Shaq make in his career? 
+a: 1
+b: 0
+c: 2
+d: 3
+Team: MIA 
+========EOQ========
+Q: Which rival NBA player did Shaq challenge for a one-on-one game on Pay Per View TV to establish his dominance?
+a: Hakeem Olajuwon
+b: Michael Jordan
+c: Charles Barkley
+d: Karl Malone
+Team: ORL 
+========EOQ========
+Q: What did the Miami Heat give up in acquiring Shaq from the Lakers in 2004?
+a: Caron Butler, Lamar Odom, Brian Grant, Draft Pick
+b: Contract buyout at 88 Million USD
+c: Caron Butler, 4 Draft Picks
+d: Lamar Odom, Tim Hardaway, Draft Pick
+Team: MIA 
+========EOQ========
+Q: What was Dwayne Wade's scoring average during the NBA Finals in 05'-06' season?
+a: 34.7
+b: 41.2
+c: 28.7
+d: 30.2
+Team: MIA
+========EOQ========
+Q: Which is the only other player tied with Michael Jordan for most series-winning buzzer beaters in NBA history?
+a: Damian Lillard
+b: Kobe Bryant
+c: Kevin Durant
+d: Kawhi Leonard 
+Team: ZZZ
+========EOQ========
+Q: Which player has the most game winning buzzer beater's in NBA history (under 24 seconds remaining on the shot clock)?
+a: Kobe Bryant
+b: Michael Jordan
+c: Larry Bird
+d: Lebron James
+Team: ZZZ
+========EOQ========
+Q: How many 4th quarter points did Lebron James average in the 2011 NBA Finals against the Mavericks?
+a: 3.0
+b: 5.0
+c: 9.0
+d: 13.0
+Team: MIA
+========EOQ========
+Q: How many points did Lebron James average in the 2011 NBA Finals against the Mavericks?
+a: 17.8
+b: 22.4
+c: 32.9
+d: 35.2
+Team: MIA
+========EOQ========
+Q: Which team has the longest current NBA Championship drought?
+a: Sacremento Kings
+b: Atlanta Hawks
+c: Milwaukee Bucks
+d: Los Angeles Clippers
+Team: ZZZ
+========EOQ========
+Q: Which team has the longest current playoff appearance drought?
+a: Sacremento Kings
+b: Phoenix Suns
+c: New York Knicks
+d: Charlotte Hornets
+Team: ZZZ
+========EOQ========
+Q: Which of the following Miami Heat starters was never named an All-Star?
+a: Jason Williams
+b: Anthony Mason
+c: Goran Drjaic
+d: Bam Adebayo
+Team: MIA
+========EOQ========
+Q: Which one of the following NBA players was named an All-Star atleast once?
+a: Kyle Korver
+b: Lamar Odom
+c: Toni Kukoc
+d: Jamal Crawford
+Team: ZZZ
+========EOQ========
+Q: Which skill was Miami Heat's Jason Williams known for best?
+a: Passing
+b: Scoring
+c: Dunking
+d: Stealing
+Team: MIA
+========EOQ========
+Q: Which NBA player, current or former, is also known as "White Chocolate"?
+a: Jason Williams
+b: Kevin Love
+c: Larry Bird
+d: Gordon Hayward
+Team: MIA
+========EOQ========
+Q: Which NBA player had been arrested 15 times before he was 15?
+a: Caron Butler
+b: Ron Artest
+c: Delonte West
+d: J.R. Smith
+Team: ZZZ
+========EOQ========
+Q: Which NBA player often made a "phone call gesture" (implying long distance) after shooting a 3PT?
+a: Caron Butler
+b: Ray Allen
+c: Steph Curry
+d: Paul Pierce
+Team: MIA
+========EOQ========
+Q: When did Erik Spoelstra start as the Head Coach for the Miami Heat?
+a: 08'-09'
+b: 01'-02'
+c: 10'-11'
+d: 12'-13'
+Team: MIA
+========EOQ========
+Q: 2020 Finals were Erik Spoelstra's ___th Finals appearance as Head Coach:
+a: 5
+b: 4
+c: 2
+d: 6
+Team: MIA
+========EOQ========
+Q: Which of the following teams has Pat Riley never been associated with?
+a: Boston Celtics
+b: Los Angeles Lakers
+c: Miami Heat
+d: New York Knicks
+Team: MIA
+========EOQ========
+Q: What is the current name of the Thunder's stadium?
+a: Chesapeake Energy Arena
+b: Ford Center
+c: The Hurricane Center
+d: Expo Square Pavilion
+Team: OKC
+========EOQ========
+Q: How many championships does OKC have?
+a: 1
+b: 2
+c: 4
+d: 6
+Team: OKC 
+========EOQ========
+Q: Who is OKC's current GM?
+a: Sam Presti
+b: Nicholas Presti
+c: Mitch Kupchak
+d: Bobby Webster
+Team: OKC
+========EOQ========
+Q: How many players won the regular season MVP award while part of the OKC Thunder squad? 
+a: 2
+b: 0
+c: 3
+d: 6
+Team: OKC 
+========EOQ========
+Q: What were the OKC Thunder originally called?
+a: Seattle SuperSonics
+b: Baltimore Bullets
+c: Oklahoma City Longhorns
+d: Midwest City Thunder
+Team: OKC
+========EOQ========
+Q: Which team has had a player that averaged a Triple-Double for the entire regular season?
+a: Oklahoma City Thunder
+b: Los Angeles Lakers
+c: Boston Celtics
+d: Houston Rockets
+Team: OKC
+========EOQ========
+Q: Who is the only other player apart from Russel Westbrook to average a Triple-Double for the entire regular season?
+a: Oscar Robertson
+b: Magic Johnson
+c: Lebron James
+d: Wilt Chamberlain
+Team: OKC
+========EOQ========
+Q: Which of the following players was not drafted by the Oklahoma City Thunder Franchise?
+a: Dennis Schroder
+b: Kevin Durant
+c: James Harden
+d: Scottie Pippen
+Team: OKC
+========EOQ========
+Q: Who hold the OKC Thunder's single-season record for blocks?
+a: Serge Ibaka
+b: Shawn Kemp
+c: Steven Adams
+d: Nick Collison
+Team: OKC
+========EOQ========
+Q: Who was the first Thunder franchise player to average 30 points per game (includes Seattle SuperSonics)?
+a: Kevin Durant
+b: Russel Westbrook
+c: Ray Allen
+d: Gary Paton
+Team: OKC
+========EOQ========
+Q: What is the name of the current Thunder Mascot?
+a: Rumble
+b: Thor
+c: Electri-Cat
+d: Bolt
+Team: OKC
+========EOQ========
+Q: Which player set a Thunder record with 10 successful 3-pointers in a single game?
+a: Paul George
+b: Carmelo Anthony
+c: Kevin Durant
+d: Russell Westbrook
+Team: OKC
+========EOQ========
+Q: Which player has played the most games with Thunder/SuperSonics?
+a: Gary Payton
+b: Russell Westbrook
+c: Nick Collison
+d: Fred Brown
+Team: OKC
+========EOQ========
+Q: Against which team did Russell Westbrook score a franchise playoff-record 51 points in 2017?
+a: Houston Rockets
+b: Cleveland Cavaliers
+c: Golden State Warriors
+d: Los Angeles Lakers 
+Team: OKC
+========EOQ========
+Q: Who holds the Thunder's franchise record for most single season points?
+a: Kevin Durant
+b: Russell Westbrook
+c: Gary Payton
+d: Spencer Haywood
+Team: OKC
+========EOQ========
+Q: Which Thunder player has the highest career free throw percentage?
+a: Ricky Pierce
+b: Chris Paul
+c: Kevin Durant
+d: Ray Allen
+Team: OKC
+========EOQ========
+Q: How many single-season offensive rebounds did Steven Adams score for a record setting 18'-19' season?
+a: 391
+b: 670
+c: 479
+d: 278
+Team: OKC
+========EOQ========
+Q: Which NBA player has the record for all time assists?
+a: John Stockton
+b: Steve Nash
+c: Chris Paul
+d: Magic Johnson
+Team: ZZZ
+========EOQ========
+Q: Who is NBA's all time rebounds leader?
+a: Wilt Chamberlain
+b: Bill Russel
+c: Kareem Abdul-Jabbar
+d: Tim Duncan
+Team: ZZZ
+========EOQ========
+Q: Who is NBA's all time leader in blocks?
+a: Hakeem Olajuwon
+b: Wilt Chamberlain
+c: Dikembe Mutombo
+d: Shaquille O'Neal
+Team: ZZZ
+========EOQ========
+Q: Who coached the Kevin Durant Thunder Team?
+a: Scott Brooks
+b: Mark Daigneault
+c: Sam Presti
+d: Billy Donovan
+Team: OKC
+========EOQ========
+Q: Which team did the Supersonics win a championship against in 1979?
+a: Washington Bullets
+b: Los Angeles Lakers
+c: Toronto Raptors
+d: Cleaveland Cavaliers
+Team: OKC
+========EOQ========
+Q: Besides the Boston Celtics, which team did Bill Russell Coach?
+a: Seattle Supersonics
+b: Los Angeles Lakers
+c: Charlotte Bobcats
+d: Philidelphia 76ers
+Team: OKC
+========EOQ========
+Q: When did the Thunder franchise move to Oklahoma?
+a: 08'-09'
+b: 06'-07'
+c: 99'-00'
+d: 10'-11'
+Team: OKC
+========EOQ========
+Q: Which player spent his whole career with the Thunder/SuperSonics Franchise?
+a: Nick Collison
+b: Gary Payton
+c: John Stockton
+d: Shawn Kemp
+Team: OKC
+========EOQ========
+Q: Which of the following players didn't spend his entire career on the Boston Celtics?
+a: Danny Ainge
+b: Bill Russell
+c: Larry Bird
+d: Kevin McHale
+Team: BOS
+========EOQ========
+Q: Which of the following players' hasn't spent his entire career with the Golden State Warriors?
+a: Stephen Curry
+b: Klay Thompson
+c: Rick Barry
+d: Draymond Green
+Team: GSW
+========EOQ========
+Q: Who is the only player to spend his entire career with the Miami Heat?
+a: Udonis Haslem
+b: Jimmy Butler
+c: Mario Chalmers
+d: Hassan Whiteside
+Team: MIA
+========EOQ========
+Q: Which player has spent the longest time with a single NBA team?
+a: Dirk Nowitzki
+b: Kobe Bryant
+c: Reggie Miller
+d: Tim Duncan
+Team: ZZZ
+========EOQ========
+Q: Which of the following players didn't spend his entire career with the San Antonio Spurs?
+a: Tony Parker
+b: Tim Duncan
+c: Manu Ginobli
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: The 2012 NBA Finals ended at a _______ series score, where Miami Heat beat the OKC Thunder.
+a: 4-1
+b: 4-2
+c: 4-0
+d: 4-3
+Team: OKC
+========EOQ========
+Q: Which former or current OKC Thunder player has 17 siblings?
+a: Steven Adams
+b: Dennis Schroder
+c: Serge Ibaka
+d: Kendrick Perkins
+Team: OKC
+========EOQ========
+Q: Who was Seattle SuperSonics last Draft Pick before turning into OKC Thunder?
+a: Russell Westbrook
+b: Kevin Durant
+c: James Harden
+d: Shawn Kemp
+Team: OKC
+========EOQ========
+Q: What year did Russell Westbrook win NBA's regular season MVP trophy?
+a: 16'-17'
+b: 18'-19'
+c: 15'-16'
+d: 11'-12'
+Team: OKC
+========EOQ========
+Q: Which of the following accolades has Russell Westbrook never won?
+a: Winner of the Dunk 
+b: Regular Season MVP
+c: Scoring Champion
+d: All-Star MVP
+Team: OKC
+========EOQ========
+Q: Which of the following players has never won NBA regular season MVP and Defensive Player of the Year awards in the same season? 
+a: Lebron James
+b: Michael Jordan
+c: Hakeem Olajuwon
+d: Giannis Antetokounmpo
+Team: ZZZ
+========EOQ========
+Q: Which team has the longest NBA Sellout streak of 814 home games sold out consecutively?
+a: Portland Trail Blazers
+b: Los Angeles Lakers
+c: Toronto Raptors
+d: Oklahoma City Thunder
+Team: ZZZ
+========EOQ========
+Q: Who was the first Portland Trail Blazer to win league MVP?
+a: Bill Walton
+b: Clyde Drexler
+c: Terry Porter
+d: Geoffe Petrie
+Team: POR
+========EOQ========
+Q: Who did Portland pick ahead of Michael Jordan in the 1984 NBA draft?
+a: Sam Bowie
+b: Clyde Drexler
+c: Scottie Pippen
+d: Isiah Thomas
+Team: POR
+========EOQ========
+Q: Which shoe company dominated the NBA from it's inception to the 70s (before Nike took it's market share)?
+a: Converse
+b: Puma
+c: Addidas
+d: And1
+Team: POR
+========EOQ========

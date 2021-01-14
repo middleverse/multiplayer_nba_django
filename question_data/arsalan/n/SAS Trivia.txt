@@ -1,0 +1,525 @@
+Q: What were the San Antonio Spurs originally called?
+a: Chaparrals
+b: Amigos
+c: Cougars
+d: Colonels
+Team: SAS
+========EOQ========
+Q: Which city was the Spurs franchise located in prior to moving to San Antonio?
+a: Dallas
+b: Houston
+c: Austin
+d: El Paso
+Team: SAS
+========EOQ========
+Q: Which Spurs star was nicknamed "the Admiral"?
+a: David Robinson
+b: Kawhi Leonard
+c: Tim Duncan
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Which Spur managed to play 84 games in an 82-game NBA season?
+a: Billy Paultz
+b: Kawhi Leonard
+c: Avery Johnson
+d: Johnny Moore
+Team: SAS
+========EOQ========
+Q: How many consecutive 50+ win seasons have the San Antonio Spurs had?
+a: 18
+b: 16
+c: 20
+d: 19
+Team: SAS
+========EOQ========
+Q: Which team holds the record for the most consecutive wins?
+a: Spurs
+b: Celtics
+c: Lakers
+d: Warriors
+Team: SAS
+========EOQ========
+Q: Who is the tallest player in Spurs history?
+a: Chuck Nevitt
+b: David Robinson
+c: Artis Gilmore
+d: Boban Marjanovic
+Team: SAS
+========EOQ========
+Q: This Spur stood at a towering 7ft 5in and only played one game with the team.
+a: Chuck Nevitt
+b: David Robinson
+c: Artis Gilmore
+d: Boban Marjanovic
+Team: SAS
+========EOQ========
+Q: Who is the only guard in NBA history to have recorded a quadruple-double?
+a: Alvin Robertson
+b: George Gervin
+c: Manu Ginobili
+d: Tony Parker
+Team: ZZZ
+========EOQ========
+Q: Who is the only guard in Spurs history to have recorded a quadruple-double?
+a: Alvin Robertson
+b: George Gervin
+c: Manu Ginobili
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Which Spur holds the single-season franchise record for both defensive rebounds and offensive rebounds?
+a: Dennis Rodman
+b: David Robinson
+c: Swen Nater
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: What was the first jersey number retired by the San Antonio Spurs?
+a: 13
+b: 00
+c: 44
+d: 50
+Team: SAS
+========EOQ========
+Q: This Spur was nicknamed "The Snake".
+a: James Silas
+b: David Robinson
+c: Swen Nater
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: Who did the San Antonio Spurs defeat to win their first NBA championship?
+a: Knicks
+b: Nets
+c: Cavaliers
+d: Pistons
+Team: SAS
+========EOQ========
+Q: In which season did the Spurs win their first NBA championship?
+a: 1998-99
+b: 1997-98
+c: 2002-03
+d: 2004-05
+Team: SAS
+========EOQ========
+Q: What was Spurs player George Gervin's nickname?
+a: Iceman
+b: Angel
+c: The Beast
+d: Cyclops
+Team: SAS
+========EOQ========
+Q: Which future Spurs star was the first overall pick in the 1976 ABA Dispersal draft?
+a: Artis Gilmore
+b: Billy Paultz
+c: George Gervin
+d: Larry Kenon
+Team: SAS
+========EOQ========
+Q: Which Spurs player had green hair?
+a: Dennis Rodman
+b: Robert Horry
+c: Patty Mills
+d: Danny Green
+Team: SAS
+========EOQ========
+Q: Which Spur scored the most points in a single season?
+a: George Gervin
+b: David Robinson
+c: Tony Parker
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: Who was the first San Antonio Spur with more than 300 steals in a season?
+a: Alvin Robertson
+b: Mike Gale
+c: Johnny Moore
+d: David Robertson
+Team: SAS
+========EOQ========
+Q: Which former Spur holds the NBA record for most blocks in a half?
+a: George T. Johnson
+b: David Robinson
+c: Billy Paultz
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: Which San Antonio Spurs head coach has the highest winning percentage?
+a: Rex Hughes
+b: Gregg Popovich
+c: Bob Hill
+d: John Lucas II
+Team: SAS
+========EOQ========
+Q: Who was the first San Antonio Spur to win the Sixth Man of the Year Award?
+a: Manu Ginóbili
+b: Pau Gasol
+c: Chuck Person
+d: Derrick White
+Team: SAS
+========EOQ========
+Q: Which former Spur holds the NBA record for most steals in a game?
+a: Larry Kenon
+b: Alvin Robertson
+c: Johnny Moore
+d: Mike Gale
+Team: SAS
+========EOQ========
+Q: Which Spurs player has the highest single-season field goal percentage in franchise history?
+a: Steve Johnson
+b: Tiago Splitter
+c: Artis Gilmore
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: Which San Antonio Spur holds the NBA record for most assists in a quarter?
+a: John Lucas
+b: Johnny Moore
+c: Avery Johnson
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Who did the Spurs defeat to win the 2014 NBA title?
+a: Heat
+b: Warriors
+c: Mavericks
+d: Cavaliers
+Team: SAS
+========EOQ========
+Q: In what year was Tim Duncan drafted?
+a: 1997
+b: 1996
+c: 1998
+d: 1995
+Team: SAS
+========EOQ========
+Q: Which player wore #21 on his jersey?
+a: Tim Duncan
+b: David Robinson
+c: Tony Parker
+d: Manu Ginóbili
+Team: SAS
+========EOQ========
+Q: This Spur was nicknamed "The Big Fundamental".
+a: Tim Duncan
+b: David Robinson
+c: Pau Gasol
+d: Avery Johnson
+Team: SAS
+========EOQ========
+Q: Which Spur has his own restaurant in San Antonio, and went to the same high school as Wilt Chamberlain?
+a: Malik Rose
+b: Tim Duncan
+c: David Robinson
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: This Spurs players dream was to be an olympic swimmer before he turned to basketball.
+a: Tim Duncan
+b: David Robinson
+c: Pau Gasol
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Who was the Finals MVP for the Spurs during the 2002-03 season?
+a: Tim Duncan
+b: Tony Parker
+c: Manu Ginóbili
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: Who was the first Spur to ever score over 70 points in a game?
+a: David Robinson
+b: Tim Duncan
+c: Manu Ginóbili
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Who was the coach that led the Spurs to their 5th title since 1999?
+a: Gregg Popovich
+b: Bob Hill
+c: John Lucas
+d: Rex Hughes
+Team: SAS
+========EOQ========
+Q: This former Spurs coach graduated from the Air Force Academy with a degree in Soviet Studies, and almost became a spy.
+a: Gregg Popovich
+b: Bob Hill
+c: John Lucas
+d: Rex Hughes
+Team: SAS
+========EOQ========
+Q: What is the mascot name for the Spurs?
+a: The Coyote
+b: The Texan
+c: Rumble the Bison
+d: Bango
+Team: SAS
+========EOQ========
+Q: Which Frenchman has played point guard for the Spurs since 2001? 
+a: Tony Parker
+b: Manu Ginóbili
+c: Avery Johnson
+d: George Gervin
+Team: SAS
+========EOQ========
+Q: This Spurs player beat out Shaquille O'Neal for the 1993-94 NBA Scoring Title.
+a: David Robinson
+b: Tim Duncan
+c: Tony Parker
+d: Manu Ginóbili
+Team: SAS
+========EOQ========
+Q: Who is the only Spurs player other than Alvin Robertson to have recorded a quadruple-double?
+a: David Robinson
+b: Tony Parker
+c: Manu Ginóbili
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Which former Spur became an ordained minister in the early 1990s?
+a: Terry Cummings
+b: Boris Diaw
+c: Tony Parker
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: Which famous NBA journeyman joined the Spurs in the 2003-04 season.
+a: Robert Horry
+b: Andre Miller
+c: Nate Robinson
+d: Moses Malone
+Team: SAS
+========EOQ========
+Q: Which native Argentinian came off the bench to provide valuable minutes for the Spurs?
+a: Manu Ginóbili
+b: Boris Diaw
+c: Terry Cummings
+d: Robert Horry
+Team: SAS
+========EOQ========
+Q: What was the nickname given to the 1999 Spurs' starting point guard, Avery Johnson?
+a: The Little General
+b: The Tiny General
+c: The Mini General
+d: The General
+Team: SAS
+========EOQ========
+Q: This spurs player grew up in the U.S. Virgin Islands.
+a: Tim Duncan
+b: Boris Diaw
+c: Manu Ginóbili
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: The Spurs drafted this player 1st overall during the 1997 NBA draft.
+a: Tim Duncan
+b: Tony Parker
+c: Manu Ginóbili
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: Which member of the 1998-99 Spurs Championship team was the first player in NBA history to return to the game after a kidney transplant?
+a: Sean Elliot
+b: Tim Duncan
+c: Avery Johnson
+d: Steve Kerr
+Team: SAS
+========EOQ========
+Q: This Spurs player won the Finals MVP award during his third year in the league.
+a: Kawhi Leonard
+b: Tim Duncan
+c: David Robinson
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: Who did the Spurs play in the NBA finals in the 2006-07 season?
+a: Cavaliers
+b: Celtics
+c: Heat
+d: Lakers
+Team: SAS
+========EOQ========
+Q: George Gervin was immortalized in a shoe poster in which this "Iceman" was sitting upon an ice throne. Which was the shoe company that ran the poster in the early 1980s?
+a: Nike
+b: Adidas
+c: And1
+d: Air Jordan
+Team: SAS
+========EOQ========
+Q: Which team eliminated the Spurs in the 2000 playoffs?
+a: Suns
+b: Lakers
+c: Rockets
+d: Mavericks
+Team: SAS
+========EOQ========
+Q: In which year was David Robinson named league MVP?
+a: 1994-95
+b: 1995-96
+c: 1997-98
+d: 1999-00
+Team: SAS
+========EOQ========
+Q:  Which Spurs player won the NBA Sixth Man of the Year award during the 2007-08 season?
+a: Manu Ginóbili
+b: Tony Parker
+c: Robert Horry
+d: Bruce Bowen
+Team: SAS
+========EOQ========
+Q: Who is known on the Spurs for wearing their practice shorts backwards?
+a: Tim Duncan
+b: Tony Parker
+c: Manu Ginóbili
+d: Robert Horry
+Team: SAS
+========EOQ========
+Q: This Spurs coach has been working with the team for 25 years and led them to into the playoffs 22 times.
+a: Gregg Popovich
+b: Stan Albeck
+c: Bob Bass
+d: Larry brown
+Team: SAS
+========EOQ========
+Q: How many different coaches have the Spurs won their 5 championships with?
+a: 1
+b: 2
+c: 3
+d: 4
+Team: SAS
+========EOQ========
+Q: During the 2019-20 season this coach set the record for the longest coaching tenure with the same team.
+a: Gregg Popovich
+b: Erik Spoelstra
+c: Rick Carlisle
+d: Terry Stotts
+Team: SAS
+========EOQ========
+Q: In which year was David Robinson drafted by the Spurs?
+a: 1987
+b: 1986
+c: 1985
+d: 1990
+Team: SAS
+========EOQ========
+Q: The Spurs drafted this player 1st overall during the 1987 NBA draft.
+a: David Robinson
+b: Tim Duncan
+c: Alvin Robertson
+d: Willie Anderson
+Team: SAS
+========EOQ========
+Q: This player wore the number 6 for the Spurs.
+a: Avery Johnson
+b: Tony Parker
+c: Manu Ginóbili
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: This player wore the number 9 for the Spurs.
+a: Tony Parker
+b: Avery Johnson
+c: Tim Duncan
+d: Manu Ginóbili
+Team: SAS
+========EOQ========
+Q: This player wore the number 20 for the Spurs.
+a: Manu Ginóbili
+b: Tim Duncan
+c: Avery Johnson
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: This player wore the number 21 for the Spurs.
+a: Tim Duncan
+b: Manu Ginóbili
+c: Tony Parker
+d: Avery Johnson
+Team: SAS
+========EOQ========
+Q: This player wore the number 50 for the Spurs.
+a: David Robinson
+b: Manu Ginóbili
+c: Tim Duncan
+d: Avery Johnson
+Team: SAS
+========EOQ========
+Q: This Spurs player was inducted into the Hall of Fame in 2020
+a: Tim Duncan
+b: Manu Ginóbili
+c: Tony Parker
+d: Avery Johnson
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Games Played.
+a: Tim Duncan
+b: Tony Parker
+c: Manu Ginóbili
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Fied Goals.
+a: Tim Duncan
+b: Tony Parker
+c: George Gervin
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most 3-Pt Field Goals.
+a: Manu Ginóbili
+b: Patty Mills
+c: Danny Green
+d: Bruce Bowen
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Free Throws.
+a: David Robinson
+b: Tim Duncan
+c: George Gervin
+d: Manu Ginóbili
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Total Rebounds.
+a: Tim Duncan
+b: George Gervin
+c: Manu Ginóbili
+d: David Robinson
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Assists.
+a: Tony Parker
+b: Tim Duncan
+c: Manu Ginóbili
+d: Avery Johnson
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Steals.
+a: Manu Ginóbili
+b: David Robinson
+c: George Gervin
+d: Tony Parker
+Team: SAS
+========EOQ========
+Q: This Spurs player is the franchise leader for the most Triple-Doubles.
+a: David Robinson
+b: Alvin Robertson
+c: George Gervin
+d: Tim Duncan
+Team: SAS
+========EOQ========
+Q: This Spurs forward was traded to the Toronto Raptors during the 2018-19 season and went on to win the championship.
+a: Kawhi Leonard
+b: Danny Green
+c: DeMar DeRozan
+d: Tim Parker
+Team: SAS
+========EOQ========
+Q: This Spurs guard was traded to the Toronto Raptors during the 2018-19 season and went on to win the championship.
+a: Danny Green
+b: Kawhi Leonard
+c: DeMar DeRozan
+d: Tim Parker
+Team: SAS
+========EOQ========

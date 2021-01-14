@@ -600,7 +600,7 @@
         // Reset Shot Clock
         clearTimeout(sc_timeout_holder)
         clearTimeout(question_timeout)
-        seconds = 3 + 1
+        seconds = session_shot_clock + 1
 
         // Update Question Counters
         session_question_counter += 1
@@ -621,7 +621,7 @@
         }
 
         // Check if round has ended
-        else if (round_question_counter > 3) {
+        else if (round_question_counter > 9) {
             // show end results
             session_question_counter -= 1 // reel back session question counter
             console.log('ROUND ENDED!')

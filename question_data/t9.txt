@@ -1,0 +1,210 @@
+Q: What were the Sacramento Kings originally called?
+a: Seagrams
+b: Pros
+c: Kodaks
+d: Royals
+Team: SAC
+========EOQ========
+Q: What year did the franchise win its first NBA championship?
+a: 1951
+b: 1952
+c: 1955
+d: 1956
+Team: SAC
+========EOQ========
+Q: How many overtimes did the Rochester Royals play on January 6, 1951 against the Indianapolis Olympians?
+a: 6
+b: 7
+c: 2
+d: 3
+Team: SAC
+========EOQ========
+Q: Who was the first Sacramento King with more than 200 blocks in a season?
+a: Duane Causwell
+b: Keon Clark
+c: Sam Lacey
+d: Michael Stewart
+Team: SAC
+========EOQ========
+Q: What year did the Kings relocate to Sacramento?
+a: 1985
+b: 1965
+c: 1986
+d: 1964
+Team: SAC
+========EOQ========
+Q: Which Kings player was the first to lead the NBA in scoring and assists in the same year?
+a: Nate Archibald
+b: DeMarcus Cousins
+c: Oscar Robertson
+d: Jack Twyman
+Team: SAC
+========EOQ========
+Q: Which Kings player was paralyzed due to a head injury he suffered during a game?
+a: Maurice Stokes
+b: Otis Birdsong
+c: Wayne Embry
+d: Sam Lacey
+Team: SAC
+========EOQ========
+Q: Which Kings teammate became Maurice Stokes' legal guardian after his injury?
+a: Jack Twyman
+b: Jim Paxson
+c: George King
+d: Clye Lovellette
+Team: SAC
+========EOQ========
+Q: What is the name of the Sacramento Kings' mascot?
+a: Slamson the Lion
+b: Rocky the Mountain Lion
+c: Big Shot
+d: Sam Dunk
+Team: SAC
+========EOQ========
+Q: Who is the tallest player in Sacramento Kings history?
+a: Sim Bhullar
+b: Randy Breuer
+c: Alex Len
+d: Ralph Sampson
+Team: SAC
+========EOQ========
+Q: Who was the first Kings player in NBA history to average a triple-double for a season?
+a: Oscar Roberton
+b: Maurice Stokes
+c: Nate Archibald
+d: Norm Van Lier
+Team: SAC
+========EOQ========
+Q: Which coach has the highest winning percentage in Kings franchise history?
+a: Rick Adelman
+b: Lester Harrison
+c: Jack McMahon
+d: Cotton Fitzsimmons
+Team: SAC
+========EOQ========
+Q: Which Kings player was the first overall pick in the NBA draft?
+a: Pervis Ellison
+b: Marvin Bagley
+c: Jason Williams
+d: Tyreke Evans
+Team: SAC
+========EOQ========
+Q: How much playing time did Sacramento Kings center Sim Bhullar get in his NBA debut?
+a: 16 seconds
+b: 16 minutes
+c: 38 minutes
+d: 38 seconds
+Team: SAC
+========EOQ========
+Q: Who was the first Sacramento Kings player to win the Sixth Man of the Year Award?
+a: Bobby Jackson
+b: Harold Pressley
+c: Francisco Garcia
+d: Bogdan Bodganovic
+Team: SAC
+========EOQ========
+Q: Who was the shortest player in Sacramento Kings history?
+a: Spudd Webb
+b: Isaiah Thomas
+c: Michael Adams
+d: Lionel Malamed
+Team: SAC
+========EOQ========
+Q: Which Kings player was nicknamed "Boogie"?
+a: DeMarcus Cousins
+b: Isaiah Thomas
+c: Mike Bibby
+d: Chris Webber
+Team: SAC
+========EOQ========
+Q: Who gave DeMarcus cousins his nickname "Boogie"?
+a: Rod Strickland
+b: Tyreke Evans
+c: Paul Westphal
+d: Hassan Whiteside
+Team: SAC
+========EOQ========
+Q: For which player did the Kings retire Jersey No. 21?
+a: Vlade Divac
+b: Oscar Robertson
+c: Jack Twyman
+d: Maurice Stokes
+Team: SAC
+========EOQ========
+Q: Which Kings player had the highest single-season free throw percentage in franchise history?
+a: Spud Webb
+b: Peja Stojakovic
+c: Bobby Wanzer
+d: Isaiah Thomas
+Team: SAC
+========EOQ========
+Q: For which player did the Kings retire Jersey No. 14?
+a: Oscar Robertson
+b: Vlade Divac
+c: Jack Twyman
+d: Maurice Stokes
+Team: SAC
+========EOQ========
+Q: For which player did the Kings retire Jersey No. 4?
+a: Chris Webber
+b: Maurice Stokes
+c: Oscar Robertson
+d: Vlade Divac
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most Games Played.
+a: Sam Lacey
+b: Jack Twyman
+c: Oscar Robertson
+d: Adrian Smith
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most Fied Goals.
+a: Oscar Robertson
+b: Jack Twyman
+c: Mitch Richmond
+d: Sam Lacey
+Team: SAC
+========EOQ========
+Q: This Kings player was given the nickname "Mr. Triple Double".
+a: Oscar Robertson
+b: Jack Twyman
+c: Mitch Richmond
+d: Sam Lacey
+Team: SAC
+========EOQ========
+Q: This Kings player won the MVP award during the 1963-64 season.
+a: Oscar Robertson
+b: Wilt Chamberlain
+c: Jerry Lucas
+d: Wayne Embry
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most 3-Pt Fied Goals.
+a: Peja Stojaković
+b: Mitch Richmond
+c: Buddy Hield
+d: Mike Bibby
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most Total Rebounds.
+a: Sam Lacey
+b: Jerry Lucas
+c: Oscar Robertson
+d: Wayne Embry
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most Steals.
+a: Sam Lacey
+b: Jerry Lucas
+c: Oscar Robertson
+d: Wayne Embry
+Team: SAC
+========EOQ========
+Q: This Kings player holds the franchise record for the most Turnovers.
+a: DeMarcus Cousins
+b: Mitch Richmond
+c: Chris Webber
+d: Reggie Theus
+Team: SAC
+========EOQ========

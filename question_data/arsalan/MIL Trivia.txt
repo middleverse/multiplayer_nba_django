@@ -1,0 +1,378 @@
+Q: This Bucks player was the first in NBA history to finish a regular season in the top 20 in all five major statistical categories: total points, rebounds, assists, steals, and blocks?
+a: Giannis Antetokounmpo
+b: Oscar Robertson
+c: Kareem Abdul-Jabbar
+d: Sidney Moncrief
+Team: MIL
+========EOQ========
+Q: This Bucks player was given the nickname "Greek Freak".
+a: Giannis Antetokounmpo
+b: Oscar Robertson
+c: Kareem Abdul-Jabbar
+d: Sidney Moncrief
+Team: MIL
+========EOQ========
+Q: Which Buck was famous for his "skyhook" shot?
+a: Kareem Abdul-Jabbar
+b: Ray Allen
+c: Marques Johnson
+d: Vin Baker
+Team: MIL
+========EOQ========
+Q: In which year did the Bucks win their first NBA championship?
+a: 1970-71
+b: 1971-72
+c: 1969-70
+d: 1975-76
+Team: MIL
+========EOQ========
+Q: What is the name of the Bucks' official mascot?
+a: Bango
+b: Bongo
+c: Boingo
+d: Bingo
+Team: MIL
+========EOQ========
+Q: Who holds the franchise record on the Bucks for most steals in a single game?
+a: Alvin Robertson
+b: Quinn Buckner
+c: Eric Murdock
+d: Sidney Moncrief
+Team: MIL
+========EOQ========
+Q: What is the Milwaukee Bucks longest winning streak?
+a: 20
+b: 15
+c: 27
+d: 5
+Team: MIL
+========EOQ========
+Q: Which Buck scored the most points in a single game?
+a: Michael Redd
+b: Kareem Abdul-Jabbar
+c: Giannis Antetokounmpo
+d: Junior Bridgeman
+Team: MIL
+========EOQ========
+Q: Who was the first player in Bucks franchise history to win Sixth Man of the Year?
+a: Ricky Pierce
+b: George Hill
+c: Tim Thomas
+d: Quinn Buckner
+Team: MIL
+========EOQ========
+Q: Who holds the franchise record on the Bucks for most blocked shots in a season?
+a: Kareem Abdul-Jabbar
+b: Giannis Antetokounmpo
+c: Elmore Smith
+d: Larry Sanders
+Team: MIL
+========EOQ========
+Q: Which Buck was nicknamed "the Squid"?
+a: Sidney Moncrief
+b: Quinn Buckner
+c: Alvin Robertson
+d: Brook Lopez
+Team: MIL
+========EOQ========
+Q: How many first round draft picks did Milwaukee have in 1977?
+a: 3
+b: 2
+c: 1
+d: 0
+Team: MIL
+========EOQ========
+Q: What is the franchise record for most points scored in a game?
+a: 166
+b: 158
+c: 130
+d: 124
+Team: MIL
+========EOQ========
+Q: In 1982 the final score for a triple overtime game was 171-166 between the Spurs and this team.
+a: Bucks
+b: Lakers
+c: Celtics
+d: Bulls
+Team: MIL
+========EOQ========
+Q: Which Milwaukee draft pick refused to play for the Bucks because he had already signed with another team?
+a: Julius Erving
+b: Magic Johnson
+c: Larry Bird
+d: Michael Jordan
+Team: MIL
+========EOQ========
+Q: Who was the Bucks' very first draft pick?
+a: Charlie Paulk
+b: Kareem Abdul-Jabbar
+c: Bob Dandridge
+d: Gary Freeman
+Team: MIL
+========EOQ========
+Q: This player was drafted by the Bucks the same year he was drafted by the U.S. Army.
+a: Charlie Paulk
+b: Kareem Abdul-Jabbar
+c: Bob Dandridge
+d: Gary Freeman
+Team: MIL
+========EOQ========
+Q: Which Bucks rookie did Kareem Abdul-Jabbar punch during a game in 1977?
+a: Kent Benson
+b: Ernie Grunfeld
+c: Bob Lanier
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player was also a martial arts blackbelt.
+a: Kareem Abdul-Jabbar
+b: Charlie Paulk
+c: Gary Freeman
+d: Bob Dandridge
+Team: MIL
+========EOQ========
+Q: Who holds the Bucks franchise record for three-point accuracy?
+a: Dell Curry
+b: Craig Hodges
+c: Jerryd Bayless
+d: Ersan Ilyasova
+Team: MIL
+========EOQ========
+Q: Which Milwaukee Buck won the NBA's first Defensive Player of the Year Award in 1983?
+a: Sidney Moncrief
+b: Marques Johnson
+c: Bob Lanier
+d: Alton Lister
+Team: MIL
+========EOQ========
+Q: Which Bucks player filed an antitrust lawsuit against the NBA?
+a: Oscar Robertson
+b: Ray Allen
+c: Bob Dandridge
+d: Glenn Robinson
+Team: MIL
+========EOQ========
+Q: Which player holds the single-season Bucks franchise record for offensive rebounds?
+a: Moses Malone
+b: Marques Johnson
+c: Vin Baker
+d: Kareem Abdul-Jabbar
+Team: MIL
+========EOQ========
+Q: Who holds the Bucks franchise single-season record for assists?
+a: Sam Cassell
+b: Paul Pressey
+c: Oscar Robinson
+d: Eric Murdock
+Team: MIL
+========EOQ========
+Q: How many seasons did Kareem Abdul-Jabbar play for the Bucks?
+a: 6
+b: 5
+c: 8
+d: 9
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Games Played.
+a: Junior Bridgeman
+b: Sidney Moncrief
+c: Kareem Abdul-Jabbar
+d: Bob Dandridge
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Field Goals.
+a: Kareem Abdul-Jabbar
+b: Sidney Moncrief
+c: Glenn Robinson
+d: Bob Dandridge
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most 3-Pt Field Goals.
+a: Ray Allen
+b: Khris Middleton
+c: Michael Redd
+d: Glenn Robinson
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Free Throws.
+a: Sidney Moncrief
+b: Giannis Antetokounmpo
+c: Michael Redd
+d: Kareem Abdul-Jabbar
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Total Rebounds.
+a: Kareem Abdul-Jabbar
+b: Giannis Antetokounmpo
+c: Marques Johnson
+d: Bob Dandridge
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Assists.
+a: Paul Pressey
+b: Giannis Antetokounmpo
+c: Sidney Moncrief
+d: Brian Winters
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Steals.
+a: Quinn Buckner
+b: Paul Pressey
+c: Sidney Moncrief
+d: Brian Winters
+Team: MIL
+========EOQ========
+Q: This Bucks player is the franchise leader for most Triple-Doubles.
+a: Giannis Antetokounmpo
+b: Kareem Abdul-Jabbar
+c: Paul Pressey
+d: Sidney Moncrief
+Team: MIL
+========EOQ========
+Q: This Bucks player was selected 15th overall by the Bucks during the 2013 NBA draft.
+a: Giannis Antetokounmpo
+b: Khris Middleton
+c: Larry Sanders
+d: Thon Maker
+Team: MIL
+========EOQ========
+Q: This Bucks player was selected 1st overall by the Bucks during the 2013 NBA draft.
+a: Andrew Bogut
+b: Giannis Antetokounmpo
+c: Larry Sanders
+d: Thon Maker
+Team: MIL
+========EOQ========
+Q: Dirk Nowitzki was drafted by this team and then immediately traded to the Mavericks.
+a: Bucks
+b: Hawks
+c: Celtics
+d: Suns
+Team: MIL
+========EOQ========
+Q: This Bucks player was selected 1st overall by the Bucks during the 1994 NBA draft.
+a: Glenn Robinson
+b: Giannis Antetokounmpo
+c: Andrew Bogut
+d: Thon Maker
+Team: MIL
+========EOQ========
+Q: This Bucks player wore the number 1.
+a: Oscar Robertson
+b: Junior Bridgeman
+c: Signey Moncrief
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player wore the number 2.
+a: Junior Bridgeman
+b: Oscar Robertson
+c: Signey Moncrief
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player wore the number 4.
+a: Signey Moncrief
+b: Oscar Robertson
+c: Junior Bridgeman
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player wore the number 8.
+a: Marques Johnson
+b: Oscar Robertson
+c: Junior Bridgeman
+d: Signey Moncrief
+Team: MIL
+========EOQ========
+Q: This Bucks player wore the number 33.
+a: Kareem Abdul-Jabbar
+b: Oscar Robertson
+c: Junior Bridgeman
+d: Signey Moncrief
+Team: MIL
+========EOQ========
+Q: How many seasons did Ray Allen play for the Bucks?
+a: 7
+b: 5
+c: 6
+d: 10
+Team: MIL
+========EOQ========
+Q: How many times have the Bucks won a championship?
+a: 1
+b: 0
+c: 2
+d: 3
+Team: MIL
+========EOQ========
+Q: Who was the coach of the Bucks during the championship run?
+a: Larry Costello
+b: Mike Dunleavy
+c: Del Harries
+d: Don Nelson
+Team: MIL
+========EOQ========
+Q: This former NBA championship winner coached the Bucks for 3 years.
+a: Jason Kidd
+b: Mike Budenholzer
+c: Mike Dunleavy
+d: Terry Porter
+Team: MIL
+========EOQ========
+Q: This Bucks player won the MVP award 3 times with the team.
+a: Kareem Abdul-Jabbar
+b: Giannis Antetokounmpo
+c: Signey Moncrief
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player won the MVP award 2 times with the team.
+a: Giannis Antetokounmpo
+b: Kareem Abdul-Jabbar
+c: Signey Moncrief
+d: Marques Johnson
+Team: MIL
+========EOQ========
+Q: This Bucks player became just the third player in NBA history to win both the MVP & DPOY award.
+a: Giannis Antetokounmpo
+b: Kareem Abdul-Jabbar
+c: Signey Moncrief
+d: Marques Johnson
+Team: MIL 
+========EOQ========
+Q: This Bucks player won Rookie of the Year during the 1969-70 season.
+a: Kareem Abdul-Jabbar
+b: Signey Moncrief
+c: Marques Johnson
+d: Oscar Robertson
+Team: MIL
+========EOQ========
+Q: This Bucks player won Rookie of the Year during the 2016-17 season.
+a: Malcolm Brogdon
+b: Giannis Antetokounmpo
+c: Khris Middleton
+d: Ray Allen
+Team: MIL
+========EOQ========
+Q: This Bucks coach won Coach of the Year during the 2018-19 season.
+a: Mike Budenholzer
+b: Mike Dunleavy
+c: Jason Kidd
+d: Terry Porter
+Team: MIL
+========EOQ========
+Q: This bucks player won Defensive Player of the Year back to back.
+a: Signey Moncrief
+b: Kareem Abdul-Jabbar
+c: Marques Johnson
+d: Oscar Robertson
+Team: MIL
+========EOQ========
+Q: This Bucks player was nicknamed "Lew".
+a: Kareem Abdul-Jabbar
+b: Signey Moncrief
+c: Marques Johnson
+d: Oscar Robertson
+Team: MIL
+========EOQ========

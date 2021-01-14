@@ -1,0 +1,700 @@
+Q: What was the original home and team name of the Atlanta Hawks?
+a: Buffalo Bisons
+b: St. Louis Hawks
+c: Washington Generals
+d: Detroit Falcons
+Team: ATL
+========EOQ========
+Q: How many NBA championships have the Atlanta Hawks won?
+a: 1
+b: 0
+c: 2
+d: 3
+Team: ATL
+========EOQ========
+Q: Which of the following players has never won an NBA dunk contest as a member of the Atlanta Hawks?
+a: Vince Carter
+b: Spud Webb
+c: Josh Smith
+d: Dominique Wilkins
+Team: ATL
+========EOQ========
+Q: Which of the following players was drafted by the Atlanta Hawks?
+a: Luka Doncic
+b: Trae Young
+c: Dominique Wilkins
+d: Dikembe Mutombo
+Team: ATL
+========EOQ========
+Q: Which of the following players was drafted by the Atlanta Hawks?
+a: Pau Gasol
+b: Joe Johnson
+c: Spud Webb
+d: Dirk Nowitzki
+Team: ATL
+========EOQ========
+Q: Which of the following players was drafted by the Atlanta Hawks?
+a: Pete Maravich
+b: Hakeem Olajuwan
+c: Steve Smith
+d: Paul Millsap
+Team: ATL
+========EOQ========
+Q: At which position was Trae Young drafted?
+a: 5
+b: 4
+c: 3
+d: 2
+Team: ATL
+========EOQ========
+Q: Which college did Trae Young play for?
+a: Oklahoma
+b: Duke University
+c: University of Kentucky
+d: University of Southern California
+Team: ATL
+========EOQ========
+Q: How many NBA dunk contests has Dominique Williams won?
+a: 2
+b: 1
+c: 3
+d: 0
+Team: ATL
+========EOQ========
+Q: How many NBA dunk contests has Spud Webb won?
+a: 1
+b: 2
+c: 3
+d: 0
+Team: ATL
+========EOQ========
+Q: How many NBA dunk contests has Josh Smith won?
+a: 1
+b: 0
+c: 2
+d: 3
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in points?
+a: Dominique Wilkins
+b: Joe Johnson
+c: Bob Pettit
+d: Trae Young
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in points-per-game?
+a: Dominique Wilkins 
+b: Trae Young
+c: Bob Pettit
+d: Doc Rivers
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in assists?
+a: Doc Rivers
+b: Trae Young
+c: Jeff Teague
+d: Mookie Blaylock
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in assists-per-game?
+a: Trae Young
+b: Doc Rivers
+c: Pete Maravich
+d: Steve Nash
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in blocks?
+a: Tree Rollins
+b: Josh Smith
+c: Dikembe Mutombo
+d: Dwight Howard
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in steals?
+a: Mookie Blaylock
+b: Speedy Claxton
+c: Jeff Teague
+d: Doc Rivers
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in total rebounds?
+a: Bob Pettit
+b: Al Horford
+c: Ben Wallace
+d: Tyson Chandler
+Team: ATL
+========EOQ========
+Q: What is the Atlanta Hawks' single single season win record which was set in 2014-2015?
+a: 60
+b: 73
+c: 55
+d: 63
+Team: ATL
+========EOQ========
+Q: What is the Atlanta Hawks' all-time low for wins in a season?
+a: 13
+b: 26
+c: 19
+d: 34
+Team:ATL 
+========EOQ========
+Q: What is the name of the Atlanta Hawks' mascot?
+a: Harry the Hawk
+b: AJ Hawk
+c: Larry the Bird
+d: Golden Hawk
+Team: ATL
+========EOQ========
+Q: What is the name of the stadium in which the Atlanta Hawks play?
+a: State Farm Arena
+b: Madison Square Gardens
+c: Staples Center
+d: Oracle Arena
+Team: ATL
+========EOQ========
+Q: Who was the winner of the first NBA MVP award?
+a: Bob Pettit, St. Louis Hawks
+b: Bill Russell, Philadelphia Warriors
+c: Wilt Chamberlain, Boston Celtics
+d: Willis Reed, Toronto Huskies
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in 3-pointers made?
+a: Mookie Blaylock
+b: Joe Johnson
+c: Ray Allen
+d: Dominique Wilkins
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in games played?
+a: Dominique Wilkins
+b: Mookie Blaylock
+c: Rasheed Wallace
+d: Dennis Schröder
+Team: ATL
+========EOQ========
+Q: Which team was Luka Doncic drafted by?
+a: Atlanta Hawks
+b: Dallas Mavericks
+c: Minnesota Timberwolves
+d: LA Lakers
+Team: ATL
+========EOQ========
+Q: Which division do the Atlanta Hawks play in?
+a: Southeast division
+b: Pacific division
+c: Northwest division
+d: Atlantic division
+Team: ATL
+========EOQ========
+Q: How many NBA finals appearances have the Atlanta Hawks made?
+a: 4
+b: 3
+c: 5
+d: 2
+Team: ATL
+========EOQ========
+Q: Which of the following players has never played on the Atlanta Hawks?
+a: Grant Hill
+b: Tracy McGrady
+c: Vince Carter
+d: Rasheed Wallace
+Team: ATL
+========EOQ========
+Q: How many NBA dunk contests have been won by Atlanta Hawks?
+a: 4
+b: 3
+c: 5
+d: 6
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in All-Star selections?
+a: Bob Pettit
+b: Dominique Wilkins
+c: Joe Johnson
+d: Lou Hudson
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks' franchise leader in blocks-per-game?
+a: Dikembe Mutombo
+b: Dominique Wilkins
+c: Josh Smith
+d: Jon Konack
+Team: ATL
+========EOQ========
+Q: Who is the Atlanta Hawks's franchise leader in free-throw percentage?
+a: Kyle Korver
+b: Kyle Lowry
+c: Josh Childress
+d: Josh Smith
+Team: ATL
+========EOQ========
+Q: What is Trae Young's jersey number?
+a: 11
+b: 23
+c: 0
+d: 95
+Team: ATL
+========EOQ========
+Q: What is Dominique Wilkins' nickname?
+a: The Human Highight Reel
+b: Half-Man Half-Amazing
+c: The Dream
+d: Chocolate Thunder
+Team: ATL
+========EOQ========
+Q: Which of the following players did not represent the Atlanta Hawks at the 2014-15 All-Star game?
+a: Kyle Korver
+b: Al Horford
+c: Jeff Teague
+d: Mike Bibby
+Team: ATL
+========EOQ========
+Q: Which of the following players was drafted by the Atlanta Hawks?
+a: Denis Schröder
+b: Kent Bazemore
+c: Kris Dunn
+d: Vince Carter
+Team: ATL
+========EOQ========
+Q: Which of the following players has never played for the Atlanta Hawks?
+a: Gilbert Arenas
+b: Rasheed Wallace
+c: Jamal Crawford
+d: Mike Bibby
+Team: ATL
+========EOQ========
+Q: Who holds the Atlanta Hawks' single season record for turnovers?
+a: Trae Young
+b: Mike Bibby
+c: Dwight Howard
+d: Jeff Teague
+Team: ATL
+========EOQ========
+Q: What was Dikembe Mutombo's signature celebration after blocking a shot?
+a: Finger wag
+b: Two thumbs down
+c: Raise the roof
+d: Shrug
+Team: ATL
+========EOQ========
+Q: Who did the Atlanta Hawks defeat in the 1958 NBA Finals to win their first NBA championship?
+a: Boston Celtics
+b: Washington Bullets
+c: Oklahoma City Thunder
+d: Houston Mavericks
+Team: ATL
+========EOQ========
+Q: Who is the oldest player to score 20+ points in an NBA game?
+a: Vince Carter
+b: Michael Jordan
+c: Tim Duncan
+d: Wilt Chamberlain
+Team: ATL
+========EOQ========
+Q: Who is the shortest player to win an NBA dunk contest?
+a: Supd Webb
+b: Nate Robinson
+c: Ty Lawson
+d: Dee Brown
+Team: ATL
+========EOQ========
+Q: In which city was the Hawks frachise  located before they moved to Atlanta?
+a: St. Louis
+b: Dallas
+c: Vancouver
+d: Denver
+Team: ATL
+========EOQ========
+Q: What is Trae Young's nickname?
+a: Ice Trae
+b: Iceman
+c: The Jet
+d: The Worm
+Team: ATL
+========EOQ========
+Q: Which of the following NBA coaches have played for the Atlanta Hawks?
+a: Doc Rivers
+b: Nick Nurse
+c: Stan Van Gundy
+d: Steve Nash
+Team: ATL
+========EOQ========
+Q: Which of the following NBA coaches have played for the Atlanta Hawks?
+a: Tyronn Lue
+b: Brad Stevens
+c: Erik Spoelstra
+d: Luke Walton
+Team: ATL
+========EOQ========
+Q: Which of the following former NBA players is a minority owner of the Atlanta Hawks?
+a: Grant Hill
+b: Dominique Wilkins
+c: Isaiah Thomas
+d: Michael Jordan
+Team: ATL
+========EOQ========
+Q: What was the original home and team name of the Atlanta Hawks? 
+a: Chicago Packers
+b: Chicago Bullets
+c: Baltimore Waizards
+d: Toronto Huskies
+Team: WAS
+========EOQ========
+Q: Which of the following is a former name of the Washington Wizards?
+a: Washington Bullets
+b: Washington Warlocks
+c: Washington Senators
+d: Washington Generals
+Team: WAS
+========EOQ========
+Q: How many NBA Championships have the Washington Wizards won?
+a: 1
+b: 0
+c: 2
+d: 3
+Team: WAS
+========EOQ========
+Q: Which of the following players has won an MVP title as a member of the Washington Wizards?
+a: Wes Unsled
+b: John Wall
+c: Gilbert Arenas
+d: Michael Jordan
+Team: WAS
+========EOQ========
+Q: Which of the following players won the Rookie of the Year award as a member of the Washington Wizards?
+a: Earl Monroe
+b: Rui Hachimura
+c: Bradley Beal
+d: Wilt Chamberlain
+Team: WAS
+========EOQ========
+Q: Which pair of Hall of Famers was drafted by the Washington Wizards franchise?
+a: Wes Unsled, Earl Monroe
+b: Wes Unsled, Michael Jordan
+c: Reggie Miller, Earl Monroe
+d: Kwame Brown, Michael Jordan
+Team: WAS
+========EOQ========
+Q: In the 1970-1971 ECF, the Baltimore Bullets (Washington Wizards) advanced to the NBA finals by beating this team who were missing star player Willis Reed:
+a: New York Knicks
+b: Oklahoma City Thunder
+c: Los Angeles Lakers
+d: St. Louis Hawks
+Team: WAS
+========EOQ========
+Q: Which team did the Washington Bullets beat in 1978 to win the NBA championship?
+a: Seattle Supersonics
+b: New York Knicks
+c: Toronto Raptors
+d: Boston Celtics
+Team: WAS
+========EOQ========
+Q: Which of the following players was drafted by the Washington Wizards? 
+a: Kwame Brown
+b: Russell Westbrook
+c: Gilbert Arenas
+d: Chris Webber
+Team: WAS
+========EOQ========
+Q: Which of the following players was drafted by the Washington Wizards?
+a: John Wall
+b: Isaiah Thomas
+c: Yao Ming
+d: Jimmy Butler
+Team: WAS
+========EOQ========
+Q: Which of the following players was not drafted by the Washington Wizards?
+a: Gilbert Arenas
+b: Bradley Beal
+c: Rui Hachimura
+d: John Wall
+Team: WAS
+========EOQ========
+Q: Which of the following players was not drafted by the Washington Wizards?
+a: Christian Laettner
+b: Kwame Brown
+c: Wes Unsled
+d: Earl Monroe
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in games played?
+a: Wes Unsled
+b: John Wall
+c: Oscar Robertson
+d: Rui Hachimura
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in points?
+a: Elvin Hayes
+b: Kareem Abdul-Jabbar
+c: Gilbert Arenas
+d: David Thompson
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in career points-per-game?
+a: Walt Bellamy
+b: Alex English
+c: John Wall
+d: Wes Unsled
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in points-per-game in a season?
+a: Walt Bellamy
+b: Bradley Beal
+c: Michael Jordan
+d: John Wall
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in career assists?
+a: John Wall
+b: Bradley Beal
+c: Isaiah Thomas
+d: Brandon Jennings
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in assists-per-game?
+a: John Wall
+b: Tyronn Lue
+c: Rick Barry
+d: John Stockton
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in career rebounds?
+a: Wes Unsled
+b: Oscar Robertson
+c: JaVale McGee
+d: Caron Butler
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in rebounds-per-game?
+a: Walt Bellamy
+b: Kwame Brown
+c: Brendan Haywood
+d: Gilbert Arenas
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in career  blocks?
+a: Elvin Hayes
+b: Lew Alcindor
+c: Ben Wallace
+d: JaVale McGee
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in blocks-per-game?
+a: Manute Bol
+b: Bol Bol
+c: Ben Wallace
+d: Kwame Brown
+Team: WAS
+========EOQ========
+Q: Which of the following players led the NBA in steals-per-game in the 2004-2005 season as a member of the Washington Wizards?
+a: Larry Hughes
+b: Allen Iverson
+c: Tyronn Lue
+d: Gilbert Arenas
+Team: WAS
+========EOQ========
+Q: Who is the Washington Wizards' franchise leader in career steals?
+a: John Wall
+b: Larry Hughes
+c: Scott Disick
+d: Kris Humphries
+Team: WAS
+========EOQ========
+Q: What was Michael Jordan's jersey number as member of the Washington Wizards?
+a: 23
+b: 45
+c: 99
+d: 0
+Team: WAS
+========EOQ========
+Q: What was Gilbert Arenas' jersey number as a member of the Washington Wizards?
+a: 0
+b: 23
+c: 32
+d: 1
+Team: WAS
+========EOQ========
+Q: Which of the following was one of Gilbert Arenas' nicknames?
+a: Agent Zero
+b: Wasabi
+c: Magic
+d: The Glove
+Team: WAS
+========EOQ========
+Q: What is the name of stadium the Washington Wizards play in?
+a: The Capital One Arena
+b: The Gilbert Arena
+c: Madison Square Garden
+d: The Staples Centre 
+Team: WAS
+========EOQ========
+Q: Who holds the Washington Wizards' single game scoring record?
+a: Gilbert Arenas
+b: Michael Jordan
+c: Caron Butler
+d: Al Harrington
+Team: WAS
+========EOQ========
+Q: What is the Washington Wizards' single season win record?
+a: 60
+b: 50
+c: 45
+d: 72
+Team: WAS
+========EOQ========
+Q: What is the Washington Wizards' all-time low for wins in a season?
+a: 18
+b: 30
+c: 9
+d: 33
+Team: WAS
+========EOQ========
+Q: What is the name of the Washington Wizards' mascot?
+a: G-Wiz
+b: Merlin the Wiz
+c: Morty the Magician
+d: Pickle Rick
+Team: WAS
+========EOQ========
+Q: This Washington Wizard is the only player to score 40+ points after the age of 40 years old:
+a: Michael Jordan
+b: Jerry Stackhouse
+c: Wes Unsled
+d: Moses Malone
+Team: WAS
+========EOQ========
+Q: This former Washington Wizard became the only NBA player in history to retire with more career blocked shots than points scored?
+a: Manute Bol
+b: Bol Bol
+c: Kwame Brown
+d: Ben Wallace
+Team: WAS
+========EOQ========
+Q: Which of the following players was drafted by the Washington Wizards?
+a: Richard Hamilton
+b: Kobe Bryant
+c: Russell Westbrook
+d: Grant Hill
+Team: WAS
+========EOQ========
+Q: What is the name of the Minnesota Timberwolves' home arena?
+a: Target Center
+b: Air Canada Center
+c: Madison Square Garden
+d: Barclay's Center
+Team: MIN
+========EOQ========
+Q: Which NBA franchise was previously located in Minnesota?
+a: Los Angeles Lakers
+b: Toronto Raptors
+c: Washington Wizards
+d: Charlotte Hornets
+Team: MIN
+========EOQ========
+Q: In 1987, the NBA granted 4 cities an NBA team as a part of its expansion. Which of the following cities was not among them:
+a: Toronto
+b: Minnesota
+c: Orlando 
+d: Charlotte
+Team: MIN
+========EOQ========
+Q: Which former Minnesota Timberwolves player was nicknamed "The Big Ticket"
+a: Kevin Garnett
+b: Stephon Marbury
+c: Wally Szczerbiak
+d: Karl-Anthony Town
+Team: MIN
+========EOQ========
+Q: Which is the correct spelling of name of the Minnesota Timberwolves' F/C nicknamed "KAT":
+a: Karl-Anthony Towns
+b: Karl Anthony-Towns
+c: Karl-Anthony-Towns
+d: Karl Anthony Towns
+Team: MIN
+========EOQ========
+Q: Which of the following players was drafted by the Minnesota Timberwolves?
+a: Kevin Garnett
+b: D'Angelo Russell
+c: Brian Scalabrine
+d: Latrell Spreewell
+Team: MIN
+========EOQ========
+Q: Which of the following players was drafted by the Minnesota Timberwolves?
+a: Ray Allen
+b: JJ Redick
+c: Stephon Marbury
+d: Sam Cassell
+Team: MIN
+========EOQ========
+Q: Which of the following players was drafted by the Minnesota Timberwolves?
+a: Zach Lavine
+b: Al Jefferson
+c: Jason Richardson
+d: Dirk Nowitzki
+Team: MIN
+========EOQ========
+Q: What the the Minnesota Timberwolves' franchise record for wins in a season?
+a: 58
+b: 69
+c: 73
+d: 52
+Team: MIN
+========EOQ========
+Q: How many NBA championships have the Minnesota Timberwolves won?
+a: 0
+b: 1
+c: 2
+d: 3
+Team: MIN
+========EOQ========
+Q: Which of the following players has won an NBA MVP as a member of the Minnesota Timberwolves?
+a: Kevin Garnett
+b: Karl-Anthony Towns
+c: Kevin Love
+d: Christian Laettner
+Team: MIN
+========EOQ========
+Q: How many dunk contests has Zach Lavine won?
+a: 2
+b: 0
+c: 1
+d: 3
+Team: MIN
+========EOQ========
+Q: What is the Minnesota Timberwolves all-time low for wins in a season?
+a: 15
+b: 8
+c: 35
+d: 32
+Team: MIN
+========EOQ========
+Q: What is the name of the Minnesota Timberwolves' mascot?
+a: Crunch the Wolf
+b: The Hooded Fang
+c: Jacob the Wolf
+d: Blaze the Timberwolf
+Team: MIN
+========EOQ========
+Q: Which division do the Minnesota Timberwolves play in?
+a: Northwest
+b: Southwest
+c: Pacific
+d: Atlantic
+Team: MIN 
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in games played?
+a: Kevin Garnett
+b: Wally Szczerbiak
+c: Nikola Pekovic
+d: Karl-Anthony Towns
+Team: MIN
+========EOQ========
+Q: Who is the Minnesota Timberwolves' franchise leader in career points?
+a: Kevin Garnett
+b: Karl-Anthony Towns
+c: Sam Mitchell
+d: Latrell Spreewell
+Team: MIN 
+========EOQ========

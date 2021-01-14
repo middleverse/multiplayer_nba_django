@@ -40,10 +40,9 @@ class QuestionManager():
         for div in self.divisions:
             teams = Team.objects.filter(division_name=div).all()
             for team in teams:
-                query_team_id_values.append(team.id)
+                query_team_id_values.append(team.team_name)
         # query DB for questions related to required team(s) 
         question_set = list(Question.objects.filter(reduce(lambda x, y: x | y, [Q(team=team) for team in query_team_id_values])))
-
         # SHUFFLE LIST
         random.shuffle(question_set)
 
@@ -69,8 +68,7 @@ class QuestionManager():
                 'c_c': question.choice_c,
                 'c_d': question.choice_d,
                 'answer': question.answer,
-                'team': question.team.team_name
+                'team': question.team,
             }
             converted_question_set.append(question_map)   
-            # print(converted_question_set)     
         return json.dumps(converted_question_set)

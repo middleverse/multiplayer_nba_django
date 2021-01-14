@@ -1,0 +1,477 @@
+Q: In which year was the Utah Jazz franchise founded?
+a: 1974
+b: 1945
+c: 1922
+d: 2005
+Team: UTA
+========EOQ========
+Q: Where was the Utah Jazz franchise originally located?
+a: New Orleans
+b: St. Louis
+c: Charlotte
+d: Toronto
+Team: UTA
+========EOQ========
+Q: In which year did the Jazz move to Utah?
+a: 1979
+b: 2005
+c: 2015
+d: 1997
+Team: UTA
+========EOQ========
+Q: How many NBA championships have the Utah Jazz won?
+a: 0
+b: 5
+c: 2
+d: 9
+Team: UTA
+========EOQ========
+Q: How many times have the Utah Jazz made it to the NBA Finals?
+a: 2
+b: 0
+c: 6
+d: 17
+Team: UTA
+========EOQ========
+Q: Which team did the Utah Jazz lose to in their two consecutive NBA Finals appearance from 1996-1998?
+a: Chicago Bulls
+b: Orlando Magic
+c: Boston Celtics
+d: Toronto Raptors
+Team: UTA
+========EOQ========
+Q: Which city in the state of Utah do the Utah Jazz play their home games in?
+a: Salt Lake City
+b: Ogden
+c: West Valley City
+d: West Jordan
+Team: UTA
+========EOQ========
+Q: What is the nickname of Utah Jazz legend Karl Malone?
+a: The Mailman
+b: The Postman
+c: The Milkman
+d: The Iceman
+Team: UTA
+========EOQ========
+Q: Which of the following NBA players has not wrestled in the WCW?
+a: Dwight Howard
+b: Dennis Rodman
+c: Karl Malone
+d: Shaquille O'Neal
+Team: UTA
+========EOQ========
+Q: Which of the following Utah Jazz players has won an NBA MVP award?
+a: Karl Malone
+b: John Stockton
+c: Andrei Kirilenko
+d: Deron Williams
+Team: UTA
+========EOQ========
+Q: With which team did Karl Malone retire?
+a: Los Angeles Lakers
+b: Utah Jazz
+c: Los Angeles Clippers
+d: Milwaukee Bucks
+Team: UTA
+========EOQ========
+Q: Which Utah Jazz player holds the NBA record for career assists and steals?
+a: John Stockton
+b: Gary Payton
+c: Deron Williams
+d: Andrei Kirilenko
+Team: UTA
+========EOQ========
+Q: Which of the following Utah Jazz players made the playoffs in each season of his 19 year career with the Utah Jazz?
+a: John Stockton
+b: Pete Maravich
+c: Andrei Kirilenko
+d: Mehmet Okur
+Team: UTA
+========EOQ========
+Q: Which of the following coaches was the first NBA coach to win 1000 games with the same team?
+a: Jerry Sloan with the Utah Jazz
+b: Greg Popovich with the San Antonio Spurs
+c: Phil Jackson with the Chicago Bulls
+d: Phil Jackson with the Los Angeles Lakers
+Team: UTA
+========EOQ========
+Q: Which of the following was the nickname of Utah Jazz player Andrei Kirilenko?
+a: AK-47
+b: The Beast from the East
+c: The Mailman
+d: The Killer
+Team: UTA
+========EOQ========
+Q: Which of the following players holds the Utah Jazz' single-game scoring record?
+a: Pete Maravich
+b: Karl Malone
+c: Deron Williams
+d: Donovan Mitchell
+Team: UTA
+========EOQ========
+Q: Which of the following players holds the Utah Jazz' single-game assists record?
+a: John Stockton
+b: Pete Maravich
+c: Steve Nash
+d: Deron Williams
+Team: UTA
+========EOQ========
+Q: Which Utah Jazz player was the first NBA player to test positive for Covid-19 in 2020?
+a: Rudy Gobert
+b: Donovan Mitchell
+c: Mike Conley
+d: Joe Ingles
+Team: UTA
+========EOQ========
+Q: Which of the following former NBA players spent his entire career with the Utah Jazz?
+a: John Stockton
+b: Karl Malone
+c: Pete Maravich
+d: Deron Williams
+Team: UTA
+========EOQ========
+Q: What is the Utah Jazz' franchise record for most wins in a season?
+a: 64
+b: 73
+c: 55
+d: 69
+Team: UTA
+========EOQ========
+Q: What is the Utah Jazz franchise record for fewest wins in a season?
+a: 23
+b: 9
+c: 6
+d: 29
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in career games played?
+a: John Stockton
+b: Karl Malone
+c: Byron Russell
+d: Mark Eaton
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in career points?
+a: Karl Malone
+b: John Stockton
+c: Pete Maravich
+d: Donovan Mitchell
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in career assists?
+a: John Stockton
+b: Deron Williams
+c: Mike Conley
+d: Karl Malone
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in assists-per-game?
+a: John Stockton
+b: Ricky Rubio
+c: Pete Maravich
+d: Mike Conley
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in career rebounds?
+a: Karl Malone
+b: Andrei Kirilenko
+c: Rudy Gobert
+d: Greg Ostertag
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in rebounds-per-game?
+a: Truck Robinson
+b: John Stockton
+c: Mehmet Okur
+d: Rudy Gobert
+Team: UTA
+========EOQ========
+Q: Which of the following players is the Utah Jazz' franchise leader in career blocks?
+a: Mark Eaton
+b: Rudy Gobert
+c: Paul Millsap
+d: Carlos Boozer
+Team: UTA
+========EOQ========
+Q: How many players have won the NBA dunk contest as a member of the Utah Jazz?
+a: 2
+b: 0
+c: 4
+d: 5
+Team: UTA
+========EOQ========
+Q: Which of the following players has won the NBA three point shooting contest as a member of the Utah Jazz?
+a: Jeff Hornacek
+b: Mike Conley
+c: John Stockton
+d: Mehmet Okur
+Team: UTA
+========EOQ========
+Q: Which of the following players was not drafted by the Utah Jazz?
+a: Donovan Mitchell
+b: Dominique Wilkins
+c: John Stockton
+d: Karl Malone
+Team: UTA
+========EOQ========
+________________________________________________________________________
+Q: Who was the first NBA player to win consecutive NBA MVP awards?
+a: Bill Russell
+b: Wilt Chamberlain
+c: Kareem Abdul Jabbar
+d: Michael Jordan
+Team: ZZZ
+========EOQ========
+Q: Who is the first internationally-born player to win an NBA MVP award?
+a: Hakeem Olajuwan
+b: Kareem-Abdul Jabbar
+c: Steve Nash
+d: Dirk Nowitzki
+Team: ZZZ
+========EOQ========
+Q: Which NBA team holds the record for most MVPs in NBA history?
+a: Boston Celtics
+b: Los Angeles Lakers
+c: Chicago Bulls
+d: Philadelphia 76ers
+Team: ZZZ
+========EOQ========
+Q: Which of the following players is currently the oldest player to win the NBA MVP award?
+a: Karl Malone
+b: Lebron James
+c: Michael Jordan
+d: Steve Nash
+Team: ZZZ
+========EOQ========
+Q: Which of the following players is currently the youngest player to win the NBA MVP award?
+a: Derrick Rose
+b: Wes Unsled
+c: Wilt Chamberlain
+d: Bob Pettit
+Team: ZZZ
+========EOQ========
+Q: Which of the following players is the only player to win the NBA MVP award unanimously?
+a: Steph Curry
+b: Seth Curry
+c: Shaquille O'Neal
+d: Michael Jordan
+Team: ZZZ
+========EOQ========
+Q: John Stockton played on the Utah Jazz for 19 years and retired as the NBA's career leader in steals and assists. How many MVP awards did he win?
+a: 0
+b: 1
+c: 2
+d: 3
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won the most NBA MVP awards?
+a: Michael Jordan
+b: Lebron James
+c: Kobe Bryant
+d: Kareem-Abdul Jabbar
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won the most NBA MVP awards?
+a: Steve Nash
+b: Shaquille O'Neal
+c: Charles Barkley
+d: Kenny Smith
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won an NBA MVP award as a member of the Portland Trailblazers?
+a: Bill Walton
+b: Damian Lillard
+c: Scottie Pippen
+d: Clyde Drexler
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won an NBA MVP award as a member of the New York Knicks?
+a: Willis Reed
+b: Walt Frazier
+c: Carmelo Anthony
+d: Patrick Ewing
+Team: ZZZ
+========EOQ========
+Q: Which of the folling players has not won the NBA Rookie of the Year award?
+a: Trae Young
+b: Ja Morant
+c: Luka Doncic
+d: Ben Simmons
+Team: ZZZ
+========EOQ========
+Q: Which of the folling players has not won the NBA Rookie of the Year award?
+a: Donovan Mitchell
+b: Ben Simmons
+c: Damian Lillard
+d: Michael Carter-Williams
+Team: ZZZ
+========EOQ========
+Q: Which of the folling players has not won the NBA Rookie of the Year award?
+a: James Harden
+b: Tyreke Evans
+c: Blake Griffin
+d: Derrick Rose
+Team: ZZZ
+========EOQ========
+Q: Which of the folling players has not won the NBA Rookie of the Year award?
+a: Carmelo Anthony
+b: Malcolm Brogdon
+c: Andrew Wiggins
+d: Lebron James
+Team: ZZZ
+========EOQ========
+Q: Which of the following NBA franchises has had the most NBA Rookie of the Year award winners?
+a: Golden State Warriors
+b: Toronto Raptors
+c: Philadelphi 76ers
+d: Portland Trailblazers
+Team: ZZZ
+========EOQ========
+Q: Which of the following players was the first NBA player to win the Most Improved Player award and then go on to become an NBA MVP?
+a: Giannis Antetokounmpo
+b: Shaquille O'Neal
+c: Tracy mcGrady
+d: Hakeem Olajuwon
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has never won an NBA Most Improved Player Award?
+a: Lou Williams
+b: Pascal Siakam
+c: Brandon Ingram
+d: Victor Oladipo
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has never won an NBA Most Improved Player Award?
+a: Devin Booker
+b: Jimmy Butler
+c: CJ McCollum
+d: Goran Dragic
+Team: ZZZ
+========EOQ========
+Q: What is the name of the trophy awarded to the winner of the NBA championship?
+a: The Larry O'Brien Trophy
+b: The Stanley Cup
+c: The Vince Lombardi Trophy
+d: The Bill Russell Trophy
+Team: ZZZ
+========EOQ========
+Q: Which of the following NBA personalities is often referred to as "The Logo"?
+a: Jerry West
+b: Damian Lillard
+c: Lebron James
+d: Michael Jordan
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won the most NBA Finals MVP awards?
+a: Michael Jordan
+b: Lebron James
+c: Magic Johnson
+d: Shaquille O'Neal
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has never won an NBA Finals MVP Award?
+a: Steph Curry
+b: Andre Iguodala
+c: Tony Parker
+d: Kawhi Leonard
+Team: ZZZ
+========EOQ========
+Q: Who was the first winner of the NBA Finals MVP award?
+a: Jerry West
+b: Isaiah Thomas
+c: Larry Bird
+d: Magic Johnson
+Team: ZZZ
+========EOQ========
+Q: Which of the following players has won the most NBA All-Star Game MVP Awards?
+a: Kobe Bryant
+b: Michael Jordan
+c: Lebron James
+d: Shaquille O'Neal
+Team: ZZZ
+========EOQ========
+Q: Which NBA player is the NBA All-Star Game Award named after?
+a: Kobe Bryant
+b: Allen Iverson
+c: Wilt Chamberlain
+d: Julius Erving
+Team: ZZZ
+========EOQ========
+Q: Which of the following NBA franchises was publicly traded on the New York Stock Exchange from 1986-2003?
+a: Boston Celtics
+b: New York Knicks
+c: Los Angeles Lakers
+d: Milwaukee Bucks
+Team: ZZZ
+========EOQ========
+Q: When the NBA introduce the 3-point line?
+a: 1979
+b: 1954
+c: 1998
+d: 1946
+Team: ZZZ
+========EOQ========
+Q: What was the original name of the NBA at the time it was founded in 1946?
+a: Basketball Association of America, BAA
+b: National Basketbal League, NBL
+c: American Basketball Association, ABA
+d: American Basketball League, ABL
+Team: ZZZ
+========EOQ========
+Q: In which year was the BAA (which would go on to become the NBA) founded?
+a: 1946
+b: 1976
+c: 1966
+d: 1968
+Team: ZZZ
+========EOQ========
+Q: When did the Basketball Association of America and National Basketball League merge to form the NBA?
+a: 1949
+b: 1946
+c: 1976
+d: 1979
+Team: ZZZ
+========EOQ========
+Q: When did the American Basketball Association merge with the NBA?
+a: 1976
+b: 1985
+c: 1990
+d: 1965
+Team: ZZZ
+========EOQ========
+Q: During the 2019-2020 season which NBA player become the first player to play in his 22nd season?
+a: Vince Carter
+b: Lebron James
+c: Carmelo Anthony
+d: Dirk Nowitzki
+Team: ZZZ
+========EOQ========
+Q: During the 2019-2020 season which player became the first person in NBA history to record a triple-double against all 30 teams during his career?
+a: Lebron James
+b: Russell Westbrook
+c: James Harden
+d: Chris Paul
+Team: ZZZ
+========EOQ========
+Q: During the 2019-2020 season this trio became the first three brothers to play in the same NBA game:
+a: The Holiday brothers
+b: The Antetokounmpo brothers
+c: The Lopez brothers
+d: The Brooks brothers
+Team: ZZZ
+========EOQ========
+Q: During the 2018-2019 season, this player set the NBA record for most seasons on one team as a player:
+a: Dirk Nowitzki
+b: Vince Carter
+c: Carmelo Anthony
+d: Tim Duncan
+Team: ZZZ
+========EOQ========
+Q: During the 2016-2017 season, this player became the second player in NBA history to average a triple-double for a season?
+a: Russell Westbrook
+b: Lebron James
+c: James Harden
+d: Kevin Durant
+Team: ZZZ
+========EOQ========

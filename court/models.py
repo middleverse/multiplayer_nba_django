@@ -115,12 +115,13 @@ class Question(models.Model):
     each question has 4 choices,
     each question is based on a Team.
     '''
-    team = models.ForeignKey(Team, null=True, on_delete=models.SET_NULL)
+    # team = models.ForeignKey(Team, null=True, on_delete=models.SET_NULL)
+    team = models.TextField(null=False, default='ZZZ', max_length=3)
     question_statement = models.TextField(null=False)
-    choice_a = models.CharField(max_length=75)
-    choice_b = models.CharField(max_length=75)
-    choice_c = models.CharField(max_length=75)
-    choice_d = models.CharField(max_length=75)
+    choice_a = models.CharField(max_length=150)
+    choice_b = models.CharField(max_length=150)
+    choice_c = models.CharField(max_length=150)
+    choice_d = models.CharField(max_length=150)
     answer = models.CharField(max_length=1)
 
 

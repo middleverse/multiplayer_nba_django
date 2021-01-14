@@ -1,0 +1,665 @@
+Q: Which head coach has won the most championships with the Lakers?
+a: John Kundla
+b: Bill Sharman
+c: Pat Riley
+d: Phil Jackson
+Team: LAL
+========EOQ========
+Q: This team led by Jerry West & Wilt Chamberlain has the NBA record for consecutive games won with 33 games.
+a: Lakers
+b: Celtics
+c: 76ers
+d: Warriors
+Team: LAL
+========EOQ========
+Q: Which player did the Lakers draft twice?
+a: Elgin Baylor
+b: Kobe Bryant
+c: Jerry West
+d: Magic Johnson
+Team: LAL
+========EOQ========
+Q: This player was drafted by the Lakers, was and all star every year of his career & led the Lakers to 9 NBA finals.
+a: Jerry West
+b: Kobe Bryant
+c: Magic Johnson
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: This Lakers player went by a couple of nicknames during his tenure, such as "Mr. Clutch" & "Zeke from Cabin Creek"
+a: Jerry West
+b: Kobe Bryant
+c: Magic Johnson
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: This Lakers player's image is silhouetted as a registered trademark for the NBA logo.
+a: Jerry West
+b: Magic Johnson
+c: Kobe Bryant
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: After retiring in 1974, West tried his hand at coaching. Which team did he coach in his first managerial role?
+a: Lakers
+b: Hawks
+c: Celtics
+d: 76ers
+Team: LAL
+========EOQ========
+Q: Jerry West led the Lakers to 9 NBA finals appearances, how many times did he win the championship?
+a: 1
+b: 2
+c: 3
+d: 4
+Team: LAL
+========EOQ========
+Q: Which Laker was so dominant that he prompted the NBA's introduction of the goaltending rule?
+a: George Mikan
+b: Jerry West
+c: Elgin Baylor
+d: Wilt Chamberlain
+Team: LAL
+========EOQ========
+Q: Which Laker once outscored an entire opposing team through three quarters of play?
+a: Kobe Bryant
+b: Wilt Chamberlain
+c: Kareem Abdul-Jabbar
+d: Magic Johnson
+Team: LAL
+========EOQ========
+Q: Which Laker holds the NBA record for blocked shots in a game?
+a: Elmore Smith
+b: Kareem Abdul-Jabbar
+c: Shaquille O'Neal
+d: Wilt Chamberlain
+Team: LAL
+========EOQ========
+Q: Which Laker was famous for his "skyhook" shot?
+a: Kareem Abdul-Jabbar
+b: Wilt Chamberlain
+c: Magic Johnson
+d: Kobe Bryant
+Team: LAL
+========EOQ========
+Q: How many championships did the "Showtime" Lakers win?
+a: 5
+b: 4
+c: 6
+d: 3
+Team: LAL
+========EOQ========
+Q: Which Laker earned a reputation for "flopping"?
+a: Vlade Divac
+b: Bob McAdoo
+c: Derek Fisher
+d: Kobe Bryant
+Team: LAL
+========EOQ========
+Q: Which Hall of Famer averaged just 2.1 points per game for the Lakers?
+a: Dennis Rodman
+b: Karl Malone
+c: Steve Nash
+d: Gary Payton
+Team: LAL
+========EOQ========
+Q: What player did the Lakers acquire prior to the 2018 season?
+a: LeBron James
+b: Kevin Durant
+c: James Harden
+d: Stephen Curry
+Team: LAL
+========EOQ========
+Q: How many NBA championships did the Lakers win during the 1960s?
+a: 0
+b: 4
+c: 2
+d: 1
+Team: LAL
+========EOQ========
+Q: Which Laker holds the franchise single-season record for assists?
+a: Magic Johnson
+b: Kobe Bryant
+c: Jerry West
+d: Norm Nixon
+Team: LAL
+========EOQ========
+Q: Which Lakers star formerly played for the Harlem Globetrotters?
+a: Wilt Chamberlain
+b: Magic Johnson
+c: Kareem Abdul-Jabbar
+d: Meadowlark Lemon
+Team: LAL
+========EOQ========
+Q: Who was the first Laker to win the NBA Most Valuable Player Award?
+a: Kareem Abdul-Jabbar
+b: Wilt Chamberlain
+c: Magic Johnson
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: Which player did the Lakers trade for his older brother?
+a: Marc Gasol
+b: Marcus Morris
+c: Harvey Grant
+d: Kostas Antetokounmpo
+Team: LAL
+========EOQ========
+Q: Which Lakers great was nicknamed "Zeke from Cabin Creek"?
+a: Jerry West
+b: Shaquille O'Neal
+c: James Worthy
+d: Gail Goodrich
+Team: LAL
+========EOQ========
+Q: What is the Los Angeles Lakers' mascot?
+a: None
+b: Trout
+c: Catfish
+d: Pelican
+Team: LAL
+========EOQ========
+Q: Along with the Nets, Warriors, & Knicks this team has no NBA mascot.
+a: Lakers
+b: Clippers
+c: Kings
+d: Trailblazers
+Team: LAL
+========EOQ========
+Q: Which player did the Lakers trade after he punched Houston Rockets guard Rudy Tomjanovich during a game?
+a: Kermit Washington
+b: Kenny Car
+c: Jamaal Wilkes
+d: Norm Nixon
+Team: LAL
+========EOQ========
+Q: The Lakers franchise began with the purchase of what disbanded team?
+a: Detroit Gems
+b: Buffalo Bisons
+c: Rochester Royals
+d: Toledo Jeeps
+Team: LAL
+========EOQ========
+Q: How many NBA championships did the Lakers win during the 1980s?
+a: 5
+b: 4
+c: 6
+d: 3
+Team: LAL
+========EOQ========
+Q: How many championships did the Lakers win during their first seven seasons?
+a: 6
+b: 5
+c: 7
+d: 3
+Team: LAL
+========EOQ========
+Q: Who won the 1982-83 NBA Championship beating the Los Angeles Lakers 4 to 0?
+a: 76ers
+b: Celtics
+c: Pistons
+d: Hawks
+Team: LAL
+========EOQ========
+Q: For how many years did Jerry West coach the Lakers?
+a: 3
+b: 2
+c: 4
+d: 1
+Team: LAL
+========EOQ========
+Q: Which team beat the Los Angeles Lakers 4 to 0 to win the 1988-89 NBA Championship?
+a: Pistons
+b: Celtics
+c: 76ers
+d: Hawks
+Team: LAL
+========EOQ========
+Q:Which Laker was the first player named MVP of the Finals?
+a: Jerry West
+b: Elgin Baylor
+c: Magic Johnson
+d: Kareem Abdul-Jabbar
+Team: LAL
+========EOQ========
+Q: Who was the first Laker to win the MVP award?
+a: Kareem Abdul-Jabbar
+b: Jerry West
+c: Elgin Baylor
+d: George Mikan
+Team: LAL
+========EOQ========
+Q: This Lakers player won the MVP award during the 1999-00 season?
+a: Shaquille O'Neal
+b: Magic Johnson
+c: Kobe Bryant
+d: James Worthy
+Team: LAL
+========EOQ========
+Q: Who gave Kobe Bryant the nickname 'Black Mamba'?
+a: Kobe Bryant
+b: Phil Jackson
+c: Shaquille O'Neal
+d: Sasha Vujacic
+Team: ZZZ
+========EOQ========
+Q: How many years did the Lakers play at The Forum?
+a: 32
+b: 34
+c: 42
+d: 22
+Team: LAL 
+========EOQ========
+Q: Which player made two free throws to clinch the Lakers' Game 7 win vs. Boston in the 2010 NBA Finals?
+a: Sasha Vujacic
+b: Kobe Bryant
+c: Luke Walton
+d: Lamar Odom
+Team: LAL
+========EOQ========
+Q: When did Jack Nicholson become a Lakers season-ticket holder?
+a: 1970
+b: 1975
+c: 1980
+d: 1950
+Team: LAL
+========EOQ========
+Q: When did the Lakers win their first NBA title?
+a: 1949-50
+b: 1952-53
+c: 1955-56
+d: 1954-55
+Team: LAL
+========EOQ========
+Q: Which of these Laker players doesn't have his number retired?
+a: Byron Scott
+b: Gail Goodrich
+c: Jamaal Wilkes
+d: Wilt Chamberlain
+Team: LAL
+========EOQ========
+Q: How many times have the Lakers failed to qualify for the playoffs?
+a: 7
+b: 9
+c: 13
+d: 11
+Team: LAL 
+========EOQ========
+Q: How many NBA championships Kobe Bryant won with the Lakers?
+a: 5
+b: 4
+c: 3
+d: 2
+Team: LAL
+========EOQ========
+Q: How many NBA championships Earvin "Magic" Johnson won with the Lakers?
+a: 5
+b: 4
+c: 3
+d: 6
+Team: LAL
+========EOQ========
+Q: Which team was Kobe Bryant drafted by?
+a: Hornets
+b: Lakers
+c: Clippers
+d: Celtics
+Team: ZZZ
+========EOQ========
+Q: How many NBA championships Wilt Chamberlain won with the Lakers?
+a: 1
+b: 0
+c: 2
+d: 3
+Team: LAL
+========EOQ========
+Q: How many NBA championships Kareem Abdul-Jabbar won with the Lakers?
+a: 5
+b: 4
+c: 3
+d: 6
+Team: LAL
+========EOQ========
+Q: Which of the following is the Lakers current owner?
+a: Jerry Buss
+b: James Dolan
+c: Chris Cohan
+d: Micky Arison
+Team: LAL
+========EOQ========
+Q: On January 22, 2006 against the Toronto Raptors, Kobe Bryant scored the second most points in NBA history in a single game. How many points did he score in this game?
+a: 81
+b: 80
+c: 82
+d: 83
+Team: ZZZ
+========EOQ========
+Q: Which Lakers player holds the record for the second most points in NBA history?
+a: Kobe Bryant
+b: Wilt Chamberlain
+c: Jerry West
+d: Kareem Abdul-Jabbar
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for games played.
+a: Kobe Bryant
+b: Kareem Abdul-Jabbar
+c: Jerry West
+d: James Worthy
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for field goals.
+a: Kobe Bryant
+b: Kareem Abdul-Jabbar
+c: Jerry West
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for 2-Pt field goals.
+a: Kareem Abdul-Jabbar
+b: Jerry West
+c: Kobe Bryant
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for offensive rebounds.
+a: Kareem Abdul-Jabbar
+b: Magic Johnson
+c: Shaquille O'Neal
+d: A.C. Green
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for defensive rebounds.
+a: Kareem Abdul-Jabbar
+b: Magic Johnson
+c: Kobe Bryant
+d: Shaquille O'Neal
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for assists.
+a: Magic Johnson
+b: Kobe Bryant
+c: Norm Nixon
+d: Jerry West
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for blocks.
+a: Kareem Abdul-Jabbar
+b: Shaquille O'Neal
+c: Elden Campbell
+d: Kobe Bryant
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for points.
+a: Kobe Bryant
+b: Jerry West
+c: Kareem Abdul-Jabbar
+d: Elgin Baylor
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for triple-doubles.
+a: Magic Johnson
+b: Elgin Baylor
+c: Kobe Bryant
+d: LeBron James
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for minutes per game.
+a: Wilt Chamberlain
+b: Elgin Baylor
+c: Jerry West
+d: Slater Martin
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for points per game.
+a: Elgin Baylor
+b: Shaquille O'Neal
+c: Jerry West
+d: LeBron James
+Team: LAL
+========EOQ========
+Q: This Lakers player is the all time franchise leader for points per 3-Pt field goal percentage.***
+a: Steve Nash
+b: Vladimir Radmanovic
+c: Kendall Marshall
+d: Mike Penberthy
+Team: LAL
+========EOQ========
+Q: This Lakers coach is the all time franchise leader for wins, with 610.
+a: Phil Jackson
+b: Pat Riley
+c: John Kundla
+d: Fred Schaus
+Team: LAL
+========EOQ========
+Q: Phil Jackson and this coach are tied for most seasons coaching the Lakers at 11 seasons.
+a: John Kundla
+b: Pat Riley
+c: Fred Schaus
+d: Bill Sharman
+Team: LAL
+========EOQ========
+Q: Under this head coach the Lakers made the playoffs every single year.
+a: Phil Jackson
+b: John Kundla
+c: Pat Riley
+d: Fred Schaus
+Team: LAL
+========EOQ========
+Q: Phil Jackson and this coach are tied for most championships won for the Lakers with 5.
+a: John Kundla
+b: Pat Riley
+c: Bill Sharman
+d: Paul Westhead
+Team: LAL
+========EOQ========
+Q: This player wore the number 44 for the Lakers.
+a: Jerry West
+b: James Worthy
+c: Shaquille O'Neal
+d: Kareem Abdul-Jabbar
+Team: LAL
+========EOQ========
+Q: This player wore the number 33 for the Lakers.
+a: Kareem Abdul-Jabbar
+b: Magic Johnson
+c: Jerry West
+d: James Worthy
+Team: LAL
+========EOQ========
+Q: This player wore the number 32 for the Lakers.
+a: Magic Johnson
+b: Kareem Abdul-Jabbar
+c: Jerry West
+d: Shaquille O'Neal
+Team: LAL
+========EOQ========
+Q: The Lakers raised a banner to honor this head coach.
+a: John Kundla
+b: Phil Jackson
+c: Pat Riley
+d: Bill Sharman
+Team: LAL
+========EOQ========
+Q: This player played on the Lakers roster for 20 years.
+a: Kobe Bryant
+b: Kareem Abdul-Jabbar
+c: Elgin Baylor
+d: Jerry West
+Team: LAL
+========EOQ========
+Q: In which year did the Lakers have their best regular season record of 69 wins & 13 losses?
+a: 1971-72
+b: 1999-00
+c: 2008-09
+d: 1986-87
+Team: LAL
+========EOQ========
+Q: The Lakers were in the 1980 NBA Finals and saw Magic Johnson come alive in game six while playing the center position. Who was the injured starter that Johnson was playing the center position for?
+a: Kareem Abdul-Jabbar
+b: Shaquille O'Neal
+c: Wilt Chamberlain
+d: Kobe Bryant
+Team: LAL
+========EOQ========
+Q: How many Championships did the Lakers win while they were in Minneapolis?
+a: 5
+b: 1
+c: 4
+d: 2
+Team: LAL
+========EOQ========
+Q: Which Lakers player was nicknamed "Aristotle"?
+a: Shaquille O'Neal
+b: Wilt Chamberlain
+c: Kareem Abdul-Jabbar
+d: Magic Johnson
+Team: LAL
+========EOQ========
+Q: Who did the Lakers take with their first pick in 1996? 
+a: Derek Fisher
+b: Kobe Bryant
+c: Pau Gasol
+d: Shaquille O'Neal
+Team: LAL
+========EOQ========
+Q: How many seasons did Wilt Chamberlain play for the Lakers?
+a: 5
+b: 4
+c: 2
+d: 6
+Team: LAL
+========EOQ========
+Q: How many seasons did Kobe Bryant play for the Lakers?
+a: 20
+b: 21
+c: 19
+d: 25
+Team: LAL
+========EOQ========
+Q: How many seasons did Kareem Abdul-Jabbar play for the Lakers?
+a: 14
+b: 16
+c: 15
+d: 20
+Team: LAL
+========EOQ========
+Q: How many seasons did Shaquille O'Neal play for the Lakers?
+a: 8
+b: 7
+c: 4
+d: 5
+Team: LAL
+========EOQ========
+Q: How many years did Lakers player Magic Johnson miss due to HIV, before ultimately retiring?
+a: 4
+b: 5
+c: 3
+d: 2
+Team: LAL
+========EOQ========
+Q: The Lakers obtained this legendary journeyman during the 1996-97 season.
+a: Robert Horry
+b: Shaquille O'Neal
+c: Rajon Rondo
+d: Moses Malone
+Team: LAL
+========EOQ========
+Q: After losing to the Lakers in the 1980 and 1982 NBA Finals, the 76ers acquired which future Hall of Famer to help them beat the Lakers in 1983?
+a: Moses Malone
+b: Julius Erving
+c: Charles Barkley
+d: Allen Iverson
+Team: LAL
+========EOQ========
+Q: How many times did Kareem Abdul-Jabbar win the MVP award during his time as a Laker?
+a: 3
+b: 2
+c: 1
+d: 4
+Team: LAL
+========EOQ========
+Q: How many times did Magic Johnson win the MVP award?
+a: 3
+b: 2
+c: 1
+d: 4
+Team: ZZZ
+========EOQ========
+Q: This Laker won the Finals MVP award three times in a row during the early 2000s.
+a: Shaquille O'Neal
+b: Kobe Bryant
+c: LeBron James
+d: James Worthy
+Team: LAL
+========EOQ========
+Q: This Laker won the Finals MVP award three times in a row during the early 1980s.
+a: Magic Johnson
+b: Kareem Abdul-Jabbar
+c: Wilt Chamberlain
+d: James Worthy
+Team: LAL
+========EOQ========
+Q: This Laker won the Finals MVP award back to back during the late 2000s.
+a: Kobe Bryant
+b: Shaquille O'Neal
+c: Pau Gasol
+d: Ron Artest
+Team: LAL
+========EOQ========
+Q: This is the only Laker to have won the Defensive Player of the Year award.
+a: Michael Cooper
+b: Shaquille O'Neal
+c: Wilt Chamberlain
+d: Kareem Abdul-Jabbar
+Team: LAL
+========EOQ========
+Q: This is the only Laker to have won the Sixth Man of the Year award.
+a: Lamar Odom
+b: Ron Artest
+c: Luke Walton
+d: Derek Fisher
+Team: LAL
+========EOQ========
+Q: This is the only Laker to have won the Rookie of the Year award.
+a: Elgin Baylor
+b: Kobe Bryant
+c: Magic Johnson
+d: Jerry West
+Team: LAL
+========EOQ========
+Q: Which Laker made the most steals in the 2002 playoffs?
+a: Robert Horry
+b: Derek Fisher
+c: Kobe Bryant
+d: Rick Fox
+Team: LAL
+========EOQ========
+Q: Which Laker has had the longest career playing basketball?
+a: LeBron James
+b: Kobe Bryant
+c: Karl Malone
+d: Kareem Abdul-Jabbar
+Team: 
+========EOQ========
+Q: How many points did Laker Kobe Bryant score during his last game in the NBA?
+a: 60
+b: 59
+c: 61
+d: 65
+Team: LAL
+========EOQ========
+Q: Who bought the Lakers in 1980?
+a: Jerry Buss
+b: Rob Pelinka
+c: Magic Johnson
+d: Jerry West
+Team: LAL
+========EOQ========
+Q: How many championships have the Lakers won as a franchise?
+a: 17
+b: 16
+c: 18
+d: 15
+Team: LAL
+========EOQ========

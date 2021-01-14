@@ -1,0 +1,392 @@
+Q: Where were the Golden State Warriors originally located?
+a: Philadelphia
+b: Los Angeles
+c: Dallas
+d: Boston
+Team: GSW
+========EOQ========
+Q: What year did the Warriors win their first championship?
+a: 1947
+b: 1945
+c: 1944
+d: 1943
+Team: GSW
+========EOQ========
+Q: Hall of Fame trio Paul Arizin, Tom Gola, Neil Johnston led this NBA team to their second championship.
+a: Warriors
+b: Celtics
+c: Lakers
+d: Knicks
+Team: GSW
+========EOQ========
+Q: Who was the first player in NBA history to make 400 three-pointers in a season?
+a: Stephen Curry
+b: Klay Thompson
+c: Chris Mullin
+d: Latrell Sprewell
+Team: GSW
+========EOQ========
+Q: Which player scored 100 points in a single game?
+a: Wilt Chamberlain
+b: Michael Jordan
+c: Kobe Bryant
+d: Bill Russell
+Team: GSW
+========EOQ========
+Q: Which Warriors coach has the highest winning percentage?
+a: Steve Kerr
+b: Neil Johnston
+c: George Senesky
+d: Frank Mcguire
+Team: GSW
+========EOQ========
+Q: What was the Warriors' largest margin of victory?
+a: 62
+b: 58
+c: 60
+d: 59
+Team: GSW
+========EOQ========
+Q: Who is the only NBA player to retire with more career blocked shots than points scored?
+a: Manute Bol
+b: Ralph Sampson
+c: Wilt Chamberlain
+d: Adonal Foyle
+Team: GSW
+========EOQ========
+Q: At 7 ft 6¾ in, this player was among the best shot-blockers in the history of the sport, and played for the Warriors.
+a: Manute Bol
+b: Wilt Chamberlain
+c: Yao Ming
+d: Gheorghe Mureșan
+Team: GSW
+========EOQ========
+Q: Who was the first Warrior to win the NBA Rookie of the Year Award?
+a: Woody Sauldsberry
+b: Wilt Chamberlain
+c: Jamaal Wilkes
+d: Rick Barry
+Team: GSW
+========EOQ========
+Q: Which Warrior recorded a triple-double in an NBA Finals clinching game? 
+a: Draymond Green
+b: Stephen Curry
+c: Tom Gola
+d: Wilt Chamberlain
+Team: GSW
+========EOQ========
+Q: This player on the warriors recorded a triple-double in the 2015 NBA Finals.
+a: Draymond Green
+b: Klay Thompson
+c: Stephen Curry
+d: Andre Iguodala
+Team: GSW
+========EOQ========
+Q: Which player holds the NBA single-season scoring record?
+a: Wilt Chamberlain
+b: Stephen Curry
+c: Purvis Short
+d: Rick Barry
+Team: GSW
+========EOQ========
+Q: Which Warrior was known for shooting free throws underhand?
+a: Rick barry
+b: Sleepy Floyd
+c: Paul Arizin
+d: Nate Thurmond
+Team: GSW
+========EOQ========
+Q: Which Warrior player holds the NBA record for most 3-pointers in a game?
+a: Klay Thompson
+b: Stephen Curry
+c: Chris Mullin
+d: Tim Hardaway
+Team: GSW
+========EOQ========
+Q: What was the first jersey number retired by the Golden State Warriors?
+a: 14
+b: 16
+c: 24
+d: 43
+Team: GSW
+========EOQ========
+Q: What is the most rebounds Wilt Chamberlain ever had in a game?
+a: 55
+b: 52
+c: 51
+d: 50
+Team: GSW
+========EOQ========
+Q: Who is the shortest player in Warriors' history?
+a: Muggsy Bogues
+b: Nate Robinson
+c: Earl Boykins
+d: Keith Jennings
+Team: GSW
+========EOQ========
+Q: Who has the highest single-season free throw percentage in franchise history?
+a: Stephen Curry
+b: Klay Thompson
+c: Rick Barry
+d: Mark Price
+Team: GSW
+========EOQ========
+Q: In which year did the Warriors break the record for most wins in a regular season?
+a: 2015-16
+b: 2016-17
+c: 2014-15
+d: 2017-18
+Team: GSW
+========EOQ========
+Q: Which player was unanimously voted as the MVP in the 2015-16 season?
+a: Stephen Curry
+b: Lebron James
+c: Klay Thompson
+d: Kyrie Irving
+Team: GSW
+========EOQ========
+Q: Which one of these NBA teams does not currently have a mascot?
+a: Warriors
+b: Nuggets
+c: Clippers
+d: Trail Blazers
+Team: GSW
+========EOQ========
+Q: Which team ended the Warriors' team-record 54-game home winning streak on April 1, 2016?
+a: Celtics
+b: Cavaliers
+c: Clippers
+d: Spurs
+Team: GSW
+========EOQ========
+Q: Who holds the Warriors' single-season record with 345 blocked shots?
+a: Manute Bol
+b: Wilt Chamberlain
+c: Draymon Green
+d: Robert Parish
+Team: GSW
+========EOQ========
+Q: This player from the Warriors was named the "Most Improved Player" of the 2002-03 season.
+a: Gilbert Arenas
+b: Earl Boykins
+c: Erick Dampier
+d: Mike Dunleavy
+Team: GSW
+========EOQ========
+Q:  In the 2015 playoffs, Steph Curry broke the record for most three-pointers in a single postseason. Whose record did he break?
+a: Reggie Miller
+b: Ray Allen
+c: Klay Thompson
+d: Danny Green
+Team: GSW
+========EOQ========
+Q: Which Warrior had the most double-doubles in the 2002-03 regular season?
+a: Troy Murphy
+b: Gilbert Arenas
+c: Earl Boykins
+d: Mike Dunleavy
+Team: GSW
+========EOQ========
+Q: When did the Warriors win their last championship prior to 2015?
+a: 1975
+b: 1947
+c: 1956
+d: 2014
+Team: GSW
+========EOQ========
+Q: Steph Curry was named as the NBA MVP for a second consecutive season in 2015-16. Who finished second in the voting?
+a: Kawhi Leonard
+b: LeBron James
+c: Russell Westbrook
+d: Kevin Durant
+Team: GSW
+========EOQ========
+Q: This player won back to back NBA finals MVP awards with the Warriors.
+a: Kevin Durant
+b: Stephen Curry
+c: Klay Thompson
+d: Wilt Chamberlain
+Team: GSW
+========EOQ========
+Q: How many championships have the Warriors won?
+a: 6
+b: 5
+c: 4
+d: 3
+Team: GSW
+========EOQ========
+Q: How many conference titles have the Warriors won?
+a: 6
+b: 5
+c: 7
+d: 4
+Team: GSW
+========EOQ========
+Q: This player was drafted by the Warriors 7th overall in the 2009 draft.
+a: Stephen Curry
+b: Klay Thompson
+c: Draymond Green
+d: Patrick McCaw
+Team: GSW
+========EOQ========
+Q: This player was drafted by the Warriors 11th overall in the 2011 draft.
+a: Klay Thompson
+b: Draymond Green
+c: Stephen Curry
+d: Patrick McCaw
+Team: GSW
+========EOQ========
+Q: This player was drafted by the Warriors in the second round of the 2012 draft.
+a: Draymond Green
+b: Klay Thompson
+c: Patrick McCaw
+d: Stephen Curry
+Team: GSW
+========EOQ========
+Q: In 2017 this player became the first player in NBA history to sign a contract for over $200 million.
+a: Stephen Curry
+b: LeBron James
+c: Russell Westbrook
+d: James Harden
+Team: GSW
+========EOQ========
+Q: Who won the 2015-16 NBA 3-Point Contest?
+a: Klay Thompson
+b: Stephen Curry
+c: Devin Booker
+d: Kyrie Irving
+Team: GSW
+========EOQ========
+Q: Who won the 2014-15 NBA 3-Point Contest?
+a: Stephen Curry
+b: Klay Thompson
+c: Kyrie Irving
+d: Kyle Korver
+Team: GSW
+========EOQ========
+Q: During the 2016-17 season this player recorded the 1st NBA triple-double without points with 12 rebounds, 10 assists, 10 steals.
+a: Draymond Green
+b: Nikola Jokic
+c: Marc Gasol
+d: Russell Westbrook
+Team: GSW
+========EOQ========
+Q: Which one of these Warriors players has the best winning percentage?
+a: Draymond Green
+b: Stephen Curry
+c: Klay Thompson
+d: Andre Iguodala
+Team: GSW
+========EOQ========
+Q: This player wore the number 13 for the Warriors.
+a: Wilt Chamberlain
+b: Stephen Curry
+c: Klay Thompson
+d: Andre Iguodala
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for field goals scored.
+a: Wilt Chamberlain
+b: Rick Barry
+c: Chris Mullin
+d: Stephen Curry
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for 3-Pt field goals.
+a: Stephen Curry
+b: Klay Thompson
+c: Jason Richardson
+d: Time Hardaway
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for 2-Pt field goals.
+a: Wilt Chamberlain
+b: Rick Barry
+c: Paul Arizin
+d: Chris Mullin
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for total rebounds.
+a: Nate Thurmond
+b: Wilt Chamberlain
+c: Larry Smith
+d: Paul Arizin
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for triple doubles.
+a: Draymond Green
+b: Wilt Chamberlain
+c: Stephen Curry
+d: Kevin Durant
+Team: GSW
+========EOQ========
+Q: This Warriors player was named the Finals Most Valuable Player in 2015.
+a: Andre Iguodala
+b: Kevin Durant
+c: Stephen Curry
+d: Klay Thompson
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for most Games Played.
+a: Chris Mullin
+b: Nate Thurmond
+c: Jeff Mullins
+d: Stephen Curry
+Team: GSW
+========EOQ========
+Q: This Warriors player is the all time franchise leader for most Free Throws.
+a: Paul Arizin
+b: Rick Barry
+c: Wilt Chamberlain
+d: Neil Johnston
+Team: GSW
+========EOQ========
+Q: This Warriors player was nicknamed "The Big Dipper"
+a: Wilt Chamberlain
+b: Rick Barry
+c: Neil Johnston
+d: Paul Arizin
+Team: GSW
+========EOQ========
+Q: This Warriors player was nicknamed "Baby-Faced Assassin"
+a: Stephen Curry
+b: Draymond Green
+c: Klay Thompson
+d: Wilt Chamberlain
+Team: GSW
+========EOQ========
+Q: This Warriors player won the MVP award twice in a row for both the 2014-15 & 2015-16 seasons.
+a: Stephen Curry
+b: Klay Thompson
+c: Draymond Green
+d: LeBron James
+Team: GSW
+========EOQ========
+Q: This Warriors player won the Defensive Player of the Year award during the 2016-17 season.
+a: Draymond Green
+b: Klay Thompson
+c: Andrew Bogut
+d: Stephen Curry
+Team: GSW
+========EOQ========
+Q: This Warriors coach won the Coach of the Year award for the 2015-16 season.
+a: Steve Kerr
+b: Don Nelson
+c: Alex Hannum
+d: Al Attles
+Team: GSW
+========EOQ========
+Q: Which Warrior upped his scoring average from 10.9 ppg to 18.7 ppg in the 2002-03 season?
+a: Gilbert Arenas
+b: Earl Boykins
+c: Erick Dampier
+d: Mike Dunleavy
+Team: GSW
+========EOQ========
+Q: Who was the Warrior's 6 ft. 11 in. starting center for the 2002-03 season?
+a: Erick Dampier
+b: Andrew Bogut
+c: Adonal Foyle
+d: Draymond Green
+Team: GSW
+========EOQ========

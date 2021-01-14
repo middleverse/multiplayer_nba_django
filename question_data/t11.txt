@@ -1,0 +1,301 @@
+Q: Where were the Houston Rockets originally located?
+a: San Diego
+b: St. Louis
+c: Omaha
+d: Raleigh
+Team: HOU
+========EOQ========
+Q: Who is the tallest Houston Rocket of all time?
+a: Yao Ming
+b: Chuck Nevitt
+c: Ralph Sampson
+d: Hasheem Thabeet
+Team: HOU
+========EOQ========
+Q: Which Rockets were known as the "Twin Towers"?
+a: Ralph Sampson & Hakeem Olajuwon
+b: Moses Malone & Dikembe Mutombo
+c: Ralph Sampson & Dikembe Mutombo
+d: Moses Malone & Hakeem Olajuwon
+Team: HOU
+========EOQ========
+Q: Who is the only player in NBA history to record more than 200 blocks and 200 steals in the same season?
+a: Hakeem Olajuwon
+b: Yao Ming
+c: Moses Malone
+d: James Harden
+Team: HOU
+========EOQ========
+Q: What is the most 3-pointers the Rockets have ever attempted in a single game?
+a: 70
+b: 60
+c: 55
+d: 65
+Team: HOU
+========EOQ========
+Q: Which coach presided over the Rockets' longest winning streak?
+a: Rick Adelman
+b: Rudy Tomjanovich
+c: Mike D'Antoni
+d: Kevin McHale
+Team: HOU
+========EOQ========
+Q: Who did Houston defeat in the NBA Finals to win their first championship?
+a: Knicks
+b: Celtics
+c: Magic
+d: Bulls
+Team: HOU
+========EOQ========
+Q: In which appearance of the NBA finals did the Rockets win their first championship?
+a: 3
+b: 2
+c: 4
+d: 1
+Team: HOU
+========EOQ========
+Q: Which Rockets player scored 13 points in the final 35 seconds of a game for a comeback win over the San Antonio Spurs?
+a: Tracy McGrady
+b: Chris Paul
+c: James Harden
+d: Clyde Drexler
+Team: HOU
+========EOQ========
+Q: Which Rocket produced a quadruple-double twice in one month?
+a: Hakeem Olajuwon
+b: James Harden
+c: Moses Malone
+d: Clyde Drexler
+Team: HOU
+========EOQ========
+Q: Who was the first Rocket with more than 900 assists in a season?
+a: James Harden
+b: John Lucas
+c: Calvin Murphy
+d: Sleepy Floyd
+Team: HOU
+========EOQ========
+Q: In Game 6 of the 1994 NBA Finals, which Houston player made a last-second block to force a Game 7?
+a: Hakeem Olajuwon
+b: Carl Herrera
+c: Robert Horry
+d: Clyde Drexler
+Team: HOU
+========EOQ========
+Q: What number did Hakeem Olajuwon wear during his career with the Rockets?
+a: 34
+b: 23
+c: 25
+d: 43
+Team: HOU
+========EOQ========
+Q: Which future coach was drafted by the Rockets in the 1st round of the 1967 NBA draft?
+a: Pat Riley
+b: Gregg Popovich
+c: Phil Jackson
+d: Rudy Tomjanovich
+Team: HOU
+========EOQ========
+Q: This future NBA coach and franchise owner was drafted into both the NBA & NFL as a player.
+a: Pat Riley
+b: Michael Jordan
+c: Phil Jackson
+d: Rudy Tomjanovich
+Team: ZZZ
+========EOQ========
+Q: Who was the first Houston Rocket to win the NBA Sixth Man of the Year Award?
+a: Eric Gordon
+b: Gerald Green
+c: Josh Smith
+d: Carlos Delfino
+Team: HOU
+========EOQ========
+Q: Which Rocket holds the NBA single-season record for offensive rebounds?
+a: Moses Malone
+b: Elvin Hayes
+c: Dwight Howard
+d: Hakeem Olajuwon
+Team: HOU
+========EOQ========
+Q: Which Rocket missed the majority of the 1977-78 season after being punched in the face by the Los Angeles Lakers' Kermit Washington?
+a: Rudy Tomjanovich
+b: Moses Malone
+c: John Lucas
+d: Calvin Murphy
+Team: HOU
+========EOQ========
+Q: Which Rockets coach resigned after being diagnosed with bladder cancer?
+a: Rudy Tomjanovich
+b: Rick Adelman
+c: Jeff Van Gundy
+d: Don Chaney
+Team: HOU
+========EOQ========
+Q: Which Rockets player holds the NBA record for most 3-pointers in a half?
+a: Chandler Parsons
+b: Klay Thompson
+c: Chris Paul
+d: James Harden
+Team: HOU
+========EOQ========
+Q: Which Rocket holds the NBA record for most free throws made in a game with no misses?
+a: James Harden
+b: Moses Malone
+c: Calvin Murphy
+d: Hakeem Olajuwon
+Team: HOU
+========EOQ========
+Q: Which Rocket is the oldest player in NBA history to record more than 20 rebounds in a game?
+a: Dikembe Mutombo
+b: Moses Malone
+c: Elvin Hayes
+d: Hakeem Olajuwon
+Team: HOU
+========EOQ========
+Q: This former Rocket popularized the "finger wag" after blocking shots.
+a: Dikembe Mutombo
+b: Moses Malone
+c: Elvin Hayes
+d: Hakeem Olajuwon
+Team: HOU
+========EOQ========
+Q: The Houston Rockets selected this player as the 1st overall pick of the 2002 NBA Draft.
+a: Yao Ming
+b: Rudy Gay
+c: Tyson Chandler
+d: Richard Jefferson
+Team: HOU
+========EOQ========
+Q: This Rocket became an All-Star during his rookie year in the 2002-03 season. 
+a: Yao Ming
+b: Charles Oakley
+c: Tracy McGrady
+d: Dikembe Mutombo
+Team: HOU
+========EOQ========
+Q: This Rocket is the 5th tallest player ever to play in the NBA.
+a: Yao Ming
+b: Shawn Bradley
+c: Manute Bol
+d: Chuck Nevitt
+Team: HOU
+========EOQ========
+Q: The Houston Rockets selected this player as the 1st overall pick of the 1984 NBA Draft.
+a: Hakeem Olajuwon
+b: Yao Ming
+c: Ralph Sampson
+d: Steve Harris
+Team: HOU
+========EOQ========
+Q: The Houston Rockets selected this player as the 1st overall pick of the 1983 NBA Draft.
+a: Ralph Sampson
+b: Yao Ming
+c: Hakeem Olajuwon
+d: Steve Harris
+Team: HOU
+========EOQ========
+Q: This franchise was added as an expansion team to the NBA in the 1967-68 season.
+a: Rockets
+b: Bucks
+c: Suns
+d: Bulls
+Team: HOU
+========EOQ========
+Q: Who wore the number 11 for the Houston Rockets?
+a: 
+b: Clyde Drexler
+c: Moses Malone
+d: Calvin Murphy
+Team: HOU
+========EOQ========
+Q: Who wore the number 22 for the Houston Rockets?
+a: Clyde Drexler
+b: Yao Ming
+c: Moses Malone
+d: Calvin Murphy
+Team: HOU
+========EOQ========
+Q: Who wore the number 23 for the Houston Rockets?
+a: Calvin Murphy
+b: Yao Ming
+c: Moses Malone
+d: Clyde Drexler
+Team: HOU
+========EOQ========
+Q: Who wore the number 24 for the Houston Rockets?
+a: Moses Malone
+b: Yao Ming
+c: Calvin Murphy
+d: Clyde Drexler
+Team: HOU 
+========EOQ========
+Q: This Rockets player was inducted in to the Hall of Fame along with Shaquille O'Neal.
+a: Yao Ming
+b: Allen Iverson
+c: Clyde Drexler
+d: Tracy McGrady
+Team: HOU
+========EOQ========
+Q: This coach won 2 championships with the Houston Rockets.
+a: Rudy Tomjanovich
+b: Bill Fitch
+c: Del Harris
+d: Kevin McHale
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Games Played.
+a: Hakeem Olajuwon
+b: Calvin Murphy
+c: Rudy Tomjanovich
+d: Robert Reid
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Field Goals.
+a: Hakeem Olajuwon
+b: Calvin Murphy
+c: Rudy Tomjanovich
+d: James Harden
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most 3-Pt Field Goals.
+a: James Harden
+b: Trevor Ariza
+c: Kenny Smith
+d: Eric Gordon
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Free Throws.
+a: James Harden
+b: Hakeem Olajuwon
+c: Calvin Murphy
+d: Yao Ming
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Total Rebounds.
+a: Hakeem Olajuwon
+b: Rudy Tomjanovich
+c: Moses Malone
+d: Yao Ming
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Assists.
+a: James Harden
+b: Hakeem Olajuwon
+c: Calvin Murphy
+d: Kenny Smith
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Steals.
+a: Hakeem Olajuwon
+b: Calvin Murphy
+c: James Harden
+d: Sleepy Floyd
+Team: HOU
+========EOQ========
+Q: This Rockets player holds the franchise record for most Triple-Doubles.
+a: James Harden
+b: Hakeem Olajuwon
+c: Russell Westbrook
+d: Clyde Drexler
+Team: HOU
+========EOQ========

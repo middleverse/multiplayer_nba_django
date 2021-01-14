@@ -1,0 +1,693 @@
+Q: Which of the following rules is named after a New York Knicks player?
+a: If there are less than 0.3 s on the game clock, only tip-ins and high lobs can count as qualifying shots
+b: If under 2 minutes remaining in a game, a player fouled without the ball recieves two free throws and possession
+c: 5 second limit for an offensive dribbling the ball with his back to the basket when below the FT line
+d: A free throw shooter is not allowed to cross the free throw line until the ball hits the rim
+Team: NYK
+========EOQ========
+Q: Which of the following is the Trent Tucker rule named after the former NY Knicks player?
+a: If there are less than 0.3 s on the game clock, only tip-ins and high lobs can count as qualifying shots
+b: A player cannot inbound the basketball over the backboard
+c: No player can touch the ball if any part of it is over the cylinder
+d: A player cannot catch/obstruct an opponent's shot while it is on the downward portion of its flight and on its way to the rim
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in career games played?
+a: Patrick Ewing
+b: Kristaps Porzingis
+c: John Starks
+d: Charles Barkley
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in career points?
+a: Patrick Ewing
+b: Steve Francis
+c: Carmelo Anthony
+d: Kristaps Prozingis
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in points-per-game?
+a: Bob McAdoo
+b: Walt Frazier
+c: Patrick Ewing
+d: Carmelo Anthony
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in career assists?
+a: Walt Frazier
+b: Mark Jackson
+c: Steve Francis
+d: Carmelo Anthony
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in assists-per-game?
+a: Mark Jackson
+b: Antonio Davis
+c: Patrick Ewing
+d: Stephon Marbury
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in career rebounds?
+a: Patrick Ewing
+b: Charles Oakley
+c: Willis Reed
+d: Walt Frazier
+Team: NYK
+========EOQ========
+Q: Who is the New York Knicks' franchise leader in rebounds-per-game?
+a: Walt Bellamy
+b: Enes Kanter
+c: Kristaps Porzingis
+d: Tyson Chandler
+Team: NYK
+========EOQ========
+Q: What is the New York Knicks' franchise record for wins in a single season?
+a: 60
+b: 73
+c: 55
+d: 50
+Team: NYK
+========EOQ========
+Q: What is the New York Knicks' single-game individual scoring record?
+a: 62 points
+b: 50 points
+c: 100 points
+d: 70 points
+Team: NYK
+========EOQ========
+Q: Which player holds the New York Knicks' single-game individual scoring record?
+a: Carmelo Anthony
+b: Wilt Chamberlain
+c: Patrick Ewing
+d: Kristaps Porzingis
+Team: NYK
+========EOQ========
+Q: Which player holds the New York Knick's single-game individual assists record?
+a: Chris Duhon
+b: Steve Novak
+c: Steve Nash
+d: Steve Francis
+Team: NYK
+========EOQ========
+Q: How many dunk contests have been won by New York Knicks?
+a: 4
+b: 2
+c: 0
+d: 10
+Team: NYK
+========EOQ========
+Q: How many 3-point contests have been won by New York Knicks?
+a: 0
+b: 4
+c: 10
+d: 13
+Team: NYK
+========EOQ========
+Q: Where were the New York Knicks  originally located?
+a: New York
+b: Chicago
+c: Milwaukee
+d: New England
+Team: NYK
+========EOQ========
+Q: Which Knicks player holds the NBA single-season record for field goal percentage?
+a: Mitchell Robinson
+b: John Starks
+c: Carmelo Anthony
+d: Steve Francis
+Team: NYK
+========EOQ========
+Q: Which New York Knicks All-Star also pitched a shutout for the Chicago White Sox in the MLB?
+a: Dave DeBusschere
+b: Willis Reed
+c: Patrick Ewing
+d: Sandy Koufax
+Team: NYK
+========EOQ========
+Q: Which former Knicks All-Star was arrested at Madison Square Garden in 2017?
+a: Charles Oakley
+b: Willis Reed
+c: Bill Russell
+d: Latrell Spreewell
+Team: NYK
+========EOQ========
+Q: In which year were the Boston Celtics founded?
+a: 1946
+b: 1988
+c: 1976
+d: 1996
+Team: BOS
+========EOQ========
+Q: Which of the following teams has the most franchise wins in NBA history?
+a: Boston Celtics
+b: Los Angeles Lakers
+c: Golden State Warriors
+d: New York Knicks
+Team: BOS
+========EOQ========
+Q: Which NBA player holds the record for the most NBA championships as a player?
+a: Bill Russell
+b: Wilt Chamberlain
+c: Robert Horry
+d: Kareem Abdul-Jabbar
+Team: BOS
+========EOQ========
+Q: Which of the following people has won an NBA title as a player while serving  as head coach at the same time?
+a: Bill Russell
+b: Bob Pettit
+c: Lenny Wilkens
+d: Dave DeBusschere
+Team: BOS
+========EOQ========
+Q: Which NBA team has had 4 active players with at least career 20,000 points at the same time?
+a: Boston Celtics, 2010-2011 - Paul Pierce, Kevin Garnett, Ray Allen, Shaquille O'Neal
+b: LA Lakers, 2003-2004 - Kobe Bryant, Shaquille O'neal, Karl Malone, Gary Payton
+c: Chicago Bulls, 1995-1996 - Michael Jordan, Scottie Pippen, Dennis Rodman, Toni Kukoc
+d: San Antonio Spurs, 2016-2017 - Tim Duncan, Manu Ginobli, Tony Parker, Kawhi Leonard
+Team: BOS
+========EOQ========
+Q: Which of the following players was not drafted by the Boston Celtics?
+a: Bill Russell
+b: Paul Pierce
+c: Marcus Smart
+d: Jalen Brown
+Team: BOS
+========EOQ========
+Q: Which of the following players was not drafted by the Boston Celtics?
+a: Rajon Rondo
+b: Jayson Tatum
+c: Terry Rozier
+d: Jeff Green
+Team: BOS
+========EOQ========
+Q: Which of the following players was not drafted by the Boston Celtics?
+a: Gary Payton
+b: Antoine Walker
+c: Delonte West
+d: Chauncey Billups
+Team: BOS
+========EOQ========
+Q: How many players have won dunk contests as members of the Boston Celtics?
+a: 2
+b: 3
+c: 1
+d: 0
+Team: BOS
+========EOQ========
+Q: Which of the following players have won a dunk contest as a member of the Boston Celtics?
+a: Gerald Green
+b: Nate Robinson
+c: Rick Fox
+d: Jalen Brown
+Team: BOS
+========EOQ========
+Q: Which of the following players have won a dunk contest as a member of the Boston Celtics?
+a: Dee Brown
+b: Spud Webb
+c: Antoine Walker
+d: Larry Brown
+Team: BOS
+========EOQ========
+Q: How many championships did the Boston Celtics win during the 1960s?
+a: 9
+b: 5
+c: 6
+d: 3
+Team: BOS
+========EOQ========
+Q: Which of the following players was not a members of the "Big 3" formed by the Boston Celtics in 2007-2008?
+a: Shaquille O'Neal
+b: Kevin Garnett
+c: Paul Pierce 
+d: Ray Allen
+Team: BOS
+========EOQ========
+Q: Which player won NBA Finals MVP when the Boston Celtics won the NBA championship in 2008?
+a: Paul Pierce
+b: Kevin Garnett
+c: Ray Allen
+d: Rajon Rondo
+Team: BOS
+========EOQ========
+Q: How many NBA MVP awards has Larry Bird won?
+a: 3
+b: 2
+c: 1
+d: 0
+Team: BOS
+========EOQ========
+Q: How many NBA MVP awards has Bill Russell won?
+a: 5
+b: 1
+c: 8
+d: 3
+Team: BOS
+========EOQ========
+Q: Which member of the Boston Celtics won the NBA Defensive Player of the Year in 2007-2008?
+a: Kevin Garnett
+b: Tony Allen
+c: Kendrick Perkins
+d: Brian Scalabrine
+Team: BOS
+========EOQ========
+Q: Which of the following former Boston Celtics is nicknamed the "White Mamba"?
+a: Brian Scalabrine
+b: Jason Williams
+c: Gordon Hayward
+d: Larry Bird
+Team: BOS
+========EOQ========
+Q: Which of these Boston Celtics has won the Rookie of the Year Award?
+a: Larry Bird
+b: Jayson Tatum
+c: Paul Pierce
+d: Antoine Walker
+Team: BOS
+========EOQ========
+Q: Which of the following Boston Celtics player won the 1991 Dunk contest with his famous "No Look" dunk?
+a: Dee Brown
+b: Nate Robinson
+c: Paul Pierce
+d: Ricky Davis
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics francishe leader in career games played?
+a: John Havlicek
+b: Bill Russell
+c: Paul Pierce
+d: Larry Bird
+Team: BOS
+========EOQ========
+Q: Which Boston Celtics player won the first three NBA 3-point shooting contests in NBA history?
+a: Larry Bird
+b: Peja Stojakovic
+c: Jason Kapono
+d: Ray Allen
+Team: BOS
+========EOQ========
+Q: Which of the following frachises is not tied for the lead in total 3-point contest wins?
+a: Toronto Raptors
+b: Miami Heat
+c: Boston Celtics
+d: Chicago Bulls
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in career points?
+a: John Havlicek
+b: Bill Russell
+c: Danny Ainge
+d: Kevin McHale
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in career rebounds?
+a: Bill Russell
+b: Robert Parrish
+c: Larry Bird
+d: Kevin Garnett
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in rebounds-per-game?
+a: Bill Russell
+b: Antoine Walker
+c: Robert Parrish
+d: Kevin Garnett
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in points-per-game?
+a: Isaiah Thomas
+b: Bill Russell
+c: Larry Bird
+d: Kyrie Irving
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in career assists?
+a: Bob Cousy
+b: Rajon Rondo
+c: Kemba Walker
+d: Kyrie Irving
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in assists-per-game?
+a: Rajon Rondo
+b: Iasaiah Thomas
+c: Chauncey Billups
+d: Delonte West
+Team: BOS
+========EOQ========
+Q: Who is the Boston Celtics' franchise leader in career blocks?
+a: Robert Parish
+b: Tony Battie
+c: Kendrick Perkins
+d: Kevin Garnett
+Team: BOS
+========EOQ========
+Q: What is the name of the Boston Celtics' Mascot?
+a: Lucky the Leprechaun
+b: The Celtic Guardian
+c: Hoopy the Huddle Hound
+d: Mickey the Mucker
+Team: BOS
+========EOQ========
+Q: What did Celtics coach Red Auerbach often do when he thought victory was assured? 
+a: Smoke a cigar
+b: Eat a sandwich
+c: Change his outfit
+d: Go to the locker room early
+Team: BOS
+========EOQ========
+Q: Which Celtics player scored 60 points in a single game?
+a: Larry Bird
+b: Isaiah Thomas
+c: Bill Russell
+d: Robert Parrish
+Team: BOS
+========EOQ========
+Q: Which Celtic is one of only five NBA players to lead his team in all five major statistical categories for a season?
+a: Dave Cowens
+b: Isaiah Thomas
+c: Bill Russell
+d: Kevin McHale
+Team: BOS
+========EOQ========
+Q: Which Celtic was the first African-American player in the NBA
+a: Chuck Cooper
+b: Bill Russell
+c: Lavoy Allen
+d: Earl Lloyd
+Team: BOS
+========EOQ========
+Q: Which Celtics player grabbed 50 rebounds in a single game?
+a: Bill Russell
+b: Kevin Garnett
+c: Robert Parrish
+d: Wilt Chamberlain
+Team: BOS
+========EOQ========
+Q: Which of the following players was one of only five NBA players to lead his team in all five major statistical categories (pts, reb, ast, stl, blk) for a season?
+a: Scottie Pippen
+b: Michael Jordan
+c: Tim Duncan
+d: Kobe Bryant
+Team: CHI
+========EOQ========
+Q: Which of the following players was one of only five NBA players to lead his team in all five major statistical categories (pts, reb, ast, stl, blk) for a season?
+a: Kevin Garnett
+b: Kevin Love
+c: Kobe Bryant
+d: Bill Russell
+Team: MIN
+========EOQ========
+Q: Which of the following players was one of only five NBA players to lead his team in all five major statistical categories (pts, reb, ast, stl, blk) for a season?
+a: Lebron James
+b: Shaquille O'Neal
+c: Tim Duncan
+d: Tracy McGrady
+Team: CLE
+========EOQ========
+Q: Which of the following players was one of only five NBA players to lead his team in all five major statistical categories (pts, reb, ast, stl, blk) for a season?
+a: Giannis Antetokounmpo
+b: Dirk Nowitzki
+c: Kobe Bryant
+d: Anthony Davis
+Team: ZZZ
+========EOQ========
+Q: In which year was Larry Bird drafted by the Boston Celtics?
+a: 1978
+b: 1965
+c: 1989
+d: 1996
+Team: BOS
+========EOQ========
+Q: Which of the following is one of Larry Bird's nicknames?
+a: Larry Legend
+b: Lar Bear
+c: The Eagle
+d: Tweety Bird
+Team: BOS
+========EOQ========
+Q: Which team did the Boston Celtics beat in the 2008 NBA finals to win the championship?
+a: Los Angeles Lakers
+b: Dallas Mavericks
+c: San Antonio Spurs
+d: Portland Trailblazers
+Team: BOS
+========EOQ========
+Q: During the 1960s the Boston Celtics won 9 out of the possible 10 championships in the decade. In which season did they not win?
+a: 1966-1967
+b: 1960-1961
+c: 1968-1969
+d: 1963-1964
+Team: BOS
+========EOQ========
+Q: Which of the following former Boston Celtics was nicknamed "The Truth"?
+a: Paul Pierce
+b: Ray Allen
+c: Bill Russell
+d: Larry Bird
+Team: BOS
+========EOQ========
+Q: Which of the following former Boston Celtics was nicknamed "The Hick from French Lick"?
+a: Larry Bird
+b: Brian Scalabrine
+c: John Havlicek
+d: Danny Ainge
+Team: BOS
+========EOQ========
+Q: How many NBA Championships has the Boston Celtics franchise won?
+a: 17
+b: 10
+c: 6
+d: 21
+Team: BOS
+========EOQ========
+Q: Which two teams are currently tied for most NBA championship titles in history?
+a: Boston Celtics and LA Lakers
+b: Boston Celtics and Chicago Bulls
+c: Chicago Bulls and LA Lakers
+d: San Antonio Spurs and Chicago Bulls
+Team: BOS
+========EOQ========
+Q: Which of the following players retired as a Boston Celtic?
+a: Shaquille O'Neal
+b: Ray Allen
+c: Kevin Garnett
+d: Danny Ainge
+Team: BOS
+========EOQ========
+Q: Which NBA franchise currently has the most Hall of Fame Members with 38 (includes former players and former coaches)?
+a: Boston Celtics
+b: Atlanta Hawks
+c: New York Knicks
+d: Chicago Bulls
+Team: BOS
+========EOQ========
+Q: In which arena do the Boston Celtics play their home games?
+a: TD BankNorth Garden
+b: Staples Centre
+c: Madison Square Garden
+d: United Centre
+Team: BOS
+========EOQ========
+Q: What was the original city and team name of the Philadelphia 76ers franchise?
+a: Syracuse Nationals
+b: Washington Bullets
+c: St. Louis Hawks
+d: Philadelphia Flyers
+Team: PHI
+========EOQ========
+Q: When was the Philadelphia 76ers franchise formed?
+a: 1946
+b: 1998
+c: 1988
+d: 2004
+Team: PHI
+========EOQ========
+Q: In which arena do the Philadelphia 76ers play their home games?
+a: Wells-Fargo Centre
+b: Staples Centre
+c: Barclay's Centre
+d: Chesapeake Energy Arena
+Team: PHI
+========EOQ========
+Q: Which of the following Hall of Fame members has played for the Philadelphia 76ers franchise?
+a: Wilt Chamberlain
+b: Bill Russell
+c: George Mikan
+d: Jerry West
+Team: PHI
+========EOQ========
+Q: Which of the following Hall of Fame members has played for the Philadelphia 76ers franchise?
+a: Allen Iverson
+b: Kobe Bryant
+c: Gary Payton
+d: Karl Malone
+Team: PHI
+========EOQ========
+Q: Which of the following Hall of Fame members has played for the Philadelphia 76ers franchise?
+a: Charles Barkley
+b: Scottie Pippen
+c: John Stockton
+d: Grant Hill
+Team: PHI
+========EOQ========
+Q: Which of the following Hall of Fame members has played for the Philadelphia 76ers franchise?
+a: Julius Erving
+b: Larry Bird
+c: Kevin McHale
+d: George Gervin
+Team: PHI
+========EOQ========
+Q: How many NBA championships have the Philadelphia 76ers franchise won?
+a: 3
+b: 1
+c: 0
+d: 6
+Team: PHI 
+========EOQ========
+Q: How many players have won NBA MVP as a member of the Philadelphia 76ers franchise?
+a: 4
+b: 1
+c: 8
+d: 0
+Team: PHI
+========EOQ========
+Q: Which of the following players has not won an NBA MVP award as a member of the Philadelphia 76ers?
+a: Charles Barkley
+b: Allen Iverson
+c: Julius Erving
+d: Moses Malone
+Team: PHI
+========EOQ========
+Q: Which of the following teams has the worst franchise win percentage in the NBA?
+a: Minnesota Timberwolves
+b: Los Angeles Clippers
+c: Toronto Raptors
+d: New York Knicks
+Team: MIN
+========EOQ========
+Q: Which Philadelphia 76ers GM is responsible for "The Process"?
+a: Sam Hinke
+b: Brett Brown
+c: Elton Brand
+d: Bryan Colangelo
+Team: PHI
+========EOQ========
+Q: Which of the following players was selected 1st overall by the Philadelphia 76ers?
+a: Doug Collins
+b: Joel Embiid
+c: Andre Iguodala
+d: Wilt Chamberlain
+Team: PHI
+========EOQ========
+Q: Which of the following players was selected 1st overall by the Philadelphia 76ers?
+a: Ben Simmons
+b: Evan Turner
+c: Jerry Stackhouse
+d: Larry Hughes
+Team: PHI
+========EOQ========
+Q: Which of the following players was selected 1st overall by the Philadelphia 76ers?
+a: Markelle Fultz
+b: Elfrid Payton
+c: Michael Carter-Williams
+d: Jrue Holiday
+Team: PHI
+========EOQ========
+Q: Which of the following players was selected 1st overall by the Philadelphia 76ers?
+a: Allen Iverson
+b: Charles Barkley
+c: Jahlil Okafor
+d: Nikola Vucevic 
+Team: PHI
+========EOQ========
+Q: What is the name of the Philadelphia 76ers mascot?
+a: Franklin the Dog
+b: Benjamin the Bee
+c: Benjamin the Boa
+d: Franklin the Foal
+Team: PHI
+========EOQ========
+Q: Which Philadelphia 76ers player led the NBA in steals for three consecutive years?
+a: Allen Iverson
+b: Maurice Cheeks
+c: Julius Erving
+d: Jerry West
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for the most points in a single game?
+a: Wilt Chamberlain
+b: Julius Erving
+c: Allen Iverson
+d: Charles Barkley
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for most 3-pointers in a season?
+a: JJ Redick
+b: Kyle Korver
+c: Ben Simmons
+d: Andre Miller
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for most assists in a season?
+a: Maurice Cheeks
+b: Ben Simmons
+c: Allen Iverson
+d: Steve Nash
+Team: PHI
+========EOQ========
+Q: Which player won 3 consecutive MVP awards as a member of the Philadelphia 76ers?
+a: Wilt Chamberlain
+b: Moses Malone
+c: Julis Erving
+d: Allen Iverson
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for career points?
+a: Hal Greer
+b: Allen Iverson
+c: Julius Erving
+d: Moses Malon
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for career assists?
+a: Maurice Cheeks
+b: Andre Miller
+c: Allen Iverson
+d: Markelle Fultz
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for career rebounds?
+a: Dolph Schayes
+b: Charles Barkley
+c: Theo Ratliff
+d: Samuel Dalembert
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for career blocks?
+a: Julius Erving
+b: Wilt Chamberlain
+c: Samuel Dalembert
+d: Joel Embiid
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for points-per-game?
+a: Wilt Chamberlain
+b: Allen Iverson
+c: Julius Erving
+d: Moses Malone
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for rebounds-per-game?
+a: Wilt Chamberlain
+b: Charles Barkley
+c: Joel Embiid
+d: Dikembe Mutombo
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for assists-per-game?
+a: Ben Simmons
+b: Eric Snow
+c: Jrue Holiday
+d: Allen Iverson
+Team: PHI
+========EOQ========

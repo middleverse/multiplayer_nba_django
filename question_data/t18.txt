@@ -1,0 +1,700 @@
+Q: Which player holds the Philadelphia 76ers franchise record for free throw percentage?
+a: JJ Redick
+b: Jimmy Butler
+c: Joel Embiid
+d: Jose Calderon
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers single-season record for blocks-per-game?
+a: Theo Ratliff
+b: Manute Bol
+c: Dwight Howard
+d: Julis Erving
+Team: PHI
+========EOQ========
+Q: Which Philadelphia 76ers player was nicknamed "Dr. J"?
+a: Julius Erving
+b: Mike James
+c: Jason Kidd
+d: Joel Embiid
+Team: PHI
+========EOQ========
+Q: Which player holds the Philadelphia 76ers franchise record for career turnovers?
+a: Allen Iverson
+b: Andre Miller
+c: Joel Embiid
+d: Charles Barkley
+Team: PHI
+========EOQ========
+Q: Which Philadelphia 76ers player helped legitimize the dunk as viable scoring tactic?
+a: Julius Erving
+b: Wilt Chamberlain
+c: Moses Malone
+d: Dolph Schayes
+Team: PHI
+========EOQ========
+Q: Which of the following was one of Allen Iverson's nicknames?
+a: The Answer
+b: The Truth
+c: The Question
+d: The Problem
+Team: PHI
+========EOQ========
+Q: Which of the following was one of Wilt Chamberlain's nicknames?
+a: The Stilt
+b: The Wall
+c: The Beast
+d: Glide
+Team: PHI
+========EOQ========
+Q: Which team did the Philadelphia 76ers franchise (Syracuse Nationals) beat in the 1954-55 NBA finals to win their first NBA championship?
+a: Fort Wayne Pistons
+b: Buffalo Bisons
+c: Washington Generals
+d: Harlem Globetrotters
+Team: PHI
+========EOQ========
+Q: Which team did the Philadelphia 76ers franchise beat in the 1966-1967 NBA finals to win their second NBA championship?
+a: San Francisco Warriors
+b: Boston Celtics
+c: Minneapolis Lakers
+d: Los Angeles Lakers
+Team: PHI
+========EOQ========
+Q: Which team did the Philadelphia 76ers franchise beat in the 1982-1983 NBA finals to win their third NBA championship?
+a: Los Angeles Lakers
+b: Seattle Supersonics
+c: Denver Nuggets
+d: Phoenix Nuggets
+Team: PHI
+========EOQ========
+Q: Which team did the Philadelphia 76ers lose to in the 2000-20001 NBA finals?
+a: Los Angeles Lakers
+b: Minnesota Timberwolves
+c: San Antonio Spurs
+d: Sacramento Kings
+Team: PHI
+========EOQ========
+Q: What was the nickname given to Allen Iverson's crossover?
+a: The killer crossover
+b: The Utep 2-step
+c: The Hezi
+d: The Shamgod
+Team: PHI
+========EOQ========
+Q: Which division do the Philadelphia 76ers currently play in?
+a: Atlantic Division
+b: Pac-10 Division
+c: Northeast Division
+d: Eastern Division
+Team: PHI
+========EOQ========
+Q: Which of the following players gained 30 lbs in 2 days prior to his NBA draft in order to avoid being selected by the Philadelphia 76ers?
+a: Charles Barkley
+b: Joel Embiid
+c: Shaquille O'Neal
+d: Shawn Kemp
+Team: PHI
+========EOQ========
+Q: Which of the following is one of Charles Barkley's nicknames?
+a: The Round Mound of Rebound
+b: The Blob
+c: The Philly Doughboy
+d: Sir Chuck
+Team: PHI
+========EOQ========
+Q: What is Moses Malone's nickname?
+a: Chairman of the Boards
+b: Boardman
+c: Momo
+d: Black Jesus
+Team: PHI
+========EOQ========
+Q: What is the inspiration for the Philadelphia 76ers team name?
+a: The Declaration of Independence was signed in 1776
+b: The franchise was formed in 1876
+c: The team won an NBA championship in 1976 and was rebranded the following year
+d: The team was formed on the 76th anniversary of the formation of the USA
+Team: PHI
+========EOQ========
+Q: Which team has the record for fewest wins in a full 82 game season?
+a: Philadelphia 76ers
+b: Charlotte Bobcats
+c: Charlotte Hornets
+d: Los Angeles Clippers
+Team: PHI
+========EOQ========
+Q: What is the Philadelphia 76ers franchise record for wins in a season?
+a: 68
+b: 73
+c: 60
+d: 57
+Team: PHI
+========EOQ========
+Q: In which year did the Syracuse Nationals become the Philadelphia 76ers?
+a: 1963
+b: 1976
+c: 1956
+d: 1995
+Team: PHI
+========EOQ========
+Q: The Philadelphia 76ers selected this player 5th overall in the 1975 NBA draft making him the first player to make the jump from high school directly into the NBA:
+a: Darryl Dawkins
+b: Moses Malone
+c: Julius Erving
+d: Wilt Chamberlain
+Team: PHI
+========EOQ========
+Q: Which of the following is one of the nicknames of former Philadelphia 76er Darryl Dawkins?
+a: Chocolate Thunder
+b: Round Mound of Rebound
+c: Hawk
+d: Doc
+Team: PHI
+========EOQ========
+Q: Where were the Brooklyn Nets located prior to moving to Brooklyn?
+a: New Jersey
+b: Harlem
+c: New York
+d: Toronto
+Team: BKN
+========EOQ========
+Q: What is the name of the Brooklyn Nets' current home arena?
+a: Barclays Arena
+b: Prudential Center
+c: Air Canada Centre
+d: The Spectrum
+Team: BKN
+========EOQ========
+Q: When did the New Jersey Nets franchise move to Brooklyn?
+a: 2012
+b: 2000
+c: 1996
+d: 1976
+Team: BKN
+========EOQ========
+Q: When did the Brooklyn Nets franchise become a member of the NBA?
+a: 1976
+b: 1988
+c: 2005
+d: 1956
+Team: BKN
+========EOQ========
+Q: When was the Brooklyn Nets franchise founded?
+a: 1967
+b: 1976
+c: 1998
+d: 1941
+Team: BKN
+========EOQ========
+Q: What was the original name and home city of the Brooklyn Nets franchise?
+a: New Jersey Americans
+b: Rochester Nationals
+c: New Jersey Nets
+d: New Jersey Devils
+Team: BKN
+========EOQ========
+Q: How many NBA championships has the Brooklyn Nets franchise won?
+a: 0
+b: 2
+c: 6
+d: 17
+Team: BKN
+========EOQ========
+Q: In which seasons did the Brooklyn Nets franchise make it to consecutive NBA Finals?
+a: 2000-2001, 2001-2002
+b: 2010-2011,2011,2012
+c: 1954-1955, 1955-1956
+d: 2014-2015, 2015-2016 
+Team: BKN
+========EOQ========
+Q: Which former NBA mascot had his/her own comic book published by Marvel?
+a: The BrooklyKnight
+b: The Toronto Raptor
+c: Mavs Man
+d: Benny the Bull
+Team: BKN
+========EOQ========
+Q: How long is the NBA career of the average NBA player?
+a: 4.5 years
+b: 2 years
+c: 7 years
+d: 12 years
+Team: ZZZ
+========EOQ========
+Q: Which of these players has played for the Brooklyn Nets franchise?
+a: Vince Carter
+b: Demar Derozan
+c: Allen Iverson
+d: Tracy McGrady
+Team: BKN
+========EOQ========
+Q: Which of these players has played for the Brooklyn Nets franchise?
+a: Jason Kidd
+b: Steve Nash
+c: Kyle Lowry
+d: Kevin Love
+Team: BKN
+========EOQ========
+Q: Which of these players has played for the Brooklyn Nets franchise?
+a: Julius Erving
+b: Magic Johnson
+c: Draymon Green
+d: Tony Parker
+Team: BKN
+========EOQ========
+Q: Which of these players has played for the Brooklyn Nets franchise?
+a: Kenyon Martin
+b: Michael Finley
+c: Elton Brand
+d: Jayson Tatum
+Team: BKN
+========EOQ========
+Q: Which of the following players was drafted by the Brooklyn Nets franchise?
+a: Kyle Kuzma
+b: Kyrie Irving
+c: D'Angelo Russell
+d: Eddie Williams
+Team: BKN
+========EOQ========
+Q: Which of these players was drafted by the Brooklyn Nets franchise?
+a: Brook Lopez
+b: Kevin Durant
+c: Jason Kidd
+d: Richard Jefferson
+Team: BKN
+========EOQ========
+Q: How many NBA players have won an NBA MVP award as a member of the Brooklyn Nets franchise?
+a: 0
+b: 3
+c: 7
+d: 4
+Team: BKN
+========EOQ========
+Q: What's the furthest that the Brooklyn Nets franchise have ever made it in the NBA playoffs?
+a: NBA Finals
+b: Eastern Conference Finals
+c: Western Conference Finals
+d: Eastern Conference Semi-Finals
+Team: BKN
+========EOQ========
+Q: Which of these former Brooklyn/New Jersey Nets players was nicknamed "Iso Joe"?
+a: Joe Johnson
+b: Joe Carroll
+c: Joe Dumars
+d: Joe Cooper
+Team: BKN
+========EOQ========
+Q: What is the Brooklyn Nets' franchise record for wins in a season in the NBA?
+a: 52
+b: 47
+c: 45
+d: 73
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in career points?
+a: Brook Lopez
+b: Jason Kidd
+c: Joe Johnson
+d: Vince Carter
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in career assists?
+a: Jason Kidd
+b: Drazen Petrovic
+c: Deron Williams
+d: Devin Harris
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in career rebounds?
+a: Buck Williams
+b: Shaquille O'Neal
+c: Alonzo Mourning
+d: Jarret Allen
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in career blocks?
+a: Brook Lopez
+b: Buck Williams
+c: Alonzo Mourning
+d: Julius Erving
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in points-per-game?
+a: Rick Barry
+b: Brook Lopez
+c: Jason Kidd
+d: Joe Johnson
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in rebounds-per-game?
+a: Buck Williams
+b: Alonzo Mourning
+c: Erick Dampier
+d: Nenad Krstic
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in assists-per-game?
+a: Jason Kidd
+b: Devin Harris
+c: Deron Williams
+d: Rafer Alston
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in blocks-per-game?
+a: Shawn Bradley
+b: Alonzo Mourning
+c: Kevin Garnett
+d: Brook Lopez
+Team: BKN
+========EOQ========
+Q: Who is the Brooklyn Nets franchise leader in triple doubles?
+a: Jason Kidd
+b: Jarret Allen
+c: Deron Williams
+d: Rick Barry
+Team: BKN
+========EOQ========
+Q: Which Brooklyn Nets Player led the NBA in triple-doubles for 5 consecutive seasons from 2003-2004 to 2007-2008?
+a: Jason Kidd
+b: Vince Carter
+c: Richard Jefferson
+d: Deron Williams
+Team: BKN
+========EOQ========
+Q: Which of the following celebrities owned a minority stake in the Brooklyn Nets?
+a: Jay Z
+b: J Cole
+c: Joey Badass
+d: Jimmy Fallon
+Team: BKN
+========EOQ========
+Q: Which former member of the Brooklyn Nets franchise was enshrined in the Hall of Fame after playing only 5 years in the NBA?
+a: Drazen Petrovic
+b: Len Bias
+c: Jay Williams
+d: Brandon Roy
+Team: BKN
+========EOQ========
+Q: Which disgruntled NBA player did the Brooklyn Nets acquire via trade during the 2003-2004 season?
+a: Vince Carter
+b: Richard Jefferson
+c: Jason Kidd
+d: Alonzo Mourning
+Team: BKN
+========EOQ========
+Q: In what year were the Toronto Raptors formed?
+a: 1995
+b: 2000
+c: 1988
+d: 1976
+Team: TOR
+========EOQ========
+Q: Which Toronto Raptor set the current NBA record for free-throw percentage in season?
+a: Jose Calderon
+b: Steve Nash
+c: Vince Carter
+d: Kawhi Leonard
+Team: TOR
+========EOQ========
+Q: What is the NBA single-season record for free-throw percentage set by Jose Calderon in the 2008-2009 season?
+a: 98.1%
+b: 90.1%
+c: 89.8%
+d: 93.5%
+Team: TOR
+========EOQ========
+Q: Which Toronto Raptors player hit the only Game 7 buzzer-beater in NBA playoffs history against the Philadelphia 76ers?
+a: Kawhi Leonard
+b: Vince Carter
+c: Kyle Lowry
+d: OG Anunoby
+Team: TOR
+========EOQ========
+Q: Which former Raptors head coach was fired in the same year that he was named NBA Coach of the Year?
+a: Dwane Casey
+b: Sam Mitchell
+c: Nick Nurse
+d: Jay Triano
+Team: TOR
+========EOQ========
+Q: Which former Toronto Raptors player was nicknamed "Mighty Mouse"?
+a: Damon Stoudamire
+b: Vince Carter
+c: Muggsy Bogues
+d: Mike James
+Team: TOR
+========EOQ========
+Q: Who was the first Toronto Raptors player to record more than 200 blocks in a season?
+a: Marcus Camby
+b: Chris Bosh
+c: Pascal Siakam
+d: Chris Boucher
+Team: TOR
+========EOQ========
+Q: How many NBA Championships have the Toronto Raptors franchise won?
+a: 1
+b: 0
+c: 4
+d: 17
+Team: TOR
+========EOQ========
+Q: Which Toronto Raptors player won NBA Finals MVP following their championship run in 2018-2019 season?
+a: Kawhi Leonard
+b: Fred Van Vleet
+c: Kyle Lowry
+d: DeMar DeRozan
+Team: TOR
+========EOQ========
+Q: Which player did the Toronto Raptors select with their first ever draft pick in the 1995 NBA draft?
+a: Damon Stoudamire
+b: Jimmy King
+c: Marcus Camby
+d: Tracy McGrady
+Team: TOR
+========EOQ========
+Q: Which Toronto Raptors player has the highest single-season three-point field goal percentage in franchise history?
+a: Jason Kapono
+b: Anthony Parker
+c: Donyell Marshall
+d: Morris Peterson
+Team: TOR
+========EOQ========
+Q: Which player was the first Toronto Raptor to win the NBA Sixth Man of the Year?
+a: Lou Williams 
+b: Morris Peterson
+c: OG Anunoby
+d: Mike James
+Team: TOR
+========EOQ========
+Q: Which player did the Toronto Raptors select with the only 1st overall pick in franchise history in the 2006 NBA draft?
+a: Andrea Bargnani
+b: Chris Bosh
+c: Marcus Camby
+d: Jonas Valanciunas
+Team: TOR
+========EOQ========
+Q: Which of the following was not a nickname for former Toronto Raptors player Vince Carter?
+a: The Florida Flightman
+b: Air Canada Carter
+c: Vinsanity
+d: Half-Man Half-Amazing
+Team: TOR
+========EOQ========
+Q: Which of the following players was drafted by the Toronto Raptors?
+a: Antawn Jamison
+b: Vince Carter
+c: Kyle Lowry
+d: Kawhi Leonard
+Team: TOR
+========EOQ========
+Q: Which of the following players was drafted by the Toronto Raptors?
+a: Tracy McGrady
+b: Fred Van Vleet
+c: Chris Boucher
+d: Norman Powell
+Team: TOR
+========EOQ========
+Q: Who was the first Toronto Raptor to win an NBA Dunk Contest?
+a: Vince Carter
+b: Tracy McGrady
+c: DeMar DeRozan
+d: Terence Ross
+Team: TOR
+========EOQ========
+Q: Which of the following Toronto Raptors players won two consecutive NBA 3-point Shooting Contests?
+a: Jason Kapono
+b: Kyle Lowry
+c: Terence Ross
+d: DeMar DeRozan
+Team: TOR
+========EOQ========
+Q: What is the Toronto Raptors' franchise record for wins in a season?
+a: 59
+b: 69
+c: 51
+d: 64
+Team: TOR 
+========EOQ========
+Q: What is the fewest wins recorded in a season by the Toronto Raptors?
+a: 16
+b: 9
+c: 7
+d: 38
+Team: TOR
+========EOQ========
+Q: Who was the first Toronto Raptor to score 50 points in a NBA playoff game?
+a: Vince Carter
+b: Chauncey Billups
+c: Chris Bosh
+d: Kawhi Leonard
+Team: TOR
+========EOQ========
+Q: Which team did the Toronto Raptors defeat in the 2018-2019 NBA finals to win the NBA Championship?
+a: Golden State Warriors
+b: Los Angeles Lakers
+c: Houston Rockets
+d: Portland Trailblazers
+Team: TOR
+========EOQ========
+Q: Which of the following players has won an NBA Dunk Contest as a member of the Toronto Raptors?
+a: Vince Carter
+b: DeMar DeRozan
+c: Tracy McGrady
+d: Jamario Moon
+Team: TOR
+========EOQ========
+Q: Which of the following players has won an NBA Dunk Contest as a member of the Toronto Raptors?
+a: Terence Ross
+b: DeMar DeRozan
+c: Tracy McGrady
+d: Norman Powell
+Team: TOR
+========EOQ========
+Q: Which of the following Toronto Raptors has won an NBA Dunk Contest?
+a: Dee Brown
+b: DeMar DeRozan
+c: Tracy McGrady
+d: Jamario Moon
+Team: TOR
+========EOQ========
+Q: Which of the following players has never played for the Toronto Raptors
+a: Alonzo Mourning
+b: Charles Oakley
+c: Hakeem Olajuwan
+d: Chauncey Billups
+Team: TOR
+========EOQ========
+Q: Which of the following player was acquired by the Toronto Raptors via trade but refused to play for the team?
+a: Alonzo Mourning
+b: Vince Carter
+c: Antonio Davis
+d: Hakeem Olajuwan
+Team: TOR
+========EOQ========
+Q: Which of the following Toronto Raptors was nicknamed "The Red Rocket"?
+a: Matt Bonner
+b: Andrea Bargnani
+c: Anthony Parker
+d: Damon Stoudamire
+Team: TOR
+========EOQ========
+Q: Which of the following players has never played for the Toronto Raptors
+a: Antawn Jamison
+b: Jermaine O'Neal
+c: Doug Christie
+d: Chauncey Billups
+Team: TOR
+========EOQ========
+Q: Which of the following former Toronto Raptors players is currently in the Hall of Fame?
+a: Tracy McGrady
+b: Vince Carter
+c: Chris Bosh
+d: Chauncey Billups
+Team: TOR
+========EOQ========
+Q: Which of the following former Toronto Raptors players is currently in the Hall of Fame?
+a: Hakeem Olajuwan
+b: Vince Carter
+c: Chris Bosh
+d: Charles Oakley
+Team: TOR
+========EOQ========
+Q: Which player holds the Toronto Raptors rookie record for points in a game with 48 points?
+a: Charlie Villanueva
+b: Chris Bosh
+c: Vince Carter
+d: Tracy McGrady
+Team: TOR
+========EOQ========
+Q: Which player holds the Toronto Raptors rookie record for assists in a game with 19 assists?
+a: Damon Stoudamire
+b: Chauncey Billups
+c: Jose Calderon
+d: TJ Ford
+Team: TOR
+========EOQ========
+Q: Which of the following coaches has never won NBA Coach of the year as the head coach of the Toronto Raptors?
+a: Brendan Malone
+b: Sam Mitchell
+c: Dwane Casey
+d: Nick Nurse
+Team: TOR
+========EOQ========
+Q: Which of the following players has won the NBA Most Improved Player Award as a member of the Toronto Raptors?
+a: Pascal Siakam
+b: Vince Carter
+c: Fred Van Vleet
+d: Lou Williams
+Team: TOR
+========EOQ========
+Q: Which of the following players has won the NBA Rookie of the Year Award as a member of the Toronto Raptors?
+a: Vince Carter
+b: Tracy McGrady
+c: Chris Bosh
+d: DeMar DeRozan
+Team: TOR
+========EOQ========
+Q:  Which of the following players has won the NBA Rookie of the Year Award as a member of the Toronto Raptors?
+a: Damon Stoudamire
+b: Andrea Bargnani
+c: Jorge Garbajosa
+d: Jonas Valanciunas
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in games played?
+a: DeMar DeRozan
+b: Chris Bosh
+c: Vince Carter
+d: Alonzo Mourning
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in career points?
+a: DeMar DeRozan
+b: Kyle Lowry
+c: Kawhi Leonard
+d: Morris Peterson
+Team: TOR
+========EOQ========
+Q: Which of the following Toronto Raptors was nicknamed "The Junkyard Dog"?
+a: Jerome Williams
+b: TJ Ford
+c: Rafer Alston
+d: Donyell Marshall
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in points-per-game?
+a: Vince Carter
+b: Morris Peterson
+c: DeMar DeRozan
+d: Tracy McGrady
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in career assists?
+a: Kyle Lowry
+b: TJ Ford
+c: Mike James
+d: Chauncey Billup
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in assists-per-game?
+a: Damon Stoudamire
+b: Rafer Alston
+c: TJ Ford
+d: Alvin Williams
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in career rebounds?
+a: Chris Bosh
+b: Antonio Davis
+c: Marcus Camby
+d: Jonas Valanciunas
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in rebounds-per-game?
+a: Chris Bosh
+b: Antonio Davis
+c: Hakeem Olajuwan
+d: Charles Oakley
+Team: TOR
+========EOQ========

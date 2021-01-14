@@ -1,0 +1,700 @@
+Q: Who is the Toronto Raptors' franchise leader in career blocks?
+a: Chris Bosh
+b: Marcus Camby
+c: Rafael Araujo
+d: Andrea Bargnani
+Team: TOR
+========EOQ========
+Q: Who is the Toronto Raptors' franchise leader in blocks-per-game?
+a: Marcus Camby
+b: Serge Ibaka
+c: Marc Gasol
+d: Olivier Miller
+Team: TOR
+========EOQ========
+Q: Which player did the Toronto Raptors select with the 4th overall pick in the 2003 NBA Draft?
+a: Chris Bosh
+b: Carmelo Anthony
+c: TJ Ford
+d: Dwyane Wade
+Team: TOR
+========EOQ========
+Q: Which of the following Toronto Raptors players was nicknamed "Il Mago" (The Magician)?
+a: Andrea Bargnani
+b: Uros Slokar
+c: Vince Carter
+d: Carlos Delfino
+Team: TOR
+========EOQ========
+Q: Which player holds the Toronto Raptors' record for points in a single game?
+a: DeMar DeRozan
+b: Chris Bosh
+c: Vince Carter
+d: Kyle Lowry
+Team: TOR
+========EOQ========
+Q: Which player holds the Toronto Raptors' record for rebounds in a single game?
+a: Bismack Biyombo
+b: Pascal Siakam
+c: Serge Ibaka
+d: Antonio Davis
+Team: TOR
+========EOQ========
+Q: Which pair of Toronto Raptors teammates competed in the same NBA dunk contest?
+a: Vince Carter & Tracy McGrady
+b: DeMar DeRozan & Terence Ross
+c: DeMar DeRozan & Jamario Moon
+d: DeMar DeRozan & Vince Carter
+Team: TOR
+========EOQ========
+Q: In which year was the Chicago Bulls franchise founded?
+a: 1966
+b: 1988
+c: 2005
+d: 1954
+Team: CHI
+========EOQ========
+Q: How many NBA championships did the Chicago Bulls win during the 1990s?
+a: 6
+b: 3
+c: 1
+d: 7
+Team: CHI
+========EOQ========
+Q: Which of the following players was the first to have his jersey retired by the Chicago Bulls?
+a: Jerry Sloan
+b: Michael Jordan
+c: Scottie Pippen
+d: Charles Oakley
+Team: CHI
+========EOQ========
+Q: What is the name of the Chicago Bulls mascot?
+a: Benny the Bull
+b: Bucky the Bull
+c: Baller the Bull
+d: Benji the Bull
+Team: CHI
+========EOQ========
+Q: Which of the following Chicago Bulls players wrestled Hulk Hogan prior to game 4 of the 1998 NBA Final?
+a: Dennis Rodman
+b: Scottie Pippen
+c: Charles Oakley
+d: Steve Kerr
+Team: CHI
+========EOQ========
+Q: How many games did the Chicago Bulls win in the 1995-1996 NBA season?
+a: 72
+b: 70
+c: 69
+d: 73
+Team: CHI
+========EOQ========
+Q: Which player the did player miss out on drafting in the 1979 NBA draft due to a lost coin flip?
+a: Magic Johnson
+b: Larry Bird
+c: Hakeem Olajuwan
+d: Michael Jordan
+Team: CHI
+========EOQ========
+Q: What is Michael Jordan's career high for points in a game as a member of the Chicago Bulls?
+a: 69
+b: 81
+c: 100
+d: 70
+Team:CHI 
+========EOQ========
+Q: Which of the following is Michael Jordan's birthplace?
+a: Brooklyn, New York
+b: Wilmington, North Carolina
+c: Chicago, Illinois
+d: Raleigh, North Carolina
+Team: CHI
+========EOQ========
+Q: Which of the following teams did the Michael Jordan play for during his NBA career?
+a: Chicago Bulls and Washington Wizards
+b: Chicago Bulls only
+c: Chicago Bulls and New Orleans Hornets
+d: Chicago Bulls adn Portland Trailblazers
+Team: CHI
+========EOQ========
+Q: Which team is known for creating "The Jordan Rules"
+a: Detroit Pistons
+b: Boston Celtics
+c: Indiana Pacers
+d: New York Knicks
+Team: CHI
+========EOQ========
+Q: At which position did the Chicago Bulls select Michael Jordan in the 1984 NBA draft?
+a: 3rd overall
+b: 1st overall
+c: 2nd overall
+d: 4th overall
+Team: CHI
+========EOQ========
+Q: Which player was selected 2nd overall in the 1984 NBA draft while Michael Jordan was still available?
+a: Sam Bowie
+b: Hakeem Olajuwan
+c: Charles Barkley
+d: John Stockton
+Team: CHI
+========EOQ========
+Q: Which of the following teams drafted Scottie Pippen with the 5th overall pick in the 1987 NBA draft?
+a: Seattle Supersonics
+b: Chicago Bulls
+c: San Antonio Spurs
+d: Portland Trailblazers
+Team: CHI
+========EOQ========
+Q: Which of the following is Dennis Rodman's nickname?
+a: The Worm
+b: The Admiral
+c: Junkyard Dog
+d: Robin
+Team: CHI
+========EOQ========
+Q: Who was the coach of the Chicago Bulls during their 6 NBA championship run?
+a: Phil Jackson
+b: Pat Riley
+c: Doug Collins
+d: Jerry Krause
+Team: CHI
+========EOQ========
+Q: Which of the following players holds the NBA record for most finals MVPs?
+a: Michael Jordan
+b: Lebron James
+c: Shaquille O'Neal
+d: Magic Johnson
+Team: CHI
+========EOQ========
+Q: Which of the following players hold the NBA record for most NBA scoring titles?
+a: Michael Jordan
+b: Allen Iverson
+c: Wilt Chamberlain
+d: George Gervin
+Team: CHI
+========EOQ========
+Q: Which sport did Michael Jordan play professionally following his first retirement in 1993?
+a: Baseball
+b: Golf
+c: Football
+d: Ice Hockey
+Team: CHI
+========EOQ========
+Q: How many NBA Defensive Player of the Year awards has Michael Jordan won?
+a: 1
+b: 2
+c: 3
+d: 0
+Team: CHI
+========EOQ========
+Q: Which of the following was not one of Michael Jordan's nicknames?
+a: Half-Man Half-Amazing
+b: Air Jordan
+c: His Airness
+d: Black Cat
+Team: CHI
+========EOQ========
+Q: How many NBA championships have the Chicago Bulls won?
+a: 6
+b: 8
+c: 9
+d: 7
+Team: CHI
+========EOQ========
+Q: Which of the following teams is the only NBA team to have multiple NBA championships without losing a NBA Finals series?
+a: Chicago Bulls
+b: Toronto Raptors
+c: Boston Celtics
+d: Houston Rockets
+Team: CHI
+========EOQ========
+Q: How many players have won an NBA MVP award as a member of the Chicago Bulls?
+a: 2
+b: 1
+c: 4
+d: 0
+Team: CHI
+========EOQ========
+Q: How many NBA MVP awards have been won by members of the Chicago Bulls?
+a: 6
+b: 5
+c: 1
+d: 2
+Team: CHI
+========EOQ========
+Q: Which of the following Chicago Bulls is the youngest ever winner of the NBA MVP award?
+a: Derrick Rose
+b: Michael Jordan
+c: Steve Nash
+d: Dwight Howard
+Team: CHI
+========EOQ========
+Q: Which player did the Chicago Bulls select with the 1st overall pick in the 2008 NBA Draft?
+a: Derrick Rose
+b: LaMarcus Aldridge
+c: Jimmy Butler
+d: Joakim Noah
+Team: CHI
+========EOQ========
+Q: In which city did Dennis Rodman famously take a team-sanctioned vacation in the middle of the Chicago Bulls' 1997-1998 season?
+a: Las Vegas
+b: Los Angeles
+c: Toronto
+d: New York
+Team: CHI
+========EOQ========
+Q: What was Michael Jordan's jersey number when he returned to the Chicago Bulls following his first retirement?
+a: 45
+b: 23
+c: 42
+d: 6
+Team: CHI
+========EOQ========
+Q: Which of the following is not one of the reasons Michael Jordan wore jersey number 45 upon returning to the Chicago Bulls following his first retirement?
+a: He lost a golf bet to Charles Barkley which prevented him from wearing the number 23
+b: The Chicago Bulls had retired the number 23
+c: It was his jersey number in high school
+d: He didn't want to wear 23 because his father was no longer able to watch him play
+Team: CHI
+========EOQ========
+Q: Which of the following explains the "Derrick Rose Rule" named after Derrick Rose of the Chicago Bulls
+a: A player coming off his rookie contract can earn up to 30% of the salary cap if he meets certain criteria
+b: A 1st overall pick can be signed to a 5-year rookie contract if the team offers 25% of the cap space per year
+c: The shot-clock and game-clock don't start following an inbound until a player touches the ball
+d: A defensive player must ensure that a jump-shooter has enough space to land safely
+Team: CHI
+========EOQ========
+Q: What are the "Jordan Rules"?
+a: A reference to the physical style of defense employed by the Detroit Pistons against Michael Jordan of the Chicago Bulls 
+b: A refernce to the "special treatment" Michael Jordan received from the referees during the late 1980s
+c: The chores Michael Jordan would force Chicago Bulls rookies to complete as part of rookie hazing in the 1990s
+d: A reference to Michael Jordan's strict daily routines during his NBA championship runs with the Chicago Bulls
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in career games played?
+a: Michael Jordan
+b: Scottie Pippen
+c: Jerry Sloan
+d: Joakim Noah
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in career points?
+a: Michael Jordan
+b: Derrick Rose
+c: Jerry Sloan
+d: Scottie Pippen
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in points-per-game?
+a: Michael Jordan
+b: Scottie Pippen
+c: Joakim Noah
+d: George Gervin
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in career assists?
+a: Michael Jordan
+b: Ennis Whatley
+c: Kirk Hinrich
+d: Derrick Rose
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in assists-per-game?
+a: Ennis Whatley
+b: Kirk Hinrich
+c: Jalen Rose
+d: Kris Dunn
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in career rebounds?
+a: Michael Jordan
+b: Joakim Noah
+c: Dennis Rodman
+d: Scottie Pippen
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in rebounds-per-game?
+a: Dennis Rodman
+b: Joakim Noah
+c: Ben Wallace
+d: Charles Oakley
+Team: CHI
+========EOQ========
+Q: Which of the following players is the Chicago Bulls' franchise leader in career steals?
+a: Michael Jordan
+b: Derrick Rose
+c: Scottie Pippen
+d: Dennis Rodman
+Team: CHI
+========EOQ========
+Q: Which of the following players has won NBA 6th Man of the Year as a member of the Chicago Bulls?
+a: Ben Gordon
+b: Luol Deng
+c: Joakim Noah
+d: Derrick Rose
+Team: CHI
+========EOQ========
+Q: Which of the following players has won NBA 6th Man of the Year as a member of the Chicago Bulls?
+a: Toni Kukoc
+b: Luc Longley
+c: Steve Kerr
+d: Bill Cartwright
+Team: CHI
+========EOQ========
+Q: Which of the following players was left the 1992 US Olympic "Dream Team" because Michael Jordan and Scottie Pippen didn't want to play with him?
+a: Isaiah Thomas
+b: Reggie Miller
+c: David Robinson
+d: Dennis Rodman
+Team: CHI
+========EOQ========
+Q: What is the name of the Chicago Bulls' home stadium?
+a: The United Centre
+b: TD Banknorth Gardens
+c: The Staples Centre
+d: The Forum
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1990-1991 NBA Finals to win the franchise's first championship?
+a: Los Angeles Lakers
+b: Boston Celtics
+c: Phoenix Suns
+d: Utah Jazz
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1991-1992 NBA Finals to win the franchise's second championship?
+a: Portland Trailblazers
+b: Seattle Supersonics
+c: Utah Jazz
+d: Houston Rockets
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1992-1993 NBA Finals to win the franchise's third championship?
+a: Phoenix Suns
+b: Houston Rockets
+c: Orlando Magic
+d: Los Angeles Lakers
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1995-1996 NBA Finals to win the franchise's fourth championship?
+a: Seattle SuperSonics
+b: Portland Trailblazers
+c: Utah Jazz
+d: Milwaukee Bucks
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1996-1997 NBA Finals to win the franchise's fifth championship?
+a: Utah Jazz
+b: Phoenix Suns
+c: Los Angeles Lakers
+d: Dallas Mavericks
+Team: CHI
+========EOQ========
+Q: Which team did the Chicago Bulls defeat in the 1997-1998 NBA Finals to win the franchise's sixth championship?
+a: Utah Jazz
+b: Los Angeles Lakers
+c: Portland Trailblazers
+d: Seattle Supersonics
+Team: CHI
+========EOQ========
+Q: Which player did the Chicago Bulls select with the 1st overall pick in the 1999 NBA draft?
+a: Elton Brand
+b: Kwame Brown
+c: Michael Olowokandi
+d: Kenyon Martin
+Team: CHI
+========EOQ========
+Q: Which NBA franchise has had the most 1st overall draft picks?
+a: Cleveland Cavaliers
+b: Boston Celtics
+c: Philadelphia 76ers
+d: Houston Rockets
+Team: ZZZ
+========EOQ========
+Q: When was the Detroit Pistons francshise founded?
+a: 1941
+b: 1976
+c: 1988
+d: 2005
+Team: DET
+========EOQ========
+Q: Where was the Detroit Pistons franchise originally located?
+a: Fort Wayne, Indiana
+b: Detroit, Michigan
+c: Chicago, Illinois
+d: Toronto, Canada
+Team: DET
+========EOQ========
+Q: How many NBA championships have the Detroit Pistons franchise won?
+a: 3
+b: 1
+c: 0
+d: 2
+Team: DET
+========EOQ========
+Q: Which team did the Detroit Pistons defeat in the 2003-2004 NBA Finals to win the NBA championship?
+a: Los Angeles Lakers
+b: San Antonio Spurs
+c: Minnesota Timberwolves
+d: Sacramento Kings
+Team: DET
+========EOQ========
+Q: Which team did the Detroit Pistons defeat in the 1989-1990 NBA Finals to win the NBA championship?
+a: Portland Trailblazers
+b: Los Angeles Lakers
+c: Dallas Mavericks
+d: Houston Rockets
+Team: DET
+========EOQ========
+Q: Which team did the Detroit Pistons defeat in the 1988-1989 NBA Finals to win the NBA championship?
+a: Los Angeles Lakers
+b: Seattle Supersonics
+c: Phoenix Suns
+d: San Francisco Warriors
+Team: DET
+========EOQ========
+Q: Which of the following players was not a member of the "Bad Boy" Pistons?
+a: Ben Wallace
+b: Isaiah Thomas
+c: Bill Laimbeer
+d: Dennis Rodman
+Team: DET
+========EOQ========
+Q: How did the "Bad Boy" Pistons earn their nickname?
+a: They played a very physical, defense-oriented style of game
+b: Multiple players had high profile legal problems
+c: The players had a turbulent relationship with media
+d: The players ignored the league's rules on conduct including its dress code
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons players is not a member of the Hall of Fame?
+a: Isaiah Thomas
+b: Ben Wallace
+c: Grant Hill
+d: Tracy McGrady
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons players is not a member of the Hall of Fame?
+a: Chauncey Billups
+b: Joe Dumars
+c: Dennis Rodman
+d: Allen Iverson
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons players was nicknamed "Mr. Big Shot"?
+a: Chauncey Billups
+b: Richard Hamilton
+c: Grant Hill
+d: Isaiah Thomas
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons was notably left off the 1992 US Olympic "Dream Team"?
+a: Isaiah Thomas
+b: Bill Laimbeer
+c: Dennis Rodman
+d: David Robinson
+Team: DET
+========EOQ========
+Q: Which player did the Detroit Pistons select with the 2nd overall pick in the 2003 NBA draft?
+a: Darko Milicic
+b: Kirk Hinrich
+c: Carmelo Anthony
+d: Luke Ridnour
+Team: DET
+========EOQ========
+Q: What is the name of the Detroit Pistons' mascot?
+a: Hooper
+b: Dunker
+c: Pierre
+d: Burnie
+Team: DET
+========EOQ========
+Q: Who is the first Detroit Pistons player to win NBA 6th Man of the Year?
+a: Corliss Williamson
+b: Tayshaun Prince
+c: Dennis Rodman
+d: Carlos Delfino
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons players won NBA Finals MVP when they won the NBA championship in 2003-2004?
+a: Chauncey Billups
+b: Richard Hamilton
+c: Rasheed Wallace
+d: Ben Wallace
+Team: DET
+========EOQ========
+Q: Which of the following players spent their entire playing career with the Detroit Pistons?
+a: Isaiah Thomas
+b: Chauncey Billups
+c: Ben Wallace
+d: John Salley
+Team: DET
+========EOQ========
+Q: Which of the following players won NBA Rookie of the Year as a member of the Detroit Pistons?
+a: Grant Hill
+b: Isaiah Thomas
+c: John Salley
+d: Adrian Dantley
+Team: DET
+========EOQ========
+Q: What is the current name of the Detroit Pistons' home stadium?
+a: Little Caesars Arena
+b: The Palace of Auburn Hills
+c: Oracle Arena
+d: The United Centre
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in career games played?
+a: Joe Dumars
+b: Isaiah Thomas
+c: Ben Wallace
+d: Chauncey Billups
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in career points?
+a: Isaiah Thomas
+b: Grant Hill
+c: Richard Hamilton
+d: Dave Debusschere
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in points-per-game?
+a: Bob Lanier
+b: Isaiah Thomas
+c: Grant Hill
+d: Richard Hamilton
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in career rebounds?
+a: Bill Laimbeer
+b: Dennis Rodman
+c: Ben Wallace
+d: Rasheed Wallace
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in rebounds-per-game?
+a: Andre Drummond
+b: Bill Laimbeer
+c: Ben Wallace
+d: Rasheed Wallace
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in career assists?
+a: Isaiah Thomas
+b: Chauncey Billups
+c: Derrick Rose
+d: Reggie Jackson
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in assists-per-game?
+a: Kevin Porter
+b: Isaiah Thomas
+c: Grant Hill
+d: Brandon Jennings
+Team: DET
+========EOQ========
+Q: Which of following players is the Detroit Pistons' leader in career blocks?
+a: Ben Wallace
+b: Andre Drummond
+c: Blake Griffin
+d: Jerry Stackhouse
+Team: DET
+========EOQ========
+Q: How many NBA Defensive Player of the Year Awards has Ben Wallace won?
+a: 4
+b: 2
+c: 0
+d: 1
+Team: DET
+========EOQ========
+Q: What is the Detroit Pistons' franchise record for wins in a season?
+a: 64
+b: 59
+c: 72
+d: 73
+Team: DET 
+========EOQ========
+Q: What is the furthest the Detroit Pistons have ever made it into the NBA playoffs?
+a: NBA Champions
+b: NBA Finals
+c: Eastern Conference Finals
+d: Eastern Conference Semi-Finals
+Team: DET
+========EOQ========
+Q: What is the Detroit Pistons' franchise record for fewest wins in a season?
+a: 16
+b: 9
+c: 30
+d: 27
+Team: DET
+========EOQ========
+Q: Which of the following players is the Detroit Pistons' franchise leader in career points, assists and steals?
+a: Isaiah Thomas
+b: Grant Hill
+c: Joe Dumars
+d: Jerry Stackhouse
+Team: DET
+========EOQ========
+Q: Which player holds the Detroit Pistons' record for points in a season?
+a: Jerry Stackhouse
+b: Grant Hill
+c: Isaiah Thomas
+d: Blake Griffin
+Team: DET
+========EOQ========
+Q: Which of the following players holds the Detroit Pistons' record for points in a single game?
+a: Jerry Stackhouse
+b: Blake Griffin
+c: Grant Hill
+d: Andre Drummond
+Team: DET
+========EOQ========
+Q: Which of the following players was drafted by the Detroit Pistons?
+a: Isaiah Thomas
+b: Ben Gordon
+c: John Salley
+d: Blake Griffin
+Team: DET
+========EOQ========
+Q: Which of the following players was drafted by the Detroit Pistons?
+a: Grant Hill
+b: Ben Wallace
+c: Bill Laimbeer
+d: Derrick Rose
+Team: DET
+========EOQ========
+Q: Which of the following players was drafted by the Detroit Pistons?
+a: Andre Drummond
+b: Richard Hamilton
+c: Jerry Stackhouse
+d: Brandon Jennings
+Team: DET
+========EOQ========
+Q: Which of the following players was drafted by the Detroit Pistons?
+a: Dennis Rodman
+b: Chauncey Billups
+c: Stephen Jackson
+d: Reggie Jackson
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons was nicknamed "Rip"?
+a: Richard Hamilton
+b: Reggie Jackson
+c: Dennis Rodman
+d: Reggie Theus
+Team: DET
+========EOQ========
+Q: Which of the following Detroit Pistons was nicknamed "Zeke"?
+a: Isaiah Thomas
+b: John Salley
+c: Richard Hamiltom
+d: Derrick Rose
+Team: DET
+========EOQ========
+Q: What is the Detroit Pistons' team name a reference to? 
+a: Founder Fred Zollner owned a piston-manufacturing company
+b: Detroit's weapons manufacturing history
+c: Founder Fred Zollner's Kentucky Derby-winning horse named "Piston"
+d: Detroit's car manufacturing history
+Team: DET
+========EOQ========
