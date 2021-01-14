@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  
+  redis:
+    image: "redis:alpine"
+    hostname: redis
+    ports:
+      - "6379:6379" 
+  pgdb:
+    image: "postgres"
+    container_name: "pgdb"
+    environment:
+      POSTGRES_PASSWORD: "password"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+  django:
+    build: .
+    container_name: "django"
+    command: bash -c "python /code/manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis      
+      - pgdb
+
+volumes:
+  postgres_data:
