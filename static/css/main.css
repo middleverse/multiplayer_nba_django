@@ -44,6 +44,14 @@ body{
     bottom: 27%;
 }
 
+.player-icon-black {
+    content: url("../images/player_black.png");
+}
+
+.player-icon-white {
+    content: url("../images/player_white.png");
+}
+
 .player-icon-one {
     content: url("../images/player_red.png");
 }
