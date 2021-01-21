@@ -328,12 +328,11 @@ input[type="radio"] {
 .about-team-icon {
     height:200px;
     position: relative;
-    left: -20px;
     bottom: 26px;
 }
 
 .about-text {
-    left: -33px;
+    left: 0px;
 }
 
 .home-trivia-text-lg {
