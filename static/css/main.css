@@ -3,13 +3,13 @@ html, body {
 }
 
 .body-home {
-	background: linear-gradient(-45deg, #48c5ffe3, #f8f9fa, #ff39ff85);
+	background: linear-gradient(-45deg, #76ffede3, #b2e7ffe3, #f8f9fa, #ff8bff85);
 	background-size: 1000% 1000%;
 	animation: bg-gradient 10s ease infinite;
 }
 
 .body-court {
-	background: linear-gradient(-45deg, #ff3683, #f8f9fa, white, #a9f1e0, #35b6e6);
+	background: linear-gradient(-45deg, #f776a7, #f8f9fa, white, #a9f1e0, #35b6e6);
 	background-size: 1000% 1000%;
 	animation: bg-gradient 10s ease infinite;
 }
@@ -337,6 +337,6 @@ input[type="radio"] {
 
 .home-trivia-text-lg {
     position: absolute;
-    right: 10px;
-    top:100px;
+    right: 0px;
+    top:25px;
 }
