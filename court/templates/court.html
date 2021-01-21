@@ -157,6 +157,12 @@
         // load yourself
         update_role_ui()
         document.getElementById('player-list').innerHTML = ''
+        console.log('Loading initial player list')
+        // TODO: May need to be changed in order to make sure we're not s
+        // adding a player that's already in there
+        if (player_id_list.includes(session_player_id) == false) {
+            player_id_list.push(session_player_id)
+        }
         session_player_list = player_id_list
         console.log('session list provided by cap:', player_id_list)
         player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
