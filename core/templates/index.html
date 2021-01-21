@@ -9,19 +9,14 @@
 
 <div class='container ripple-background h-100'>
   <div class="circle-ripple xxlarge shade1"></div>
-  <div class="circle-ripple xlarge shade2"></div>
-  <div class="circle-ripple large shade3"></div>
-  <div class="d-none d-md-block circle-ripple medium shade4"></div>
-  <div class="d-none d-md-block circle-ripple small shade5"></div>
 
-  
   <div class='row align-items-center justify-content-center p-5 h-100'>
 
             <!-- BOTTOM TEXT -->
-      <div class="home-trivia-text-sm col-12 d-md-none align-self-end text-center order-3">
+      {% comment %} <div class="home-trivia-text-sm col-12 d-md-none align-self-end text-center order-3">
         <p class='h8 font-weight-bold'><mark class='bg-dark-my text-light p-2'>THE DEFINITIVE</p></mark>
         <p class='h6 font-weight-bold'><mark class='bg-dark-my text-light p-2'>MULTIPLAYER NBA TRIVIA GAME!</p></mark>
-      </div>
+      </div> {% endcomment %}
       <div class="home-trivia-text-lg col-12 d-none d-md-block align-self-end text-right">
         <p class='h8 font-weight-bold'><mark class='bg-dark-my text-light p-2'>PLAY, LEARN & COMPETE</mark></p>
         <p class='h6 font-weight-bold'><mark class='bg-dark-my text-light p-2'>A MULTIPLAYER NBA TRIVIA GAME!</mark></p>
@@ -30,20 +25,20 @@
 
       <!-- LOGO SM+ -->
       <div class='col-12 align-self-end d-none d-md-block text-center'>
-        <img src="{% static 'images/logo_blue_dark.png' %}" alt='RUN AND GUN LOGO' width='450' height='450'>
+        <img src="{% static 'images/logo_combo_berlin.png' %}" alt='RUN AND GUN LOGO' width='450' height='450'>
       </div>
       
       <!-- LOGO XS -->
       <div class='col align-self-end d-md-none d-block col-auto'>
         <div class='row'>
           <div class='col  text-center'>
-            <img src="{% static 'images/logo_blue_dark.png' %}" alt='RUN AND GUN LOGO' height='350' width='350'>
+            <img src="{% static 'images/logo_combo_berlin.png' %}" alt='RUN AND GUN LOGO' height='250' width='250'>
           </div>
         </div>
       </div>
 
       <!-- GAME JOIN OPTIONS -->
-      <div id='game-join-options' class='col-md-6 py-3 mb-md-2'>
+      <div id='game-join-options' class='col-lg-6 py-3 mb-md-2'>
         <div class='row justify-content-center m-3 ml-4'>
           <!-- CREATE -->
           <div class='col-6 d-flex flex-row-reverse'>
