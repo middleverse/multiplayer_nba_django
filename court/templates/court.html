@@ -161,6 +161,7 @@
         // TODO: May need to be changed in order to make sure we're not s
         // adding a player that's already in there
         session_player_list = player_id_list
+        print('session list provided by cap:', player_id_list)
         player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
     }
 
