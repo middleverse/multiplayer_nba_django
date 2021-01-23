@@ -1,16 +1,16 @@
 <nav class="navbar fixed-top">
       <a href='/' class="navbar-brand">
         {% load static %}
-        <img src="{% static 'images/player_black.png' %}" alt='RUN AND GUN LOGO'  width='75' height='75'>
+        <img src="{% static 'images/player_black.png' %}" alt='RUN AND GUN LOGO'  width='60' height='60'>
       </a>
 </nav>
 
 <nav class="navbar fixed-bottom bg-primary-my" style='border-top: 7px solid #e2d9d98f;'>
         <div class='d-inline-flex justify-content-start'>
-          <a class="nav-link text-light h5  font-weight-bold" href="#">- HOW TO PLAY -</a>
+          <a class="nav-link text-light font-weight-bold" href="#">- HOW TO PLAY -</a>
         </div>
         <div class='d-flex justify-content-end'>
-          <a class="nav-link text-light h5 font-weight-bold" href="{% url 'about' %}">About Us<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-light" href="{% url 'about' %}">About Us<span class="sr-only">(current)</span></a>
         </div>
 
 </nav>

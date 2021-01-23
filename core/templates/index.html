@@ -17,21 +17,21 @@
         <p class='h6 font-weight-bold'><mark class='bg-dark-my text-light p-2'>MULTIPLAYER NBA TRIVIA GAME!</p></mark>
       </div> {% endcomment %}
       <div class="home-trivia-text-lg col-12 d-none d-md-block align-self-end text-right">
-        <p class='h8 font-weight-bold'><mark class='bg-dark-my text-light p-2'>PLAY, LEARN & COMPETE</mark></p>
-        <p class='h6 font-weight-bold'><mark class='bg-dark-my text-light p-2'>A MULTIPLAYER NBA TRIVIA GAME!</mark></p>
+        <p class='h8'><mark class='bg-dark-my text-light p-2'>PLAY, LEARN & COMPETE</mark></p>
+        <p class='h8'><mark class='bg-dark-my text-light p-2'>A MULTIPLAYER NBA TRIVIA GAME!</mark></p>
       </div>
 
 
       <!-- LOGO SM+ -->
       <div class='col-12 align-self-end d-none d-md-block text-center'>
-        <img src="{% static 'images/logo_berlin_dark_inverted.png' %}" alt='RUN AND GUN LOGO' width='450' height='450'>
+        <img src="{% static 'images/logo_berlin_dark_inverted.png' %}" alt='RUN AND GUN LOGO' width='400' height='400'>
       </div>
       
       <!-- LOGO XS -->
       <div class='col align-self-end d-md-none d-block col-auto'>
         <div class='row'>
           <div class='col  text-center'>
-            <img src="{% static 'images/logo_combo_berlin.png' %}" alt='RUN AND GUN LOGO' height='250' width='250'>
+            <img src="{% static 'images/logo_combo_berlin.png' %}" alt='RUN AND GUN LOGO' height='220' width='220'>
           </div>
         </div>
       </div>
@@ -41,12 +41,12 @@
         <div class='row justify-content-center m-3 ml-4'>
           <!-- CREATE -->
           <div class='col-6 d-flex flex-row-reverse'>
-            <a class='btn btn-success font-weight-bold btn-lg' role='button' id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
+            <a class='btn btn-success' role='button' id="create-game" href="{% url 'create_redirect'%}">Create Game</a>
           </div>
 
           <!-- JOIN -->
           <div class='col-6 d-flex flex-row'>
-            <button id='join-game-button' class='btn btn-primary font-weight-bold btn-lg' type='button' data-toggle="collapse" href='#join-game-form-wrapper' aria-expanded="false" aria-controls="join-game-form-wrapper">
+            <button id='join-game-button' class='btn btn-primary' type='button' data-toggle="collapse" href='#join-game-form-wrapper' aria-expanded="false" aria-controls="join-game-form-wrapper">
               Join Game
             </button>
 
