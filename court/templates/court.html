@@ -211,7 +211,8 @@
     }
 
     const obtain_player_id = function() {
-        document.getElementById('obtain-player-id-form').requestSubmit();
+        player_id_form_el = document.getElementById('obtain-player-id-form')
+        manually_get_player_id(player_id_form_el)
     }
 
     const add_answer_posted_ui = function() {
@@ -224,12 +225,14 @@
         document.getElementById('posted-answer-icons').innerHTML = ''
     }
 
-    document.getElementById('obtain-player-id-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const form = event.target
-        const form_data = new FormData(form)
-        const url = form.getAttribute('action')
-        const method = form.getAttribute('method') 
+    const manually_get_player_id = function(form_el) {
+        const form_data = new FormData()
+        form_data.append('obtain-form-court-id', session_court_id)
+        form_data.append("csrfmiddlewaretoken", csrftoken)
+        const url = form_el.action
+        const method = form_el.method
+        console.log('URL', url)
+        console.log('METHOD', method)
         const xhr = new XMLHttpRequest()
         const responseType = 'json'
         xhr.open(method, url) // make the request 
@@ -249,7 +252,8 @@
             }
         }
         xhr.send(form_data)
-    });  
+
+    }  
 
     window.onunload = function leave_game(e) {
         session_exit_form_data = new FormData()
