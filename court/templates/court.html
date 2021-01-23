@@ -265,9 +265,13 @@
     }
 
     const court_id = JSON.parse(document.getElementById('court-id').textContent)
+    
+    const ws_protocol = window.location.protocol == 'https:' ? "wss://" : "ws://"
+    const ws_port = window.location.protocol == 'https:' ? ':443' : ':8000'
     const court_socket = new WebSocket(
-        'ws://' 
-        + window.location.host
+        ws_protocol
+        + window.location.hostname
+        + ws_port
         + '/ws/court/'
         + court_id
         + '/'
