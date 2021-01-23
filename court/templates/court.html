@@ -160,7 +160,7 @@
         console.log('Loading initial player list')
         // TODO: May need to be changed in order to make sure we're not s
         // adding a player that's already in there
-        if (player_id_list.includes(session_player_id) == false) {
+        if (player_id_list.includes(session_player_id) == false && session_player_id != '') {
             player_id_list.push(session_player_id)
         }
         session_player_list = player_id_list
