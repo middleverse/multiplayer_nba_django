@@ -6,13 +6,22 @@
                 <div class='col-auto align-self-start'>
                     <p class='display-4'><span class='badge text-light bg-dark-my'>LOBBY ID: <span class='text-primary-my'>{{court_id}}</span</span></p>
                  </div>
-            </div>       
+            </div>   
+            <div class='row'>
+                <div class='col-auto mt-2'>
+                    {% if role == 'player' %}
+                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status">
+                        </div>
+                        <p class='badge badge-pill bg-primary-my p-2 text-light'>Waiting for CAPTAIN to Start Game</p>
+                    {% endif %} 
+                </div>  
+            </div> 
             <div class='row align-items-center my-4 p-5 bg-dark-my border-secondary-my'>
                 <div class='col-12 col-md-6 pb-md-auto pb-3'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-2'>
                             <div class="spinner-grow spinner-grow-sm text-light mr-1" style='position:relative; bottom:6px;' role="status"></div>
-                            <p class='h2 font-weight-bold' style='display: inline-block;'>PLAYERS HERE</p>
+                            <p class='h2' style='display: inline-block;'>PLAYERS HERE</p>
                         </div>
                     </div>
                     <div class='row justify-content-center'>
@@ -27,7 +36,7 @@
                 <div class='col-12 col-md-6'>
                     <div class='row justify-content-center'>
                         <div class='col-auto my-2 mt-md-1 text-center'>
-                            <p class='h2 mb-4 font-weight-bold'>YOUR ROLE</p>
+                            <p class='h2 mb-4'>YOUR ROLE</p>
                             {% if role == 'captain' %}
                                 <p class='badge bg-danger-my p-2 m-1'>CAPTAIN</p> -
                             {% else %}
@@ -42,7 +51,7 @@
                 <div id='config-options-display' class='col'>
                     <div class='row justify-content-center'>
                         <div class='col-auto mb-3 text-center'>
-                            <p class='h2 mb-3 font-weight-bold'>DIVISION</p>
+                            <p class='h2 mb-3'>DIVISION</p>
                             <div id='config-division-display' class='text-center'>
                                  <!-- List of divisions show up here with JS -->
                             </div>
@@ -59,7 +68,7 @@
                     
                     <div class='row justify-content-center'>
                         <div class='col-auto mt-2'>
-                            <p class='h2 mb-3 font-weight-bold'>SHOT CLOCK</p>
+                            <p class='h2 mb-3'>SHOT CLOCK</p>
                             <div class='row'>
                                 <div class='col-auto badge badge-light mx-auto pt-2 pl-3 pr-3'>
                                     <p class='h4' id='config-shot-clock-display'></p>
@@ -75,12 +84,7 @@
                 <div class='col-auto mb-3'>
                     {% if role == 'captain' %}
                         <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status"></div>
-                        <a role='button' class='btn btn-lg bg-primary-my text-light font-weight-bold' href='' id='start-game'>Start Game</a>
-                    {% else %}
-                        <div class="spinner-grow spinner-grow-sm text-dark mr-1" role="status">
-                        </div>
-                        <p class='badge badge-pill bg-primary-my p-2 text-light font-weight-bold'>Waiting for CAPTAIN to Start Game</p>
-                        
+                        <a role='button' class='btn bg-primary-my text-light' href='' id='start-game'>Start Game</a>
                     {% endif %}
                 </div>
             </div>
