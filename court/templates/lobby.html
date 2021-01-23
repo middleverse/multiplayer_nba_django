@@ -4,10 +4,7 @@
         <div class='col'>
             <div class='row'>
                 <div class='col-auto align-self-start'>
-                    <p class='display-4'><span class='badge text-light bg-dark-my'>LOBBY</span></p>
-                 </div>
-                 <div class='col-auto ml-auto display-4'>
-                    <p class='badge badge-dark'>ID: {{court_id}}</p>
+                    <p class='display-4'><span class='badge text-light bg-dark-my'>LOBBY ID: <span class='text-primary-my'>{{court_id}}</span</span></p>
                  </div>
             </div>       
             <div class='row align-items-center my-4 p-5 bg-dark-my border-secondary-my'>
@@ -89,6 +86,8 @@
             </div>
         </div>
     </div>
-    <img class='d-none d-lg-block lobby-player-icon player-dunk-animate' src="{% static 'images/player_blue_dark.png' %}" alt='RUN AND GUN LOGO'>
+    <img class='d-none d-xl-block lobby-player-icon-lg player-dunk-animate' src="{% static 'images/player_blue_dark.png' %}">
+    <img class='d-none d-sm-block d-xl-none  lobby-player-icon player-dunk-animate' src="{% static 'images/player_blue_dark.png' %}">
+
 </div>
 
