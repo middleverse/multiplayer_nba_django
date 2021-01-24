@@ -7,10 +7,41 @@
 
 <nav class="navbar fixed-bottom bg-primary-my" style='border-top: 7px solid #e2d9d98f;'>
         <div class='d-inline-flex justify-content-start'>
-          <a class="nav-link text-light font-weight-bold" href="#">- HOW TO PLAY -</a>
+          <a class="nav-link text-light font-weight-bold" data-toggle="modal" data-target="#how-to-modal" role='button'>- HOW TO PLAY -</a>
         </div>
         <div class='d-flex justify-content-end'>
           <a class="nav-link text-light" href="{% url 'about' %}">About Us<span class="sr-only">(current)</span></a>
         </div>
 
 </nav>
+
+
+<!-- NAVBAR Modals -->
+<div class="modal fade bg-secondary-my" id="how-to-modal" tabindex="1" aria-labelledby="how-to-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable text-primary-my" role='document' style='max-width: 700px;'>
+        <div class="modal-content">
+            <div class="modal-header bg-dark-my">
+                <p class="modal-title h4 text-primary-my font-weight-bold mx-auto">HOW TO PLAY & FAQ</p>
+            </div>
+            <div class="modal-body">
+                <p class="h5"> ATLANTIC </p>
+                <p class='text-dark'>Brooklyn Nets, Philadelphia 76ers, Boston Celtics, Toronto Raptors, New York Knicks</p>
+                <p class="h5"> CENTRAL </p>
+                <p class='text-dark'>Indiana Pacers, Cleaveland Cavaliers, Milwaukee Bucks, Detroit Pistons, Chicago Bulls </p>
+                <p class="h5"> SOUTHEAST </p>
+                <p class='text-dark'>Orlando Magic, Atlanta Hawks, Miami Heat, Washington Wizards, Charlotte Hornets</p>
+                <p class="h5"> NORTHWEST </p>
+                <p class='text-dark'>Utah Jazz, Minnesota Timberwolves, Oklahoma City Thunder, Portland Trail Blazers, Denver Nuggets</p>
+                <p class="h5"> PACIFIC </p>
+                <p class='text-dark'>Los Angeles Clippers, Los Angeles Lakers, Phoenix Suns, Sacramento Kings, Golden State Warriors</p>
+                <p class="h5"> SOUTHWEST </p>
+                <p class='text-dark'>San Antonio Spurs, New Orleans Pelicans, Houston Rockets, Memphis Grizzlies, Dallas Mavericks</p>
+                <p class="h5"> OTHER </p>
+                <p class='text-dark'>Non-Team specific questions, one of the most fun categories!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>    
