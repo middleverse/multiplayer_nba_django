@@ -4,7 +4,6 @@ from .models import Team
 
 class GameConfigForm(forms.Form):
     TIME_CHOICES = (
-        (10,10),
         (17,17),
         (24,24)
     )

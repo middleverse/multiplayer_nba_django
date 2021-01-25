@@ -19,7 +19,7 @@ def create_redirect(request):
     '''
     court_id = None
     while True:
-        court_id = get_random_string(length=4)
+        court_id = get_random_string(length=4).upper()
         # TODO: Is there a better way to do this validation?
         if Court.objects.filter(court_id=court_id).exists() is False:
             break
@@ -42,7 +42,7 @@ def join_redirect(request):
     form = CourtIdForm(request.POST)
 
     if form.is_valid():
-        court_id = form.cleaned_data['court_id']
+        court_id = form.cleaned_data['court_id'].upper()
         if Court.objects.filter(court_id=court_id).exists() is False:
             return JsonResponse({'message': 'Invalid id.'}, status=400)
         else:
