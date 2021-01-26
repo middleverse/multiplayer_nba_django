@@ -9,14 +9,11 @@ html, body {
 }
 
 .body-court {
-	background: linear-gradient(-45deg, #f776a7, #f8f9fa, white, #a9f1e0, #35b6e6);
+	/* background: linear-gradient(-45deg, #f776a7, #f8f9fa, white, #a9f1e0, #35b6e6);
 	background-size: 1000% 1000%;
-    animation: bg-gradient 10s ease infinite;
-}
-
-.dont-flicker {
-    -webkit-perspective: 1000;
-    -webkit-backface-visibility: hidden;
+    animation: bg-gradient 10s ease infinite; */
+    /* background-color: #00ffde70; */
+    background-image: linear-gradient(to bottom right, #64ffead3, #dffffbd3);
 }
 
 @keyframes bg-gradient {
