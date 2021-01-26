@@ -266,8 +266,17 @@
 
     const court_id = JSON.parse(document.getElementById('court-id').textContent)
     
-    const ws_protocol = window.location.hostname == 'triviasplash.app' ? "wss://" : "ws://"
-    const ws_port = window.location.hostname == 'triviasplash.app' ? ':443' : ':8000'
+    var ws_protocol = 'wss://';
+    var ws_port = ':8000';
+    //const ws_protocol = window.location.hostname == 'triviasplash.app' ? "wss://" : "ws://"
+    //const ws_port = window.location.hostname == 'triviasplash.app' ? ':443' : ':8000'
+    if (window.location.hostname == 'triviasplash.app' || window.location.hostname == 'www.triviasplash.app') {
+        ws_protocol = "wss://"
+        ws_port = ':443'
+    } else {
+        ws_protocol = "ws://"
+        ws_port = ':8000'
+    }
     const court_socket = new WebSocket(
         ws_protocol
         + window.location.hostname
