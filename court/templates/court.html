@@ -101,7 +101,6 @@
         } else {
             session_audio_just_loaded = false
         }
-        console.log('STATE: ', _state);
         if (_state == 'create') {
             create_container_el.classList.toggle('d-none')
             lobby_audio_el.play() // same audio as lobby, let it play
@@ -120,7 +119,7 @@
             result_audio_el.play()
 
         } else {
-            console.log('incorrect state!')
+            // incorrect state
         }
         session_state = _state
     }
@@ -157,14 +156,12 @@
         // load yourself
         update_role_ui()
         document.getElementById('player-list').innerHTML = ''
-        console.log('Loading initial player list')
         // TODO: May need to be changed in order to make sure we're not s
         // adding a player that's already in there
         if (player_id_list.includes(session_player_id) == false && session_player_id != '') {
             player_id_list.push(session_player_id)
         }
         session_player_list = player_id_list
-        console.log('session list provided by cap:', player_id_list)
         player_id_list.forEach(p_id => update_player_list_ui(p_id, 'add'))
     }
 
@@ -173,7 +170,6 @@
         my_role_el.innerHTML = ''
         session_player_icon = player_icon_list[session_player_id]
         var my_player_icon_el = document.createElement('img')
-        console.log(session_player_icon)
         my_player_icon_el.classList.add('player-icon-lobby', session_player_icon)
         my_role_el.appendChild(my_player_icon_el)
 
@@ -198,12 +194,11 @@
             player_list_row_element = document.getElementById('player-list')
             player_list_row_element.removeChild(player_list_row_element.getElementsByClassName(current_player_icon)[0])
         } else {
-            console.log('PLAYER LIST update mode not recognized.')
+            // update mode note recognized
         }
     }
 
     const broadcast_my_player_id = function() {
-        console.log('BROADCASTING ID: ', session_player_id)
         court_socket.send(JSON.stringify({
             'message_type': 'player_id_broadcast',
             'player_id': session_player_id,
@@ -231,8 +226,6 @@
         form_data.append("csrfmiddlewaretoken", csrftoken)
         const url = form_el.action
         const method = form_el.method
-        console.log('URL', url)
-        console.log('METHOD', method)
         const xhr = new XMLHttpRequest()
         const responseType = 'json'
         xhr.open(method, url) // make the request 
@@ -299,7 +292,6 @@
 
     court_socket.onmessage = function(e) {
         const data = JSON.parse(e.data)
-        console.log('Websocket msg: ', data['message'])
 
         // CREATED COURT (SUCCESS)
         if (data['message'] === 'arrival_message') {
@@ -338,7 +330,6 @@
                 // the first time captain recieves question set from player
                 // we need to parse it (won't be doing it for player)
                 session_questions = JSON.parse(data['text']['question_set'])
-                console.log('CAPTAINS Qs: ', session_questions)
                 display_game_config_in_lobby()
                 session_config_loaded = true
             }        
@@ -363,7 +354,6 @@
                     session_shot_clock = parseInt(data_parsed['shot_clock'])
                     session_questions = data_parsed['question_set']
                     session_player_list = data_parsed['player_list']
-                    console.log('PLAYERS Qs: ', session_questions)
                     display_game_config_in_lobby()
                     load_initial_player_list(session_player_list)
                     session_config_loaded = true
@@ -379,13 +369,11 @@
                 question_player_answer_total += 1
                 // if all player's have answered then move to next question
                 if (question_player_answer_total === session_player_list.length) {
-                    console.log('everyone has answered.')
                     tell_players_to_load_next_question()
                     
                 }
             }
             // player just shows someone has posted an answer
-            console.log('a player posted an answer!!')
             add_answer_posted_ui()   
         }
         else if (data['message'] === 'load_next_question_message') {
@@ -394,10 +382,7 @@
         
         // A PLAYER'S ROUND RESULTS RECIEVED
         else if (data['message'] === 'player_round_results_broadcast_message') {
-            console.log(data['text'])
             round_results_recieved_counter += 1
-            console.log('SPL: ', session_player_list)
-            console.log('RRRC: ', round_results_recieved_counter)
             round_end_players_results_tracker.push({
                 'player_id': data['text']['player_id'],
                 'round_results': data['text']['round_results']
@@ -405,11 +390,9 @@
             
             if (round_results_recieved_counter == session_player_list.length)
             {   
-                console.log('ALL RESULTS RECIEVED. Switching to results view.')
                 build_results_in_ui()
                 manipulate_logo('stop')
                 load_session_state_ui('results')
-                console.log(round_end_players_results_tracker)
             }
         }
 
@@ -437,9 +420,8 @@
                 session_player_list.splice(index, 1)
                 // reload player_list_ui
                 update_player_list_ui(exited_player_id, 'remove')
-                console.log('PLAYER LIST NOW: ', session_player_list)
             } else {
-                console.log('Player left, but index not found!')
+                // player index not found
             }
         }
     }
@@ -470,8 +452,6 @@
             if (xhr.status === 201) {
                 const r = xhr.response
                 r_json = JSON.parse(r)
-                console.log('given divs:')
-                console.log(division)
 
                 court_socket.send(JSON.stringify({
                     'message_type': 'create_game', // analagous to create lobby
@@ -567,12 +547,10 @@
 
         // Check for correct Answer
         if (question_form_el.elements.namedItem(session_current_question['answer']).checked == true) {
-            console.log('You got this right!')
             current_question_answer = 1
             //setTimeout(load_next_question, 3000);
         } else {
             current_question_answer = 0
-            console.log('You got this wrong!')
         }
 
         //round_results_tracker.push(current_question_answer)
@@ -596,7 +574,6 @@
 
     const no_more_next_round_ui = function() {
         // TODO: add a message about Q LIST EXHAUSTED
-        console.log('invisibling button')
         document.getElementById('start-next-round').classList.add('d-none')
     }
 
@@ -610,7 +587,6 @@
 
     const q_list_exhausted = function() {
             session_question_list_exhausted = true
-            console.log('QUESTION LIST EXHAUSTED, ROUND ENDED!')
             if (role === 'captain') {
                 no_more_next_round_ui()
             }
@@ -645,7 +621,6 @@
         else if (round_question_counter > 9) {
             // show end results
             session_question_counter -= 1 // reel back session question counter
-            console.log('ROUND ENDED!')
             broadcast_my_round_results()
             // calculate_and_send_round_results()
         }
@@ -681,7 +656,6 @@
     }
 
     const tell_players_to_load_next_question = function() {
-        console.log('telling players!')
         // Let everyone know!
         court_socket.send(JSON.stringify({
             'message_type': 'tell_player_load_next_question',
@@ -689,7 +663,6 @@
     }
 
     const tell_players_to_start_new_round = function() {
-        console.log('telling players to start new round')
         court_socket.send(JSON.stringify({
             'message_type': 'tell_player_start_new_round'
         }))
@@ -730,7 +703,6 @@
     }
 
     const start_game = function() {
-        console.log('QUESTION SET AT START: ', session_questions)
         // TODO show a 3-2-1
         // reset session question counter
         session_question_counter = -1
@@ -756,7 +728,6 @@
         results_questions_wrapper_el.appendChild(results_questions_container_el)
 
         build_scoreboard_ui()
-        console.log("building results with: ", round_end_players_results_tracker)
         var i;
         // Build a box for each question
         for (i=0; i < round_question_set_size; i++)
@@ -795,7 +766,6 @@
             // make a span el with player score
             var player_score = 0;
             var j;
-            console.log('PRM: ', player_results_map)
             for (j=0; j < player_results_map.length; j++) { player_score += player_results_map[j] }
             player_score_el = document.createElement('div')
             player_score_el.classList.add('col', 'player-text-scoreboard', 'display-4', 'text-light')
@@ -813,7 +783,6 @@
     
     const build_question_ui = function(q_counter) {
         calculated_question_id = session_question_counter - round_question_set_size + 1 + q_counter
-        console.log('CALCD Q ID: ', calculated_question_id)
         calculated_question = session_questions[calculated_question_id]
         answer = 'c_' + calculated_question['answer']
         // Append question
@@ -901,13 +870,6 @@
             }));
         }
     }
-
-    //document.getElementById('end-game').addEventListener('click', function(event) {
-    //    event.preventDefault();
-    //    console.log('HERE IN END GAME CLICK');
-    //    lobby_container_el.classList.toggle('invisible');
-    //    game_container_el.classList.toggle('invisible');
-    //});
 
     window.addEventListener("DOMContentLoaded", event => {
         const audio = document.querySelector("#lobby-audio");
